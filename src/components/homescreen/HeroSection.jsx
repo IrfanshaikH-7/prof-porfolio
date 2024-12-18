@@ -5,7 +5,7 @@ import ExploreButton from '../shared/ExploreButton'
 export default function HeroSection() {
 
   return (
-    <main className='h-full lg:h-screen w-full py-24 lg:py-0 flex gap-12 lg:flex-row flex-col max-w-[1400px] mx-auto lg:px-8 px-4  '>
+    <main className='h-full lg:h-screen w-full py-24 lg:py-0 flex gap-12 lg:flex-row overflow-x-hidden  flex-col max-w-[1400px] mx-auto lg:px-8 px-4  '>
     <section className=' flex-1 h-full  w-full  flex flex-col items-start justify-center  lg:pr-0 '>
       <article className='flex flex-col gap-1 mt-8 md:mt-20'>
       <span className='text-sm w-fit font-bold bg-neutral-900 text-neutral-100 rounded-md px-8 py-0.5'>About</span>
@@ -38,7 +38,7 @@ Dr. Vinay Kumar Nangia is a distinguished alumnus of Banaras Hindu University wi
       <div className='h-[300px] lg:h-[400px] border rounded-[160px] mx-auto w-[210px]  lg:w-[280px] overflow-hidden'>
         <img src={vinay_nangia} alt="vinay nangia" className='object-contain mt-2 scale-105' />
       </div>
-      <div className='flex flex-col items-center gap-4 absolute lg:relative top-0 -right-10 md:right-0'>
+      <div className='flex flex-col items-center gap-4 absolute lg:relative top-0 -right-8 md:right-0'>
       <div className='flex items-center gap-4 cursor-pointer border border-black rounded-md p-0.5 '>
           <Twitter className='w-4 h-4'/>
         </div>
