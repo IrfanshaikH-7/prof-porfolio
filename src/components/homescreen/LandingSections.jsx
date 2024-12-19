@@ -262,11 +262,11 @@ export default function LandingSections() {
       <section className=' w-full h-full flex flex-col min-[930px]:flex-row py-16 gap-8'>
           <div className='flex flex-1 flex-col gap-8'>
             <h3 className='text-4xl font-bold text-neutral-800 '> <span className='text-neutral-500'>Blog's By </span> <br />Dr. Vinay Kumar Nangia</h3>
-            <article className='h-80 aspect-[4/3] overflow-hidden rounded-md shrink-0 bg-slate-200 relative flex flex-col justify-between py-4 px-6'>
+            <article className='h-72 aspect-[4/3] overflow-hidden rounded-md shrink-0 bg-slate-200 relative flex flex-col justify-between py-4 px-6'>
             <div className='flex gap-1 items-center self-end'>
               <div className='flex flex-col items-start gap-1'>
                 <p className='text-sm font-medium text-neutral-500'>
-                  Ravi@trixno
+                  Vinay Nangia
                 </p>  
                 <p className='text-sm font-medium flex items-center gap-1 text-neutral-500'>
                   <CalendarDays className='w-3 h-3 -mt-0.5' />
@@ -277,11 +277,12 @@ export default function LandingSections() {
               </div>
               <img src={user} alt='blog_image' className='w-16 h-16 rounded-full object-cover' />
             </div>
+            
             <div>
-            <h2 className='text-2xl sm:text-4xl font-bold pb-4 text-neutral-800'>
+            <h2 className='text-2xl sm:text-3xl font-bold pb-4 text-neutral-800'>
               Play Vavada on smartphones
               </h2>
-              <p className='text-sm sm:text-base font-medium text-neutral-500 line-clamp-5'>
+              <p className='text-sm  font-medium text-neutral-500 line-clamp-5'>
               Millions of gamers know firsthand about the Vavada Online Casino. Once this site gained great popularity among users of gaming entertainment fans. In 2019, an interesting commercial with a musical composition calling to receive large prizes in this online gaming club was shown on television and in the online space. At the same time, the official website of the site https://cosmosryadom.rf/ began working several years before the advertisement. Basic information about the Vavada casino official website:
               </p>
             </div>
@@ -292,11 +293,11 @@ export default function LandingSections() {
             </a>
           </div>
           <div className='flex flex-1 flex-col gap-8'>
-          <article className='h-80 aspect-[4/3] overflow-hidden rounded-md shrink-0 bg-slate-200 relative flex flex-col justify-between py-4 px-6'>
+          <article className='h-72 aspect-[4/3] overflow-hidden rounded-md shrink-0 bg-slate-200 relative flex flex-col justify-between py-4 px-6'>
             <div className='flex gap-1 items-center self-end'>
               <div className='flex flex-col items-start gap-1'>
                 <p className='text-sm font-medium text-neutral-500'>
-                  Ravi@trixno
+                  Vinay Nangia
                 </p>  
                 <p className='text-sm font-medium flex items-center gap-1 text-neutral-500'>
                   <CalendarDays className='w-3 h-3 -mt-0.5' />
@@ -308,10 +309,10 @@ export default function LandingSections() {
               <img src={user} alt='blog_image' className='w-16 h-16 rounded-full object-cover' />
             </div>
             <div>
-            <h2 className='text-2xl sm:text-4xl font-bold pb-4 text-neutral-800'>
+            <h2 className='text-2xl sm:text-3xl font-bold pb-4 text-neutral-800'>
             Greed and Fear
               </h2>
-              <p className='text-sm sm:text-base font-medium text-neutral-500 line-clamp-5'>
+              <p className='text-sm  font-medium text-neutral-500 line-clamp-5'>
               Investor behaviour is driven by greed and fear is a well-known saying in the stock markets. Most human actions are driven by one of these two emotions. <br />
 
 Post-World war II, fear receded, as most countries in the world got busy with reconstruction and development. Fear got replaced by hope and optimism. Almost eight decades of peace have been unprecedented.
@@ -319,11 +320,11 @@ Post-World war II, fear receded, as most countries in the world got busy with re
             </div>
              
             </article>
-            <article className='h-80 aspect-[4/3] overflow-hidden rounded-md shrink-0 bg-slate-200 relative flex flex-col justify-between py-4 px-6'>
+            <article className='h-72 aspect-[4/3] overflow-hidden rounded-md shrink-0 bg-slate-200 relative flex flex-col justify-between py-4 px-6'>
             <div className='flex gap-1 items-center self-end'>
               <div className='flex flex-col items-start gap-1'>
                 <p className='text-sm font-medium text-neutral-500'>
-                  Ravi@trixno
+                  Vinay Nangia
                 </p>  
                 <p className='text-sm font-medium flex items-center gap-1 text-neutral-500'>
                   <CalendarDays className='w-3 h-3 -mt-0.5' />
@@ -335,10 +336,67 @@ Post-World war II, fear receded, as most countries in the world got busy with re
               <img src={user} alt='blog_image' className='w-16 h-16 rounded-full object-cover' />
             </div>
             <div>
-            <h2 className='text-2xl sm:text-4xl font-bold pb-4 max-w-xl text-neutral-800'>
+            <h2 className='text-2xl sm:text-3xl font-bold pb-4 text-neutral-800'>
+            Greed and Fear
+              </h2>
+              <p className='text-sm  font-medium text-neutral-500 line-clamp-5'>
+              Investor behaviour is driven by greed and fear is a well-known saying in the stock markets. Most human actions are driven by one of these two emotions. <br />
+
+Post-World war II, fear receded, as most countries in the world got busy with reconstruction and development. Fear got replaced by hope and optimism. Almost eight decades of peace have been unprecedented.
+              </p>
+            </div>
+             
+            </article>
+            
+          </div>
+          <div className='flex flex-0.5 flex-col gap-8'>
+          <article className='h-72 aspect-[4/3] overflow-hidden rounded-md shrink-0 bg-slate-200 relative flex flex-col justify-between py-4 px-6'>
+            <div className='flex gap-1 items-center self-end'>
+              <div className='flex flex-col items-start gap-1'>
+                <p className='text-sm font-medium text-neutral-500'>
+                  Vinay Nangia
+                </p>  
+                <p className='text-sm font-medium flex items-center gap-1 text-neutral-500'>
+                  <CalendarDays className='w-3 h-3 -mt-0.5' />
+                  <span className='text-xs font-medium text-neutral-500'>
+                    2024-12-18
+                  </span>
+                </p>
+              </div>
+              <img src={user} alt='blog_image' className='w-16 h-16 rounded-full object-cover' />
+            </div>
+            <div>
+            <h2 className='text-2xl sm:text-3xl font-bold pb-4 text-neutral-800'>
+            Greed and Fear
+              </h2>
+              <p className='text-sm  font-medium text-neutral-500 line-clamp-5'>
+              Investor behaviour is driven by greed and fear is a well-known saying in the stock markets. Most human actions are driven by one of these two emotions. <br />
+
+Post-World war II, fear receded, as most countries in the world got busy with reconstruction and development. Fear got replaced by hope and optimism. Almost eight decades of peace have been unprecedented.
+              </p>
+            </div>
+             
+            </article>
+            <article className='h-72 aspect-[4/3] overflow-hidden rounded-md shrink-0 bg-slate-200 relative flex flex-col justify-between py-4 px-6'>
+            <div className='flex gap-1 items-center self-end'>
+              <div className='flex flex-col items-start gap-1'>
+                <p className='text-sm font-medium text-neutral-500'>
+                  Vinay Nangia
+                </p>  
+                <p className='text-sm font-medium flex items-center gap-1 text-neutral-500'>
+                  <CalendarDays className='w-3 h-3 -mt-0.5' />
+                  <span className='text-xs font-medium text-neutral-500'>
+                    2024-12-18
+                  </span>
+                </p>
+              </div>
+              <img src={user} alt='blog_image' className='w-16 h-16 rounded-full object-cover' />
+            </div>
+            <div>
+            <h2 className='text-2xl sm:text-3xl font-bold pb-4 max-w-xl text-neutral-800'>
             Indian Ethos & Culture and National Education Policy 2020
               </h2>
-              <p className='text-sm sm:text-base font-medium text-neutral-500 line-clamp-5'>
+              <p className='text-sm  font-medium text-neutral-500 line-clamp-5'>
               It is heartening to note that National Education Policy has not only recognized the glorious past of ancient India in terms of the contribution of our world-class Indian Universities like Nalanda and Takshshila but picked up the right elements and incorporated the building blocks into the framing of New Education Policy both, at school and University levels. About 15% of entire policy document is devoted to this cause.
               </p>
             </div>
