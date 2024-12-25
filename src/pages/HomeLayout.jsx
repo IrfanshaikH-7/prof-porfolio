@@ -8,7 +8,6 @@ export default function HomeLayout() {
       <>
       <HeroSection/>
       <LandingSections/>
-      <Footer/>
       </>
   )
 }

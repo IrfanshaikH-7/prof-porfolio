@@ -10,7 +10,7 @@ export default function HeroSection() {
         <article className='flex flex-col gap-1 mt-8 md:mt-20'>
           {/* <span className='text-sm w-fit font-bold bg-neutral-900 text-neutral-100 rounded-md px-8 py-0.5'>About</span> */}
           <div className='relative'>
-            <div className=' absolute -top-[90px] left-28 md:left-[84%] -rotate-12 md:-top-11 w-16 h-16 z-50 '>
+            <div className=' absolute -top-[90px] left-28 hidden md:flex md:left-[84%] -rotate-12 md:-top-11 w-16 h-16 z-50 '>
               <svg xmlns="http://www.w3.org/2000/svg" width="80" height="85" viewBox="0 0 110 152" fill="none">
                 <path d="M105.183 3.34766C111.516 43.8477 100.083 124.848 3.68311 124.848M3.68311 124.848L28.6831 88.3477M3.68311 124.848L34.6831 149.348" stroke="#424242" stroke-width="5" stroke-linecap="round" />
               </svg>

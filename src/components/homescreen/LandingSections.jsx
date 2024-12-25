@@ -4,6 +4,8 @@ import { Briefcase, CalendarDays, History, Icon } from 'lucide-react'
 import { motion } from 'framer-motion';
 import NeedAssistant from '../shared/GetInTouch';
 import Heading from '../shared/Heading';
+import Testimonials from '../shared/Testimonials';
+import FeaturedVideo from '../shared/FeaturedVideo';
 
 export default function LandingSections() {
 
@@ -233,11 +235,11 @@ export default function LandingSections() {
       {/* start of Books Section */}
       <section className='w-full h-full flex flex-col '>
         <div className='w-fit mx-auto pt-8 pb-10'>
-        <Heading title='Books By Dr. Vinay Kumar Nangia' />
+          <Heading title='Books By Dr. Vinay Kumar Nangia' />
         </div>
         <div className='flex flex-col md:flex-row  items-center gap-14 md:gap-4 max-w-7xl mx-auto'>
           <div className='flex relative'>
-          <h3 className='text-2xl font-bold text-neutral-800 pl-11 md:pl-[7.5%] absolute -top-9 md:-top-2.5 -left-10 md:left-0'>Master Speaks</h3>
+            <h3 className='text-2xl font-bold text-neutral-800 pl-11 md:pl-[7.5%] absolute -top-9 md:-top-2.5 -left-10 md:left-0'>Master Speaks</h3>
 
             <div className='flex flex-col gap-2 overflow-hidden'>
               <img src={master_speaks} alt='master_speaks' className='w-full h-full  md:scale-[0.86] object-contain  ' />
@@ -245,8 +247,8 @@ export default function LandingSections() {
           </div>
 
           <div className='flex relative w-fit bg-slate-3900 '>
-          <h3 className='text-2xl font-bold text-neutral-800 pl-11 md:pl-12 absolute -top-9 -left-10'>Smart Banking</h3>
-          <div className='flex flex-col gap-2 overflow-hidden'>
+            <h3 className='text-2xl font-bold text-neutral-800 pl-11 md:pl-12 absolute -top-9 -left-10'>Smart Banking</h3>
+            <div className='flex flex-col gap-2 overflow-hidden'>
               <img src={smart_banking} alt='smart_banking' className='w-full h-full object-contain' />
             </div>
 
@@ -260,45 +262,14 @@ export default function LandingSections() {
 
       {/* start of Blog Section */}
       <section className=' w-full h-full flex flex-col min-[930px]:flex-row py-16 gap-8'>
-          <div className='flex flex-1 flex-col gap-8'>
-            <h3 className='text-4xl font-bold text-neutral-800 '> <span className='text-neutral-500'>Blog's By </span> <br />Dr. Vinay Kumar Nangia</h3>
-            <article className='h-72 aspect-[4/3] overflow-hidden rounded-md shrink-0 bg-slate-200 relative flex flex-col justify-between py-4 px-6'>
-            <div className='flex gap-1 items-center self-end'>
-              <div className='flex flex-col items-start gap-1'>
-                <p className='text-sm font-medium text-neutral-500'>
-                  Vinay Nangia
-                </p>  
-                <p className='text-sm font-medium flex items-center gap-1 text-neutral-500'>
-                  <CalendarDays className='w-3 h-3 -mt-0.5' />
-                  <span className='text-xs font-medium text-neutral-500'>
-                    2024-12-18
-                  </span>
-                </p>
-              </div>
-              <img src={user} alt='blog_image' className='w-16 h-16 rounded-full object-cover' />
-            </div>
-            
-            <div>
-            <h2 className='text-2xl sm:text-3xl font-bold pb-4 text-neutral-800'>
-              Play Vavada on smartphones
-              </h2>
-              <p className='text-sm  font-medium text-neutral-500 line-clamp-5'>
-              Millions of gamers know firsthand about the Vavada Online Casino. Once this site gained great popularity among users of gaming entertainment fans. In 2019, an interesting commercial with a musical composition calling to receive large prizes in this online gaming club was shown on television and in the online space. At the same time, the official website of the site https://cosmosryadom.rf/ began working several years before the advertisement. Basic information about the Vavada casino official website:
-              </p>
-            </div>
-            </article>
-            <a href='/' className='text-sm hidden min-[930px]:flex font-medium h-24 w-full bg-neutral-800 rounded-md  items-center justify-center text-neutral-200 
-            hover:text-neutral-800 hover:bg-neutral-200 border border-neutral-800 hover:border-neutral-800 transition-all duration-300'>
-              Explore More Blogs
-            </a>
-          </div>
-          <div className='flex flex-1 flex-col gap-8'>
+        <div className='flex flex-1 flex-col gap-8'>
+          <h3 className='text-4xl font-bold text-neutral-800 '> <span className='text-neutral-500'>Blog's By </span> <br />Dr. Vinay Kumar Nangia</h3>
           <article className='h-72 aspect-[4/3] overflow-hidden rounded-md shrink-0 bg-slate-200 relative flex flex-col justify-between py-4 px-6'>
             <div className='flex gap-1 items-center self-end'>
               <div className='flex flex-col items-start gap-1'>
                 <p className='text-sm font-medium text-neutral-500'>
                   Vinay Nangia
-                </p>  
+                </p>
                 <p className='text-sm font-medium flex items-center gap-1 text-neutral-500'>
                   <CalendarDays className='w-3 h-3 -mt-0.5' />
                   <span className='text-xs font-medium text-neutral-500'>
@@ -308,54 +279,28 @@ export default function LandingSections() {
               </div>
               <img src={user} alt='blog_image' className='w-16 h-16 rounded-full object-cover' />
             </div>
+
             <div>
-            <h2 className='text-2xl sm:text-3xl font-bold pb-4 text-neutral-800'>
-            Greed and Fear
+              <h2 className='text-2xl sm:text-3xl font-bold pb-4 text-neutral-800'>
+                Play Vavada on smartphones
               </h2>
               <p className='text-sm  font-medium text-neutral-500 line-clamp-5'>
-              Investor behaviour is driven by greed and fear is a well-known saying in the stock markets. Most human actions are driven by one of these two emotions. <br />
-
-Post-World war II, fear receded, as most countries in the world got busy with reconstruction and development. Fear got replaced by hope and optimism. Almost eight decades of peace have been unprecedented.
+                Millions of gamers know firsthand about the Vavada Online Casino. Once this site gained great popularity among users of gaming entertainment fans. In 2019, an interesting commercial with a musical composition calling to receive large prizes in this online gaming club was shown on television and in the online space. At the same time, the official website of the site https://cosmosryadom.rf/ began working several years before the advertisement. Basic information about the Vavada casino official website:
               </p>
             </div>
-             
-            </article>
-            <article className='h-72 aspect-[4/3] overflow-hidden rounded-md shrink-0 bg-slate-200 relative flex flex-col justify-between py-4 px-6'>
-            <div className='flex gap-1 items-center self-end'>
-              <div className='flex flex-col items-start gap-1'>
-                <p className='text-sm font-medium text-neutral-500'>
-                  Vinay Nangia
-                </p>  
-                <p className='text-sm font-medium flex items-center gap-1 text-neutral-500'>
-                  <CalendarDays className='w-3 h-3 -mt-0.5' />
-                  <span className='text-xs font-medium text-neutral-500'>
-                    2024-12-18
-                  </span>
-                </p>
-              </div>
-              <img src={user} alt='blog_image' className='w-16 h-16 rounded-full object-cover' />
-            </div>
-            <div>
-            <h2 className='text-2xl sm:text-3xl font-bold pb-4 text-neutral-800'>
-            Greed and Fear
-              </h2>
-              <p className='text-sm  font-medium text-neutral-500 line-clamp-5'>
-              Investor behaviour is driven by greed and fear is a well-known saying in the stock markets. Most human actions are driven by one of these two emotions. <br />
-
-Post-World war II, fear receded, as most countries in the world got busy with reconstruction and development. Fear got replaced by hope and optimism. Almost eight decades of peace have been unprecedented.
-              </p>
-            </div>
-             
-            </article>
-            
-          </div>
-          <div className='flex flex-0.5 flex-col gap-8'>
+          </article>
+          <a href='/' className='text-sm hidden min-[930px]:flex font-medium h-24 w-full bg-neutral-800 rounded-md  items-center justify-center text-neutral-200 
+            hover:text-neutral-800 hover:bg-neutral-200 border border-neutral-800 hover:border-neutral-800 transition-all duration-300'>
+            Explore More Blogs
+          </a>
+        </div>
+        <div className='flex flex-1 flex-col gap-8'>
           <article className='h-72 aspect-[4/3] overflow-hidden rounded-md shrink-0 bg-slate-200 relative flex flex-col justify-between py-4 px-6'>
             <div className='flex gap-1 items-center self-end'>
               <div className='flex flex-col items-start gap-1'>
                 <p className='text-sm font-medium text-neutral-500'>
                   Vinay Nangia
-                </p>  
+                </p>
                 <p className='text-sm font-medium flex items-center gap-1 text-neutral-500'>
                   <CalendarDays className='w-3 h-3 -mt-0.5' />
                   <span className='text-xs font-medium text-neutral-500'>
@@ -366,23 +311,24 @@ Post-World war II, fear receded, as most countries in the world got busy with re
               <img src={user} alt='blog_image' className='w-16 h-16 rounded-full object-cover' />
             </div>
             <div>
-            <h2 className='text-2xl sm:text-3xl font-bold pb-4 text-neutral-800'>
-            Greed and Fear
+              <h2 className='text-2xl sm:text-3xl font-bold pb-4 text-neutral-800'>
+              How to spend your years in college
               </h2>
-              <p className='text-sm  font-medium text-neutral-500 line-clamp-5'>
-              Investor behaviour is driven by greed and fear is a well-known saying in the stock markets. Most human actions are driven by one of these two emotions. <br />
+              <p className='text-sm  font-medium text-neutral-500 line-clamp-4'>
+              Ask anyone, almost everyone will say that the best phase of life was the time spent in the college. <br />
 
-Post-World war II, fear receded, as most countries in the world got busy with reconstruction and development. Fear got replaced by hope and optimism. Almost eight decades of peace have been unprecedented.
-              </p>
+This is the first brush with life, largely, outside of the parents’ domain of influence. This is the time of making and breaking of dreams.
+
+               </p>
             </div>
-             
-            </article>
-            <article className='h-72 aspect-[4/3] overflow-hidden rounded-md shrink-0 bg-slate-200 relative flex flex-col justify-between py-4 px-6'>
+
+          </article>
+          <article className='h-72 aspect-[4/3] overflow-hidden rounded-md shrink-0 bg-slate-200 relative flex flex-col justify-between py-4 px-6'>
             <div className='flex gap-1 items-center self-end'>
               <div className='flex flex-col items-start gap-1'>
                 <p className='text-sm font-medium text-neutral-500'>
                   Vinay Nangia
-                </p>  
+                </p>
                 <p className='text-sm font-medium flex items-center gap-1 text-neutral-500'>
                   <CalendarDays className='w-3 h-3 -mt-0.5' />
                   <span className='text-xs font-medium text-neutral-500'>
@@ -393,24 +339,81 @@ Post-World war II, fear receded, as most countries in the world got busy with re
               <img src={user} alt='blog_image' className='w-16 h-16 rounded-full object-cover' />
             </div>
             <div>
-            <h2 className='text-2xl sm:text-3xl font-bold pb-4 max-w-xl text-neutral-800'>
-            Indian Ethos & Culture and National Education Policy 2020
+              <h2 className='text-2xl sm:text-3xl font-bold pb-4 text-neutral-800'>
+                Greed and Fear
               </h2>
               <p className='text-sm  font-medium text-neutral-500 line-clamp-5'>
-              It is heartening to note that National Education Policy has not only recognized the glorious past of ancient India in terms of the contribution of our world-class Indian Universities like Nalanda and Takshshila but picked up the right elements and incorporated the building blocks into the framing of New Education Policy both, at school and University levels. About 15% of entire policy document is devoted to this cause.
+                Investor behaviour is driven by greed and fear is a well-known saying in the stock markets. Most human actions are driven by one of these two emotions. <br />
+
+                Post-World war II, fear receded, as most countries in the world got busy with reconstruction and development. Fear got replaced by hope and optimism. Almost eight decades of peace have been unprecedented.
               </p>
             </div>
-             
-            </article>
-            <a href='/' className='text-sm flex min-[930px]:hidden font-medium h-24 w-full bg-neutral-800 rounded-md  items-center justify-center text-neutral-200 
+
+          </article>
+
+        </div>
+        <div className='flex flex-0.5 flex-col gap-8'>
+          <article className='h-72 aspect-[4/3] overflow-hidden rounded-md shrink-0 bg-slate-200 relative flex flex-col justify-between py-4 px-6'>
+            <div className='flex gap-1 items-center self-end'>
+              <div className='flex flex-col items-start gap-1'>
+                <p className='text-sm font-medium text-neutral-500'>
+                  Vinay Nangia
+                </p>
+                <p className='text-sm font-medium flex items-center gap-1 text-neutral-500'>
+                  <CalendarDays className='w-3 h-3 -mt-0.5' />
+                  <span className='text-xs font-medium text-neutral-500'>
+                    2024-12-18
+                  </span>
+                </p>
+              </div>
+              <img src={user} alt='blog_image' className='w-16 h-16 rounded-full object-cover' />
+            </div>
+            <div>
+              <h2 className='text-2xl sm:text-3xl font-bold pb-4 text-neutral-800'>
+              Start-up versus MSME
+              </h2>
+              <p className='text-sm  font-medium text-neutral-500 line-clamp-5'>
+              Start-up or Startup Company or upstart are terms, which are three or four decades old, mostly evolved in electronic era with the advent of the internet.
+
+Micro, Small and Medium Term Enterprises (MSME) as it is called in India is known as Small & Medium Industries (SME) world over. In India, post-independence, we had Khadi and Village Industries and Small Scale Industries.  
+              </p>
+            </div>
+
+          </article>
+          <article className='h-72 aspect-[4/3] overflow-hidden rounded-md shrink-0 bg-slate-200 relative flex flex-col justify-between py-4 px-6'>
+            <div className='flex gap-1 items-center self-end'>
+              <div className='flex flex-col items-start gap-1'>
+                <p className='text-sm font-medium text-neutral-500'>
+                  Vinay Nangia
+                </p>
+                <p className='text-sm font-medium flex items-center gap-1 text-neutral-500'>
+                  <CalendarDays className='w-3 h-3 -mt-0.5' />
+                  <span className='text-xs font-medium text-neutral-500'>
+                    2024-12-18
+                  </span>
+                </p>
+              </div>
+              <img src={user} alt='blog_image' className='w-16 h-16 rounded-full object-cover' />
+            </div>
+            <div>
+              <h2 className='text-2xl sm:text-3xl font-bold pb-4 max-w-xl text-neutral-800'>
+                Indian Ethos & Culture and National Education Policy 2020
+              </h2>
+              <p className='text-sm  font-medium text-neutral-500 line-clamp-5'>
+                It is heartening to note that National Education Policy has not only recognized the glorious past of ancient India in terms of the contribution of our world-class Indian Universities like Nalanda and Takshshila but picked up the right elements and incorporated the building blocks into the framing of New Education Policy both, at school and University levels. About 15% of entire policy document is devoted to this cause.
+              </p>
+            </div>
+
+          </article>
+          <a href='/' className='text-sm flex min-[930px]:hidden font-medium h-24 w-full bg-neutral-800 rounded-md  items-center justify-center text-neutral-200 
             hover:text-neutral-800 hover:bg-neutral-200 border border-neutral-800 hover:border-neutral-800 transition-all duration-300'>
-              Explore More Blogs
-            </a>
-          </div>
+            Explore More Blogs
+          </a>
+        </div>
       </section>
       {/* end of Blog Section */}
 
-
+      <Testimonials />
       {/* start of Scroll Gallery */}
       <section className='w-full h-full flex flex-col'>
         <div className='w-fit mx-auto pt-8 pb-10'>
@@ -428,13 +431,13 @@ Post-World war II, fear receded, as most countries in the world got busy with re
             {/* First set of images */}
             <div className='flex gap-8 overflow-hidden'>
               {[img_1, img_2, img_3, img_4].map((img, index) => (
-                <motion.div 
-                  key={index} 
+                <motion.div
+                  key={index}
                   className='md:w-[400px] w-[300px] aspect-[4/3] overflow-hidden rounded-md shrink-0 group'
                 >
-                  <motion.img 
-                    src={img} 
-                    alt={`gallery-image-${index + 1}`} 
+                  <motion.img
+                    src={img}
+                    alt={`gallery-image-${index + 1}`}
                     className='w-full h-full object-cover transition-transform duration-500 group-hover:scale-105'
                   />
                 </motion.div>
@@ -443,13 +446,13 @@ Post-World war II, fear receded, as most countries in the world got busy with re
             {/* Duplicate set for seamless loop */}
             <div className='flex gap-8 overflow-hidden'>
               {[img_1, img_2, img_3, img_4].map((img, index) => (
-                <motion.div 
-                  key={index} 
+                <motion.div
+                  key={index}
                   className='md:w-[400px] w-[300px] aspect-[4/3] overflow-hidden rounded-md shrink-0 group'
                 >
-                  <motion.img 
-                    src={img} 
-                    alt={`gallery-image-${index + 5}`} 
+                  <motion.img
+                    src={img}
+                    alt={`gallery-image-${index + 5}`}
                     className='w-full h-full object-cover transition-transform duration-500 group-hover:scale-105'
                   />
                 </motion.div>
@@ -462,6 +465,7 @@ Post-World war II, fear receded, as most countries in the world got busy with re
 
       {/* need assistant */}
       <NeedAssistant />
+      <FeaturedVideo/>
       {/* end of need assistant */}
 
     </main>
