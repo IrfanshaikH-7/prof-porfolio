@@ -71,7 +71,76 @@ button:focus-visible {
   }
 }
 
+/* cards */
+/* From Uiverse.io by satyamchaudharydev */ 
+/* this card is inspired form this - https://georgefrancis.dev/ */
 
+.tcard {
+  --border-radius: 0.75rem;
+  --primary-color: #a1a1a1;
+  --secondary-color: #4f4f4f;
+  width: 100%;
+  font-family: "Arial";
+  padding: 1rem;
+  cursor: pointer;
+  border-radius: var(--border-radius);
+  border: 1px solid #eae3e3;
+  background: #ffffff;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.03);
+  position: relative;
+}
+
+.tcard > * + * {
+  margin-top: 1.1em;
+}
+
+.tcard .tcard__content {
+  color: var(--secondary-color);
+  font-size: 0.86rem;
+}
+
+.tcard .tcard__title {
+  padding: 0;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.tcard .tcard__date {
+  color: #6e6b80;
+  font-size: 0.8rem;
+}
+
+.tcard .tcard__arrow {
+  position: absolute;
+  background: var(--primary-color);
+  padding: 0.4rem;
+  border-top-left-radius: var(--border-radius);
+  border-bottom-right-radius: var(--border-radius);
+  bottom: 0;
+  right: 0;
+  transition: 0.2s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tcard svg {
+  transition: 0.2s;
+}
+
+/* hover */
+.tcard:hover .tcard__title {
+  color: #000;
+  text-decoration: underline;
+}
+
+.tcard:hover .tcard__arrow {
+  background: #111;
+}
+
+.tcard:hover .tcard__arrow svg {
+  transform: translateX(3px);
+}
 
 /* Scrollbar styles */
 ::-webkit-scrollbar {

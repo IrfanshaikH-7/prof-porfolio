@@ -273,7 +273,7 @@ export default function LandingSections() {
                 <p className='text-sm font-medium flex items-center gap-1 text-neutral-500'>
                   <CalendarDays className='w-3 h-3 -mt-0.5' />
                   <span className='text-xs font-medium text-neutral-500'>
-                    2024-12-18
+                    8-12-2024
                   </span>
                 </p>
               </div>
@@ -281,11 +281,13 @@ export default function LandingSections() {
             </div>
 
             <div>
-              <h2 className='text-2xl sm:text-3xl font-bold pb-4 text-neutral-800'>
-                Play Vavada on smartphones
+              <h2 className='text-2xl sm:text-2xl font-bold pb-4 text-neutral-800'>
+              Doing MBA: Choice of a Business School
               </h2>
               <p className='text-sm  font-medium text-neutral-500 line-clamp-5'>
-                Millions of gamers know firsthand about the Vavada Online Casino. Once this site gained great popularity among users of gaming entertainment fans. In 2019, an interesting commercial with a musical composition calling to receive large prizes in this online gaming club was shown on television and in the online space. At the same time, the official website of the site https://cosmosryadom.rf/ began working several years before the advertisement. Basic information about the Vavada casino official website:
+              Having decided to do an MBA programme one needs to decide; from where. The choice of a B-School depends on the educational background, inclination and preferences and  resources of the person and prevalent market conditions.
+
+In case one is clear that one wants to be truly  a  global executive (meaning acceptability and employability anywhere in the world) or desires to settle abroad then one should obtain MBA degree from USA. Reason  for suggesting USA is that in the foreseeable future their  economy is unlikely to go down.
               </p>
             </div>
           </article>
@@ -304,22 +306,22 @@ export default function LandingSections() {
                 <p className='text-sm font-medium flex items-center gap-1 text-neutral-500'>
                   <CalendarDays className='w-3 h-3 -mt-0.5' />
                   <span className='text-xs font-medium text-neutral-500'>
-                    2024-12-18
+                    07-12-2024
                   </span>
                 </p>
               </div>
               <img src={user} alt='blog_image' className='w-16 h-16 rounded-full object-cover' />
             </div>
             <div>
-              <h2 className='text-2xl sm:text-3xl font-bold pb-4 text-neutral-800'>
-              How to spend your years in college
+              <h2 className='text-2xl sm:text-2xl font-bold pb-4 text-neutral-800'>
+              Future of Work; A Perspective
               </h2>
               <p className='text-sm  font-medium text-neutral-500 line-clamp-4'>
-              Ask anyone, almost everyone will say that the best phase of life was the time spent in the college. <br />
+              "The illiterate of the 21st century will not be those who cannot read and write, but those who cannot learn, unlearn, and relearn." Alvin Tofler.The speed at which the world is changing makes the above quote most relevant for the employees at the work place.
 
-This is the first brush with life, largely, outside of the parents’ domain of influence. This is the time of making and breaking of dreams.
-
-               </p>
+The factors which are likely to affect the Future of Work include amongst others;
+1. Technological Advances
+2. Geo Political Changes</p>
             </div>
 
           </article>
@@ -332,21 +334,21 @@ This is the first brush with life, largely, outside of the parents’ domain of 
                 <p className='text-sm font-medium flex items-center gap-1 text-neutral-500'>
                   <CalendarDays className='w-3 h-3 -mt-0.5' />
                   <span className='text-xs font-medium text-neutral-500'>
-                    2024-12-18
+                    07-12-2024
                   </span>
                 </p>
               </div>
               <img src={user} alt='blog_image' className='w-16 h-16 rounded-full object-cover' />
             </div>
             <div>
-              <h2 className='text-2xl sm:text-3xl font-bold pb-4 text-neutral-800'>
-                Greed and Fear
+              <h2 className='text-2xl sm:text-2xl font-bold pb-4 text-neutral-800'>
+              Academic Discipline and Interdisciplinarity: An Overview
+
               </h2>
               <p className='text-sm  font-medium text-neutral-500 line-clamp-5'>
-                Investor behaviour is driven by greed and fear is a well-known saying in the stock markets. Most human actions are driven by one of these two emotions. <br />
+              Academic disciplines are the backbone of knowledge organization and education. They have evolved over centuries, responding to discoveries and societal needs. While some disciplines have disappeared or transformed, others have persisted and expanded, showcasing the dynamic nature of human inquiry and intellectual exploration.
 
-                Post-World war II, fear receded, as most countries in the world got busy with reconstruction and development. Fear got replaced by hope and optimism. Almost eight decades of peace have been unprecedented.
-              </p>
+An academic discipline is a branch of knowledge formally taught at universities, colleges, or through other educational methods. Each discipline is characterized by its subject matter, </p>
             </div>
 
           </article>
@@ -362,21 +364,22 @@ This is the first brush with life, largely, outside of the parents’ domain of 
                 <p className='text-sm font-medium flex items-center gap-1 text-neutral-500'>
                   <CalendarDays className='w-3 h-3 -mt-0.5' />
                   <span className='text-xs font-medium text-neutral-500'>
-                    2024-12-18
+                    07-12-2024
                   </span>
                 </p>
               </div>
               <img src={user} alt='blog_image' className='w-16 h-16 rounded-full object-cover' />
             </div>
             <div>
-              <h2 className='text-2xl sm:text-3xl font-bold pb-4 text-neutral-800'>
-              Start-up versus MSME
+              <h2 className='text-2xl sm:text-2xl font-bold pb-4 text-neutral-800'>
+              Pedagogy to Heutagogy: Empowering Learners for the Future
               </h2>
-              <p className='text-sm  font-medium text-neutral-500 line-clamp-5'>
-              Start-up or Startup Company or upstart are terms, which are three or four decades old, mostly evolved in electronic era with the advent of the internet.
+              <p className='text-sm  font-medium text-neutral-500 line-clamp-4'>
+              In this article, I will discuss the evolving landscape of education and the transition from traditional pedagogy to the empowering approach of heutagogy. Inspired by an observation made by Professor M. M. Pant, that teachers are going to become costlier while learning is becoming cheaper, this exploration delves into the changing dynamics of teaching and learning in the modern world.
 
-Micro, Small and Medium Term Enterprises (MSME) as it is called in India is known as Small & Medium Industries (SME) world over. In India, post-independence, we had Khadi and Village Industries and Small Scale Industries.  
-              </p>
+ 
+
+The Changing Education Paradigm: Jacques Delors' four pillars of education provide a framework for understanding the goals of lifelong learning. With the rise of the internet and artificial</p>
             </div>
 
           </article>
@@ -389,19 +392,18 @@ Micro, Small and Medium Term Enterprises (MSME) as it is called in India is know
                 <p className='text-sm font-medium flex items-center gap-1 text-neutral-500'>
                   <CalendarDays className='w-3 h-3 -mt-0.5' />
                   <span className='text-xs font-medium text-neutral-500'>
-                    2024-12-18
+                    07-12-2024
                   </span>
                 </p>
               </div>
               <img src={user} alt='blog_image' className='w-16 h-16 rounded-full object-cover' />
             </div>
             <div>
-              <h2 className='text-2xl sm:text-3xl font-bold pb-4 max-w-xl text-neutral-800'>
-                Indian Ethos & Culture and National Education Policy 2020
+              <h2 className='text-2xl sm:text-2xl font-bold pb-4 max-w-xl text-neutral-800'>
+              Use of Technology in Education
               </h2>
               <p className='text-sm  font-medium text-neutral-500 line-clamp-5'>
-                It is heartening to note that National Education Policy has not only recognized the glorious past of ancient India in terms of the contribution of our world-class Indian Universities like Nalanda and Takshshila but picked up the right elements and incorporated the building blocks into the framing of New Education Policy both, at school and University levels. About 15% of entire policy document is devoted to this cause.
-              </p>
+              Technology is not just a tool but a catalyst for change, enhancing the way knowledge is imparted and absorbed. The integration of technology in education, particularly in higher education, can create more engaging, inclusive, and efficient learning environments. Drawing insights from the Draft National Education Policy (NEP) 2019 and the National Education Policy (NEP) 2020, this write-up explores the multifaceted ways in which technology can revolutionize education.</p>
             </div>
 
           </article>

@@ -7,7 +7,6 @@ export default function FeaturedVideo() {
     { id: '2', url: 'https://www.youtube.com/watch?v=74aa9ea1-d424-43f7-b3d4-492767070ed2' },
     { id: '3', url: 'https://www.youtube.com/watch?v=74aa9ea1-d424-43f7-b3d4-492767070ed2' },
     { id: '4', url: 'https://www.youtube.com/watch?v=74aa9ea1-d424-43f7-b3d4-492767070ed2' },
-    // Add more videos as needed
   ];
 
   return (
@@ -15,7 +14,6 @@ export default function FeaturedVideo() {
         <div className='w-fit mx-auto pb-8'>
             <Heading title="Featured Videos" />
         </div>
-
       <div className="grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))] gap-6">
         {videos.map((video) => (
           <div key={video.id} className="aspect-video">

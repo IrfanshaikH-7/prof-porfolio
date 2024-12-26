@@ -10,6 +10,7 @@ import HomeLayout from './pages/HomeLayout'
 
 import RecommendedOnce from './pages/recommendations/RecommendedOnce'
 import RecommendationCategory from './pages/recommendations/RecommendationCategory'
+import BlogPost from './components/BlogPost'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Routes>
             <Route path="/" element={<HomeLayout />} />
             <Route path="/blogs" element={<Blogs />} />
+            <Route path="/blogs/:blogId" element={<BlogPost />} />
             <Route path="/recommendations/:category" element={<RecommendationCategory />} />
             <Route path="/recommendations/:category/:slug" element={<RecommendedOnce />} />
             <Route path="/awards" element={<Awards />} />
