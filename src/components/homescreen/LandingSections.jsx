@@ -282,7 +282,7 @@ export default function LandingSections() {
 
             <div>
               <h2 className='text-2xl sm:text-2xl font-bold pb-4 text-neutral-800'>
-                <a href='/blogs'className='hover:underline'>Doing MBA: Choice of a Business School</a>
+                <a href='/blogs' className='hover:underline'>Doing MBA: Choice of a Business School</a>
               </h2>
               <p className='text-sm  font-medium text-neutral-500 line-clamp-5'>
                 Having decided to do an MBA programme one needs to decide; from where. The choice of a B-School depends on the educational background, inclination and preferences and  resources of the person and prevalent market conditions.
@@ -291,7 +291,7 @@ export default function LandingSections() {
               </p>
             </div>
           </article>
-          <a href='/' className='text-sm hidden min-[930px]:flex font-medium h-24 w-full bg-neutral-800 rounded-md  items-center justify-center text-neutral-200 
+          <a href='/blogs' className='text-sm hidden min-[930px]:flex font-medium h-24 w-full bg-neutral-800 rounded-md  items-center justify-center text-neutral-200 
             hover:text-neutral-800 hover:bg-neutral-200 border border-neutral-800 hover:border-neutral-800 transition-all duration-300'>
             Explore More Blogs
           </a>
@@ -314,7 +314,7 @@ export default function LandingSections() {
             </div>
             <div>
               <h2 className='text-2xl sm:text-2xl font-bold pb-4 text-neutral-800'>
-                <a href='/blogs'  className='hover:underline'>Future of Work; A Perspective</a>
+                <a href='/blogs' className='hover:underline'>Future of Work; A Perspective</a>
               </h2>
               <p className='text-sm  font-medium text-neutral-500 line-clamp-4'>
                 "The illiterate of the 21st century will not be those who cannot read and write, but those who cannot learn, unlearn, and relearn." Alvin Tofler.The speed at which the world is changing makes the above quote most relevant for the employees at the work place.
@@ -342,7 +342,7 @@ export default function LandingSections() {
             </div>
             <div>
               <h2 className='text-2xl sm:text-2xl font-bold pb-4 text-neutral-800'>
-                <a href='/blogs'  className='hover:underline'>Academic Discipline and Interdisciplinarity: An Overview</a>
+                <a href='/blogs' className='hover:underline'>Academic Discipline and Interdisciplinarity: An Overview</a>
 
               </h2>
               <p className='text-sm  font-medium text-neutral-500 line-clamp-5'>
@@ -372,7 +372,7 @@ export default function LandingSections() {
             </div>
             <div>
               <h2 className='text-2xl sm:text-2xl font-bold pb-4 text-neutral-800'>
-                <a href='/blogs'  className='hover:underline'>Pedagogy to Heutagogy: Empowering Learners for the Future</a>
+                <a href='/blogs' className='hover:underline'>Pedagogy to Heutagogy: Empowering Learners for the Future</a>
               </h2>
               <p className='text-sm  font-medium text-neutral-500 line-clamp-4'>
                 In this article, I will discuss the evolving landscape of education and the transition from traditional pedagogy to the empowering approach of heutagogy. Inspired by an observation made by Professor M. M. Pant, that teachers are going to become costlier while learning is becoming cheaper, this exploration delves into the changing dynamics of teaching and learning in the modern world.
@@ -407,7 +407,7 @@ export default function LandingSections() {
             </div>
 
           </article>
-          <a href='/' className='text-sm flex min-[930px]:hidden font-medium h-24 w-full bg-neutral-800 rounded-md  items-center justify-center text-neutral-200 
+          <a href='/blogs' className='text-sm flex min-[930px]:hidden font-medium h-24 w-full bg-neutral-800 rounded-md  items-center justify-center text-neutral-200 
             hover:text-neutral-800 hover:bg-neutral-200 border border-neutral-800 hover:border-neutral-800 transition-all duration-300'>
             Explore More Blogs
           </a>
@@ -465,9 +465,13 @@ export default function LandingSections() {
       </section>
       {/* end of Scroll Gallery */}
 
+
+      {/* featured video */}
+      <FeaturedVideo />
+      {/* end of featured video */}
+
       {/* need assistant */}
       <NeedAssistant />
-      <FeaturedVideo />
       {/* end of need assistant */}
 
     </main>
