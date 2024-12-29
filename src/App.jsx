@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { createBrowserRouter, Outlet, RouterProvider, ScrollRestoration } from 'react-router-dom'
 import Blogs from './pages/Blogs'
 import Awards from './pages/Awards'
 import Gallery from './pages/Gallery'
@@ -12,27 +12,59 @@ import RecommendedOnce from './pages/recommendations/RecommendedOnce'
 import RecommendationCategory from './pages/recommendations/RecommendationCategory'
 import BlogPost from './components/BlogPost'
 
-function App() {
-  return (
-    <BrowserRouter>
+// Create the router configuration
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: (
       <div className='w-full min-h-screen flex flex-col'>
         <Navbar />
         <div className=''>
-          <Routes>
-            <Route path="/" element={<HomeLayout />} />
-            <Route path="/blogs" element={<Blogs />} />
-            <Route path="/blogs/:blogId" element={<BlogPost />} />
-            <Route path="/recommendations/:category" element={<RecommendationCategory />} />
-            <Route path="/recommendations/:category/:slug" element={<RecommendedOnce />} />
-            <Route path="/awards" element={<Awards />} />
-            <Route path="/gallery" element={<Gallery />} />
-            <Route path="/contact" element={<Contact />} />
-          </Routes>
+          <Outlet />
         </div>
         <Footer />
+        <ScrollRestoration />
       </div>
-    </BrowserRouter>
-  )
+    ),
+    children: [
+      {
+        path: "/",
+        element: <HomeLayout />
+      },
+      {
+        path: "/blogs",
+        element: <Blogs />
+      },
+      {
+        path: "/blogs/:blogId",
+        element: <BlogPost />
+      },
+      {
+        path: "/recommendations/:category",
+        element: <RecommendationCategory />
+      },
+      {
+        path: "/recommendations/:category/:slug",
+        element: <RecommendedOnce />
+      },
+      {
+        path: "/awards",
+        element: <Awards />
+      },
+      {
+        path: "/gallery",
+        element: <Gallery />
+      },
+      {
+        path: "/contact",
+        element: <Contact />
+      }
+    ]
+  }
+]);
+
+function App() {
+  return <RouterProvider router={router} />;
 }
 
-export default App
+export default App;
