@@ -1,5 +1,5 @@
 import React from 'react'
-import { vinay_nangia } from '../../assets'
+import { vinay_nangia, x_twitter } from '../../assets'
 import { Facebook, LinkedinIcon, Twitter } from 'lucide-react'
 
 export default function Footer() {
@@ -66,10 +66,13 @@ export default function Footer() {
      </div>
      <div className='flex gap-3 items-start mt-2'>
 
-<a href={'https://x.com/profvinaynangia'}  target="_blank" className='p-2 rounded-md bg-neutral-800 border shadow-sm group hover:bg-black transition-colors duration-300'><Twitter  className='h-4 w-4 lg:h-6 lg:w-6 text-neutral-200 group-hover:text-white'/></a>
+<a href={'https://x.com/profvinaynangia'}  target="_blank" className='p-2 rounded-md bg-neutral-800 border shadow-sm group hover:bg-black transition-colors duration-300'>
+<img src={x_twitter} alt="x twitter" className='h-4 w-4 lg:h-6 lg:w-6 text-neutral-200 group-hover:text-white' />
+</a>
 
 <a href={'https://www.linkedin.com/in/prof-vinay-nangia-760a6360?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app '} target="_blank"  
-className='p-2 rounded-md bg-neutral-800 border shadow-sm group hover:bg-black transition-colors duration-300'><LinkedinIcon className='h-4 w-4 lg:h-6 lg:w-6 text-neutral-200 group-hover:text-white' /></a>
+className='p-2 rounded-md bg-neutral-800 border shadow-sm group hover:bg-black transition-colors duration-300'>
+  <LinkedinIcon className='h-4 w-4 lg:h-6 lg:w-6 text-neutral-200 group-hover:text-white' /></a>
 
 <a href={'https://www.facebook.com/vinay.nangia.98?mibextid=ZbWKwL'}  target="_blank" className='p-2 rounded-md bg-neutral-800 border shadow-sm group hover:bg-black transition-colors duration-300'><Facebook className='h-4 w-4 lg:h-6 lg:w-6 text-neutral-200 group-hover:text-white' /></a>
 </div>
