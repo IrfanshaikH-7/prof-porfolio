@@ -2,6 +2,7 @@ import React from 'react'
 import { vinay_nangia, x_twitter } from '../../assets'
 import { Facebook, Github, Linkedin, Twitter } from 'lucide-react'
 import ExploreButton from '../shared/ExploreButton'
+import { Link } from 'react-router-dom'
 export default function HeroSection() {
 
   return (
@@ -40,13 +41,13 @@ export default function HeroSection() {
           </div>
           <div className='flex flex-col items-center gap-4 absolute lg:relative top-0 -right-8 md:right-0'>
             <div className='flex items-center gap-4 cursor-pointer border border-black rounded-md p-0.5 '>
-              <a href='https://x.com/profvinaynangia' target='_blank'><img src={x_twitter} alt="x twitter" className='w-4 h-4' /></a>
+              <Link to='https://x.com/profvinaynangia' target='_blank'><img src={x_twitter} alt="x twitter" className='w-4 h-4' /></Link>
             </div>
             <div className='flex items-center gap-4 cursor-pointer border border-black rounded-md p-0.5 '>
-              <a href='https://www.linkedin.com/in/prof-vinay-nangia-760a6360?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ' target='_blank'><Linkedin className='w-4 h-4' /></a>
+              <Link to='https://www.linkedin.com/in/prof-vinay-nangia-760a6360?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ' target='_blank'><Linkedin className='w-4 h-4' /></Link>
             </div>
             <div className='flex items-center gap-4 cursor-pointer border border-black rounded-md p-0.5 '>
-              <a href='https://www.facebook.com/vinay.nangia.98?mibextid=ZbWKwL' target='_blank'><Facebook className='w-4 h-4' /></a>
+              <Link to='https://www.facebook.com/vinay.nangia.98?mibextid=ZbWKwL' target='_blank'><Facebook className='w-4 h-4' /></Link>
             </div>
             <div className='lg:h-40 h-16 w-0.5 rounded-md ml-0.5 bg-black' />
             <h1 className='text-sm font-bold rotate-[270deg] py-7'>Vinay Nangia</h1>

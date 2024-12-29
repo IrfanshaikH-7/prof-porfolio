@@ -1,6 +1,7 @@
 import React from 'react'
 import { vinay_nangia, x_twitter } from '../../assets'
 import { Facebook, LinkedinIcon, Twitter } from 'lucide-react'
+import { Link } from 'react-router-dom'
 
 export default function Footer() {
   return (
@@ -27,10 +28,10 @@ export default function Footer() {
       <h1 className='text-white text-2xl font-bold flex items-center flex-row'>
       <div className='text-white break-keep'>Discover</div>
       </h1>
-      <a href='/awards' className='text-neutral-300 text-sm font-bold max-w-sm hover:underline'>Awards</a>
-      <a href='/gallery' className='text-neutral-300 text-sm font-bold max-w-sm hover:underline'>Gallery</a>
-      <a href='/recommendations/academic-leaders' className='text-neutral-300 text-sm font-bold max-w-sm hover:underline'>Recommendations</a>
-      <a href='/gallery' className='text-neutral-300 text-sm font-bold max-w-sm hover:underline'>Gallery</a>
+      <Link to='/awards' className='text-neutral-300 text-sm font-bold max-w-sm hover:underline'>Awards</Link>
+      <Link to='/gallery' className='text-neutral-300 text-sm font-bold max-w-sm hover:underline'>Gallery</Link>
+      <Link to='/recommendations/academic-leaders' className='text-neutral-300 text-sm font-bold max-w-sm hover:underline'>Recommendations</Link>
+      <Link to='/gallery' className='text-neutral-300 text-sm font-bold max-w-sm hover:underline'>Gallery</Link>
 
      </div>
      {/* another */}
@@ -39,11 +40,11 @@ export default function Footer() {
       <div className='text-white'>Recent Blogs</div>
       </h1>
       <div className='flex flex-col items-start justify-center md:max-w-[260px]'>
-      <a href='/blogs' className='text-neutral-300 text-sm font-bold hover:underline ' >Play Vavada on smartphones</a>
-      <a href='/blogs' className='text-neutral-300 text-sm font-bold hover:underline '>How to spend your years in college</a>
-      <a href='/blogs' className='text-neutral-300 text-sm font-bold hover:underline '>Start-up versus MSME</a>
-      <a href='/blogs' className='text-neutral-300 text-sm font-bold hover:underline '>Greed and Fear</a>
-      <a href='/blogs' className='text-neutral-300 text-sm font-bold hover:underline '>Indian Ethos & Culture and National Education Policy 2020</a>
+      <Link to='/blogs' className='text-neutral-300 text-sm font-bold hover:underline ' >Play Vavada on smartphones</Link>
+      <Link to='/blogs' className='text-neutral-300 text-sm font-bold hover:underline '>How to spend your years in college</Link>
+      <Link to='/blogs' className='text-neutral-300 text-sm font-bold hover:underline '>Start-up versus MSME</Link>
+      <Link to='/blogs' className='text-neutral-300 text-sm font-bold hover:underline '>Greed and Fear</Link>
+      <Link to='/blogs' className='text-neutral-300 text-sm font-bold hover:underline '>Indian Ethos & Culture and National Education Policy 2020</Link>
       </div>
   
      </div>
@@ -66,15 +67,15 @@ export default function Footer() {
      </div>
      <div className='flex gap-3 items-start mt-2'>
 
-<a href={'https://x.com/profvinaynangia'}  target="_blank" className='p-2 rounded-md bg-neutral-800 border shadow-sm group hover:bg-black transition-colors duration-300'>
+<Link to={'https://x.com/profvinaynangia'}  target="_blank" className='p-2 rounded-md bg-neutral-800 border shadow-sm group hover:bg-black transition-colors duration-300'>
 <img src={x_twitter} alt="x twitter" className='h-4 w-4 lg:h-6 lg:w-6 text-neutral-200 group-hover:text-white' />
-</a>
+</Link>
 
-<a href={'https://www.linkedin.com/in/prof-vinay-nangia-760a6360?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app '} target="_blank"  
+<Link to={'https://www.linkedin.com/in/prof-vinay-nangia-760a6360?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app '} target="_blank"  
 className='p-2 rounded-md bg-neutral-800 border shadow-sm group hover:bg-black transition-colors duration-300'>
-  <LinkedinIcon className='h-4 w-4 lg:h-6 lg:w-6 text-neutral-200 group-hover:text-white' /></a>
+  <LinkedinIcon className='h-4 w-4 lg:h-6 lg:w-6 text-neutral-200 group-hover:text-white' /></Link>
 
-<a href={'https://www.facebook.com/vinay.nangia.98?mibextid=ZbWKwL'}  target="_blank" className='p-2 rounded-md bg-neutral-800 border shadow-sm group hover:bg-black transition-colors duration-300'><Facebook className='h-4 w-4 lg:h-6 lg:w-6 text-neutral-200 group-hover:text-white' /></a>
+<Link to={'https://www.facebook.com/vinay.nangia.98?mibextid=ZbWKwL'}  target="_blank" className='p-2 rounded-md bg-neutral-800 border shadow-sm group hover:bg-black transition-colors duration-300'><Facebook className='h-4 w-4 lg:h-6 lg:w-6 text-neutral-200 group-hover:text-white' /></Link>
 </div>
      </div>
        </div>

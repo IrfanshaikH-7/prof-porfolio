@@ -6,6 +6,7 @@ import NeedAssistant from '../shared/GetInTouch';
 import Heading from '../shared/Heading';
 import Testimonials from '../shared/Testimonials';
 import FeaturedVideo from '../shared/FeaturedVideo';
+import { Link } from 'react-router-dom';
 
 export default function LandingSections() {
 
@@ -282,7 +283,7 @@ export default function LandingSections() {
 
             <div>
               <h2 className='text-2xl sm:text-2xl font-bold pb-4 text-neutral-800'>
-                <a href='/blogs' className='hover:underline'>Doing MBA: Choice of a Business School</a>
+                <Link to='/blogs' className='hover:underline'>Doing MBA: Choice of a Business School</Link>
               </h2>
               <p className='text-sm  font-medium text-neutral-500 line-clamp-5'>
                 Having decided to do an MBA programme one needs to decide; from where. The choice of a B-School depends on the educational background, inclination and preferences and  resources of the person and prevalent market conditions.
@@ -291,10 +292,10 @@ export default function LandingSections() {
               </p>
             </div>
           </article>
-          <a href='/blogs' className='text-sm hidden min-[930px]:flex font-medium h-24 w-full bg-neutral-800 rounded-md  items-center justify-center text-neutral-200 
+          <Link to='/blogs' className='text-sm hidden min-[930px]:flex font-medium h-24 w-full bg-neutral-800 rounded-md  items-center justify-center text-neutral-200 
             hover:text-neutral-800 hover:bg-neutral-200 border border-neutral-800 hover:border-neutral-800 transition-all duration-300'>
             Explore More Blogs
-          </a>
+          </Link>
         </div>
         <div className='flex flex-1 flex-col gap-8'>
           <article className='h-72 aspect-[4/3] overflow-hidden rounded-md shrink-0 bg-slate-200 relative flex flex-col justify-between py-4 px-6'>
@@ -314,7 +315,7 @@ export default function LandingSections() {
             </div>
             <div>
               <h2 className='text-2xl sm:text-2xl font-bold pb-4 text-neutral-800'>
-                <a href='/blogs' className='hover:underline'>Future of Work; A Perspective</a>
+                <Link to='/blogs' className='hover:underline'>Future of Work; A Perspective</Link>
               </h2>
               <p className='text-sm  font-medium text-neutral-500 line-clamp-4'>
                 "The illiterate of the 21st century will not be those who cannot read and write, but those who cannot learn, unlearn, and relearn." Alvin Tofler.The speed at which the world is changing makes the above quote most relevant for the employees at the work place.
@@ -342,7 +343,7 @@ export default function LandingSections() {
             </div>
             <div>
               <h2 className='text-2xl sm:text-2xl font-bold pb-4 text-neutral-800'>
-                <a href='/blogs' className='hover:underline'>Academic Discipline and Interdisciplinarity: An Overview</a>
+                <Link to='/blogs' className='hover:underline'>Academic Discipline and Interdisciplinarity: An Overview</Link>
 
               </h2>
               <p className='text-sm  font-medium text-neutral-500 line-clamp-5'>
@@ -372,7 +373,7 @@ export default function LandingSections() {
             </div>
             <div>
               <h2 className='text-2xl sm:text-2xl font-bold pb-4 text-neutral-800'>
-                <a href='/blogs' className='hover:underline'>Pedagogy to Heutagogy: Empowering Learners for the Future</a>
+                <Link to='/blogs' className='hover:underline'>Pedagogy to Heutagogy: Empowering Learners for the Future</Link>
               </h2>
               <p className='text-sm  font-medium text-neutral-500 line-clamp-4'>
                 In this article, I will discuss the evolving landscape of education and the transition from traditional pedagogy to the empowering approach of heutagogy. Inspired by an observation made by Professor M. M. Pant, that teachers are going to become costlier while learning is becoming cheaper, this exploration delves into the changing dynamics of teaching and learning in the modern world.
@@ -400,17 +401,17 @@ export default function LandingSections() {
             </div>
             <div>
               <h2 className='text-2xl sm:text-2xl font-bold pb-4 max-w-xl text-neutral-800'>
-                <a href='/blogs' className='hover:underline'>Use of Technology in Education</a>
+                <Link to='/blogs' className='hover:underline'>Use of Technology in Education</Link>
               </h2>
               <p className='text-sm  font-medium text-neutral-500 line-clamp-5'>
                 Technology is not just a tool but a catalyst for change, enhancing the way knowledge is imparted and absorbed. The integration of technology in education, particularly in higher education, can create more engaging, inclusive, and efficient learning environments. Drawing insights from the Draft National Education Policy (NEP) 2019 and the National Education Policy (NEP) 2020, this write-up explores the multifaceted ways in which technology can revolutionize education.</p>
             </div>
 
           </article>
-          <a href='/blogs' className='text-sm flex min-[930px]:hidden font-medium h-24 w-full bg-neutral-800 rounded-md  items-center justify-center text-neutral-200 
+          <Link to='/blogs' className='text-sm flex min-[930px]:hidden font-medium h-24 w-full bg-neutral-800 rounded-md  items-center justify-center text-neutral-200 
             hover:text-neutral-800 hover:bg-neutral-200 border border-neutral-800 hover:border-neutral-800 transition-all duration-300'>
             Explore More Blogs
-          </a>
+          </Link>
         </div>
       </section>
       {/* end of Blog Section */}
