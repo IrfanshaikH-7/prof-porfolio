@@ -1,5 +1,6 @@
 import { Facebook, Instagram, LinkedinIcon, Mail, MessageCircleDashed, Twitter, X } from 'lucide-react'
 import React from 'react'
+import { x_twitter } from '../../assets'
 
 export default function NeedAssistant() {
   return (
@@ -13,14 +14,14 @@ export default function NeedAssistant() {
         
       <div className='flex gap-3 items-start'>
 
-        <a href={'#'} className='p-2 rounded-full bg-white border shadow-sm group hover:bg-black transition-colors duration-300'><Twitter  className='h-4 w-4 lg:h-6 lg:w-6 text-neutral-600 group-hover:text-white'/></a>
+        <a href={'https://x.com/profvinaynangia'} className='p-2 rounded-full bg-white border shadow-sm group hover:bg-black transition-colors duration-300'><img src={x_twitter} alt="x twitter" className='h-4 w-4 lg:h-6 lg:w-6 text-neutral-600 group-hover:text-white' /></a>
 
-        <a href={'#'} target="/"  
+        <a href={'https://www.linkedin.com/in/prof-vinay-nangia-760a6360?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app '} target="_blank"  
         className='p-2 rounded-full bg-white border shadow-sm group hover:bg-black transition-colors duration-300'><LinkedinIcon className='h-4 w-4 lg:h-6 lg:w-6 text-neutral-600 group-hover:text-white' /></a>
 
-        <a href={'#'} className='p-2 rounded-full bg-white border shadow-sm group hover:bg-black transition-colors duration-300'><Facebook className='h-4 w-4 lg:h-6 lg:w-6 text-neutral-600 group-hover:text-white' /></a>
+        <a href={'https://www.facebook.com/vinay.nangia.98?mibextid=ZbWKwL'} className='p-2 rounded-full bg-white border shadow-sm group hover:bg-black transition-colors duration-300'><Facebook className='h-4 w-4 lg:h-6 lg:w-6 text-neutral-600 group-hover:text-white' /></a>
         </div>
-        <a href={"#"} className='w-full bg-black max-w-48 px-6 py-2.5 text-white text-center rounded-[40px] ' >Contact</a>
+        <a href={"/contact"} className='w-full bg-black max-w-48 px-6 py-2.5 text-white text-center rounded-[40px] ' >Contact</a>
     </div>
   )
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import { master_speaks, smart_banking, vinay_nangia, vinay_nangia_2, img_1, img_2, img_3, img_4, user } from '../../assets'
+import { master_speaks, smart_banking, vinay_nangia, vinay_nangia_2, img_1, img_2, img_3, img_4, user, img_01, img_02, img_03, img_04, img_05 } from '../../assets'
 import { Briefcase, CalendarDays, History, Icon } from 'lucide-react'
 import { motion } from 'framer-motion';
 import NeedAssistant from '../shared/GetInTouch';
@@ -282,12 +282,12 @@ export default function LandingSections() {
 
             <div>
               <h2 className='text-2xl sm:text-2xl font-bold pb-4 text-neutral-800'>
-              Doing MBA: Choice of a Business School
+                <a href='/blogs'className='hover:underline'>Doing MBA: Choice of a Business School</a>
               </h2>
               <p className='text-sm  font-medium text-neutral-500 line-clamp-5'>
-              Having decided to do an MBA programme one needs to decide; from where. The choice of a B-School depends on the educational background, inclination and preferences and  resources of the person and prevalent market conditions.
+                Having decided to do an MBA programme one needs to decide; from where. The choice of a B-School depends on the educational background, inclination and preferences and  resources of the person and prevalent market conditions.
 
-In case one is clear that one wants to be truly  a  global executive (meaning acceptability and employability anywhere in the world) or desires to settle abroad then one should obtain MBA degree from USA. Reason  for suggesting USA is that in the foreseeable future their  economy is unlikely to go down.
+                In case one is clear that one wants to be truly  a  global executive (meaning acceptability and employability anywhere in the world) or desires to settle abroad then one should obtain MBA degree from USA. Reason  for suggesting USA is that in the foreseeable future their  economy is unlikely to go down.
               </p>
             </div>
           </article>
@@ -314,14 +314,14 @@ In case one is clear that one wants to be truly  a  global executive (meaning ac
             </div>
             <div>
               <h2 className='text-2xl sm:text-2xl font-bold pb-4 text-neutral-800'>
-              Future of Work; A Perspective
+                <a href='/blogs'  className='hover:underline'>Future of Work; A Perspective</a>
               </h2>
               <p className='text-sm  font-medium text-neutral-500 line-clamp-4'>
-              "The illiterate of the 21st century will not be those who cannot read and write, but those who cannot learn, unlearn, and relearn." Alvin Tofler.The speed at which the world is changing makes the above quote most relevant for the employees at the work place.
+                "The illiterate of the 21st century will not be those who cannot read and write, but those who cannot learn, unlearn, and relearn." Alvin Tofler.The speed at which the world is changing makes the above quote most relevant for the employees at the work place.
 
-The factors which are likely to affect the Future of Work include amongst others;
-1. Technological Advances
-2. Geo Political Changes</p>
+                The factors which are likely to affect the Future of Work include amongst others;
+                1. Technological Advances
+                2. Geo Political Changes</p>
             </div>
 
           </article>
@@ -342,13 +342,13 @@ The factors which are likely to affect the Future of Work include amongst others
             </div>
             <div>
               <h2 className='text-2xl sm:text-2xl font-bold pb-4 text-neutral-800'>
-              Academic Discipline and Interdisciplinarity: An Overview
+                <a href='/blogs'  className='hover:underline'>Academic Discipline and Interdisciplinarity: An Overview</a>
 
               </h2>
               <p className='text-sm  font-medium text-neutral-500 line-clamp-5'>
-              Academic disciplines are the backbone of knowledge organization and education. They have evolved over centuries, responding to discoveries and societal needs. While some disciplines have disappeared or transformed, others have persisted and expanded, showcasing the dynamic nature of human inquiry and intellectual exploration.
+                Academic disciplines are the backbone of knowledge organization and education. They have evolved over centuries, responding to discoveries and societal needs. While some disciplines have disappeared or transformed, others have persisted and expanded, showcasing the dynamic nature of human inquiry and intellectual exploration.
 
-An academic discipline is a branch of knowledge formally taught at universities, colleges, or through other educational methods. Each discipline is characterized by its subject matter, </p>
+                An academic discipline is a branch of knowledge formally taught at universities, colleges, or through other educational methods. Each discipline is characterized by its subject matter, </p>
             </div>
 
           </article>
@@ -372,14 +372,14 @@ An academic discipline is a branch of knowledge formally taught at universities,
             </div>
             <div>
               <h2 className='text-2xl sm:text-2xl font-bold pb-4 text-neutral-800'>
-              Pedagogy to Heutagogy: Empowering Learners for the Future
+                <a href='/blogs'  className='hover:underline'>Pedagogy to Heutagogy: Empowering Learners for the Future</a>
               </h2>
               <p className='text-sm  font-medium text-neutral-500 line-clamp-4'>
-              In this article, I will discuss the evolving landscape of education and the transition from traditional pedagogy to the empowering approach of heutagogy. Inspired by an observation made by Professor M. M. Pant, that teachers are going to become costlier while learning is becoming cheaper, this exploration delves into the changing dynamics of teaching and learning in the modern world.
+                In this article, I will discuss the evolving landscape of education and the transition from traditional pedagogy to the empowering approach of heutagogy. Inspired by an observation made by Professor M. M. Pant, that teachers are going to become costlier while learning is becoming cheaper, this exploration delves into the changing dynamics of teaching and learning in the modern world.
 
- 
 
-The Changing Education Paradigm: Jacques Delors' four pillars of education provide a framework for understanding the goals of lifelong learning. With the rise of the internet and artificial</p>
+
+                The Changing Education Paradigm: Jacques Delors' four pillars of education provide a framework for understanding the goals of lifelong learning. With the rise of the internet and artificial</p>
             </div>
 
           </article>
@@ -400,10 +400,10 @@ The Changing Education Paradigm: Jacques Delors' four pillars of education provi
             </div>
             <div>
               <h2 className='text-2xl sm:text-2xl font-bold pb-4 max-w-xl text-neutral-800'>
-              Use of Technology in Education
+                <a href='/blogs' className='hover:underline'>Use of Technology in Education</a>
               </h2>
               <p className='text-sm  font-medium text-neutral-500 line-clamp-5'>
-              Technology is not just a tool but a catalyst for change, enhancing the way knowledge is imparted and absorbed. The integration of technology in education, particularly in higher education, can create more engaging, inclusive, and efficient learning environments. Drawing insights from the Draft National Education Policy (NEP) 2019 and the National Education Policy (NEP) 2020, this write-up explores the multifaceted ways in which technology can revolutionize education.</p>
+                Technology is not just a tool but a catalyst for change, enhancing the way knowledge is imparted and absorbed. The integration of technology in education, particularly in higher education, can create more engaging, inclusive, and efficient learning environments. Drawing insights from the Draft National Education Policy (NEP) 2019 and the National Education Policy (NEP) 2020, this write-up explores the multifaceted ways in which technology can revolutionize education.</p>
             </div>
 
           </article>
@@ -432,7 +432,7 @@ The Changing Education Paradigm: Jacques Delors' four pillars of education provi
           >
             {/* First set of images */}
             <div className='flex gap-8 overflow-hidden'>
-              {[img_1, img_2, img_3, img_4].map((img, index) => (
+              {[img_01, img_02, img_03, img_04, img_05].map((img, index) => (
                 <motion.div
                   key={index}
                   className='md:w-[400px] w-[300px] aspect-[4/3] overflow-hidden rounded-md shrink-0 group'
@@ -447,7 +447,7 @@ The Changing Education Paradigm: Jacques Delors' four pillars of education provi
             </div>
             {/* Duplicate set for seamless loop */}
             <div className='flex gap-8 overflow-hidden'>
-              {[img_1, img_2, img_3, img_4].map((img, index) => (
+              {[img_01, img_02, img_03, img_04, img_05].map((img, index) => (
                 <motion.div
                   key={index}
                   className='md:w-[400px] w-[300px] aspect-[4/3] overflow-hidden rounded-md shrink-0 group'
@@ -467,7 +467,7 @@ The Changing Education Paradigm: Jacques Delors' four pillars of education provi
 
       {/* need assistant */}
       <NeedAssistant />
-      <FeaturedVideo/>
+      <FeaturedVideo />
       {/* end of need assistant */}
 
     </main>

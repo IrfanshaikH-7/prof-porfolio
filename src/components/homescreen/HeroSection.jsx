@@ -1,5 +1,5 @@
 import React from 'react'
-import { vinay_nangia } from '../../assets'
+import { vinay_nangia, x_twitter } from '../../assets'
 import { Facebook, Github, Linkedin, Twitter } from 'lucide-react'
 import ExploreButton from '../shared/ExploreButton'
 export default function HeroSection() {
@@ -29,7 +29,7 @@ export default function HeroSection() {
           </p>
         </article>
         <div className='mt-8 flex  gap-8'>
-          <ExploreButton text="Explore More" target='_blank' href='https://vinaynangia.com/wp-content/uploads/2020/06/CV-Prof.-V.K-Nangia-04022020.pdf' />
+          <ExploreButton text="Explore More" href='/awards' />
           <ExploreButton text="View CV" target='_blank' href='https://vinaynangia.com/wp-content/uploads/2020/06/CV-Prof.-V.K-Nangia-04022020.pdf' />
         </div>
       </section>
@@ -40,13 +40,13 @@ export default function HeroSection() {
           </div>
           <div className='flex flex-col items-center gap-4 absolute lg:relative top-0 -right-8 md:right-0'>
             <div className='flex items-center gap-4 cursor-pointer border border-black rounded-md p-0.5 '>
-              <Twitter className='w-4 h-4' />
+              <a href='https://x.com/profvinaynangia' target='_blank'><img src={x_twitter} alt="x twitter" className='w-4 h-4' /></a>
             </div>
             <div className='flex items-center gap-4 cursor-pointer border border-black rounded-md p-0.5 '>
-              <Linkedin className='w-4 h-4' />
+              <a href='https://www.linkedin.com/in/prof-vinay-nangia-760a6360?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app ' target='_blank'><Linkedin className='w-4 h-4' /></a>
             </div>
             <div className='flex items-center gap-4 cursor-pointer border border-black rounded-md p-0.5 '>
-              <Facebook className='w-4 h-4' />
+              <a href='https://www.facebook.com/vinay.nangia.98?mibextid=ZbWKwL' target='_blank'><Facebook className='w-4 h-4' /></a>
             </div>
             <div className='lg:h-40 h-16 w-0.5 rounded-md ml-0.5 bg-black' />
             <h1 className='text-sm font-bold rotate-[270deg] py-7'>Vinay Nangia</h1>
