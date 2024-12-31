@@ -67,9 +67,7 @@ export default function Footer() {
      </div>
      <div className='flex gap-3 items-start mt-2'>
 
-<Link to={'https://x.com/profvinaynangia'}  target="_blank" className='p-2 rounded-md bg-neutral-800 border shadow-sm group hover:bg-black transition-colors duration-300'>
-<img src={x_twitter} alt="x twitter" className='h-4 w-4 lg:h-6 lg:w-6 text-neutral-200 group-hover:text-white' />
-</Link>
+
 
 <Link to={'https://www.linkedin.com/in/prof-vinay-nangia-760a6360?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app '} target="_blank"  
 className='p-2 rounded-md bg-neutral-800 border shadow-sm group hover:bg-black transition-colors duration-300'>

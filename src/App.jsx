@@ -11,6 +11,7 @@ import HomeLayout from './pages/HomeLayout'
 import RecommendedOnce from './pages/recommendations/RecommendedOnce'
 import RecommendationCategory from './pages/recommendations/RecommendationCategory'
 import BlogPost from './components/BlogPost'
+import Youtube from './pages/Youtube'
 
 // Create the router configuration
 const router = createBrowserRouter([
@@ -54,6 +55,10 @@ const router = createBrowserRouter([
       {
         path: "/gallery",
         element: <Gallery />
+      },
+      {
+        path: "/youtube",
+        element: <Youtube />
       },
       {
         path: "/contact",

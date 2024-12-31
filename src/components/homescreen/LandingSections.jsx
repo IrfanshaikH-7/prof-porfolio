@@ -1,12 +1,13 @@
 import React from 'react'
 import { master_speaks, smart_banking, vinay_nangia, vinay_nangia_2, img_1, img_2, img_3, img_4, user, img_01, img_02, img_03, img_04, img_05 } from '../../assets'
-import { Briefcase, CalendarDays, History, Icon } from 'lucide-react'
+import { Briefcase, CalendarDays, History, Icon, LucideMedal, Medal } from 'lucide-react'
 import { motion } from 'framer-motion';
 import NeedAssistant from '../shared/GetInTouch';
 import Heading from '../shared/Heading';
 import Testimonials from '../shared/Testimonials';
 import FeaturedVideo from '../shared/FeaturedVideo';
 import { Link } from 'react-router-dom';
+import { homeVideos } from '../../data/youtube';
 
 export default function LandingSections() {
 
@@ -97,6 +98,44 @@ export default function LandingSections() {
       description: 'Government of India and Government of Uttaranchal; Conservation and Management of Nainital Lake and other Lakes in the District of Nainital-Institutional arrangement, financial sustainability and legal aspects.',
     },
   ]
+  const achievements = [
+    {
+      title: 'Achievement 1',
+      description: 'Set up BBA, MBA and MBA in Innovation, Entrepreneurship & Venture Development Programs in Netaji Subhash University of Technology, Dwarka, New Delhi in 2019 as Emeritus Professor.',
+    },
+    {
+      title: 'Achievement 2',
+      description: 'Government of India Chair Professor in Knowledge Economy 2006-2011.',
+    },
+    {
+      title: 'Achievement 3',
+      description: 'Distinguished Alumni Award from Banaras Hindu University in 2005.',
+    },
+    {
+      title: 'Achievement 4',
+      description: 'Joined Department of Management Studies, University of Roorkee in 1998 as first Professor and effectively contributed in setting up the new department for initiating MBA programme. Served as Head of the Department of Management Studies for three terms for a period of over 9 years.',
+    },
+    {
+      title: 'Achievement 5',
+      description: 'Independent consultancy in the area of Promoter Funding and Corporate Restructuring during 1995-1997.',
+    },
+    {
+      title: 'Achievement 6',
+      description: 'Handled investments in real estate to the tune of Rs.3 Billion in Bombay, Bangalore and Madras during 1993-1995.',
+    },
+    {
+      title: 'Achievement 7',
+      description: 'Set up a finance company with 74% repatriability (Highest allowed at that time by FIPB in India) with initial startup capital of US $ 10 Million at Bombay in 1994.',
+    },
+    {
+      title: 'Achievement 8',
+      description: 'Worked out feasibility of setting up a Private Sector bank for ESSAR group in 1993.',
+    },
+    {
+      title: 'Achievement 9',
+      description: 'Set up a textile mill from concept to commercial production in Lagos, Nigeria in 1991-1992.',
+    }
+  ];
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -240,7 +279,7 @@ export default function LandingSections() {
         </div>
         <div className='flex flex-col md:flex-row  items-center gap-14 md:gap-4 max-w-7xl mx-auto'>
           <div className='flex relative'>
-            <h3 className='text-2xl font-bold text-neutral-800 pl-11 md:pl-[7.5%] absolute -top-9 md:-top-2.5 -left-10 md:left-0'>Master Speaks</h3>
+            <h3 className='text-2xl font-bold text-neutral-800 pl-11 md:pl-[7.5%] absolute -top-9 md:-top-2.5 -left-10 md:left-0'>Masters Speaks</h3>
 
             <div className='flex flex-col gap-2 overflow-hidden'>
               <img src={master_speaks} alt='master_speaks' className='w-full h-full  md:scale-[0.86] object-contain  ' />
@@ -417,6 +456,50 @@ export default function LandingSections() {
       {/* end of Blog Section */}
 
       <Testimonials />
+
+
+
+
+         {/* start of research projects */}
+         <section className='w-full h-full flex flex-col '>
+          <div className='w-fit mx-auto py-8'>
+            <Heading title='Career Highlights' />
+          </div>
+        <motion.div
+          variants={containerVariants}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, margin: "-100px" }}
+          className='w-full h-full flex flex-col mt-8 space-y-8'
+        >
+          {achievements.map((item, index) => (
+            <motion.article
+              key={index}
+              variants={itemVariants}
+              className='w-full h-full flex flex-col'
+            >
+              <div className='flex items-center gap-4'>
+                <Medal className='w-6 h-6 p-1 rounded-md bg-neutral-700 text-white' />
+                <div className='w-32 h-1 bg-neutral-700 rounded-md flex flex-col gap-4' />
+              </div>
+              <p className='text-sm text-neutral-700 font-medium pl-10 lg:leading-6 leading-normal'>
+                {item.description}
+              </p>
+            </motion.article>
+          ))}
+          <p className='text-sm text-neutral-700 font-medium pl-10 lg:leading-6 leading-normal'>
+            <Link to='/awards' className='text-sm rounded-md bg-black mr-2 py-1 px-2  w-fit font-medium text-neutral-200'>Explore </Link>
+            More Awards and Achievements...
+          </p>
+        </motion.div>
+       
+      </section>
+      {/* end of research projects */}
+
+
+
+
+
       {/* start of Scroll Gallery */}
       <section className='w-full h-full flex flex-col'>
         <div className='w-fit mx-auto pt-8 pb-10'>
@@ -468,7 +551,7 @@ export default function LandingSections() {
 
 
       {/* featured video */}
-      <FeaturedVideo />
+      <FeaturedVideo videos={homeVideos} />
       {/* end of featured video */}
 
       {/* need assistant */}

@@ -57,6 +57,7 @@ export default function Navbar() {
               </div>
               <Link to='/awards' className='text-[15px] font-medium text-neutral-700 hover:text-neutral-900'>Awards</Link>
               <Link to='/gallery' className='text-[15px] font-medium text-neutral-700 hover:text-neutral-900'>Gallery</Link>
+              <Link to='/youtube' className='text-[15px] font-medium text-neutral-700 hover:text-neutral-900'>Youtube</Link>
               <Link to='/contact' className='text-[15px] font-medium text-neutral-700 hover:text-neutral-900'>Contact</Link>
           </div>
           {/* Small screen */}
@@ -82,6 +83,8 @@ export default function Navbar() {
             <Link to='/recommendations' className='text-lg hover:text-gray-600'>Recommendations</Link>
             <Link to='/awards' className='text-lg hover:text-gray-600'>Awards</Link>
             <Link to='/gallery' className='text-lg hover:text-gray-600'>Gallery</Link>
+            <Link to='/youtube' className='text-lg hover:text-gray-600'>Youtube</Link>
+
             <Link to='/contact' className='text-lg hover:text-gray-600'>Contact</Link>
         </div>
       </div>

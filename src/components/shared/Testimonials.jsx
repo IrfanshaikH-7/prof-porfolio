@@ -6,22 +6,105 @@ import { main } from 'framer-motion/client';
 
 const testimonialData = [
     {
-        testimony: "For almost two decades I have known Professor Vinay Nangia as a Professor, Head of the Department at IIT Roorkee, Ph.D. Guide, and as Consultant to various projects assigned to IIT Roorkee from UNDP, World Bank, Government of India, State Governments and MNCs. Prof. Nangia has served as a banker in India and abroad, as a top-level business executive in India and overseas and in Education domain as a Professor for a total period of 46 years. In addition to being Head of Department of Management Studies three times, he has been on the boards and councils of various universities and likes of All India Management Association (AIMA) Bureau of Indian Standards (BIS) and Indian Institute of Material Management. He has authored two books, one on Management Education i.e. “Masters Speak” and another on Banking “Smart Banking- an Introduction”. A man with a pleasant disposition, always cheerful, with incomparable enthusiasm and unending energy. Dr. Vinay Nangia is a sweetheart of students who swear by him. He is always available to students of all age groups for any guidance, advice, help, support, and mentoring: be it for higher education, placements, job hunt, preparing CV or preparation for Interviews or career counselling. Students come to him for the choice of courses, programs, colleges, universities, choice of companies, career, and even for preparation for Civil Services exams conducted by UPSC.",
-        testimonyBy: "Dr. Nirmaljeet Singh Kalsi IAS (retd)",
-        designation: "Former ACS Home PB, MHA GoI, UOR, IIT Delhi, Harvard Kennedy S I Cambridge JBS Chandigarh, Chandigarh"
+        testimony: "Prof Nangia is a distinguished academician, renowned teacher, notable researcher, and an astute administrator. An outstanding leader of management education with a clear thought, Prof Nangia is an institution in itself.",
+        testimonyBy: "Prof. D P Goyal, Ph.D.",
+        designation: "Director IIM Shillong"
     },
     {
-        testimony: "Prof. Nangia is an embodiment and personification of true professionalism, mentoring, guidance, counselling, enthusiasm, charm, logic, leadership, brilliance, knowledge, and experience and result orientation. If you do not wish to get your capabilities challenged, he is not someone you should be working with. No space for average performers to work with him. There are no sweet pills in his armour. The hall mark of his working style - set very high standards of performance and then make people achieve those. I owe my association and success with academia to him. He transformed an industry professional into a contributor to academia. And I am not the only one - the list is endless. The best time to see him in action is when he is among his students. The success of his students is the fuel to his engine of transforming individuals. Many of us are truly blessed to have him as our mentor. So much to learn every day from him.",
-        testimonyBy: "Dr. Lovneesh Chanana",
-        designation: "Vice President Government Affairs (Asia Pacific and Japan) SAP New Delhi"
+        testimony: "A very dynamic and energetic leader. An excellent human being who is always ready to help others. I found him a very compassionate result oriented down to earth humanitarian leader.",
+        testimonyBy: "Prof. Sunita Singh Sengupta",
+        designation: "Dean Faculty of Management Studies, Delhi University, Delhi"
     },
     {
-        testimony: "I have known Professor Vinay K Nangia since 2003 when I joined IIT Roorkee as a Faculty. After being a successful banker and a business leader in India and overseas he had a stint of entrepreneurship. In 1998 when he joined IIT Roorkee as a Professor he was instrumental in setting up MBA (1998) and MCA (1999) programs. In 2019 he guided and mentored setting up of BBA MBA & MBA in Innovation, Entrepreneurship and Venture Development programs in NSUT Dwarka, New Delhi as Emeritus Professor. In last 22 years as a Professor he has taught, trained, counselled, coached, guided, advised and mentored thousands of students in the choice of courses, programs, choice of colleges and Universities in India and overseas for higher studies. He conducted number of workshops and sessions for CV and Resume making and Interviews on a regular basis. Students always surrounded him for guidance for higher education, preparation for Civil Services selection and career counselling. He was involved in setting up of Incubation centre in very early stage at IIT Roorkee. Number of students from main campus and Saharanpur campus always looked up to him for validation of ideas, commercial, financial and legal advice and early stage funding. Number of Startups from IIT Roorkee from within and outside campus have been mentored by him in last 15 years. Professor Nangia is a regular Speaker at Faculty Development Programs of Delhi University and many other institutions.",
-        testimonyBy: "Professor Santosh Rangnekar",
-        designation: "Former Head, Department of Management Studies IIT Roorkee, Uttarakhand"
+        testimony: "As Head of the Department for three consecutive terms, he laid a strong foundation of the Department. Due to his visionary leadership, the Department stands among the top 10 B-schools in the country as per NIRF within 20 years of its establishment.",
+        testimonyBy: "Prof. Manoranjan Parida, Director, CBRI, New Delhi ",
+        designation: "Deputy Director,Indian Institute of Technology Roorkee (IITR) Roorkee."
+    },
+    {
+        testimony: "His one of the most important skill is \"Institutional Development\". DoMS, IIT Roorkee is one such example, where he put his visionary thinking to make it one of the top B-Schools of the country. It is an example of Level 5 leadership which Jim Collins describes in his famous book Good to Great.",
+        testimonyBy: "Prof. Rajat Agrawal",
+        designation: "Head, Department of Management Studies, IIT Roorkee, Roorkee"
+    },
+    {
+        testimony: "An Intrapreneur and a Mentor at heart- A multifaceted personality, perpetually cheerful, deeply curious, uniquely knowledgeable with profound analytical skills and ever brimming energy are only some of the things that characterise Prof Nangia. Prof Nangia brings his unique talents to any project or assignment with a force and purpose few individuals can match.",
+        testimonyBy: "Prof. Vijita Singh Aggarwal",
+        designation: "Director of International Affairs & Professor, University School of Management Studies, GGIPU, New Delhi"
+    },
+    {
+        testimony: "Mastery in Interviews and Academic Administration: Dr. Vinay Nangia effortlessly combines the idealism of academia with the realism of industry, a trait that he has honed over long years just as an exponent masters his art. What comes through is an uncompromisingly pragmatic, impeccably honest, multi-faceted person that one can never claim to know enough!",
+        testimonyBy: "Ajay Goyal",
+        designation: "Chancellor, Quantum University, Roorkee"
+    },
+    {
+        testimony: "Highly talented and experienced individual: I met Prof. Nangia when I approached him to help one of my friends in a dire situation. That one meeting gave me the opportunity to gain mentorship from a highly talented and experienced individual. He is thoughtful, insightful, and highly supportive.",
+        testimonyBy: "Vaishali Jain",
+        designation: "B. Tech. (IITR) Goldman Sachs India, Graduate Student, Duke University, USA"
+    },
+    {
+        testimony: "Teaches \"How to Think\": Prof. Nangia was one of the most influential people for me personally (and many others I know) on the IIT Roorkee campus, and I owe so much of my learnings to him. He was one of the few professors who took the pain and effort to teach students \"how to think.\"",
+        testimonyBy: "Gaurav Nemade",
+        designation: "B. Tech. (IITR), Product Manager, Google AI, Mountainview, California, USA"
+    },
+    {
+        testimony: "Nurtured and Groomed me during my formative years: I had the good fortune of being Prof. Nangia's student at IIT Roorkee. He was not only my Professor but a great mentor. He nurtured me through my IIT years and shaped my perspective on various things and influenced my outlook on life as a whole. I feel very blessed that he guided me during my formative years, encouraged me to try new things, travel abroad, and go for a foreign education and value happiness.",
+        testimonyBy: "Cashmira Pramanik",
+        designation: "B. Arch. (IITR), M. Sc. Management, London Business School, London, UK"
+    },
+    {
+        testimony: "Helps to make you a rounded person- sharpened my rough edges: A building wanting to stand tall needs a good foundation. This is the role Prof. Nangia has played in my professional life. I came to IIT Roorkee campus as a young and a naive 16-year-old boy with lots of dreams. Prof. Nangia sharpened my rough edges – from interpersonal communication to writing effective emails. He also taught me to think structurally, a skill that has served me well throughout my career",
+        testimonyBy: "Yash Jain",
+        designation: "B. Tech. (IITR), Graduate Student, Booth School, University of Chicago, Chicago, USA"
+    },
+    {
+        testimony: "Excellent Stewardship with Intellectual Ability: When I met Prof V. K .Nangia for the first time about two decades ago, I felt here was a man who would stand out in any gathering because of his impressive personality consisting of a very pleasing appearance with sharp features, very fair Indian complexion, sweet voice, wit, wide knowledge and ability to intelligently discuss almost any subject.",
+        testimonyBy: "Vinay Shankar, IAS Retd",
+        designation: "Former, SECRETARY TO Government of India"
+    },
+    {
+        testimony: "His forte, I observed is in unraveling interrelationships between seemingly different subjects and disciplines which is critical not only for policy and decision-making in government and business in a broad sense but also in academia.",
+        testimonyBy: "Rangan Dutta, IAS Retd",
+        designation: "Former Director General, Council for Advancement of People's Action and Rural Technology"
+    },
+    {
+        testimony: "Incomparable Enthusiasm and Unending Energy; Dr. Vinay Nangia is a sweetheart of students who swear by him. He is always available to students of all age groups for any guidance, advice, help, support, and mentoring: be it for higher education, placements, job hunt, preparing CV or preparation for Interviews or career counselling. Students come to him for the choice of courses, programs, colleges, universities, choice of companies, career, and even for preparation for Civil Services exams conducted by UPSC-particularly Interviews.",
+        testimonyBy: "Dr. Nirmaljeet Singh Kalsi, IAS (retd)",
+        designation: "Former ACS Home PB, MHA GoI, Chandigarh"
+    },
+    {
+        testimony: "Constantly inspiring and influencing personality: He owns a distinguished style, perfect attire, a charismatic personality, a compassionate heart and a sacred soul. He is simply a tender-hearted, good-natured, sweet-tempered, loving & learned human being.",
+        testimonyBy: "Dr. Kapil Joshi, IFS",
+        designation: "Principal Chief Conservator of Forest, Dehradun"
+    },
+    {
+        testimony: "Totally Positive Outlook: If there is a living example of Krishna's message of total action with a totally positive outlook, it is Prof. Vinay Nangia.",
+        testimonyBy: "Dr. Rajnish Kataria",
+        designation: "Former Director, National Institute of Banking Studies & Corporate Management (NIBSCOM), NOIDA"
+    },
+    {
+        testimony: "Dr Nangia can recognize talent and innate ability and a short session with him will convince you that you have those abilities you never thought you had",
+        testimonyBy: "Sanjay Nagi",
+        designation: "Managing Director, Marketing Insight Consultants, NOIDA"
+    },
+    {
+        testimony: "After meeting him I have found a lifelong mentor: Prof Nangia's empathy is what makes him the best mentor you would probably meet. He can untie your thoughts within minutes and help you focus. If you are struggling to find your niche, verify a marketing plan, or just get started, you simply cannot go wrong with him. Out of words. It can be a life-changer to actually implement his advice.",
+        testimonyBy: "Puneet Ahuja",
+        designation: "CEO and Founder, Pata Hai Media Labs (India) Pvt Ltd, New Delhi"
+    },
+    {
+        testimony: "Prof. Vinay is a Visionary, a man in action & full of positive energy.",
+        testimonyBy: "Kunnwar Vijay Parmar",
+        designation: "Founder & CEO, Wivitan Solutions India Pvt.Ltd, Gurugram"
+    },
+    {
+        testimony: "You have been a Godfather to me and my team since 2016 from our college days. You trusted in our team when we were just random students trying to build our company. Your mentorship for last 4 years has been very crucial for us. Your precise advice, impeccable understanding of situations and enormous experience has helped us solve so many problems that came our way.",
+        testimonyBy: "Pramudit Somvanshi",
+        designation: "Co-Founder, Ingenium Education, New Delhi"
+    },
+    {
+        testimony: "आपने मुझे शक्ति दी: आप जैसे गुरु का मार्गदर्शन मिलना, आशीर्वाद मिलते रहना किसी भी वरदान से कम नहीं है। आपका बहुत-बहुत धन्यवाद",
+        testimonyBy: "विकास गुप्ता",
+        designation: "बीटेक आईआईटी रुड़की, Founder, दिव्यांग-एक उम्मीद"
     }
-
-    
 ];
 
 const Testimonials = () => {
