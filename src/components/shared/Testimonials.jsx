@@ -156,10 +156,10 @@ const Testimonials = () => {
 <div className='mx-auto w-fit'>
                 <Heading title='What They’re Saying' />
             </div>
-            <div className="w-full max-w-7xl mx-auto md:px-8 py-8 relative">
+            <div className="w-full max-w-5xl mx-auto md:px-8 py-8 relative">
            
            <div className="relative bg-white rounded-lg border border-gray-200 shadow-lg md:py-8 px-4 ">
-               <div className="relative h-[850px] min-[422px]:h-[700px]  sm:h-[500px] lg:h-[480px]  py-3 overflow-hidden">
+               <div className="relative h-80 py-3 overflow-hidden">
                    <AnimatePresence mode="popLayout">
                        <motion.div
                            key={currentIndex}
@@ -175,7 +175,7 @@ const Testimonials = () => {
                            className="absolute top-0 left-0 right-0"
                        >
                            <div className="h-full overflow-y-auto mb-6 mt-6 scrollbar-thin scrollbar-thumb-gray-300 scrollbar-track-transparent">
-                               <p className="text-gray-800 w-full md:max-w-3xl mx-auto font-medium text-sm md:text-base">
+                               <p className="text-gray-800 w-full md:max-w-3xl mx-auto font-medium text-[13px] md:text-base">
                                    {testimonialData[currentIndex].testimony}
                                </p>
                            </div>

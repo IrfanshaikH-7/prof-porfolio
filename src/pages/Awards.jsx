@@ -1,9 +1,93 @@
 import React from 'react'
-
+import {motion} from 'framer-motion'
+import Heading from '../components/shared/Heading'
+import { Medal } from 'lucide-react';
+import { containerVariants, itemVariants } from '../lib/variants';
+import {img_4} from '../assets'
+import { achievements, awards } from '../data/listData';
+import { Link } from 'react-router-dom';
 export default function Awards() {
+ 
   return (
-    <div className='w-full h-full min-h-screen flex flex-col items-center justify-center' >
-      <h1>Awards</h1>
+    <div className='w-[86.5%] mx-auto min-h-full py-12 items-start flex-col flex gap-12'>
+      <div className='w-fit mx-auto  '>
+          <Heading title='Awards' />
+      </div>
+       {/* start of Awards Section */}
+       <section className='w-full h-full items-center flex gap-8 flex-col lg:flex-row flex-[1.5]'>
+     
+
+        <motion.div
+          variants={containerVariants}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, margin: "-100px" }}
+          className='w-full h-full flex flex-col mt-8 space-y-8'
+        >
+          {awards.map((item, index) => (
+            <motion.article
+              key={index}
+              variants={itemVariants}
+              className='w-full h-full flex flex-col'
+            >
+              <div className='flex items-center gap-4'>
+                <Medal className='w-6 h-6 p-1 rounded-md bg-neutral-700 text-white' />
+                <div className='w-32 h-1 bg-neutral-700 rounded-md flex flex-col gap-4' />
+              </div>
+              <p className='text-sm text-neutral-700 font-medium pl-10 lg:leading-6 leading-normal'>
+                {item.description}
+              </p>
+            </motion.article>
+          ))}
+          
+        </motion.div>
+        <div className='lg:h-[80%] lg:w-[80%] h-full w-full rounded-xl overflow-hidden bg-slate-900'>
+          <img src={img_4} alt="award" className='w-full h-full object-cover object-center'/>
+      </div>
+       
+      </section>
+      {/* end of Awards Section */}
+     
+
+         {/* start of Achievements Section */}
+         <section className='w-full h-full flex flex-col '>
+          <div className='w-fit mx-auto pt-8 '>
+            <Heading title='Achievements' />
+          </div>
+        <motion.div
+          variants={containerVariants}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, margin: "-100px" }}
+          className='w-full h-full flex flex-col mt-8 space-y-8'
+        >
+          {achievements.map((item, index) => (
+            <motion.article
+              key={index}
+              variants={itemVariants}
+              className='w-full h-full flex flex-col'
+            >
+              <div className='flex items-center gap-4'>
+                <Medal className='w-6 h-6 p-1 rounded-md bg-neutral-700 text-white' />
+                <div className='w-32 h-1 bg-neutral-700 rounded-md flex flex-col gap-4' />
+              </div>
+              <p className='text-sm text-neutral-700 font-medium pl-10 lg:leading-6 leading-normal'>
+                {item.description}
+              </p>
+            </motion.article>
+          ))}
+         
+        </motion.div>
+        <div className='h-full mt-10 w-full rounded-xl overflow-hidden grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
+          <img src={img_4} alt="award" className='w-full h-full object-cover object-center rounded-xl'/>
+          <img src={img_4} alt="award" className='w-full h-full md:block hidden object-cover object-center rounded-xl'/>
+          <img src={img_4} alt="award" className='w-full lg:block hidden h-full object-cover object-center rounded-xl'/>
+        </div>
+       
+      </section>
+
+      {/* end of Achievements Section */}
+
     </div>
   )
 } 
