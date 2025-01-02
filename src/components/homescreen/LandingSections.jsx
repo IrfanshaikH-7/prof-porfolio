@@ -10,6 +10,7 @@ import { Link } from 'react-router-dom';
 import { homeVideos } from '../../data/youtube';
 import { containerVariants, itemVariants } from '../../lib/variants';
 import { achievements, consultancyProjects, researchProjects } from '../../data/listData';
+import { blogs } from '../../data/blogs';
 
 export default function LandingSections() {
 
@@ -175,12 +176,10 @@ export default function LandingSections() {
 
             <div>
               <h2 className='text-2xl sm:text-2xl font-bold pb-4 text-neutral-800'>
-                <Link to='/blogs' className='hover:underline'>Doing MBA: Choice of a Business School</Link>
+                <Link to={`/blogs/${blogs[0].slug}`} className='hover:underline'>{blogs[0].title}</Link>
               </h2>
               <p className='text-sm  font-medium text-neutral-500 line-clamp-5'>
-                Having decided to do an MBA programme one needs to decide; from where. The choice of a B-School depends on the educational background, inclination and preferences and  resources of the person and prevalent market conditions.
-
-                In case one is clear that one wants to be truly  a  global executive (meaning acceptability and employability anywhere in the world) or desires to settle abroad then one should obtain MBA degree from USA. Reason  for suggesting USA is that in the foreseeable future their  economy is unlikely to go down.
+                {blogs[0].content[0].content}
               </p>
             </div>
           </article>
@@ -207,14 +206,11 @@ export default function LandingSections() {
             </div>
             <div>
               <h2 className='text-2xl sm:text-2xl font-bold pb-4 text-neutral-800'>
-                <Link to='/blogs' className='hover:underline'>Future of Work; A Perspective</Link>
+                <Link to={`/blogs/${blogs[1].slug}`} className='hover:underline'>{blogs[1].title}</Link>
               </h2>
               <p className='text-sm  font-medium text-neutral-500 line-clamp-4'>
-                "The illiterate of the 21st century will not be those who cannot read and write, but those who cannot learn, unlearn, and relearn." Alvin Tofler.The speed at which the world is changing makes the above quote most relevant for the employees at the work place.
-
-                The factors which are likely to affect the Future of Work include amongst others;
-                1. Technological Advances
-                2. Geo Political Changes</p>
+                {blogs[1].content[0].content}
+              </p>
             </div>
 
           </article>
@@ -235,13 +231,12 @@ export default function LandingSections() {
             </div>
             <div>
               <h2 className='text-2xl sm:text-2xl font-bold pb-4 text-neutral-800'>
-                <Link to='/blogs' className='hover:underline'>Academic Discipline and Interdisciplinarity: An Overview</Link>
+                <Link to={`/blogs/${blogs[2].slug}`} className='hover:underline'>{blogs[2].title}</Link>
 
               </h2>
               <p className='text-sm  font-medium text-neutral-500 line-clamp-5'>
-                Academic disciplines are the backbone of knowledge organization and education. They have evolved over centuries, responding to discoveries and societal needs. While some disciplines have disappeared or transformed, others have persisted and expanded, showcasing the dynamic nature of human inquiry and intellectual exploration.
-
-                An academic discipline is a branch of knowledge formally taught at universities, colleges, or through other educational methods. Each discipline is characterized by its subject matter, </p>
+                {blogs[2].content[0].content}
+              </p>
             </div>
 
           </article>
@@ -265,14 +260,13 @@ export default function LandingSections() {
             </div>
             <div>
               <h2 className='text-2xl sm:text-2xl font-bold pb-4 text-neutral-800'>
-                <Link to='/blogs' className='hover:underline'>Pedagogy to Heutagogy: Empowering Learners for the Future</Link>
+                <Link to={`/blogs/${blogs[3].slug}`} className='hover:underline'>{blogs[3].title}</Link>
               </h2>
               <p className='text-sm  font-medium text-neutral-500 line-clamp-4'>
-                In this article, I will discuss the evolving landscape of education and the transition from traditional pedagogy to the empowering approach of heutagogy. Inspired by an observation made by Professor M. M. Pant, that teachers are going to become costlier while learning is becoming cheaper, this exploration delves into the changing dynamics of teaching and learning in the modern world.
+                {blogs[3].content[0].content}
+              </p>
 
 
-
-                The Changing Education Paradigm: Jacques Delors' four pillars of education provide a framework for understanding the goals of lifelong learning. With the rise of the internet and artificial</p>
             </div>
 
           </article>
@@ -293,10 +287,11 @@ export default function LandingSections() {
             </div>
             <div>
               <h2 className='text-2xl sm:text-2xl font-bold pb-4 max-w-xl text-neutral-800'>
-                <Link to='/blogs' className='hover:underline'>Use of Technology in Education</Link>
+                <Link to={`/blogs/${blogs[4].slug}`} className='hover:underline'>{blogs[4].title}</Link>
               </h2>
               <p className='text-sm  font-medium text-neutral-500 line-clamp-5'>
-                Technology is not just a tool but a catalyst for change, enhancing the way knowledge is imparted and absorbed. The integration of technology in education, particularly in higher education, can create more engaging, inclusive, and efficient learning environments. Drawing insights from the Draft National Education Policy (NEP) 2019 and the National Education Policy (NEP) 2020, this write-up explores the multifaceted ways in which technology can revolutionize education.</p>
+                {blogs[4].content[0].content}
+              </p>
             </div>
 
           </article>

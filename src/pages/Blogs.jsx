@@ -1,5 +1,6 @@
 import React from 'react'
-import { blogs } from '../blogs/blogs'
+import { blogs } from '../data/blogs'
+import { Link } from 'react-router-dom'
 export default function Blogs() {
   return (
     <main className="min-h-screen p-4 max-w-7xl mx-auto">
@@ -12,7 +13,7 @@ export default function Blogs() {
        {
         blogs.map((blog) => (
           <div className="tcard w-full aspect-video">
-          <h3 className="tcard__title"> {blog.title} </h3>
+          <Link to={`/blogs/${blog.slug}`} className="tcard__title line-clamp-2"> {blog.title} </Link>
           <p className="tcard__content line-clamp-4"> {blog.content[0].content} </p>
           <div className="tcard__date">
               April 15, 2022

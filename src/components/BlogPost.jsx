@@ -1,8 +1,8 @@
 import { useParams } from 'react-router-dom';
-import { blogs } from '../blogs/blogs';
 import dayjs from 'dayjs';
 import customParseFormat from 'dayjs/plugin/customParseFormat';
 import { vinay_nangia } from '../assets';
+import { blogs } from '../data/blogs';
 
 // Use ES module syntax to extend dayjs
 dayjs.extend(customParseFormat);
@@ -11,8 +11,8 @@ export default function BlogPost() {
   const { blogId } = useParams();
   console.log(blogId)
   // Find the blog post that matches the ID from URL params
-  const blog = blogs.find(blog => blog.id === blogId);
-
+  const blog = blogs.find(blog => blog.slug === blogId);
+  
   // Handle case when blog is not found
   if (!blog) {
     return (
