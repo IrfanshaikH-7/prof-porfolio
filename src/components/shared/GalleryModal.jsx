@@ -30,7 +30,7 @@ export default function GalleryModal({ images, currentIndex, onClose }) {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0 }}
-        className="fixed inset-0 bg-black/90 z-50 flex flex-col items-center justify-center"
+        className="fixed inset-0 bg-black/95 z-50 flex flex-col items-center justify-center"
       >
         {/* Close and Zoom buttons */}
         <div className="absolute top-4 right-4 flex gap-4">
@@ -78,13 +78,13 @@ export default function GalleryModal({ images, currentIndex, onClose }) {
         </motion.div>
 
         {/* Image Strip */}
-        <div className="flex gap-4 mt-8 px-4 overflow-x-auto">
+        <div className="flex gap-2 md:gap-4 mt-4 md:mt-8 px-4 overflow-x-auto">
           {getStripImages().map((img, idx) => (
             <motion.div
               key={idx}
               onClick={() => setImageIndex(img.index)}
-              className={`w-24 h-24 rounded-md overflow-hidden cursor-pointer ${
-                img.index === imageIndex ? 'ring-2 ring-green-500' : ''
+              className={`w-16 h-16 md:w-24 md:h-24 rounded-md overflow-hidden cursor-pointer ${
+                img.index === imageIndex ? 'ring-2 ring-white' : ''
               }`}
             >
               <img
