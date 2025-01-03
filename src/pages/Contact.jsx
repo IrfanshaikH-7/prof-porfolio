@@ -31,7 +31,7 @@ export default function Contact() {
       {/* contact form */}
       <section className='w-full max-w-2xl mx-auto'>
         <form onSubmit={handleSubmit} className='flex flex-col gap-6'>
-          <div className='flex gap-4 w-full '>
+          <div className='flex gap-4 flex-col md:flex-row w-full '>
           <div className='flex w-full flex-col gap-2'>
             <label htmlFor='name' className='text-neutral-900 font-medium '>
               Name
