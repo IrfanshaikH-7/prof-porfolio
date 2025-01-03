@@ -1,4 +1,4 @@
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import dayjs from 'dayjs';
 import customParseFormat from 'dayjs/plugin/customParseFormat';
 import { vinay_nangia } from '../assets';
@@ -9,10 +9,20 @@ dayjs.extend(customParseFormat);
 
 export default function BlogPost() {
   const { blogId } = useParams();
-  console.log(blogId)
-  // Find the blog post that matches the ID from URL params
-  const blog = blogs.find(blog => blog.slug === blogId);
+  // Find current blog and its index
+  const currentBlogIndex = blogs.findIndex(blog => blog.slug === blogId);
+  const blog = blogs[currentBlogIndex];
   
+  // Get previous and next blog
+  const prevBlog = currentBlogIndex > 0 ? blogs[currentBlogIndex - 1] : null;
+  const nextBlog = currentBlogIndex < blogs.length - 1 ? blogs[currentBlogIndex + 1] : null;
+  
+  // Get 3 suggested blogs (excluding current blog)
+  const suggestedBlogs = blogs
+    .filter(b => b.slug !== blogId)
+    .sort(() => Math.random() - 0.5)
+    .slice(0, 3);
+
   // Handle case when blog is not found
   if (!blog) {
     return (
@@ -94,6 +104,42 @@ export default function BlogPost() {
         </div>
        
 
+      </div>
+
+      {/* Navigation section */}
+      <div className="flex justify-between  items-center my-8 border-t border-b border-gray-200 py-4 gap-2">
+        {prevBlog ? (
+          <Link to={`/blogs/${prevBlog.slug}`} className="flex items-center text-gray-600 hover:text-gray-900 p-4 bg-slate-200 rounded-lg text-sm w-full h-full">
+            <span className="mr-2">←</span>
+            <span>{prevBlog.title}</span>
+          </Link>
+        ) : <div />}
+        
+        {nextBlog ? (
+          <Link to={`/blogs/${nextBlog.slug}`} className="flex items-center text-gray-600 hover:text-gray-900 p-4 bg-slate-200 rounded-lg text-sm w-full h-full">
+            <span>{nextBlog.title}</span>
+            <span className="ml-2">→</span>
+          </Link>
+        ) : <div />}
+      </div>
+
+      {/* Suggested blogs section */}
+      <div className="mt-12">
+        <h2 className="text-2xl font-bold mb-6">Suggested Posts</h2>
+        <div className="grid grid-cols-1  gap-4">
+          {suggestedBlogs.map((suggestedBlog) => (
+            <Link 
+              key={suggestedBlog.slug} 
+              to={`/blogs/${suggestedBlog.slug}`}
+              className="block p-4 border border-gray-200 rounded-lg hover:shadow-md transition-shadow"
+            >
+              <h3 className="font-semibold text-lg">{suggestedBlog.title}</h3>
+              <p className="text-sm text-gray-500 mt-2">
+                {dayjs(suggestedBlog.date).format('DD MMM YYYY')}
+              </p>
+            </Link>
+          ))}
+        </div>
       </div>
     </article>
   );

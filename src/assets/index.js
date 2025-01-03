@@ -16,7 +16,20 @@ import img_03 from "./gallery/img-03.jpg"
 import img_04 from "./gallery/img-04.jpg"
 import img_05 from "./gallery/img-05.jpg"
 import img_06 from "./gallery/img-06.jpg"
+import img_07 from "./gallery/img-07.jpg"
+import img_08 from "./gallery/img-08.jpg"
+import img_09 from "./gallery/img-09.jpg"
+import img_10 from "./gallery/img-10.jpg"
+import img_11 from "./gallery/img-11.jpg"
+import img_12 from "./gallery/img-12.jpg"
+import img_13 from "./gallery/img-13.jpg"
+import img_14 from "./gallery/img-14.jpg"
+import img_15 from "./gallery/img-15.jpg"
 
+
+import award_01 from "./awards/award-01.jpg"
+import award_02 from "./awards/award-02.jpg"
+import award_03 from "./awards/award-03.webp"
 
 
 import x_twitter from './x-twitter.png'
@@ -38,5 +51,17 @@ export {
   img_04,
   img_05,
   img_06,
-  user
+  img_07,
+  img_08,
+  img_09,
+  img_10,
+  img_11,
+  img_12,
+  img_13,
+  img_14,
+  img_15,
+  user,
+  award_01,
+  award_02,
+  award_03
 }

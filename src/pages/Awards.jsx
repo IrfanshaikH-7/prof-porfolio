@@ -3,7 +3,7 @@ import {motion} from 'framer-motion'
 import Heading from '../components/shared/Heading'
 import { Medal } from 'lucide-react';
 import { containerVariants, itemVariants } from '../lib/variants';
-import {img_4} from '../assets'
+import {award_01, award_02, award_03, img_4} from '../assets'
 import { achievements, awards } from '../data/listData';
 import { Link } from 'react-router-dom';
 export default function Awards() {
@@ -79,9 +79,10 @@ export default function Awards() {
          
         </motion.div>
         <div className='h-full mt-10 w-full rounded-xl overflow-hidden grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
-          <img src={img_4} alt="award" className='w-full h-full object-cover object-center rounded-xl'/>
-          <img src={img_4} alt="award" className='w-full h-full md:block hidden object-cover object-center rounded-xl'/>
-          <img src={img_4} alt="award" className='w-full lg:block hidden h-full object-cover object-center rounded-xl'/>
+        <img src={award_03} alt="award" className='w-full lg:block hidden h-full object-cover object-center rounded-xl'/>
+          <img src={award_01} alt="award" className='w-full h-full object-cover object-center rounded-xl'/>
+          <img src={award_02} alt="award" className='w-full h-full md:block hidden object-cover object-center rounded-xl'/>
+        
         </div>
        
       </section>
