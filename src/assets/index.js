@@ -85,7 +85,7 @@ import Raggan_Dutta from './recommendation/Civil-servants/raggan-dutta.webp'
 import Vinay_Shankar from './recommendation/Civil-servants/Vinay-Shankar.webp'
 
 //--> Bussiness world
-import Dr_Lovneesh_Chanana from './recommendation/Bussiness-world/Dr.-Lovneesh-Chanana.webp'
+import Dr_Lovneesh_Chanana from './recommendation/Bussiness-world/Dr.Lovneesh-Chanana.webp'
 import Dr_Rajnish_Kataria from './recommendation/Bussiness-world/Dr.-Rajnish-Kataria.webp'
 import Mohinder_Gulati from './recommendation/Bussiness-world/Mohinder-Gulati.webp'
 import Ranjan_Verma from './recommendation/Bussiness-world/Ranjan-Verma-PMP-CSM.webp'
