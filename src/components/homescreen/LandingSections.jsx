@@ -207,7 +207,7 @@ export default function LandingSections() {
       {/* start of Blog Section */}
       <section className=' w-full h-full flex flex-col min-[930px]:flex-row py-16 gap-8'>
         <div className='flex flex-1 flex-col gap-8'>
-       
+        <h3 className='text-4xl font-bold text-neutral-800 '> <span className='text-neutral-500'>Blogs By </span> <br />Dr. Vinay Kumar Nangia</h3>
           <article className='h-72 aspect-[4/3] overflow-hidden rounded-md shrink-0 bg-slate-200 relative flex flex-col justify-between py-4 px-6'>
             <div className='flex gap-1 items-center self-end'>
               <div className='flex flex-col items-start gap-1'>
