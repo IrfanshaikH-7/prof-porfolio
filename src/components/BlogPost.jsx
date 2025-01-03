@@ -123,7 +123,7 @@ export default function BlogPost() {
       </div>
 
       {/* Navigation section */}
-      <div className="flex justify-between  items-center my-8 border-t border-b border-gray-200 py-4 gap-2">
+      <div className="flex justify-between flex-col md:flex-row items-center my-8 border-t border-b border-gray-200 py-4 gap-2">
         {prevBlog ? (
           <Link to={`/blogs/${prevBlog.slug}`} className="flex items-center text-gray-600 hover:text-gray-900 p-4 bg-slate-200 rounded-lg text-sm w-full h-full">
             <span className="mr-2">←</span>
