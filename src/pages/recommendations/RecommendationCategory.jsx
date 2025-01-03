@@ -36,9 +36,9 @@ export default function RecommendationCategory() {
               key={index} 
               className='w-full h-full flex flex-col gap-2'
             >
-              <article className='w-full h-full flex flex-col gap-2'>
-                <div className='w-full h-full overflow-hidden rounded-xl min-h-[300px] max-h-[300px] shadow-xl'>
-                  <img src={img_1} alt={item.name} className='w-full h-full rounded-xl' />
+              <article className='w-fit mx-auto h-full flex flex-col gap-2 '>
+                <div className='w-full h-full overflow-hidden  rounded-xl min-h-[300px] max-h-[300px] shadow-xl'>
+                  <img src={item.image} alt={item.name} className='w-full h-full object-cover rounded-xl' />
                 </div>
                 <div className='flex flex-col gap-1'>
                   <h1 className='text-xl font-bold'>{item.name}</h1>

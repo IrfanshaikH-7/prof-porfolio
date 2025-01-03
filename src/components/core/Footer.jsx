@@ -2,6 +2,7 @@ import React from 'react'
 import { vinay_nangia, x_twitter } from '../../assets'
 import { Facebook, LinkedinIcon, Twitter } from 'lucide-react'
 import { Link } from 'react-router-dom'
+import { blogs } from '../../data/blogs'
 
 export default function Footer() {
   return (
@@ -40,12 +41,13 @@ export default function Footer() {
             <h1 className='text-white text-2xl font-bold flex items-center flex-row'>
               <div className='text-white'>Recent Blogs</div>
             </h1>
-            <div className='flex flex-col items-start justify-center md:max-w-[260px]'>
-              <Link to='/blogs' className='text-neutral-300 text-sm font-bold hover:underline ' >Play Vavada on smartphones</Link>
-              <Link to='/blogs' className='text-neutral-300 text-sm font-bold hover:underline '>How to spend your years in college</Link>
-              <Link to='/blogs' className='text-neutral-300 text-sm font-bold hover:underline '>Start-up versus MSME</Link>
-              <Link to='/blogs' className='text-neutral-300 text-sm font-bold hover:underline '>Greed and Fear</Link>
-              <Link to='/blogs' className='text-neutral-300 text-sm font-bold hover:underline '>Indian Ethos & Culture and National Education Policy 2020</Link>
+            <div className='flex flex-col gap-0.5 items-start justify-center md:max-w-[260px]'>
+              {
+                blogs.slice(0, 4).map((blog) => (
+                  <Link to={`/blogs/${blog.slug}`} className='text-neutral-300 text-sm font-bold hover:underline ' >{blog.title}</Link>
+                ))
+              }
+
             </div>
 
           </div>

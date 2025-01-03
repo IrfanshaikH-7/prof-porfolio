@@ -19,22 +19,21 @@ export default function RecommendedOnce() {
 
   return (
     <main className='w-full h-full py-24'>
-      <div className='max-w-7xl mx-auto flex gap-6 items-center '>
-        <div className=' min-w-[300px] max-w-[300px] aspect-[3/4] w-full overflow-hidden rounded-xl shadow-xl '>
-          <img src={img_1} alt={recommendation.name} className='w-full h-full object-cover' />
+      <div className='max-w-7xl mx-auto gap-6 items-center '>
+        <div className=' w-40 h-40 rounded-full  mx-auto overflow-hidden shadow-xl '>
+          <img src={recommendation.image} alt={recommendation.name} className='w-full h-full object-cover' />
         </div>
+
         
-        <section className='flex flex-col gap-3 '>
-        <div>
-        <h1 className='text-4xl font-bold'>{recommendation.name}</h1>
-          <div className=''>
+        <section className='flex flex-col items-center justify-center gap-3 '>
+        <div className='flex flex-col items-center justify-center gap-1 '>
+        <h1 className='text-3xl font-bold'>{recommendation.name}</h1>
             <p className='pl-1 text-neutral-600'>{recommendation.designation}</p>
             <p className='pl-1 text-neutral-600'>{recommendation.company}</p>
-          </div>
         </div>
-        <div className='flex flex-col gap-1'>
-        <p className='font-bold text-black text-lg'>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
-          <p className='text-neutral-800 font-medium text-[15px]'>
+        <div className='flex flex-col gap-1 mt-1 items-center justify-center'>
+        <p className='font-bold text-black text-lg text-center'>{recommendation.title}</p>
+          <p className='text-neutral-800 font-medium md:text-base text-sm text-center'>
           {recommendation.description}
         </p>
 

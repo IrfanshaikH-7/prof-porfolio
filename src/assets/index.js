@@ -35,7 +35,145 @@ import award_03 from "./awards/award-03.webp"
 import x_twitter from './x-twitter.png'
 //user
 import user from './self/user.jpeg'
+
+
+
+//recommendations
+//--> academic leaders
+import dr_satish_kumar from './recommendation/academic-leaders/dr-satish-kumar.webp'
+import dp_goyal from './recommendation/academic-leaders/Prof.-D-P-Goyal-Ph.D.webp'
+import Manoranjan_Parida from './recommendation/academic-leaders/Prof.-Manoranjan-Parida-Deputy-Director-Latest.webp'
+import Neena_Sinha from './recommendation/academic-leaders/Prof.-Neena-Sinha.webp'
+import Santosh_Rangnekar from './recommendation/academic-leaders/Prof.-Santosh-Rangnekar.webp'
+import Sunita_Singh_Sengupta from './recommendation/academic-leaders/Prof.-Sunita-Singh-Sengupta.webp'
+
+// --> Faculty colleagues
+import Dr_Ashu_Khanna from './recommendation/Faculty-colleagues/Dr.-Ashu-Khanna.webp'
+import Dr_Rajat_Agrawal from './recommendation/Faculty-colleagues/Dr.-Rajat-Agrawal.webp'
+import Dr_Rajib_Lochan_Dhar from './recommendation/Faculty-colleagues/Dr.-Rajib-Lochan-Dhar.webp'
+import Dr_Vinay_Sharma from './recommendation/Faculty-colleagues/Dr.-Vinay-Sharma.webp'
+
+//--> academic fraternity
+import Ajay_Goyal from './recommendation/academic-fraternity/Ajay-Goyal.webp'
+import Dr_Mamta_Sareen from './recommendation/academic-fraternity/Dr.-Mamta-Sareen.webp'
+import Dr_Ritika_Mahajan from './recommendation/academic-fraternity/Dr.-Ritika-Mahajan.webp'
+import Dr_Sanjeev_Arora from './recommendation/academic-fraternity/Dr.-Sanjeev-Arora.webp'
+import Dr_Dayanand_Arora from './recommendation/academic-fraternity/Prof.-Dr.-Dayanand-Arora.webp'
+import Madhu_Vija from './recommendation/academic-fraternity/Prof.-Madhu-Vij.webp'
+import Vijita_Singh_Aggarwal from './recommendation/academic-fraternity/Prof.-Vijita-Singh-Aggarwal.webp'
+
+//--> Scholar abroad
+import Dr_Aashita_Kesarwani from './recommendation/Scholar-abroad/Dr.-Aashita-Kesarwani.webp'
+import Gurdeep_Singh from './recommendation/Scholar-abroad/Gurdeep-Singh.webp'
+import Rashika_Ramola from './recommendation/Scholar-abroad/Rashika-Ramola.webp'
+import Vipul_Chaturvedi from './recommendation/Scholar-abroad/Vipul-Chaturvedi.webp'
+
+//--> Students
+import Adarsh_Goyal from './recommendation/Students/Adarsh-Goyal.webp'
+import Cashmira_Pramanik from './recommendation/Students/Cashmira-Pramanik.webp'
+import Gaurav_Nemade from './recommendation/Students/Gaurav-Nemade.webp'
+import Jatin_Anand from './recommendation/Students/Jatin-Anand.webp'
+import Saksham_Agrawal from './recommendation/Students/Saksham-Agrawal.webp'
+import Sumit_Kapoor_Snap from './recommendation/Students/Sumit-Kapoor-Snap.webp'
+import Vaishali_Jain from './recommendation/Students/Vaishali-Jain.webp'
+import Yash_Jain from './recommendation/Students/Yash-Jain.webp'
+
+//--> Civil Servants
+import Dr_Kapil_Joshi from './recommendation/Civil-servants/Dr.-Kapil-Joshi-IFS.webp'
+import Dr_Nirmaljeet_Singh_Kalsi from './recommendation/Civil-servants/Dr.-Nirmaljeet-Singh-Kalsi.webp'
+import Raggan_Dutta from './recommendation/Civil-servants/raggan-dutta.webp'
+import Vinay_Shankar from './recommendation/Civil-servants/Vinay-Shankar.webp'
+
+//--> Bussiness world
+import Dr_Lovneesh_Chanana from './recommendation/Bussiness-world/Dr.-Lovneesh-Chanana.webp'
+import Dr_Rajnish_Kataria from './recommendation/Bussiness-world/Dr.-Rajnish-Kataria.webp'
+import Mohinder_Gulati from './recommendation/Bussiness-world/Mohinder-Gulati.webp'
+import Ranjan_Verma from './recommendation/Bussiness-world/Ranjan-Verma-PMP-CSM.webp'
+import Sunil_Aggarwal from './recommendation/Bussiness-world/Sunil-Aggarwal.webp'
+import Tarun_Singhal from './recommendation/Bussiness-world/Tarun-Singhal.webp'
+
+//--> Startups
+import Dhruv_Dua from './recommendation/start-ups/Dhruv-Dua.webp'
+import Dr_Ajay_Pradhan from './recommendation/start-ups/Dr.-Ajay-Pradhan.webp'
+import Kunnwar_Vijay_Parmar from './recommendation/start-ups/Kunnwar-Vijay-Parmar.webp'
+import Pramod_Joshi from './recommendation/start-ups/Pramod-Joshi.webp'
+import Pramudit_Somvanshi from './recommendation/start-ups/Pramudit-Somvanshi.webp'
+import Puneet_Ahuja from './recommendation/start-ups/Puneet-Ahuja.webp'
+import Sanjay_Nagi from './recommendation/start-ups/Sanjay-Nagi.webp'
+import Sushant_Gupta from './recommendation/start-ups/Sushant-gupta.webp'
+import Vikas_Gupta from './recommendation/start-ups/vikas-gupta.webp'
+
+
+
+
+
 export {
+  // academic leaders
+  dr_satish_kumar,
+  dp_goyal,
+  Manoranjan_Parida,
+  Neena_Sinha,
+  Santosh_Rangnekar,
+  Sunita_Singh_Sengupta,
+
+  // academic colleagues
+  Dr_Ashu_Khanna,
+  Dr_Rajat_Agrawal,
+  Dr_Rajib_Lochan_Dhar,
+  Dr_Vinay_Sharma,
+
+  // academic fraternity
+  Ajay_Goyal,
+  Dr_Mamta_Sareen,
+  Dr_Ritika_Mahajan,
+  Dr_Sanjeev_Arora,
+  Dr_Dayanand_Arora,
+  Madhu_Vija,
+  Vijita_Singh_Aggarwal,
+
+  // scholar abroad
+  Dr_Aashita_Kesarwani,
+  Gurdeep_Singh,
+  Rashika_Ramola,
+  Vipul_Chaturvedi,
+
+  // students
+  Adarsh_Goyal,
+  Cashmira_Pramanik,
+  Gaurav_Nemade,
+  Jatin_Anand,
+  Saksham_Agrawal,
+  Sumit_Kapoor_Snap,
+  Vaishali_Jain,
+  Yash_Jain,
+
+  // civil servants
+  Dr_Kapil_Joshi,
+  Dr_Nirmaljeet_Singh_Kalsi,
+  Raggan_Dutta,
+  Vinay_Shankar,
+
+  // bussiness world
+  Dr_Lovneesh_Chanana,
+  Dr_Rajnish_Kataria,
+  Mohinder_Gulati,
+  Ranjan_Verma,
+  Sunil_Aggarwal,
+  Tarun_Singhal,
+
+  // startups
+  Dhruv_Dua,
+  Dr_Ajay_Pradhan,
+  Kunnwar_Vijay_Parmar,
+  Pramod_Joshi,
+  Pramudit_Somvanshi,
+  Puneet_Ahuja,
+  Sanjay_Nagi,
+  Sushant_Gupta,
+  Vikas_Gupta,
+
+
+
   x_twitter,
   vinay_nangia,
   vinay_nangia_2,
