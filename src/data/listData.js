@@ -1,4 +1,8 @@
 export const awards = [
+  {
+    title: 'Award 0',
+    description: 'He has been honoured with the Man of Excellence Award (2022)',
+  },
     {
       title: 'Award 1',
       description: 'Glory of India Award 2017',
