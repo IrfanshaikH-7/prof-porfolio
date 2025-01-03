@@ -11,11 +11,26 @@ import { homeVideos } from '../../data/youtube';
 import { containerVariants, itemVariants } from '../../lib/variants';
 import { achievements, consultancyProjects, researchProjects } from '../../data/listData';
 import { blogs } from '../../data/blogs';
+import dayjs from 'dayjs';
 
 export default function LandingSections() {
 
   
-
+  const formatDate = (dateString) => {
+    // Try parsing with different formats
+    const formats = ['DD-MM-YY', 'DD-MM-YYYY'];
+    let parsedDate;
+    
+    for (const format of formats) {
+      parsedDate = dayjs(dateString, format);
+      if (parsedDate.isValid()) {
+        return parsedDate.format('DD MMM YYYY');
+      }
+    }
+    
+    // If no format matches, return original string
+    return dateString;
+  };
 
 
   return (
@@ -217,7 +232,7 @@ export default function LandingSections() {
                 <p className='text-sm font-medium flex items-center gap-1 text-neutral-500'>
                   <CalendarDays className='w-3 h-3 -mt-0.5' />
                   <span className='text-xs font-medium text-neutral-500'>
-                    8-12-2024
+                    {formatDate(blogs[0].date)}
                   </span>
                 </p>
               </div>
@@ -248,7 +263,7 @@ export default function LandingSections() {
                 <p className='text-sm font-medium flex items-center gap-1 text-neutral-500'>
                   <CalendarDays className='w-3 h-3 -mt-0.5' />
                   <span className='text-xs font-medium text-neutral-500'>
-                    07-12-2024
+                    {formatDate(blogs[1].date)}
                   </span>
                 </p>
               </div>
@@ -273,7 +288,7 @@ export default function LandingSections() {
                 <p className='text-sm font-medium flex items-center gap-1 text-neutral-500'>
                   <CalendarDays className='w-3 h-3 -mt-0.5' />
                   <span className='text-xs font-medium text-neutral-500'>
-                    07-12-2024
+                    {formatDate(blogs[2].date)}
                   </span>
                 </p>
               </div>
@@ -302,7 +317,7 @@ export default function LandingSections() {
                 <p className='text-sm font-medium flex items-center gap-1 text-neutral-500'>
                   <CalendarDays className='w-3 h-3 -mt-0.5' />
                   <span className='text-xs font-medium text-neutral-500'>
-                    07-12-2024
+                    {formatDate(blogs[3].date)}
                   </span>
                 </p>
               </div>
@@ -329,7 +344,7 @@ export default function LandingSections() {
                 <p className='text-sm font-medium flex items-center gap-1 text-neutral-500'>
                   <CalendarDays className='w-3 h-3 -mt-0.5' />
                   <span className='text-xs font-medium text-neutral-500'>
-                    07-12-2024
+                    {formatDate(blogs[4].date)}
                   </span>
                 </p>
               </div>
