@@ -85,12 +85,12 @@ import Raggan_Dutta from './recommendation/Civil-servants/raggan-dutta.webp'
 import Vinay_Shankar from './recommendation/Civil-servants/Vinay-Shankar.webp'
 
 //--> Bussiness world
-import Dr_Lovneesh_Chanana from './recommendation/Bussiness-world/Dr.Lovneesh-Chanana.webp'
-import Dr_Rajnish_Kataria from './recommendation/Bussiness-world/Dr.-Rajnish-Kataria.webp'
-import Mohinder_Gulati from './recommendation/Bussiness-world/Mohinder-Gulati.webp'
-import Ranjan_Verma from './recommendation/Bussiness-world/Ranjan-Verma-PMP-CSM.webp'
-import Sunil_Aggarwal from './recommendation/Bussiness-world/Sunil-Aggarwal.webp'
-import Tarun_Singhal from './recommendation/Bussiness-world/Tarun-Singhal.webp'
+import Dr_Lovneesh_Chanana from './recommendation/bussiness-world/Dr.Lovneesh-Chanana.webp'
+import Dr_Rajnish_Kataria from './recommendation/bussiness-world/Dr.-Rajnish-Kataria.webp'
+import Mohinder_Gulati from './recommendation/bussiness-world/Mohinder-Gulati.webp'
+import Ranjan_Verma from './recommendation/bussiness-world/Ranjan-Verma-PMP-CSM.webp'
+import Sunil_Aggarwal from './recommendation/bussiness-world/Sunil-Aggarwal.webp'
+import Tarun_Singhal from './recommendation/bussiness-world/Tarun-Singhal.webp'
 
 //--> Startups
 import Dhruv_Dua from './recommendation/start-ups/Dhruv-Dua.webp'
