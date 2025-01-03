@@ -1,10 +1,11 @@
-import { AlignLeft, X } from 'lucide-react'
+import { AlignLeft, X, ChevronDown, ChevronUp } from 'lucide-react'
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [showRecommendations, setShowRecommendations] = useState(false);
+  const [isRecommendationsOpen, setIsRecommendationsOpen] = useState(false);
 
   const recommendationLinks = [
     'Academic Leaders',
@@ -30,7 +31,6 @@ export default function Navbar() {
           </div>
           <div className='hidden gap-5 pr-8 md:flex items-center'>
               <Link to='/' className='text-[15px] font-medium text-neutral-700 hover:text-neutral-900'>Home</Link>
-              <Link to='/blogs' className='text-[15px] font-medium text-neutral-700 hover:text-neutral-900'>Blogs</Link>
               <div 
                 className='relative'
                 onMouseEnter={() => setShowRecommendations(true)}
@@ -56,8 +56,9 @@ export default function Navbar() {
                 )}
               </div>
               <Link to='/awards' className='text-[15px] font-medium text-neutral-700 hover:text-neutral-900'>Awards</Link>
-              <Link to='/gallery' className='text-[15px] font-medium text-neutral-700 hover:text-neutral-900'>Gallery</Link>
+              <Link to='/blogs' className='text-[15px] font-medium text-neutral-700 hover:text-neutral-900'>Blogs</Link>
               <Link to='/youtube' className='text-[15px] font-medium text-neutral-700 hover:text-neutral-900'>Youtube</Link>
+              <Link to='/gallery' className='text-[15px] font-medium text-neutral-700 hover:text-neutral-900'>Gallery</Link>
               <Link to='/contact' className='text-[15px] font-medium text-neutral-700 hover:text-neutral-900'>Contact</Link>
           </div>
           {/* Small screen */}
@@ -78,14 +79,48 @@ export default function Navbar() {
           {isOpen && <X className='cursor-pointer' onClick={() => setIsOpen(false)} />}
         </div>
         <div className='flex flex-col p-8 gap-6 mt-4'>
-            <Link to='/' className='text-lg hover:text-gray-600'>Home</Link>
-            <Link to='/blogs' className='text-lg hover:text-gray-600'>Blogs</Link>
-            <Link to='/recommendations' className='text-lg hover:text-gray-600'>Recommendations</Link>
-            <Link to='/awards' className='text-lg hover:text-gray-600'>Awards</Link>
-            <Link to='/gallery' className='text-lg hover:text-gray-600'>Gallery</Link>
-            <Link to='/youtube' className='text-lg hover:text-gray-600'>Youtube</Link>
+            <Link to='/' className='text-lg hover:text-gray-600' onClick={() => setIsOpen(false)}>Home</Link>
+            
+            {/* Recommendations Accordion */}
+            <div>
+              <div 
+                onClick={() => setIsRecommendationsOpen(!isRecommendationsOpen)}
+                className='flex items-center justify-between w-full text-lg hover:text-gray-600 cursor-pointer'
+              >
+                <span>Recommendations</span>
+                <ChevronDown 
+                  size={20} 
+                  className={`transform transition-transform duration-300 ${
+                    isRecommendationsOpen ? 'rotate-180' : 'rotate-0'
+                  }`}
+                />
+              </div>
+              
+              <div 
+                className={`overflow-hidden transition-all duration-300 ease-in-out ${
+                  isRecommendationsOpen ? 'max-h-[400px] opacity-100' : 'max-h-0 opacity-0'
+                }`}
+              >
+                <div className='ml-4 mt-2 flex flex-col gap-3'>
+                  {recommendationLinks.map((link, index) => (
+                    <Link
+                      key={index}
+                      to={`/recommendations/${link.toLowerCase().replace(/\s+/g, '-')}`}
+                      className='text-neutral-600 hover:text-neutral-900 transform transition-transform duration-200 hover:translate-x-2'
+                      onClick={() => setIsOpen(false)}
+                    >
+                      {link}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            </div>
 
-            <Link to='/contact' className='text-lg hover:text-gray-600'>Contact</Link>
+            <Link to='/blogs' className='text-lg hover:text-gray-600' onClick={() => setIsOpen(false)}>Blogs</Link>
+            <Link to='/awards' className='text-lg hover:text-gray-600' onClick={() => setIsOpen(false)}>Awards</Link>
+            <Link to='/gallery' className='text-lg hover:text-gray-600' onClick={() => setIsOpen(false)}>Gallery</Link>
+            <Link to='/youtube' className='text-lg hover:text-gray-600' onClick={() => setIsOpen(false)}>Youtube</Link>
+            <Link to='/contact' className='text-lg hover:text-gray-600' onClick={() => setIsOpen(false)}>Contact</Link>
         </div>
       </div>
 
