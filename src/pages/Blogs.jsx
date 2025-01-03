@@ -1,7 +1,24 @@
 import React from 'react'
 import { blogs } from '../data/blogs'
 import { Link } from 'react-router-dom'
+import dayjs from 'dayjs';
 export default function Blogs() {
+  const formatDate = (dateString) => {
+    // Try parsing with different formats
+    const formats = ['DD-MM-YY', 'DD-MM-YYYY'];
+    let parsedDate;
+    
+    for (const format of formats) {
+      parsedDate = dayjs(dateString, format);
+      if (parsedDate.isValid()) {
+        return parsedDate.format('DD MMM YYYY');
+      }
+    }
+    
+    // If no format matches, return original string
+    return dateString;
+  };
+
   return (
     <main className="min-h-screen p-4 max-w-7xl mx-auto">
       <div className='flex w-full gap-4 items-center justify-center pt-12 pb-16'>
@@ -16,7 +33,7 @@ export default function Blogs() {
           <Link to={`/blogs/${blog.slug}`} className="tcard__title line-clamp-2"> {blog.title} </Link>
           <p className="tcard__content line-clamp-4"> {blog.content[0].content} </p>
           <div className="tcard__date">
-              April 15, 2022
+          {formatDate(blog.date)}
           </div>
           <div className="tcard__arrow">
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" height="15" width="15">
