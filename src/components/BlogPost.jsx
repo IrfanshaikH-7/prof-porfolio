@@ -81,12 +81,28 @@ export default function BlogPost() {
     }
   };
 
+  const formatDate = (dateString) => {
+    // Try parsing with different formats
+    const formats = ['DD-MM-YY', 'DD-MM-YYYY'];
+    let parsedDate;
+    
+    for (const format of formats) {
+      parsedDate = dayjs(dateString, format);
+      if (parsedDate.isValid()) {
+        return parsedDate.format('dddd, DD MMMM YYYY');
+      }
+    }
+    
+    // If no format matches, return original string
+    return dateString;
+  };
+
   return (
     <article className="max-w-3xl mx-auto px-4 py-16">
 
       <div className="flex items-start flex-col text-gray-500 mb-8">
         <p className='text-xl font-bold mb-1'><span className='text-neutral-800'>Author:</span> {blog.author}</p>
-        <time className='mr-auto px-4 sm:pr-16 pl-4 py-2 text-gray-200 text-sm font-semibold sm:text-lg bg-neutral-800 rounded-r-lg uppercase'>{dayjs(blog.date).format('dddd, DD MMMM YYYY')}</time>
+        <time className='mr-auto px-4 sm:pr-16 pl-4 py-2 text-gray-200 text-sm font-semibold sm:text-lg bg-neutral-800 rounded-r-lg uppercase'>{formatDate(blog.date)}</time>
       </div>
       <h1 className="text-3xl font-bold mb-4">{blog.title}</h1>
       {blog.content.map((block, index) => (
@@ -135,7 +151,7 @@ export default function BlogPost() {
             >
               <h3 className="font-semibold text-lg">{suggestedBlog.title}</h3>
               <p className="text-sm text-gray-500 mt-2">
-                {dayjs(suggestedBlog.date).format('DD MMM YYYY')}
+                {dayjs(suggestedBlog.date, ['DD-MM-YY', 'DD-MM-YYYY']).format('DD MMM YYYY')}
               </p>
             </Link>
           ))}

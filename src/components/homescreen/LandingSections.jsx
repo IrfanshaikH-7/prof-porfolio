@@ -226,7 +226,7 @@ export default function LandingSections() {
 
             <div>
               <h2 className='text-2xl sm:text-2xl font-bold pb-4 text-neutral-800'>
-                <Link to={`/blogs/${blogs[0].slug}`} className='hover:underline'>{blogs[0].title}</Link>
+                <Link to={`/blogs/${blogs[0].slug}`} className='hover:underline line-clamp-2'>{blogs[0].title}</Link>
               </h2>
               <p className='text-sm  font-medium text-neutral-500 line-clamp-5'>
                 {blogs[0].content[0].content}
@@ -256,7 +256,7 @@ export default function LandingSections() {
             </div>
             <div>
               <h2 className='text-2xl sm:text-2xl font-bold pb-4 text-neutral-800'>
-                <Link to={`/blogs/${blogs[1].slug}`} className='hover:underline'>{blogs[1].title}</Link>
+                <Link to={`/blogs/${blogs[1].slug}`} className='hover:underline line-clamp-2'>{blogs[1].title}</Link>
               </h2>
               <p className='text-sm  font-medium text-neutral-500 line-clamp-4'>
                 {blogs[1].content[0].content}
@@ -281,7 +281,7 @@ export default function LandingSections() {
             </div>
             <div>
               <h2 className='text-2xl sm:text-2xl font-bold pb-4 text-neutral-800'>
-                <Link to={`/blogs/${blogs[2].slug}`} className='hover:underline'>{blogs[2].title}</Link>
+                <Link to={`/blogs/${blogs[2].slug}`} className='hover:underline line-clamp-2'>{blogs[2].title}</Link>
 
               </h2>
               <p className='text-sm  font-medium text-neutral-500 line-clamp-5'>
@@ -310,7 +310,7 @@ export default function LandingSections() {
             </div>
             <div>
               <h2 className='text-2xl sm:text-2xl font-bold pb-4 text-neutral-800'>
-                <Link to={`/blogs/${blogs[3].slug}`} className='hover:underline'>{blogs[3].title}</Link>
+                <Link to={`/blogs/${blogs[3].slug}`} className='hover:underline line-clamp-2'>{blogs[3].title}</Link>
               </h2>
               <p className='text-sm  font-medium text-neutral-500 line-clamp-4'>
                 {blogs[3].content[0].content}
@@ -337,7 +337,7 @@ export default function LandingSections() {
             </div>
             <div>
               <h2 className='text-2xl sm:text-2xl font-bold pb-4 max-w-xl text-neutral-800'>
-                <Link to={`/blogs/${blogs[4].slug}`} className='hover:underline'>{blogs[4].title}</Link>
+                <Link to={`/blogs/${blogs[4].slug}`} className='hover:underline line-clamp-2'>{blogs[4].title}</Link>
               </h2>
               <p className='text-sm  font-medium text-neutral-500 line-clamp-5'>
                 {blogs[4].content[0].content}
