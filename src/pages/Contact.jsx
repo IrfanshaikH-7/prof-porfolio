@@ -31,8 +31,9 @@ export default function Contact() {
       {/* contact form */}
       <section className='w-full max-w-2xl mx-auto'>
         <form onSubmit={handleSubmit} className='flex flex-col gap-6'>
-          <div className='flex flex-col gap-2'>
-            <label htmlFor='name' className='text-neutral-700 font-medium'>
+          <div className='flex gap-4 w-full '>
+          <div className='flex w-full flex-col gap-2'>
+            <label htmlFor='name' className='text-neutral-900 font-medium '>
               Name
             </label>
             <input
@@ -40,14 +41,15 @@ export default function Contact() {
               id='name'
               name='name'
               value={formData.name}
+              placeholder='Enter your name'
               onChange={handleChange}
-              className='w-full px-4 py-3 rounded-xl bg-neutral-200'
+              className='w-full px-4 py-2 text-sm rounded-xl border border-neutral-300'
               required
             />
           </div>
 
-          <div className='flex flex-col gap-2'>
-            <label htmlFor='contact' className='text-neutral-700 font-medium'>
+          <div className='flex w-full flex-col gap-2'>
+            <label htmlFor='contact' className='text-neutral-900 font-medium'>
               Contact (Email or Phone)
             </label>
             <input
@@ -55,14 +57,18 @@ export default function Contact() {
               id='contact'
               name='contact'
               value={formData.contact}
+              placeholder='Enter your email or phone number'
               onChange={handleChange}
-              className='w-full px-4 py-3 rounded-xl bg-neutral-200'
+              className='w-full px-4 py-2 text-sm rounded-xl border border-neutral-300'
               required
             />
           </div>
 
+          </div>
+        
+
           <div className='flex flex-col gap-2'>
-            <label htmlFor='introduction' className='text-neutral-700 font-medium'>
+            <label htmlFor='introduction' className='text-neutral-900 font-medium'>
               Self Introduction
             </label>
             <textarea
@@ -70,14 +76,15 @@ export default function Contact() {
               name='introduction'
               value={formData.introduction}
               onChange={handleChange}
-              rows={4}
-              className='w-full px-4 py-3 rounded-xl border border-neutral-300 resize-none bg-neutral-200 min-h-[144px]'
+              placeholder='Enter your self introduction'
+              rows={3}
+              className='w-full px-4 py-2 text-sm  rounded-xl border border-neutral-300 resize-none  min-h-[104px]'
               required
             />
           </div>
 
           <div className='flex flex-col gap-2'>
-            <label htmlFor='purpose' className='text-neutral-700 font-medium'>
+            <label htmlFor='purpose' className='text-neutral-900 font-medium'>
               Purpose of Contact
             </label>
             <textarea
@@ -86,7 +93,8 @@ export default function Contact() {
               value={formData.purpose}
               onChange={handleChange}
               rows={4}
-              className='w-full px-4 py-3 rounded-xl border border-neutral-300 resize-none bg-neutral-200 min-h-[144px]'
+              placeholder='Enter your purpose of contact'
+              className='w-full px-4 py-2 text-sm rounded-xl border border-neutral-300 resize-none  min-h-[104px]'
               required
             />
           </div>
