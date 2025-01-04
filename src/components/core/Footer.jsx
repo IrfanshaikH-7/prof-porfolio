@@ -34,8 +34,9 @@ export default function Footer() {
             <Link to='/awards' className='text-neutral-300 text-sm font-bold max-w-sm hover:underline'>Awards</Link>
             <Link to='/recommendations/academic-leaders' className='text-neutral-300 text-sm font-bold max-w-sm hover:underline'>Recommendations</Link>
             <Link to='/blogs' className='text-neutral-300 text-sm font-bold max-w-sm hover:underline'>Blogs</Link>
-            <Link to='/gallery' className='text-neutral-300 text-sm font-bold max-w-sm hover:underline'>Gallery</Link>
             <Link to='/youtube' className='text-neutral-300 text-sm font-bold max-w-sm hover:underline'>Youtube</Link>
+            <Link to='/gallery' className='text-neutral-300 text-sm font-bold max-w-sm hover:underline'>Gallery</Link>
+          
           </div>
           {/* Recent Blogs */}
           <div className='flex flex-col items-start justify-center w-fit min-w-fit'>
