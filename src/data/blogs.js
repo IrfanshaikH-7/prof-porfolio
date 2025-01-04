@@ -1394,5 +1394,1936 @@ export const blogs = [
         content: 'The integration of technology in education, as outlined in the Draft NEP 2019 and the NEP 2020 offers numerous benefits. It enhances teaching and learning, improves access and inclusivity, fosters collaboration and engagement, streamlines administration, and promotes research and innovation. By leveraging technology effectively, educational institutions can create a more dynamic, efficient, and inclusive learning environment that prepares students for the challenges of the 21st century.'
       }
     ]
+  },
+  {
+    id: '17',
+    title: 'Academic Discipline and Interdisciplinarity: An Overview',
+    slug: 'academic-discipline-interdisciplinarity',
+    description: 'A comprehensive overview of academic disciplines and the importance of interdisciplinary studies',
+    date: '11-06-24',
+    author: 'Prof. Vinay Nangia',
+    role: 'Professor, Mentor, Guide for Education, Business and Start ups',
+    thumbnail: '/images/javascript.jpg',
+    content: [
+      {
+        type: 'paragraph',
+        content: 'Academic disciplines are the backbone of knowledge organization and education. They have evolved over centuries, responding to discoveries and societal needs. While some disciplines have disappeared or transformed, others have persisted and expanded, showcasing the dynamic nature of human inquiry and intellectual exploration.'
+      },
+      {
+        type: 'paragraph',
+        content: 'An academic discipline is a branch of knowledge formally taught at universities, colleges, or through other educational methods. Each discipline is characterized by its subject matter, methodologies, and community of scholars and practitioners. Key characteristics include:'
+      },
+      {
+        type: 'list',
+        content: [
+          'Specific Focus: Concentrating on a distinct area of study separate from other fields.',
+          'Methodologies and Standards: Utilizing theories, methods, and standards for research and knowledge expansion.',
+          'Community: A group of scholars, researchers, and practitioners contributing to and disseminating knowledge within the discipline.'
+        ]
+      },
+      {
+        type: 'paragraph',
+        content: 'Historical Context of Academic Disciplines'
+      },
+      {
+        type: 'paragraph',
+        content: 'Ancient and Classical Disciplines'
+      },
+      {
+        type: 'list',
+        content: [
+          'India: Disciplines like philosophy (Vedanta), mathematics, and medicine (Ayurveda).',
+          'China: Confucian studies, medicine, and astronomy.',
+          'Greece: Philosophy, mathematics, and medicine.'
+        ]
+      },
+      {
+        type: 'paragraph',
+        content: 'Classical disciplines included:'
+      },
+      {
+        type: 'list',
+        content: [
+          'Philosophy: Encompassing ethics, metaphysics, epistemology, and logic.',
+          'Mathematics: The study of numbers, quantities, shapes, and their relationships.',
+          'Medicine: The science and practice of diagnosing, treating, and preventing disease.',
+          'Astronomy: The study of celestial objects and phenomena.'
+        ]
+      },
+      {
+        type: 'paragraph',
+        content: 'Medieval and Renaissance Disciplines'
+      },
+      {
+        type: 'paragraph',
+        content: 'In medieval Europe, academic disciplines were formalized within universities:'
+      },
+      {
+        type: 'list',
+        content: [
+          'The Trivium and Quadrivium: Liberal arts are divided into trivium (grammar, rhetoric, and logic) and quadrivium (arithmetic, geometry, music, and astronomy).',
+          'Scholasticism: Emphasized dialectical reasoning to extend knowledge and resolve contradictions, influencing theology, philosophy, and law.'
+        ]
+      },
+      {
+        type: 'paragraph',
+        content: 'During the Renaissance and Enlightenment, disciplines expanded significantly:'
+      },
+      {
+        type: 'list',
+        content: [
+          'Natural Sciences: Physics, chemistry, and biology emerged as distinct fields.',
+          'Humanities: History, literature, and classical studies gained prominence.'
+        ]
+      },
+      {
+        type: 'paragraph',
+        content: 'Evolution of Academic Disciplines'
+      },
+      {
+        type: 'paragraph',
+        content: 'Modern Era'
+      },
+      {
+        type: 'paragraph',
+        content: 'The 19th and 20th centuries saw the specialization and professionalization of academic disciplines:'
+      },
+      {
+        type: 'list',
+        content: [
+          'Social Sciences: Disciplines like sociology, psychology, economics, and political science were established.',
+          'Interdisciplinary Studies: Fields such as biochemistry and cognitive science reflected the need for integration across traditional boundaries.'
+        ]
+      },
+      {
+        type: 'paragraph',
+        content: 'Disappearing and Transforming Disciplines'
+      },
+      {
+        type: 'list',
+        content: [
+          'Disappearing: Astrology and phrenology, once respected, are now discredited.',
+          'Transforming: Natural philosophy and alchemy have evolved into modern physics and chemistry, respectively, maintaining some methods and terminologies but grounded in empirical science.'
+        ]
+      },
+      {
+        type: 'paragraph',
+        content: 'Emergence of Interdisciplinary Fields'
+      },
+      {
+        type: 'paragraph',
+        content: 'Contemporary interdisciplinary fields address complex issues that span multiple traditional disciplines, integrating diverse perspectives and expertise.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Key Interdisciplinary Fields'
+      },
+      {
+        type: 'list',
+        content: [
+          'Bioinformatics: Merging biology, computer science, and information technology to analyse biological data.',
+          'Environmental Science: Integrating natural sciences, social sciences, and humanities to study and address environmental challenges.',
+          'Cognitive Science: Combining psychology, neuroscience, artificial intelligence, philosophy, linguistics, and anthropology to study the mind and intelligence.',
+          'Health Informatics: Blending healthcare, information science, and computer technology to improve patient care and public health.',
+          'Urban Studies and Planning: Merging geography, sociology, environmental science, and architecture to improve urban environments.',
+          'Nanotechnology: Combining physics, chemistry, materials science, and engineering to manipulate matter at the atomic and molecular levels.',
+          'Cybersecurity: Integrating computer science, information technology, law, and behavioural sciences to protect systems and data from cyber threats.',
+          'Data Science: Blending statistics, computer science, and domain-specific knowledge to analyse and interpret complex data.',
+          'Sustainability Science: Focusing on sustainable interaction between human systems and the environment, integrating ecology, economics, and social sciences.',
+          'Robotics and Automation: Combining mechanical engineering, electrical engineering, computer science, and artificial intelligence to design and build robots.'
+        ]
+      },
+      {
+        type: 'paragraph',
+        content: 'Benefits of Interdisciplinary Education'
+      },
+      {
+        type: 'paragraph',
+        content: 'Interdisciplinary education offers numerous benefits for students, equipping them with diverse skills and perspectives essential for navigating modern complexities:'
+      },
+      {
+        type: 'list',
+        content: [
+          'Comprehensive Understanding: Integrates knowledge from multiple disciplines, promoting a nuanced approach to problem-solving.',
+          'Critical Thinking and Analytical Skills: Encourages evaluation of information from different perspectives and fosters creative problem-solving.',
+          'Communication Skills: Enhances verbal and written communication across different fields, preparing students to convey complex ideas to diverse audiences.',
+          'Adaptability: Equips students with the ability to adjust to new challenges and environments, encouraging lifelong learning.',
+          'Collaboration: Teaches effective teamwork and builds skills in negotiation, conflict resolution, and cooperation.',
+          'Career Opportunities: Prepares students for careers requiring interdisciplinary knowledge and problem-solving abilities, opening broader career opportunities.',
+          'Innovation and Creativity: Fosters the development of new ideas and solutions by combining insights from different disciplines.',
+          'Global Perspective: Promotes cultural awareness and sensitivity, preparing students to address global challenges with informed and inclusive solutions.'
+        ]
+      },
+      {
+        type: 'paragraph',
+        content: 'Challenges of Promoting Interdisciplinary Studies'
+      },
+      {
+        type: 'paragraph',
+        content: 'Despite the benefits, promoting interdisciplinary studies in universities presents several challenges:'
+      },
+      {
+        type: 'list',
+        content: [
+          'Institutional Structure: Rigid departmental boundaries and discipline-specific funding allocation.',
+          'Academic Culture: Promotion criteria and prestige often tied to specific disciplines, discouraging interdisciplinary work.',
+          'Curriculum Development: Designing programs that balance depth and breadth across disciplines.',
+          'Administrative Support: Need for strong administrative backing and coordination across departments.',
+          'Funding and Resources: Additional funding required for collaborative projects and innovative teaching methods.',
+          'Faculty Engagement: Overcoming barriers to encourage faculty participation in interdisciplinary teaching and research.',
+          'Student Support: Providing effective advising and mentorship for students in interdisciplinary programs.',
+          'Evaluation and Assessment: Developing appropriate metrics to assess the success and impact of interdisciplinary programs.'
+        ]
+      },
+      {
+        type: 'paragraph',
+        content: 'Conclusion'
+      },
+      {
+        type: 'paragraph',
+        content: 'Promoting interdisciplinary studies in universities involves addressing structural, cultural, and logistical challenges. By overcoming these barriers, institutions can create a more integrated and collaborative academic environment, better preparing students to tackle complex, real-world problems. Interdisciplinary education equips students with a versatile skill set, enabling them to think critically, communicate effectively, and adapt to diverse challenges, fostering innovation and a global perspective essential for success in an increasingly connected world.'
+      }
+    ]
+  },
+  {
+    id: '18',
+    title: 'Analysis of Financial Performance of 20 IIMs',
+    slug: 'financial-performance-iims',
+    description: 'A comprehensive analysis of the financial performance metrics of 20 Indian Institutes of Management',
+    date: '06-07-23',
+    author: 'Prof. Vinay Nangia',
+    role: 'Professor, Mentor, Guide for Education, Business and Start ups',
+    thumbnail: '/images/javascript.jpg',
+    content: [
+      {
+        type: 'paragraph',
+        content: 'Analysis of Financial Performance of 20 IIMs'
+      },
+      {
+        type: 'paragraph',
+        content: 'Figures are taken from the Annual Reports of IIMs for the Academic Year 2021-2022 except in the case of IIM Rohtak, IIM Ranchi, IIM Sambalpur and IIM Sirmour where due to non-availability of Annual Reports of Academic Year 2021-22 figures have been taken from the Annual Reports pertaining to 2020-2021.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Parameters taken for comparison include Size of the Balance Sheet, Corpus/Capital Fund and Designated/Earmarked/Endowment Funds together, Investments, Academic Receipts and Surplus being carried to Balance Sheet. Size of the Balance Sheet and Academic Receipts may be considered as more important parameters for the purpose of comparison.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Of the big four, namely, IIM Ahmedabad established in 1961, IIM Calcutta also established in 1961, IIM Bangalore established in 1973 and IIM Lucknow established in 1983, IIMA stands out in respect of every parameter except Surplus being carried to Balance Sheet. Size of the Balance Sheet is Rs. 1909 Cr, Corpus/Capital Fund Rs. 513.20 Cr. and Designated/Earmarked/Endowment Funds Rs. 837 Cr. together amount to Rs. 1350.20 Cr. Investments are at Rs. 1400 Cr, highest amongst all IIMs and Surplus carried to Balance Sheet are at Rs. 47.25 Cr. IIM Bangalore comes close second to IIMA though IIM Calcutta beats IIMA in Surplus carried to Balance Sheet at Rs. 55.64 Cr. Interestingly IIM Bangalore and IIM Lucknow started operating later and beat IIM Calcutta on all parameters.'
+      },
+      {
+        type: 'paragraph',
+        content: 'IIM Indore established in 1996 and IIM Kozhicode also established in 1996 have done well on all parameters and especially Academic Receipts and Surplus carried to Balance Sheet. In the matter of Academic Receipts IIM Kozhicode at Rs. 242.75 is close to IIMA and number two amongst all IIMs. In terms of Surplus carried to Balance Sheet at Rs. 93.55 Cr it is the highest amongst all 20 IIMs.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Of IIMs started between 2007 and 2011, namely, IIM Shillong 2007, IIM Raipur 2010, IIM Rohtak 2010, IIM Ranchi 2010, IIM Kashipur 2011, IIM Tiruchirappalli 2011 and IIM Udaipur 2011 Academic Receipts at Rs. 71.95 Cr. are highest for IIM Udaipur followed by IIM Tiruchapalli at Rs. 64.98 Cr. IIM Ranchi is the lowest at Rs. 45.40 Cr.'
+      },
+      {
+        type: 'paragraph',
+        content: 'In the last set of IIMs opened during 2015 and 2016 IIM Amritsar, IIM Bodhgaya, IIM Sambalpur, IIM Sirmour, and IIM Vishakhapatnam opened in 2015 whereas IIM Jammu was established in 2016, IIM Nagpur stands out at Rs. 512.43 Cr. in the size of balance sheet, at Rs. 45.2 Cr in the Academic Receipts and at Rs.41.04 Cr being the surplus carried to the Balance Sheet. In the matter of Investments IIM Jammu has the highest amount of Rs. 117.94 Cr.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Overall, in the matter of size of the balance sheet number one is IIM Ahmedabad Rs. 1909 Cr, number two is IIM Bangalore at Rs. 1368 Cr and number three is IIM Lucknow at Rs. 1076 Cr.'
+      },
+      {
+        type: 'paragraph',
+        content: 'In Academic Receipt number one is IIM Ahmedabad Rs. 259 Cr, number two is IIM Kohzicode Rs. 242.75 Cr and number three is IIM Lucknow Rs. 177 Cr.'
+      },
+      {
+        type: 'paragraph',
+        content: 'IIM Sirmour has the smallest size of the balance sheet at Rs. 192.55 Cr. And IIM Sambalpur has the lowest Academic Receipts at Rs. 15.99 Cr.'
+      }
+    ]
+  },
+  {
+    id: '20',
+    title: 'INDIA after Independence: Early Days of Nation Building through Institutional Arrangements',
+    slug: 'india-after-independence-nation-building',
+    description: 'A comprehensive overview of institution building in post-independence India under Nehru\'s leadership',
+    date: '15-06-21',
+    author: 'Prof. Vinay Nangia',
+    role: 'Professor, Mentor, Guide for Education, Business and Start ups',
+    thumbnail: '/images/javascript.jpg',
+    content: [
+      {
+        type: 'paragraph',
+        content: 'This is a short account of setting up of institutions that played critical role in India\'s nation building.'
+      },
+      {
+        type: 'paragraph',
+        content: 'As the first Prime Minister of India Pt. Jawahar Lal Nehru laid the foundation of India as a modern nation and as one of the largest democracies of the world.'
+      },
+      {
+        type: 'paragraph',
+        content: 'India\'s first cabinet reflected the rich fabric of India\'s diversity represented by such stalwarts with complementary talents, expertise and lingo-religious affiliations: Dr. B.R. Ambedkar, Rafi Ahmed Kidwai, Sardar Baldev Singh, Maulana Abul Kalam Azad, Sardar Patel, Dr. John Mathai, Rajkumari Amrit Kaur, Dr. S.P. Mukerjee, Khurshed Lal, R.R. Diwakar, Mohanlal Saxena, Gopalaswami Ayyangar, N.V. Gadgil, K.C. Neogi, Jairamdas Daulatram, K. Santhanam, Satya Narayan Sinha and Dr. B. V. Keskar. Shyama Prasad Mukherjee belonged to Hindu Mahasabha and Baldev Singh was of Panthic Party.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Post-independence, Junagarh was made part of India in 1947 through plebiscite and Hyderabad in 1948 through army intervention. Goa was liberated in December 1961.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Process of industrialization was set in motion by establishing Indian Telephone Industry- ITI Ltd. and Damodar Valley Corporation in 1948.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Massive Dam development projects were taken up immediately after independence: Bhakra Nangal in North, Damodar Valley Project and Hirakund Dam in the East, and Nagarjunsagar Project in the South.'
+      },
+      {
+        type: 'paragraph',
+        content: '1950 could be remembered as a Happening Year for the Indian democracy. India declared itself as a Sovereign, Democratic and Republic state with the adoption of Constitution of India. Planning Commission was established in 1950 to oversee economic and social progress through the mechanism of five-year plans. Supreme Court of India and Election Commission were both formed in January 1950.'
+      },
+      {
+        type: 'paragraph',
+        content: '1950s also saw the formation of institutions like Indian Institute of Technology (IIT) Kharagpur in 1951, Indian Institute of Public Administration (IIPA) and Atomic Energy Establishment Trombay (AEET) in 1954 which later came to be known as Bhabha Atomic Research Centre (BARC), Administrative Staff College of India (ASCI) in 1956 and Defence Research Development Organisation (DRDO) in 1958.'
+      },
+      {
+        type: 'paragraph',
+        content: '1950s was the making of Public Sector Enterprises like Indian Rare Earths Limited in 1950, Hindustan Shipyard and Bharat Petroleum in 1952, Hindustan Machine Tools- HMT Ltd. And National Research Development Corporation NRDC in 1953, Hindustan Insecticides and Hindustan Antibiotics in 1954, National Small Industries Corporation NSIC in 1955, NLC India Ltd., State Trading Corporation of India STC and State Bank of India SBI in 1956, National Projects Construction Corporation Ltd., Export Credit Guarantee Corporation of India ECGC and Central Warehousing Corporation of India CWC in 1957, NMDC and Heavy Engineering Corporation HEC in 1958 and Indian Oil Corporation IOC, Oil India Limited OIL and Hindustan Salts Limited in 1959.'
+      },
+      {
+        type: 'paragraph',
+        content: 'The trend continued in early 1960s with National Buildings Construction Corporation NBCC and Garden Reach Shipbuilders & Engineers in 1960, Indian drugs & Pharmaceuticals IDPL, Fertilizers Corporation of India FCI and Shipping Corporation of India SCI in 1961, National Cooperative Development Corporation, MMTC, Kochi Refineries and Hindustan Aeronautical Ltd. HAL In 1963 and Bharat Earth Movers Limited, MSTC and Bharat Heavy Electricals BHEL in 1964.'
+      },
+      {
+        type: 'paragraph',
+        content: 'On the Financial Institutions infrastructure front, we had developmental financial institutions DFIs like Industrial Finance Corporation of India IFCI in 1948 and Industrial Development Bank of India IDBI in 1964 in public sector and Industrial Credit & Investment Corporation of India ICICI, in 1956, in the private sector with the help of International Financial Corporation, Washington. State Financial Corporation SFC Act 1951 facilitated creation of state level development financial institutions like UPFC and MSFC etc. Life Insurance Corporation LIC, the biggest of all financial corporations of India, was set up in 1956 and Unit Trust of India was established in 1963.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Scientific Policy Resolution 1958 was a document of vision and intent running into seven paragraphs only unlike the lengthy document of Industrial Policy Resolution of 1956. Country\'s first atomic reactor APSARA went critical in 1956 and India successfully tested its first rocket from Thumba in 1963. India made forays in atomic energy, space technology and ocean science amongst others.'
+      },
+      {
+        type: 'paragraph',
+        content: 'National Institute of Virology, Pune was setup in 1952. All India Institute of Medical Sciences (AIIMS) was setup in 1956, Maulana Azad Medical College in 1958, Govind Vallabh Pant Institute of Postgraduate Medical Education and Research in 1961 along with many other public health institutions.'
+      },
+      {
+        type: 'paragraph',
+        content: 'In the field of higher education IIT Kharagpur was established in 1951, IIT Bombay in 1958, IIT Madras and IIT Kanpur in 1959 and IIT Delhi in 1961, IIM Calcutta and IIM Ahmedabad in 1961. The government opened the first 6 Regional Engineering Colleges, now NITs, in 1960. There were 6 more by 1967. National Institute of Design was set-up in Ahmedabad in 1961. Indian Institute of Public Administration was setup in 1954. Birla Institute of Technology BIT Mesra, Ranchi was formed in 1955 and Thapar Institute of Engineering & Technology, a deemed-to-be University was setup in 1956.'
+      },
+      {
+        type: 'paragraph',
+        content: 'GB Pant University of Agriculture & Technology was established in 1960 in collaboration with few US Land-grant Universities.'
+      },
+      {
+        type: 'paragraph',
+        content: 'All India Council of Technical Education was setup in 1945 and University Grants Commission in 1953. ICAR-Central Institute of Fisheries Education, a Deemed University was setup with UNDP assistance in 1960. The Punjab Agriculture University PAU Ludhiana was established in 1962 on Land Grant System of USA. Jawaharlal Krishi Vishwavidyalaya Jabalpur was established in 1964 through Joint Indo-American Team on Agriculture Research and Education. Orissa University of Agriculture and Technology, State Agricultural University was established in 1962.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Indian Council of Cultural Relations was established in 1950. National Council of Applied Economic Research, NCAER, is functional since 1956. National Council of Education, Research & Training, NCERT, was established in 1964.'
+      },
+      {
+        type: 'paragraph',
+        content: 'For Nehru, modernization was the national philosophy with seven goals; national unity, parliamentary democracy, industrialization, socialism, development of scientific temperament and non-alignment as per Bhikhu Parekh.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Raising of financial resources required for nation building was a humungous task which historians and economists of Indian Economic History have not dwelt upon in detail. Nehru was a co-founder of Non-Aligned Movement along with Nasser, Tito and Sukarno. Keeping equal distance from both power blocks, namely, USA and USSR and being accepted as a third world leader gave tremendous advantage to Nehru which he leveraged to the fullest. India could get large amounts of money in the form of aids, grants and soft loans.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Rourkela Steel Plant was commissioned with German collaboration and Bhilai Steel Plant was commissioned with Soviet Union collaboration in 1959. Durgapur Steel Plant was set up with United Kingdom collaboration in 1962 and Bokaro Steel Plant was set up with Russian collaboration in 1964. Ford Foundation funded USD 2 million for the training of engineers working in these plants in America. Later US Government picked up the direct training cost and some 500 engineers got trained.'
+      },
+      {
+        type: 'paragraph',
+        content: 'It was understood that new institutions to reflect the complexity of the economy and the society must be built, and that good models existed abroad suitable for replication in India. Nehru knew the importance of replicating world-class institutions in India. His 1949 visit to Massachusetts Institute of Technology ultimately led to setting up of 5 iconic IITs in India.'
+      },
+      {
+        type: 'paragraph',
+        content: 'IIT Bombay was setup with Russian support, IIT Madras with German help, IIT Kanpur with US help and IIT Delhi with British support. IIM Ahmedabad and IIM Calcutta got necessary help and support from Ford Foundation of USA. Ford Foundation also helped Birlas in setting-up Birla Institute of Technology, BITS Pilani with multi-year collaboration with Massachusetts Institute of Technology, USA in 1964.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Nehru had the ability to induct greatest of scientific minds of the times into nation-building. Vikram Sarabhai, Sir C V Raman, Homi J Bhabha, Satish Dhawan, S. S. Bhatnagar and many others were picked up to run the premium research institutions of the country and were given a free hand. Nehru helped setup the National Chemical Laboratory, the National Physical Laboratory, the Fuel Research Station, the Glass & Ceramics Research Institute and the National Metallurgical Laboratory under the stewardship of S. S. Bhatnagar.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Individuals like Vikram Sarabhai helped in setting up first IIMs, Gautam Sarabhai and Pupul Jaikar pushed for establishing NID at Ahmedabad.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Nehru trusted his colleagues like Maulana Abul Kalam, C.D. Deshmukh and later people like Humayun Kabir who helped in setting up many of the top Higher Education Institutions of India. C.D. Deshmukh, the then Finance Minister and Deputy Chairman of Planning Commission facilitated making of State Bank of India in 1955 and Life Insurance Corporation in 1956.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Paul Hoffman was appointed as the first President of Ford Foundation. He visited India at the behest of Vijay Lakshmi Pandit, Indian Ambassador to USA and met Pt. Nehru and C.D. Deshmukh in August 1951. India got very encouraging help and support from Ford Foundation in many areas of social and economic importance in early decades post-independence. More help came in the area of management and higher education.'
+      },
+      {
+        type: 'paragraph',
+        content: 'The Administrative Staff College of India created in 1957. It used Ford Foundation grant in early 1960s to introduce case study method of instruction and to develop an active consulting role with industry and government. Foundation\'s funds financed collaboration, including staff training and library development between the Harvard Business School and IIM Ahmedabad and between the Sloan School of Management of MIT and IIM Calcutta. A set of grants by Ford Foundation to government of India helped in setting up and funding National Institute of Design NID in Ahmedabad. In 1953 experts led by a Swedish Expert were brought to help setup eventually NSIC.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Rockefeller Foundation, too, helped mainly in the areas of agriculture and population control. Rockefeller Foundation, starting 1954, provided support for higher yielding variety of corn, then for wheat and finally for rice in 1964-65 along with Indian Council of Agricultural research.'
+      },
+      {
+        type: 'paragraph',
+        content: 'In sum, a vast network of institutions, in social, political and economic arenas, was laid out during 1948-1964 with the visionary leadership of Pt. Jawahar Lal Nehru who heavily relied on his goodwill, contacts and canny ability to pick up the best brains and empower them to work. The already-existing institutions such as Reserve Bank of India and the Indian Army were respected and supported by the executive branch without any undue interference.'
+      }
+    ]
+  },
+  {
+    id: '21',
+    title: '8 MANTRAS for SUCCESS and HAPPINESS',
+    slug: '8-mantras-success-happiness',
+    description: 'Essential principles for achieving success and happiness in life',
+    date: '12-06-21',
+    author: 'Prof. Vinay Nangia',
+    role: 'Professor, Mentor, Guide for Education, Business and Start ups',
+    thumbnail: '/images/javascript.jpg',
+    content: [
+      {
+        type: 'list',
+        content: [
+          'Live in the Present: Be present, here and now. Focus your attention and energy on what you are doing. Past has gone and the future is yet to come. Relevance of past is in the lessons learnt and relevance of future is in having an optimistic outlook.',
+          'Learning: Make learning a way of life. Continuous lifelong learning. Knowledge is important in enhancing and improving the perspective. Skill makes delivery efficient.',
+          'Good People: Being in the company of good people is the easiest and surest way of learning and growing and being happy.',
+          'Time & Money: Be Punctual. Respect the value of time & money and allocate it judiciously.',
+          'Balance in Life: Work life balance is critical for happiness. Balance between personal and professional life is a must. Maintain a decent balance in physical, mental and spiritual activities.',
+          'Have Faith: Have faith in yourself, your people and God.',
+          'Have Fun: Be playful. Always have fun with friends, family and colleagues.',
+          'Be Kind, Considerate and Giving'
+        ]
+      }
+    ]
+  },
+  {
+    id: '22',
+    title: 'Central Universities in India',
+    slug: 'central-universities-india',
+    description: 'A comprehensive overview of Central Universities in India, their history, and future under NEP 2020',
+    date: '09-06-21',
+    author: 'Prof. Vinay Nangia',
+    role: 'Professor, Mentor, Guide for Education, Business and Start ups',
+    thumbnail: '/images/javascript.jpg',
+    content: [
+      {
+        type: 'paragraph',
+        content: 'Post-independence India had a total of 20 Universities, 496 colleges and student enrolment of 2,00,000 during 1947-48. By 2018-19 the number of universities increased to 993 with 39,931 colleges and 3,74,00,000 enrolment.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Most rapid growth in numbers can be evidenced in the decade of 2000-2001 to 2010-2011, when the number of universities, number of colleges and enrolment more than doubled from 254 to 631, 10,152 to 32,974 and 86,00,000 to 2,75,00,000 respectively.'
+      },
+      {
+        type: 'paragraph',
+        content: 'At present there are 548 General, 142 Technical, 63 Agriculture & Allied, 58 Medical, 23 Law, 13 Sanskrit and 9 Language Universities and rest 106 Universities are of other categories. 16 Universities are exclusively for women. In addition, there is 1 Central Open University, 14 State Open Universities and 1 State Private Open University. 367 universities are State Public Universities, 263 universities are State Private Universities and 123 universities are deemed-to-be universities.'
+      },
+      {
+        type: 'paragraph',
+        content: 'In addition to 40 Central Universities under Ministry of Education there are 5 Central Universities which are not under Ministry of Education, namely, South Asian University, Nalanda University, Central Agricultural University, Indian Maritime University and Rajiv Gandhi National Aviation University.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Of the 41 universities under Ministry of Education 9 are located in North East Region of India with North East Hill University (NEHU) being the first to be established in 1973 and Tripura University being last, established in 2007. Others include Manipur University in 1980, Rajiv Gandhi University in 1984, Assam University and Nagaland University in1989, Tezpur University in 1994, Mizoram University 2000, and Sikkim University in 2006.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Thirteen Universities were established by Central University Act 2009. These are Central University of Bihar, Central University of Gujarat, Central University of Haryana, Central University of Himachal Pradesh, Central University of Kashmir, Central University of Jharkhand, Central University of Karnataka, Central University of Kerala, Central University of Orissa, Central University of Punjab, Central University of Rajasthan, Central University of Tamilnadu and Central University of Jammu.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Of the remaining, one is National Open University i.e., Indira Gandhi National Open University set up in 1985, one is tribal university, Indira Gandhi National Tribal University in 2006-2007 and three are language universities. Mahatma Gandhi Antarrashtriya Hindi Vishwavidyalaya which was set up in in 1997, Maulana Azad National Urdu University was set-up in 1998 and The English and Foreign Languages University was established in 2006-2007.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Oldest Universities of India include University of Calcutta, University of Mumbai and University of Madras, all set up in 1857, University of Panjab 1882, University of Allahabad 1887, Banaras Hindu University (BHU) and University of Mysore in 1916, Patna University 1917, Osmania University 1918, Aligarh Muslim University (AMU) 1920, Mahatma Gandhi Kashi Vidyapeeth, University of Lucknow and Visva-Bharti University in 1921, University of Delhi (DU) 1922, Nagpur University 1923, Andhra University 1926, Dr. B R Ambedkar University (AGRA) 1927, Annamalai University 1929 and University of Roorkee (IIT Roorkee) in 1949. BHU, AMU and DU were set-up as Central Universities.'
+      },
+      {
+        type: 'paragraph',
+        content: 'University of Allahabad established in 1887 became Central University in 2005. Visva-Bharti established in 1921 became Central University in 1951. The other state universities, which got converted to central universities, include Guru Ghasidas Vishwavidyalaya 1983-2009, Dr. Hari Singh Gour Vishwavidyalaya (SAGAR University) 1946-2009 and Hemwatinandan Bahuguna Garhwal Vishwavidyalaya 1973-2009. Jamia Milia Islamia was established as a Deemed-to-be University in 1962 and was converted as a Central University in 1988.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Other Central Universities established post-independence include Jawaharlal Nehru University in 1969, University of Hyderabad in 1974, Pondicherry University in 1985, Baba Saheb Bhimrao Ambedkar University Lucknow in 1996'
+      },
+      {
+        type: 'paragraph',
+        content: 'Central Universities & National Education Policy 2020'
+      },
+      {
+        type: 'paragraph',
+        content: 'As per NEP 2020 there shall be only three type of universities which shall be multi-disciplinary:'
+      },
+      {
+        type: 'list',
+        content: [
+          'Research Universities, predominantly engaged in Research and Post Graduate teaching',
+          'Teaching Universities, predominantly engaged in Teaching but may do Research as well',
+          'Autonomous large degree granting Colleges, predominantly engaged in Under Graduate Teaching'
+        ]
+      },
+      {
+        type: 'paragraph',
+        content: 'There shall be no specialized or affiliating universities.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Many, if not most, central universities are affiliating universities. Call will need to be taken by most affiliated colleges as well as the Central Universities as to whether affiliated colleges are big and strong enough to become independent degree granting autonomous college or become department of the university or to look for alternative routes like closure, merger or amalgamation etc. Similarly Central Universities which are not multi-disciplinary shall need to develop their Institute Development Plan for their future course of action. Universities like Banaras Hindu University and Aligarh Muslim University, being large residential universities shall be least affected, whereas affiliating universities like University of Delhi shall be most affected in terms of structure and composition due to the new Education Policy.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Government of India, Ministry of Education could initiate and expedite this structural change process well in time so that the emerging guidelines and learnings become useful for state universities; government and private both.'
+      }
+    ]
+  },
+  {
+    id: '23',
+    title: 'CORPORATION',
+    slug: 'corporation',
+    description: 'An exploration of the concept and evolution of corporations in India and globally',
+    date: '08-06-21',
+    author: 'Prof. Vinay Nangia',
+    role: 'Professor, Mentor, Guide for Education, Business and Start ups',
+    thumbnail: '/images/javascript.jpg',
+    content: [
+      {
+        type: 'paragraph',
+        content: 'The word \'Corporation\' immediately makes one think of Municipal Corporation or a Business Corporation. And, of course, not to miss out on BBC - British Broadcasting Corporation which may be neither of the two.'
+      },
+      {
+        type: 'paragraph',
+        content: 'A corporation is an organization, authorized by the state, to act as a single entity and recognized, in law for certain purposes. The idea of an independent identity of the entity is to give it longevity, transparency, accountability and legality whether by way of legal process of establishing it or by registering such entity with an appropriate authority.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Early corporations and companies were incorporated through The Charter of the monarch, King or Queen. Like British East India Company in 1600 and British Broadcasting Corporation first as British Broadcasting Company in 1922 and later as British Broadcasting Corporation in 1927. Magna Carta was the first Royal Charter in 1215.Royal Charter continues to be used to establish organisations such as municipalities, universities and societies. Some of the earliest universities in Europe and America were established through Charters.'
+      },
+      {
+        type: 'paragraph',
+        content: 'In the USA the word corporation by default implies business entity.'
+      },
+      {
+        type: 'paragraph',
+        content: 'The Greater Chennai Corporation, previously Madras Corporation, established in 1688, is the oldest surviving municipal corporation in India and the second oldest surviving corporation in the world. Brihanmumbai Municipal Corporation, Bombay Municipal Corporation earlier, is the richest municipal corporation in India. Municipal Corporations in India, also called Urban Local Bodies, represent the third level of governance. More recently the municipal corporations have issued Bonds, listed in the stock market, in order to enhance their source of finance.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Post-Independence three Development Financial Institutions, namely, Industrial Finance Corporation of India (IFCI) Industrial Credit & Investment Corporation of India (ICICI) and Industrial Development Bank of India (IDBI) were set-up in 1948, 1955 & 1964 respectively. IFCI and IDBI were set up by acts of Parliament of India whereas ICICI was registered as a Public Limited Company under Companies Act. ICICI and IDBI, through the process of reverse merger became ICICI Bank and IDBI Bank respectively. Industrial Finance Corporation of India (IFCI), on the other hand, became a Non-Banking Finance Company and the name changed to IFCI Ltd.'
+      },
+      {
+        type: 'paragraph',
+        content: 'In the private sector Housing Development Finance Corporation (HDFC) was incorporated as a Public Limited Company in 1977 after ICICI was formed as a company in 1955.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Indian Tourism Development Corporation was set-up in 1966 in the public sector. Number of other public sector corporations were set-up in 1980s by various government departments as companies with an intention to raise money from the market. This included Power Finance Corporation in 1986, Indian Railway Finance Corporation in 1986, Container Corporation of India in 1988 and Tourism Finance Corporation of India in 1989, Indian Railway Catering & Tourism Corporation was set-up in 1999.All these companies were registered under Companies Act 1956.'
+      },
+      {
+        type: 'paragraph',
+        content: 'With the passage of time, use of the word "Corporation", whether in the context of governance or in the case of corporate world, has continuously declined during the last two or three decades in India. Urban Local Bodies derive their names from vernacular now and company is a word most commonly used in India as it enables such entities to raise the funds from market.'
+      }
+    ]
+  },
+  {
+    id: '24',
+    title: 'At the Age of 50',
+    slug: 'at-age-of-50',
+    description: 'A reflection on life changes, challenges and opportunities at the age of fifty',
+    date: '23-05-21',
+    author: 'Prof. Vinay Nangia',
+    role: 'Professor, Mentor, Guide for Education, Business and Start ups',
+    thumbnail: '/images/javascript.jpg',
+    content: [
+      {
+        type: 'paragraph',
+        content: 'At the age of 50 one is neither young nor old.'
+      },
+      {
+        type: 'paragraph',
+        content: 'At the age of 50 physiological, psychological and even philosophical changes start taking place which a person is not oblivious of.'
+      },
+      {
+        type: 'paragraph',
+        content: 'These changes quite often are different for men and women partially because of physical, social and economic conditions.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Men at 50 in most cases are done with their career unless they are in business where they may be at the peak of their performance. Men become careless with their health and fitness. Unfortunately, the damage is done to the health of men mostly in their 50s but gets noticed in early sixties.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Women in 50s are more stable in terms of maturity. Their health conditions are also affected quite often due to menopause but generally not as much as is the case with men. In terms of career women are more cool as compared to men.'
+      },
+      {
+        type: 'paragraph',
+        content: 'One may observe, at least in India, woman gets stronger and stronger from the age of 50 whereas man generally gets weaker and weaker in 50s 60s and 70s. Lady is in the ascendant and man on decline. Lady is in control of house, home, children, family and social context. Man, willingly or unwillingly, mostly automatically, gives control and command to the lady of the house.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Career wise it is late in the day to take mid life retirement, as social responsibilities and economic burden increases. It is also difficult to make career changes at that age unless a person is in the category of CXO.'
+      },
+      {
+        type: 'paragraph',
+        content: 'At the age of 50 or in 50s, especially early 50s one should rejig, reinvent and reorient one\'s life and priorities. Many office goers soon after their retirement die of heart attack due to depression and sense of emptiness as they did not plan their post retirement activities when they were in 50s - busy in their daily routine. Men, in employment, should discover and rediscover their interests and hobbies and start working on them. Men in business, if not consider passing on the baton, may like to give major chunk of decision making to next gen. Women tend to think and work inwardly, paying more attention to family matters as that is the time to become grandmother. Women in career may think and work laterally in exploring opportunities where their interest, experience and knowledge and skills are served.'
+      },
+      {
+        type: 'paragraph',
+        content: 'To sum up, one needs to be careful at this age with regard to one\'s health, priorities and interests by applying oneself in good time.'
+      }
+    ]
+  },
+  {
+    id: '25',
+    title: 'Greed and Fear',
+    slug: 'greed-and-fear',
+    description: 'An analysis of how greed and fear shape global economic and political systems',
+    date: '31-03-21',
+    author: 'Prof. Vinay Nangia',
+    role: 'Professor, Mentor, Guide for Education, Business and Start ups',
+    thumbnail: '/images/javascript.jpg',
+    content: [
+      {
+        type: 'paragraph',
+        content: 'Investor behaviour is driven by greed and fear is a well-known saying in the stock markets. Most human actions are driven by one of these two emotions.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Post-World war II, fear receded, as most countries in the world got busy with reconstruction and development. Fear got replaced by hope and optimism. Almost eight decades of peace have been unprecedented.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Current pandemic might lead to despair. This is not ruled out.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Unbridled economic growth, but for Great Depression, in the last many decades, of USA resulted in excessive emphasis on the so-called growth through consumerism and marketing forces from 1970s onwards.'
+      },
+      {
+        type: 'paragraph',
+        content: '1990s saw the disintegration of USSR making it a unipolar world - exuberated free market forces supported by technological advancements led to the economic growth with inequalities of income growing, deterioration of healthcare services and corporations getting mightier.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Partners in crime were Investment Bankers, the Central Banks and the Governments - with US in the lead. Investment Bankers- too big to fail- not regulated, Central Bankers with Allan Greenspan in the lead with instruments like Quantitative Easing and Governments too passive and too incompetent to act have all contributed to where we have reached today. This is the story of all financial crisis including the biggest one of 2008. Instead of correcting the fault lines, knee jerk reactions and make shift arrangements were made. In sum total, this was the story of the Greed.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Beginning 1940, in the last eight decades the pendulum completely shifted from Fear to Greed.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Rise of China and weakening of the USA in the last decade has made the world more uncertain and multipolar.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Institutional edifice is crumbling, institutional arrangements globally and locally are faltering. Technology is taking the world forward and politicians of the world are pushing their nations backwards.'
+      },
+      {
+        type: 'paragraph',
+        content: 'We are living in a world where unemployment in the world is rising, old age social security is disappearing and all sources of funding and investments are getting funnelled up in the stock market. Shareholder is the only stakeholder to be serviced.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Economic order and financial system of the day is a result and story of GREED and political and governance system is a story of Fear and Despair and Indifference.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Pandemic of 2020-2021 is an opportunity to rejig political, economic and financial systems in the wake of changing life styles due to Covid-19 lest Trumpism makes it imperative for the world to be governed by the Corporates if not the Corporations.'
+      }
+    ]
+  },
+  {
+    id: '26',
+    title: 'Indian Ethos & Culture and National Education Policy (NEP) 2020',
+    slug: 'indian-ethos-culture-nep-2020',
+    description: 'An analysis of how NEP 2020 incorporates Indian cultural heritage and traditional knowledge systems into modern education',
+    date: '15-01-21',
+    author: 'Prof. Vinay Nangia',
+    role: 'Professor, Mentor, Guide for Education, Business and Start ups',
+    thumbnail: '/images/javascript.jpg',
+    content: [
+      {
+        type: 'paragraph',
+        content: 'It is heartening to note that National Education Policy has not only recognized the glorious past of ancient India in terms of the contribution of our world-class Indian Universities like Nalanda and Takshshila but picked up the right elements and incorporated the building blocks into the framing of New Education Policy both, at school and University levels. About 15% of entire policy document is devoted to this cause.'
+      },
+      {
+        type: 'paragraph',
+        content: 'There was a need to recognize and draw upon from the seminal works of stalwarts like Aryabhatta, Banbhatta, Bhaskaracharya, Chanakya, Chakrapani, Charaka, Panini, Patanjali, Pingala, Susruta, Sankardev, , Thiruvalluvar, and Varahamihira, among others, in various disciplines like architecture, astronomy, civil engineering, chess, fine arts, mathematics, metallurgy, medical science and surgery, navigation and yoga etc. which appears to have been addressed.'
+      },
+      {
+        type: 'paragraph',
+        content: 'World-class institutions of ancient India such as Nalanda,Takshashila, Vikramshila, and Vallabhi, set the highest standards of multidisciplinary teaching and research and hosted scholars and students from across varying backgrounds and countries. It states that the very idea that all branches of creative human endeavor, including mathematics, science, vocational subjects, professional subjects, and soft skills should be considered \'arts\', has distinctly Indian origins. This notion of a \'knowledge of many arts\' or what in modern times is often called the \'liberal arts\' must be brought back to Indian education, as it is exactly the kind of education that will be required for the 21st century. Further, it states, India has a long historical tradition of research and knowledge creation, in disciplines ranging from science and mathematics to art and literature to phonetics and languages to medicine and agriculture. This needs to be further strengthened to make India lead research and innovation in the 21st century, as a strong and enlightened knowledge society. Moving to large multi-disciplinary universities is the highest recommendation of this new National Education Policy.'
+      },
+      {
+        type: 'paragraph',
+        content: 'India is a treasure trove of culture, developed over thousands of years and manifested in the form of arts, works of literature, customs, traditions, linguistic expressions, artefacts, heritage sites, and more. Millions of people from around the world partake in, enjoy, and benefit from this cultural wealth in the form of visiting India for tourism, experiencing Indian hospitality, purchasing India\'s handicrafts and handmade textiles, reading the classical literature of India, practicing yoga and meditation, being inspired by Indian philosophy, participating in India\'s unique festivals, appreciating India\'s diverse music and art, and watching Indian films, amongst many other aspects. The preservation and promotion of India\'s cultural wealth must be considered a high priority for the country, as it is truly important for the nation\'s identity as well as for its economy.'
+      },
+      {
+        type: 'paragraph',
+        content: 'This is mentioned in the policy document and is addressed through the following;'
+      },
+      {
+        type: 'paragraph',
+        content: 'All curriculum and pedagogy, from the foundational stage onwards, will be redesigned to be strongly rooted in the Indian and local context and ethos in terms of culture, traditions, heritage, customs, language, philosophy, geography, ancient and contemporary knowledge, societal and scientific needs, indigenous and traditional ways of learning etc. – in order to ensure that education is maximally relatable, relevant, interesting, and effective for our students. Stories, arts, games, sports, examples, problems, etc. will be chosen as much as possible to be rooted in the Indian and local geographic context. Ideas, abstractions, and creativity will indeed best flourish when learning is thus rooted.'
+      },
+      {
+        type: 'paragraph',
+        content: 'At school level students will be taught at a young age the importance of "doing what\'s right", and will be given a logical framework for making ethical decisions. In later years, this would then be expanded along themes of cheating, violence, plagiarism, littering, tolerance, equality, empathy, etc., with a view to enabling children to embrace moral/ethical values in conducting one\'s life, formulate a position/argument about an ethical issue from multiple perspectives, and use ethical practices in all work. Children will have the opportunity to read and learn from the original stories of the Panchatantra, Jataka, Hitopadesh, and other fun fables and inspiring tales from the Indian tradition and learn about their influences on global literature.'
+      },
+      {
+        type: 'paragraph',
+        content: 'For higher education, departments in Languages, Literature, Music, Philosophy, Indology, Art, Dance, Theatre, Education, Mathematics, Statistics, Pure and Applied Sciences, Sociology, Economics, Sports, Translation and Interpretation, and other such subjects needed for a multidisciplinary, stimulating Indian education and environment will be established and strengthened at all Higher Education Institutions. Value-based education will include the development of humanistic, ethical, Constitutional, and universal human values of truth, righteous conduct, peace, love, nonviolence, scientific temper, citizenship values, and also life-skills; lessons in service and participation in community service programs will be considered an integral part of a holistic education.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Language is linked to art and culture. Different languages \'see\' the world differently. Languages influence the way people of a given culture speak with others. Culture is, thus, encased in our languages. Art, in the form of literature, plays, music, film, etc. cannot be fully appreciated without language. In order to preserve and promote culture, one must preserve and promote a culture\'s languages.'
+      },
+      {
+        type: 'paragraph',
+        content: 'For purposes of cultural enrichment as well as national integration, all young Indians should be aware of the rich and vast array of languages of their country, and the treasures that they and their literatures contain.'
+      },
+      {
+        type: 'paragraph',
+        content: 'The issue of language, both as a medium of instruction, as well as an independent discipline has been dealt with in great detail both at school and higher education level in the new policy.'
+      },
+      {
+        type: 'paragraph',
+        content: 'All languages will be taught in an enjoyable and interactive style, with plenty of interactive conversation, and with early reading and subsequently writing in the mother tongue in the early years, and with skills developed for reading and writing in other languages in Grade 3 and beyond. The three-language formula will continue to be implemented while keeping in mind the Constitutional provisions, aspirations of the people, regions, and the Union, and the need to promote multilingualism as well as promote national unity. Every student in the country will participate in a fun project/activity on \'The Languages of India\', sometime in Grades 6-8, such as, under the \'Ek Bharat Shrestha Bharat\' initiative.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Sanskrit possesses a classical literature containing vast treasures of mathematics, philosophy, grammar, music, politics, medicine, architecture, metallurgy, drama, poetry, storytelling, and more and will thus be offered at all levels of school and higher education as an important, enriching option for students. Sanskrit will be mainstreamed with strong offerings in school - including as one of the language options in the three-language formula - as well as in higher education.'
+      },
+      {
+        type: 'paragraph',
+        content: 'In addition to Sanskrit, other classical languages and literatures of India, including Tamil, Telugu, Kannada, Malayalam, Odia, Pali, Persian, and Prakrit, will also be widely available in schools as options for students. Similar efforts will be made for all Indian languages having rich oral and written literatures, cultural traditions, and knowledge.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Efforts to preserve and promote all Indian languages including classical, tribal and endangered languages will be taken on with new vigour.'
+      },
+      {
+        type: 'paragraph',
+        content: 'For the enrichment of the children, and for the preservation of these rich languages and their artistic treasures, all students in all schools, public or private, will have the option of learning at least two years of a classical language of India and its associated literature, through experiential and innovative approaches, including the integration of technology, in Grades 6-12, with the option to continue from the middle stage through the secondary stage and beyond.'
+      },
+      {
+        type: 'paragraph',
+        content: 'All languages in India, and their associated arts and culture will be documented through a web-based platform/portal/wiki, in order to preserve endangered and all Indian languages and their associated rich local arts and culture. The platform will contain videos, dictionaries, recordings, and more, of people (especially elders) speaking the language, telling stories, reciting poetry, and performing plays, folk songs and dances, and more. These preservation efforts, and the associated research projects, e.g., in history, archaeology, linguistics, etc., will be funded by the National Research Foundation.'
+      },
+      {
+        type: 'paragraph',
+        content: 'The Policy recognizes that the knowledge of the rich diversity of India should be imbibed first hand by learners. This would mean including simple activities, like touring by students to different parts of the country, which will not only give a boost to tourism but will also lead to an understanding and appreciation of diversity, culture, traditions and knowledge of different parts of India. Towards this direction under \'Ek Bharat Shrestha Bharat\', 100 tourist destinations in the country will be identified where educational institutions will send students to study these destinations and their history, scientific contributions, traditions, indigenous literature and knowledge, etc., as a part of augmenting their knowledge about these areas.'
+      },
+      {
+        type: 'paragraph',
+        content: 'In addition to high quality offerings in Indian languages and English, foreign languages, such as Korean, Japanese, Thai, French, German, Spanish, Portuguese, and Russian, will also be offered at the secondary level, for students to learn about the cultures of the world and to enrich their global knowledge and mobility according to their own interests and aspirations.'
+      },
+      {
+        type: 'paragraph',
+        content: 'More Higher Education Institutions, and more programs in higher education, will use the mother tongue/local language as a medium of instruction, and/or offer programs bilingually.'
+      },
+      {
+        type: 'paragraph',
+        content: 'High-quality programs and degrees in Translation and Interpretation, Art and Museum Administration, Archaeology, Artefact Conservation, Graphic Design, and Web Design within the higher education system will also be created. In order to preserve and promote its art and culture, develop high-quality materials in various Indian languages, conserve artefacts, develop highly qualified individuals to curate and run museums and heritage or tourist sites, thereby also vastly strengthening the tourism industry.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Scholarships for people of all ages to study Indian Languages, Arts, and Culture with local masters and/or within the higher education system will be established.'
+      },
+      {
+        type: 'paragraph',
+        content: 'India will also urgently expand its translation and interpretation efforts in order to make high quality learning materials and other important written and spoken material available to the public in various Indian and foreign languages. For this, an Indian Institute of Translation and Interpretation (IITI) will be established. Such an institute shall employ numerous multilingual language and subject experts, and experts in translation and interpretation, which will help to promote all Indian languages. The IITI shall also make extensive use of technology to aid in its translation and interpretation efforts.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Courses and programs in subjects, such as Indology, Indian languages, AYUSH systems of medicine, yoga, arts, music, history, culture, and modern India, internationally relevant curricula in the sciences, social sciences, and beyond, meaningful opportunities for social engagement, quality residential facilities and on-campus support, etc. will be fostered to attain the goal of global quality standards, attract greater numbers of international students, and achieve the goal of \'internationalization at home\'. India will be promoted as a global study destination providing premium education at affordable costs.'
+      },
+      {
+        type: 'paragraph',
+        content: 'To sum up, recognizing the glorious past in terms of Indian Ethos and Culture and contribution of luminaries in various branches of knowledge, the policy document systematically weaves in relevant components of language- mother tongue, regional languages, Sanskrit, Pali and Prakrat to setting up Indian Institute of Translation and Interpretation, multi and inter-disciplinarily of various disciplines, use of interactive, entertaining and experiential learning as pedagogical methods, use of technology and internationalization of Indian art, culture and ethos through Indian Education System.'
+      }
+    ]
+  },
+  {
+    id: '27',
+    title: 'Start-up versus MSME',
+    slug: 'startup-versus-msme',
+    description: 'A comparative analysis of Start-ups and MSMEs in India, exploring their definitions, characteristics, and funding patterns',
+    date: '08-12-20',
+    author: 'Prof. Vinay Nangia',
+    role: 'Professor, Mentor, Guide for Education, Business and Start ups',
+    thumbnail: '/images/javascript.jpg',
+    content: [
+      {
+        type: 'paragraph',
+        content: 'Start-up or Startup Company or upstart are terms, which are three or four decades old, mostly evolved in electronic era with the advent of the internet.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Micro, Small and Medium Term Enterprises (MSME) as it is called in India is known as Small & Medium Industries (SME) world over. In India, post-independence, we had Khadi and Village Industries and Small Scale Industries. After bank nationalization in 1969, priority sector for the purpose of bank lending, included agriculture, retail traders, small businesses, business enterprises and small road transport operators in addition to small scale industries. Post-liberalization it was considered prudent to use the term MSME in line with global practice. Ministry of Small Scale Industries and the Ministry of Agro and Rural Industries were merged to form the Ministry of Micro, Small and Medium Enterprises in May 2007.'
+      },
+      {
+        type: 'paragraph',
+        content: 'There is no standard or generally accepted definition of Start-up. As per \'Start-up India\' website an entity shall be considered as a Startup: 1. if it is incorporated as a private limited company or registered as a partnership firm or a limited liability partnership in India.2. up to ten years from the date of its incorporation/registration.3. if its turnover for any of the financial years since incorporation/registration has not exceeded INR 100 Crores and 4. if it is working towards innovation, development or improvement of products or processes or services, or if it is a scalable business model with a high potential of employment generation or wealth creation.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Definition of MSME has changed number of times. With effect from July 1, 2020 MSME has been defined as Micro if the Manufacturing Enterprises and Enterprises rendering Services have Investment in Plant and Machinery or Equipment  not more than Rs.1 crore and Annual Turnover is not more than Rs. 5 crore, Small if Investment in Plant and Machinery or Equipment is not more than Rs.10 crore and Annual Turnover is not more than Rs. 50 crore and Medium if Investment in Plant and Machinery or Equipment is not more than Rs.50 crore and Annual Turnover is not more than Rs. 250 crore.'
+      },
+      {
+        type: 'paragraph',
+        content: 'It is not mandatory to register a Start-up or an MSME in India. But if a Start-up is registered with or recognized by Department for Promotion of Industry and Internal Trade (DPIIT), Government of India certain advantages including tax benefits as declared by the government can be availed. Likewise, it is not mandatory to register MSME but in order to avail various government offered benefits and incentives, including bank loans, registration with District Industries Centre (DIC) becomes a pre requisite. DIC is a district level organization, of Development Commissioner MSME Government of India, headed by a General Manager.'
+      },
+      {
+        type: 'paragraph',
+        content: 'What is common between a Start-up and MSME unit is, that, both are set up for business and both require enterprise. Level of risk and enterprise is certainly more in case of a Start-up as it works on an idea which is generally new and untested. Mostly Start-ups are started by engineers or others who are often more qualified as compared to those entrepreneurs who start MSMEs.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Those who establish Start-ups are called Founders or Co-Founders whereas those who set up small or medium enterprises are called Promoters. The term Promoter is defined in the Company Act of India, Income Tax Act of India as well as by SEBI whereas the term Founder has not been defined under Indian law.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Start-up begins with an idea, supposedly innovative, with a set of Founders/Co-Founders, moves towards Minimum Viable Product (MVP), gets funded by seed funding through Angle Investors, Venture Capitalists, Private Equity and finally Initial Public Offering (IPO). It has low or no debt. Debt may be only through the Debt Instruments to suit the requirements of Investors, mostly at the level of Venture Capitalists.'
+      },
+      {
+        type: 'paragraph',
+        content: 'MSMEs have a different trajectory. They start with usual factors of production; land, labour, capital, enterprise etc. Based on a Project Report they raise funds- debt- from commercial bank after providing margin money or bringing in Promoter\'s Contribution in the form of equity. Current Debt Equity ratio is 1:1.5, i.e. on an equity of Rs.100 a bank loan of Rs. 150 can be raised. Business grows organically, generally slowly, micro unit may become small and then medium and finally as a large unit. Final stage of funding for scaling up comes from an IPO. The financing of MSME is based on purpose of loan, security offered and contribution made by the Promoter. Financing is also done on the basis of past performance as reflected in Financial Statements submitted by the proponent. Other sources of funding like NBFCs are not common.'
+      },
+      {
+        type: 'paragraph',
+        content: 'In case of Start-ups funding comes for developing the product in the initial stage but mostly for scaling up, for gaining market share at later stages. Thus, funding is to finance or fuel the growth potential of the venture. Funding is mostly done keeping in mind future market share and future profits.'
+      },
+      {
+        type: 'paragraph',
+        content: 'In case of MSME loans, banks or financiers do not participate in managing the venture but Investors may seek active role in management and decision making in the case of Start-ups. Bigger investors take board position/s in the funded Start-ups.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Key words for a Start-up include Idea, Innovation, Founder, Co-founder, Business Plan, Seed Funding, Angle Investor, MVP, Venture Capital, Private Equity, Subscriber Agreement, Shareholder Agreement, Business Incubator, Accelerator and Start-up Eco System.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Key words for MSME include Project Report, Promoter, Promoter Margin, Promoter Contribution, Loan, Bank Loan, Debt Equity Ratio, and Financial Statements.'
+      },
+      {
+        type: 'paragraph',
+        content: 'To sum up, based on idea, innovation and growth potential Start-up is a new avatar of MSME which offers multiple routes and options to founders and investors to exit.'
+      }
+    ]
+  },
+  {
+    id: '28',
+    title: 'How to spend your years in college',
+    slug: 'how-to-spend-college-years',
+    description: 'A comprehensive guide on making the most of your college years through balanced activities, personal growth, and meaningful relationships',
+    date: '27-10-20',
+    author: 'Prof. Vinay Nangia',
+    role: 'Professor, Mentor, Guide for Education, Business and Start ups',
+    thumbnail: '/images/javascript.jpg',
+    content: [
+      {
+        type: 'paragraph',
+        content: 'Ask anyone, almost everyone will say that the best phase of life was the time spent in the college.'
+      },
+      {
+        type: 'paragraph',
+        content: 'This is the first brush with life, largely, outside of the parents\' domain of influence. This is the time of making and breaking of dreams.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Transition from school to college is also transition from adolescence to youth. Youngsters in the age group of 16-19 years, enter the college or university as a kid sometime and youthful adolescents at others with hopes and dreams they had visualized during the last years of their schooling.'
+      },
+      {
+        type: 'paragraph',
+        content: 'This period of change in the college is crucial as it makes a boy into a man and a girl into a lady. This transformation over a period of 3 to 5 years of college or university life, generally at undergrad level, has long lasting influence in the life of every individual.'
+      },
+      {
+        type: 'paragraph',
+        content: 'One may reap rich dividends if this time is spent well. The activities one may plan in his or her college days can be divided into four categories.'
+      },
+      {
+        type: 'paragraph',
+        content: 'One, Fun and Frolic – This is most important. Those who have not or did not or could not enjoy their college days have really missed out on what could have been a major part of their interesting life. It entails partying, picnic, movies, eating outs and all kinds of vailla-giri.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Two, Games, Sports and Gymming- This is the time to learn playing Tennis and Squash, going for swimming and cricket matches and similar outdoors involving exercise and physical activities. This is the time to shape up one\'s body and mind both. One may go for mountaineering, hitch-hiking or even horse riding.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Three, Learning- Learning not only what is in course curriculum but beyond. Learning lessons in art, culture, philosophy and emerging areas of interest in science and technology. Learning from online courses of MOOCS and SWAYAM and other resources as well as taking live or in-person courses on dance, drama and cooking etc. Learning brings happiness and happiness enhances learning.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Four, Preparing for future- Keeping eyes and ears open to new and emerging opportunities, attending professional workshops, conferences and seminars online and offline, doing networking, developing contacts in the right professional circles. One way is to make your CV when you enter the college and another CV as it should look like when you exit the college and then do mapping semester by semester as to what value add you could do to yourself in each semester. Of course one can make modifications and corrections with the passage of time. Initial year or two may be used for understanding one\'s own interests and future career paths and goals and later years may be utilized for making oneself market ready.'
+      },
+      {
+        type: 'paragraph',
+        content: 'To cap it up, one should choose and develop hobbies and interests which are relevant to one\'s profile as one would like to present it to the world or to the prospective employer. For example Travelling could be cultivated as a hobby but fine tuning could be done with regard to where to travel, how to travel, with whom to travel and what is the purpose of travel – all this could be thought through beforehand or it may even emerge over a period of time after some travelling has been undertaken. One could go for learning contemporary or classical dance styles depending on taste and purpose. Fun loving kind can go to learn SALSA or BHANGRA with friends and serious minded can go for classical Indian or Western dance on a solo basis.'
+      },
+      {
+        type: 'paragraph',
+        content: 'One will come across all kinds of persons during the college time; the political types, social variety, business minded, career oriented, vailla types and even criminal minded. It is necessary to mingle with all of them to see various shades and colours of life. It is also important to choose right kind of friends while being friends with all kinds; good, bad and ugly. While some exposure to rogue variety is very important and necessary, average time may be spent with average kind of persons and your precious time must be spent with precious persons. Precious people are those persons who bring cheer and happiness in your life through their positive vibes, thoughts and actions.'
+      },
+      {
+        type: 'paragraph',
+        content: 'One simple and easiest way to do well in life and enjoy life is to be in the company of good people. College life is an opportunity to choose such good friends for life time.'
+      }
+    ]
+  },
+  {
+    id: '29',
+    title: 'Institutes of National Importance (INI), Institutions of Eminence (IoE) and National Education Policy (NEP) 2020',
+    slug: 'ini-ioe-nep-2020',
+    description: 'A comprehensive analysis of India\'s premier educational institutions and their evolution under the National Education Policy 2020',
+    date: '18-10-20',
+    author: 'Prof. Vinay Nangia',
+    role: 'Professor, Mentor, Guide for Education, Business and Start ups',
+    thumbnail: '/images/javascript.jpg',
+    content: [
+      {
+        type: 'paragraph',
+        content: 'This write-up is an attempt to understand Institutes of National Importance, Institutes of Eminence and National Education Policy 2020 together in a perspective.'
+      },
+      {
+        type: 'paragraph',
+        content: 'I'
+      },
+      {
+        type: 'paragraph',
+        content: 'The Constitution of India, Seventh Schedule; 63 says "The institutions known at the commencement of this Constitution as the Benares Hindu University, the Aligarh Muslim University and the Delhi University ; the University established in pursuance of article 371E; any other institution declared by Parliament by law to be an institution of national importance."'
+      },
+      {
+        type: 'paragraph',
+        content: 'The next reference to Institute of National Importance (INI) was found in the Indian Institute of Technology (Kharagpur) Act, 1956 which was repealed with the passing of the Indian Institutes of Technology Act, 1961. In both the acts, the term has been referred to without being defined.'
+      },
+      {
+        type: 'paragraph',
+        content: 'The Institute of National Importance is a status that may be conferred on a premier public higher education institution in India by an act of Parliament of India. It is an institution which "serves as a pivotal player in developing highly skilled personnel within the specified region of the country / state ".'
+      },
+      {
+        type: 'paragraph',
+        content: 'Section 22 of The University Grants Commission Act 1956 enables \'Degree Granting Status\' to such INIs established by an Act of Parliament for conferring or granting degrees..'
+      },
+      {
+        type: 'paragraph',
+        content: 'What makes an Institute of National Importance and what are the benefits and advantages given to such INIs is not mentioned in any document.'
+      },
+      {
+        type: 'paragraph',
+        content: 'These institutions seem to operate outside the ambit of the UGC and are largely funded and supervised, if not governed, by the Government of India, mostly through Ministry of Education. Apparently these institutions also enjoy certain tax related advantages.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Ministry of Education, Department of Higher Education website which is last updated on Thursday, 24 September 2020 mentions the names of 96 Institutions of National Importance. The list includes IITs, NITs, IIITs, IISERs, National Institute of Pharmaceutical Education and Research (NIPERs), Schools of Planning & Architecture, Indian Institutes of Statistics, NIDs, IISc., AIIMS, IISER, Academy of Scientific & Innovative Research, Ghaziabad, Uttar Pradesh, Dakshina Bharat Hindi Prachar Sabha, Tamil Nadu, Footwear Design & Development Institute, Noida, Uttar Pradesh, Rajiv Gandhi National Institute of Youth Development, Sriperumbudur, Tamil Nadu, Indian Institute of Petroleum and Energy (IIPE), Andhra Pradesh, Rajiv Gandhi Institute of Petroleum Technology, Rae Bareli, Uttar Pradesh.'
+      },
+      {
+        type: 'paragraph',
+        content: 'One feels sad to note that not only the list is not complete but the names of Institutes are not mentioned correctly. For example the name mentioned at serial number 35 is mentioned as Indian Institute of Technology, Mumbai, Maharashtra which should have been mentioned as Indian Institute of Technology Bombay, Mumbai, Maharashtra. Similarly at serial number 54 the name of Indian Institute of Technology Madras is not mentioned correctly. Then there are other mistakes. Banaras Hindu University, Aligarh Muslim University and Delhi University are conspicuous by their absence.'
+      },
+      {
+        type: 'paragraph',
+        content: 'The Indian Institute of Management Act, 2017 declared the Indian Institutes of Management as institutions of national importance. At present, there are 20 IIMs in the country.'
+      },
+      {
+        type: 'paragraph',
+        content: 'The Union Cabinet had approved the of setting up 20 new IIITs in Public Private Partnership (IIT PPP) mode in November 2010. Among them, 15 IIITs were covered under the IIIT (PPP) Act, 2017. The IIIT Laws Amendment Bill 2020 seeks to declare five IIITs in Public Private Partnership (PPP) mode - IIIT Bhopal, IIIT Agartala, IIIT Surat, IIIT Bhagalpur and IIIT Raichur as Institutions of National importance.'
+      },
+      {
+        type: 'paragraph',
+        content: 'This in itself is a departure from original intent of granting this privilege only to Public Institutions.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Many of these institutions are ranked high under various categories under National Institutional Ranking Framework (NIRF): India Rankings 2020 and few of them have found place in global rankings.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Internationally, the Ivy League in USA is similar to other groups of universities in other nations such as Oxbridge in the United Kingdom, the C9 League in China, and the Imperial Universities in Japan. Ivy League universities, eight in number, have very large university financial endowments, allowing the universities to provide abundant resources for their academic programs, financial aid, and research endeavors. Harvard University endowment stood at $38.3 billion in 2018, the largest for any educational institution in the world. As against Ivy League private universities of USA, German Universities Excellence Initiative, by German Council of Science and Humanities and German Research Foundation, aims to strengthen some select public universities to enhance their international visibility. Many countries in the world grant special status to some of their universities to meet certain requirements leading to excellence.'
+      },
+      {
+        type: 'paragraph',
+        content: 'II'
+      },
+      {
+        type: 'paragraph',
+        content: 'In the budget speech of 2016, the then Finance Minister, Arun Jaitley promised to provide "an enabling regulatory architecture" so that "10 public and 10 private institutions" would emerge "as world-class teaching and research institutions". This led to the establishment of Institutions of Eminence (IoEs)'
+      },
+      {
+        type: 'paragraph',
+        content: 'The University Grants Commission on August 2, 2020 unveiled the latest list of 14 institutions just over a year after the first six Institutes of Eminence were named, bringing the total number of institutions to be part of the elite group to 20.Ten public and ten private institutions have been declared to emerge as world-class Teaching and Research Institutions under the Institutions of Eminence (IoE) scheme. 10 Public Institutions are IISc Bangalore, IIT Delhi, IIT Bombay, IIT Madras, IIT Kharagpur, University of Hyderabad, Banaras Hindu University, University of Delhi, Jadavpur University and Anna University. 10 Private institutions are BITS Pilani Rajasthan, Manipal Academy of Higher Education, Karnataka, Jio Institute, Amrita Vishwavidyapeetham, Tamil Nadu, Vellore Institute of Technology, Tamil Nadu, Jamia Hamdard, New Delhi, Kalinga Institute of Industrial Technology, Bhubaneswar, Odisha, O. P. Jindal Global University, Haryana, Bharti Institute, Satya Bharti Foundation, Mohali, Punjab and Shiv Nadar University, Greater Noida, Uttar Pradesh.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Under National Institutional Ranking Framework (NIRF): India Rankings 2020: University; BHU is ranked number 3, Amrita Vishwavidyapeetham number 4, Jadavpur University number 5, University of Hyderabad number 6, Manipal Academy of Higher Education at number 8, University of Delhi number 11, Anna University 12, BITS Pilani 15, Vellore Institute of Technology 16, Jamia Hamdard number 21, Kalinga Institute of Industrial Technology number 24, and Shiv Nadar University at number 56.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Institutes of Eminence (IoE) is a recognition scheme for higher education institutes in India, set by the University Grants Commission in 2017. Recognized institutes are to be granted more autonomy, both administratively, like setting fees, and academically, and will enjoy better collaboration opportunities with global universities. Each Public institute (IoE) will be eligible to receive Rs. 1000 crore during next 5 years. No funding is awarded to private institutions.'
+      },
+      {
+        type: 'paragraph',
+        content: 'University Grants Commission notified regulations and guidelines in 2017. It also made objectives of the scheme and expectations from the Institutions of Eminence explicit. What intrigues is the name of Jio Institute, a Not Yet Physically Existing institution, having been included in the first list of six institutions declared. How can an Institution being labeled as Eminent which does not even exist? All kinds of explanations followed and this was later covered up by including the name of another institution namely Bharti Institute in the next list of 14 institutions declared in September 2020.'
+      },
+      {
+        type: 'paragraph',
+        content: 'III'
+      },
+      {
+        type: 'paragraph',
+        content: 'One of the major recommendations of National Education Policy (NEP) 2020, approved by the Union Cabinet and announced on July 31, 2020 relates to restructuring of Higher Education Institutions in India.'
+      },
+      {
+        type: 'paragraph',
+        content: 'AS per NEP "A university will mean a multidisciplinary institution of higher learning that offers undergraduate and graduate programmes, with high quality teaching, research, and community engagement. There shall be only three kinds of universities, i.e, Research-intensive Universities, Teaching-intensive Universities and Autonomous degree-granting Colleges (AC).'
+      },
+      {
+        type: 'paragraph',
+        content: 'The present complex nomenclature of HEIs in the country such as \'deemed to be university\', \'affiliating university\', \'affiliating technical university\', \'unitary university\' shall be replaced simply by \'university\' on fulfilling the criteria as per norms.'
+      },
+      {
+        type: 'paragraph',
+        content: 'NEP 2020 stipulates that the Board of Governors, BoG, of an institution will be empowered to govern the institution free of any external interference, make all appointments including that of head of the institution, and take all decisions regarding governance. There shall be overarching legislation that will supersede any contravening provisions of other earlier legislation and would provide for constitution, appointment, modalities of functioning, rules and regulations, and the roles and responsibilities of the BoG. New members of the Board shall be identified by an expert committee appointed by the Board; and the selection of new members shall be carried out by the BoG itself. Equity considerations will also be taken care of while selecting the members. It is envisaged that all HEIs will be incentivized, supported, and mentored during this process, and shall aim to become autonomous and have such an empowered BoG by 2035. The BoG shall be responsible and accountable to the stakeholders through transparent self-disclosures of all relevant records. It will be responsible for meeting all regulatory guidelines mandated by HECI through the National Higher Education Regulatory Council (NHERC).'
+      },
+      {
+        type: 'paragraph',
+        content: 'IV'
+      },
+      {
+        type: 'paragraph',
+        content: 'It is interesting to note that intent declared in 2016 has taken more than four years to convert into the very first action of identifying 10 public and 10 private institutions. This declaration has come after the announcement of NEP 2020. Another interesting fact is, that, five institutions, namely, IISc Bangalore, IIT Delhi, IIT Bombay, IIT Madras, IIT Kharagpur are common in both the lists i.e., Institutes of National Importance and Institutions of Eminence.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Most of the Institutes of National Importance have evolved over last many decades as a result of visionary leadership, well-conceived structure and system, financial, academic and administrative autonomy, funding and most importantly direct support from Government of India. Over a period of time most of these institutes have acquired their distinct identity and a certain level of reputation. Some like IITs have become global brands.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Most of these institutions are governed by Board of Governors but the overall arching body is the all India Council. For example in case of IITs it is Council of Indian Institutes of Technology which takes policy decisions common for all IITs and the Council is headed by Minister of Education. Council of National Institutes of Technology, Science Education and Research (NITSER) is the supreme governing body of India\'s 31 National Institute of Technology (NITs), Indian Institute of Engineering Science and Technology (IIEST), Shibpur (West Bangal) and Indian Institute of Science Education and Research (IISERs) as per provisions under Section 30 of the NITSER Act, 2007, modeled very much similar to Council of IITs. From 2019 Schools of Architecture and Planning have also an all India Council. Council of Indian Institutes of Technology has facilitated direct link between Ministry of Education and the concerned IIT through its Board of Governor\'s Chairman and Director. This model of governance set by Council of Indian Institutes of Technology has benefitted many other Institutes of National Importance later.'
+      },
+      {
+        type: 'paragraph',
+        content: 'NEP 2020 allows only three kinds of universities which are required to meet all regulatory guidelines mandated by Higher Education Council of India (HECI) through the National Higher Education Regulatory Council (NHERC).'
+      },
+      {
+        type: 'paragraph',
+        content: 'This poses a major challenge; will there be a change in National Education Policy 2020 to allow INIs to continue without making any changes in their existing systems and structures or these INIs will be required to follow the same norms as other Higher Education Institutions (HEIs). If the latter happens, it shall affect the brand value, reputation and ranking of these institutes.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Apart from major challenges of governance and funding there are issues of conversion to multi-disciplinary university. While it will be easy for old established IITs and NITs, which are largely residential, to convert into a multi-disciplinary research intensive universities and some others to become teaching intensive multi-disciplinary universities it could be a major challenge for institutions like Academy of Scientific & Innovative Research, Ghaziabad, Uttar Pradesh, Dakshina Bharat Hindi Prachar Sabha, Tamil Nadu and Footwear Design & Development Institute, Noida, Uttar Pradesh for completely different reasons. Another challenge will be with regard to INIs which are not part of Ministry of Education like NIPERs, Schools of Planning & Architecture, AIIMS, Academy of Scientific & Innovative Research, Ghaziabad, Uttar Pradesh, Dakshina Bharat Hindi Prachar Sabha, Tamil Nadu, Footwear Design & Development Institute, Rajiv Gandhi National Institute of Youth Development, Indian Institute of Petroleum and Energy, and Rajiv Gandhi Institute of Petroleum Technology etc. These institutions have a completely different governing system aligned to their line ministries.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Sooner the issues, at least in principle, are resolved better and easier it shall be for NEP 2020 to be modified, if required, and implemented.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Likewise, the vision of Institutions of Eminence needs to be integrated with the NEP implementation plan, and IoEs need to be empowered with more freedom, flexibility, autonomy and resources. IoEs in their current scheme of UGC need to be converted into Deemed-to-be Universities which is not possible under NEP 2020.'
+      },
+      {
+        type: 'paragraph',
+        content: 'I will close by quoting the comment of senior Professor J. K. Mitra of Delhi University "What you said is clear and known but as a senior academic what you didnt say about meaningless overlap, fragmented approach, unintelligible parameters for categorization, and loads of platitudes dished out over the years are also very clear by sheer inference!"'
+      }
+    ]
+  },
+  {
+    id: '30',
+    title: 'National Education Policy (NEP) 2020 & Institutes of National Importance',
+    slug: 'nep-2020-and-institutes-of-national-importance',
+    description: 'An analysis of the relationship between NEP 2020 and India\'s Institutes of National Importance, exploring challenges and opportunities in higher education reform',
+    date: '16-10-20',
+    author: 'Prof. Vinay Nangia',
+    role: 'Professor, Mentor, Guide for Education, Business and Start ups',
+    thumbnail: '/images/javascript.jpg',
+    content: [
+      {
+        type: 'paragraph',
+        content: 'This write-up is an attempt to understand Institutes of National Importance, Institutes of Eminence and National Education Policy 2020 together.'
+      },
+      {
+        type: 'paragraph',
+        content: 'I'
+      },
+      {
+        type: 'paragraph',
+        content: 'The first reference to Institute of National Importance (INI) was found in the Indian Institute of Technology (Kharagpur) Act, 1956 which was repealed with the passing of the Indian Institutes of Technology Act, 1961. In both the acts, the term has been referred to without being defined.'
+      },
+      {
+        type: 'paragraph',
+        content: 'The Institute of National Importance is a status that may be conferred on a premier public higher education institution in India by an act of Parliament of India. It is an institution which "serves as a pivotal player in developing highly skilled personnel within the specified region of the country / state ".'
+      },
+      {
+        type: 'paragraph',
+        content: 'Section 22 (1) of The University Grants Commission Act, 1956 provides the enabling clause to an Institute of National Importance \'a degree granting status\'. It states "The right of conferring or granting degrees shall be exercised only by a University established or incorporated by or under a Central Act, a Provincial Act or a State Act or an institution deemed to be a University under section 3 or an institution specially empowered by an Act of Parliament to confer or grant degrees."'
+      },
+      {
+        type: 'paragraph',
+        content: 'What are the necessary conditions to become an Institute of National Importance and what benefits and advantages an Institute of National Importance enjoys - does not find any mention anywhere.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Ministry of Education, Department of Higher Education website which is last updated on Thursday, 24 September 2020 mentions the names of 96 Institutions of National Importance. The list includes IITs, NITs, IIITs, IISERs, National Institute of Pharmaceutical Education and Research (NIPERs), Schools of Planning & Architecture, Indian Institutes of Statistics, NIDs, IISc., AIIMS, IISER, Academy of Scientific & Innovative Research, Ghaziabad, Uttar Pradesh, Dakshina Bharat Hindi Prachar Sabha, Tamil Nadu, Footwear Design & Development Institute, Noida, Uttar Pradesh, Rajiv Gandhi National Institute of Youth Development, Sriperumbudur, Tamil Nadu, Indian Institute of Petroleum and Energy (IIPE), Andhra Pradesh, Rajiv Gandhi Institute of Petroleum Technology, Rae Bareli, Uttar Pradesh'
+      },
+      {
+        type: 'paragraph',
+        content: 'The Indian Institute of Management Act, 2017 declared the Indian Institutes of Management as institutions of national importance. At present, there are 20 IIMs in the country.'
+      },
+      {
+        type: 'paragraph',
+        content: 'These institutions seem to operate outside the ambit of the UGC and are largely funded and supervised, if not governed, by the Government of India, mostly through Ministry of Education.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Many of these institutions are ranked high under various categories under National Institutional Ranking Framework (NIRF): India Rankings 2020 and few of them have found place in global rankings.'
+      },
+      {
+        type: 'paragraph',
+        content: 'II'
+      },
+      {
+        type: 'paragraph',
+        content: 'In the budget speech of 2016, the then Finance Minister, Arun Jaitley promised to provide "an enabling regulatory architecture" so that "10 public and 10 private institutions" would emerge "as world-class teaching and research institutions". This led to the establishment of Institutions of Eminence (IoEs)'
+      },
+      {
+        type: 'paragraph',
+        content: 'The University Grants Commission on August 2, 2020 unveiled the latest list of 14 institutions just over a year after the first six Institutes of Eminence were named, bringing the total number of institutions to be part of the elite group to 20.Ten public and ten private institutions have been declared to emerge as world-class Teaching and Research Institutions under the Institutions of Eminence (IoE) scheme. 10 Public Institutions are IISc Bangalore, IIT Delhi, IIT Bombay, IIT Madras, IIT Kharagpur, University of Hyderabad, Banaras Hindu University, University of Delhi, Jadavpur University and Anna University. 10 Private institutions are BITS Pilani Rajasthan, Manipal Academy of Higher Education, Karnataka, Jio Institute, Amrita Vishwavidyapeetham, Tamil Nadu, Vellore Institute of Technology, Tamil Nadu, Jamia Hamdard, New Delhi, Kalinga Institute of Industrial Technology, Bhubaneswar, Odisha, P. Jindal Global University, Haryana, Bharti Institute, Satya Bharti Foundation, Mohali, Punjab and Shiv Nadar University, Greater Noida, Uttar Pradesh.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Under National Institutional Ranking Framework (NIRF): India Rankings 2020: University; BHU is ranked number 3, Amrita Vishwavidyapeetham number 4, Jadavpur University number 5, University of Hyderabad number 6, Manipal Academy of Higher Education at number 8, University of Delhi number 11, Anna University 12, BITS Pilani 15, Vellore Institute of Technology 16, Jamia Hamdard number 21, Kalinga Institute of Industrial Technology number 24, and Shiv Nadar University at number 56,'
+      },
+      {
+        type: 'paragraph',
+        content: 'Institutes of Eminence (IoE) is a recognition scheme for higher education institutes in India, set by the University Grants Commission in 2017. Recognized institutes are to be granted more autonomy, both administratively, like setting fees, and academically, and will enjoy better collaboration opportunities with global universities. Each Public institute (IoE) will be eligible to receive Rs. 1000 crore during next 5 years. No funding is awarded to private institutions.'
+      },
+      {
+        type: 'paragraph',
+        content: 'III'
+      },
+      {
+        type: 'paragraph',
+        content: 'One of the major recommendations of National Education Policy (NEP) 2020, approved by the Union Cabinet and announced on July 31, 2020 relates to restructuring of Higher Education Institutions in India.'
+      },
+      {
+        type: 'paragraph',
+        content: 'AS per NEP "A university will mean a multidisciplinary institution of higher learning that offers undergraduate and graduate programmes, with high quality teaching, research, and community engagement. There shall be only three kinds of universities, i.e, Research-intensive Universities, Teaching-intensive Universities and Autonomous degree-granting Colleges (AC).'
+      },
+      {
+        type: 'paragraph',
+        content: 'The present complex nomenclature of HEIs in the country such as \'deemed to be university\', \'affiliating university\', \'affiliating technical university\', \'unitary university\' shall be replaced simply by \'university\' on fulfilling the criteria as per norms.'
+      },
+      {
+        type: 'paragraph',
+        content: 'NEP 2020 stipulates that the Board of Governors, BoG, of an institution will be empowered to govern the institution free of any external interference, make all appointments including that of head of the institution, and take all decisions regarding governance. There shall be overarching legislation that will supersede any contravening provisions of other earlier legislation and would provide for constitution, appointment, modalities of functioning, rules and regulations, and the roles and responsibilities of the BoG. New members of the Board shall be identified by an expert committee appointed by the Board; and the selection of new members shall be carried out by the BoG itself. Equity considerations will also be taken care of while selecting the members. It is envisaged that all HEIs will be incentivized, supported, and mentored during this process, and shall aim to become autonomous and have such an empowered BoG by 2035. The BoG shall be responsible and accountable to the stakeholders through transparent self-disclosures of all relevant records. It will be responsible for meeting all regulatory guidelines mandated by HECI through the National Higher Education Regulatory Council (NHERC).'
+      },
+      {
+        type: 'paragraph',
+        content: 'IV'
+      },
+      {
+        type: 'paragraph',
+        content: 'It is interesting to note that intent declared in 2016 has taken more than four years to convert into the very first step of action of identifying 10 public and 10 private institutions. This declaration has come after the announcement of NEP 2020. Another interesting fact is, that, five institutions, namely, IISc Bangalore, IIT Delhi, IIT Bombay, IIT Madras, IIT Kharagpur are common in both the lists i.e., Institutes of National Importance and Institutions of Eminence.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Most of the Institutes of National Importance have evolved over last many decades as a result of visionary leadership, well-conceived structure and system, financial, academic and administrative autonomy, funding and most importantly direct support from Government of India. Over a period of time most of these institutes have acquired their distinct identity and a certain level of reputation. Some like IITs have become global brands.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Most of these institutions are governed by Board of Governors but the overall arching body is the all India Council. For example in case of IITs it is Council of Indian Institutes of Technology which takes policy decisions common for all IITs and the Council is headed by Minister of Education. Council of National Institutes of Technology, Science Education and Research (NITSER) is the supreme governing body of India\'s 31 National Institute of Technology (NITs), Indian Institute of Engineering Science and Technology (IIEST), Shibpur (West Bangal) and Indian Institute of Science Education and Research (IISERs) as per provisions under Section 30 of the NITSER Act, 2007, modeled very much similar to Council of IITs. From 2019 Schools of Architecture and Planning have also an all India Council. Council of Indian Institutes of Technology has facilitated direct link between Ministry of Education and the concerned IIT through its Board of Governor\'s Chairman and Director. This model of governance set by Council of Indian Institutes of Technology has benefitted many other Institutes of National Importance later.'
+      },
+      {
+        type: 'paragraph',
+        content: 'NEP 2020 allows only three kinds of universities which are required to meet all regulatory guidelines mandated by Higher Education Council of India (HECI) through the National Higher Education Regulatory Council (NHERC).'
+      },
+      {
+        type: 'paragraph',
+        content: 'This poses a major question; will there be a change in National Education Policy 2020 to allow INIs to continue without making any changes in their existing systems and structures or these INIs will be required to follow the same norms as other Higher Education Institutions (HEIs). If the latter happens, it shall affect the brand value, reputation and ranking of these institutes.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Apart from major challenges of governance and funding there are issues of conversion to multi-disciplinary university. While it will be easy for old established IITs and NITs, which are largely residential, to convert into a multi-disciplinary research intensive universities and some others to become teaching intensive multi-disciplinary universities it could be a major challenge for institutions like Academy of Scientific & Innovative Research, Ghaziabad, Uttar Pradesh, Dakshina Bharat Hindi Prachar Sabha, Tamil Nadu and Footwear Design & Development Institute, Noida, Uttar Pradesh for completely different reasons. Another challenge will be with regard to INIs which are not part of Ministry of Education like NIPERs, Schools of Planning & Architecture, AIIMS, Academy of Scientific & Innovative Research, Ghaziabad, Uttar Pradesh, Dakshina Bharat Hindi Prachar Sabha, Tamil Nadu, Footwear Design & Development Institute, Rajiv Gandhi National Institute of Youth Development, Indian Institute of Petroleum and Energy, and Rajiv Gandhi Institute of Petroleum Technology etc. These institutions have a completely different governing system aligned to their line ministries.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Sooner the issues, at least in principle, are resolved better and easier it shall be for NEP 2020 to be modified, if required, and implemented.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Likewise, the vision of Institutions of Eminence needs to be integrated with the NEP implementation plan, and IoEs need to be empowered with more freedom, flexibility, autonomy and resources.'
+      }
+    ]
+  },
+  {
+    id: '31',
+    title: 'LIFE: A Perspective',
+    slug: 'life-perspective',
+    description: 'An exploration of life\'s dimensions through time, space, and individual perspectives, examining its meaning and purpose',
+    date: '09-07-20',
+    author: 'Prof. Vinay Nangia',
+    role: 'Professor, Mentor, Guide for Education, Business and Start ups',
+    thumbnail: '/images/javascript.jpg',
+    content: [
+      {
+        type: 'paragraph',
+        content: 'Life is the time available or time spent between birth and death. In biographic sense it is the period from birth to death and a way of living the life.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Definition of life includes the quality that distinguishes a vital and functional being from a dead body. Life as a living matter has certain attributes that include responsiveness, growth, metabolism, energy transformation, and reproduction. The sequence of physical and mental experiences make up the existence of an individual.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Life is the aspect of existence that processes, acts, reacts, evaluates, and evolves through growth. The crucial difference between life and non-life is that life uses energy for physical and conscious development. Life is anything that grows and eventually dies.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Life can be studied from the point of view of various biological, or "life," sciences including anatomy, ultrastructure, physiology, molecular biology and biochemistry, and ecology etc. Life can also be seen from the metabolic, physiological, biochemical, genetic, thermodynamic and chemistry perspective. Life can also be seen from sociological or philosophical point of view or perspective.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Life means differently to different people. For some, it is a burden, for others it may be a challenge and for some others it is an opportunity.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Life is multi-dimensional.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Let us talk of the three dimensions; Time, Space and the Individual.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Put it differently Vertical, Horizontal and Human Being.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Let us see the role of an individual in the context of Time and Space or Vertical and Horizontal dimensions.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Talking of Time or Vertical dimension; we are born and brought to this world by our parents. We owe our existence to them. Hence, it is our first and foremost duty to take care of those persons because of whom we are in this world. Love of parents for their children is unconditional. Likewise, duty of men and women, towards their parents, to take care of them, especially when they are old, is unquestionable. The duty and responsibility is not alone towards previous generation but to the next generation as well. Individuals, as father and mother, owe it to their children to give them proper and good upbringing. It is the duty of the parents to groom their children to become nice human beings.'
+      },
+      {
+        type: 'paragraph',
+        content: 'In the case of Space or Horizontal dimension; it is like a huge playground and individual is free to play as much and as he or she may like to play with. One is free to decide the course of one\'s life and actions during major part of one\'s life. Individual is largely free to choose the education, friends, travel, hobbies and other engagements including marriage and sometimes even nationalities. It is the vision and courage apart from one\'s own circumstances which decide the course of life of an individual. There are people who live five or six lives in one life and there are also individuals who do not live even half their lives in terms of actions and activities. Dr. Seuss said "You have brains in your head. You have feet in your shoes. You can steer yourself in any direction you choose."'
+      },
+      {
+        type: 'paragraph',
+        content: 'Vertical dimension may include time specific and time bound duties and responsibilities but horizontal dimension in terms of space offers huge set of opportunities to grow, compete, collaborate, enjoy and contribute in a myriad ways. One may explore the beauty and variety of life in terms of places and people. To enrich one\'s own life and to contribute to the well-being of others through thoughts and actions is the greatest opportunity life gives to all.'
+      },
+      {
+        type: 'paragraph',
+        content: '"Life isn\'t about finding yourself. Life is about creating yourself." So said George Bernard Shaw.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Life is what we make it. It has always been that way and it shall always be like that. In order to make life meaningful - Do all the good you can, for all the people you can, in all the ways you can, as long as you can.'
+      }
+    ]
+  },
+  {
+    id: '32',
+    title: 'WHY THIS DEGREE IS CALLED DOCTOR OF PHILOSOPHY – PhD',
+    slug: 'why-degree-called-phd',
+    description: 'An exploration of the historical and philosophical origins of the PhD degree title and its significance across academic disciplines',
+    date: '28-06-20',
+    author: 'Prof. Vinay Nangia',
+    role: 'Professor, Mentor, Guide for Education, Business and Start ups',
+    thumbnail: '/images/javascript.jpg',
+    content: [
+      {
+        type: 'paragraph',
+        content: 'WHY THIS DEGREE IS CALLED DOCTOR OF PHILOSOPHY – PhD'
+      },
+      {
+        type: 'paragraph',
+        content: 'My Blog No. 23'
+      },
+      {
+        type: 'paragraph',
+        content: 'A Doctor of Philosophy (PhD) is the highest degree that is conferred after a course of study, by universities. PhDs or Doctorates are awarded for programs across the whole breadth of academic disciplines. PhD scholars are usually required to produce original research that expands the boundaries of knowledge, normally in the form of a thesis or dissertation. They defend their work in front of expert/s in the field.'
+      },
+      {
+        type: 'paragraph',
+        content: 'It is interesting to note that a person who did his masters in Arts say MA in Sociology or English or masters in Science say MSc Botany or Physics or masters in Engineering say MTech in Electrical Engineering or Mechanical Engineering or masters in Management MBA, while going for higher education, is awarded a degree of Doctor of Philosophy PhD, on completion of stipulated requirements, notwithstanding the nomenclature or specialization of the academic discipline i.e. Arts, Science, Engineering or Management in which the previous highest degree was obtained.'
+      },
+      {
+        type: 'paragraph',
+        content: 'This write up is an attempt to find out why the word "Doctor" and why the word "Philosophy" is used irrespective of the branch or discipline of knowledge in which the work is being carried out and the degree of Doctor of Philosophy is being conferred.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Doctor is an academic title that originates from the Latin word of the same spelling and meaning. The word is originally an agentive noun of the Latin verb docēre \'to teach\'. It has been used as an academic title in Europe since the 13th century, when the first doctorates were awarded at the University of Bologna and the University of Paris. Having become established in European universities, this usage spread around the world. "Dr" or "Dr." is used as a prefix for a person who has obtained a doctorate i.e. PhD.'
+      },
+      {
+        type: 'paragraph',
+        content: 'The Ph.D. can be awarded in a wide variety of fields, including the sciences, engineering and humanities. The term "philosophy," does not refer solely to the field or academic disciple of philosophy, but is used in a broader sense in accordance with its original Greek meaning, which is \'love of wisdom.\''
+      },
+      {
+        type: 'paragraph',
+        content: 'There are two ways in which it may be reasoned why the term Philosophy is used in PhD.'
+      },
+      {
+        type: 'paragraph',
+        content: 'One, the earliest doctoral degrees were in theology – Divinitatis Doctor or DD, law – Legum Doctor or LLD, later DCL and medicine – Medicinæ Doctor or MD, or DM, reflecting the historical separation of all higher University study into these three fields. Studies outside theology, law and medicine were then called "philosophy", due to the Renaissance conviction that real knowledge could be derived from empirical observation. Studies in what once was called philosophy are now classified as sciences and humanities. Hence, most disciplines, other than few like medicine and law, have their roots in Philosophy. Accordingly the name of degree awarded is Doctor of Philosophy.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Two, the purpose of Research in Higher Education is advancement in the body of knowledge by adding to the existing body of knowledge, or challenging the existing knowledge in the form of theories, principles and postulates etc. or reinterpreting the existing knowledge.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Philosophy is the foundation of critical thinking. It brings the important questions to the table and works towards an answer. Philosophical methods include questioning, critical discussion, rational argument, and systematic presentation. These methods facilitate the work of research. Philosophy helps in analyzing concepts, definitions, arguments, and problems. It also helps in synthesizing a variety of views or perspectives into one unified whole. Philosophical thinking strongly emphasizes clear formulation of ideas and problems, selection of relevant data, and objective methods for assessing ideas and proposals. It also emphasizes development of a sense of the new directions suggested by new hypotheses and questions one encounters while doing research. As the father of the field of logic Aristotle was the first to develop a formalized system for reasoning. He observed that the validity of any argument can be determined by its structure rather than its content. Aristotle claimed that a human\'s highest functioning must include reasoning.'
+      },
+      {
+        type: 'paragraph',
+        content: 'The reasoning given above is based on my personal understanding.'
+      },
+      {
+        type: 'paragraph',
+        content: 'To sum up, the word Doctor in Doctor of Philosophy refers to one who is licensed to or who can teach. And Philosophy being love of knowledge and wisdom provides methods and methodology to do effective research to broaden the base of knowledge.'
+      }
+    ]
+  },
+  {
+    id: '33',
+    title: 'Words in our World',
+    slug: 'words-in-our-world',
+    description: 'An exploration of how language evolves during global crises, with special focus on new terminology emerging during the COVID-19 pandemic',
+    date: '15-05-20',
+    author: 'Prof. Vinay Nangia',
+    role: 'Professor, Mentor, Guide for Education, Business and Start ups',
+    thumbnail: '/images/javascript.jpg',
+    content: [
+      {
+        type: 'paragraph',
+        content: 'Use of the words in a given time period is reflective of the mood and context of that time. New words keep evolving with the passage of time. Let us see which new words are added during this pandemic.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Some of the words like Healthcare, Travel, Hospitals, Doctors, Nurses, Police, Administration, Government, President, Prime Minister, Health Minister, Centre, State, Federal, Police, Administration, Online, Digital, Learning, Supply Chain, Essentials, Frustration, Relief, Package, Stress and Recession have found increased usage in these days of pandemic.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Words like Covid -19, Corona, Virus, Post Covid-19, Post Corona, Covid-19 Heroes, Before Corona (BC) , After Corona (AC) , After Death of Corona (AD), Corona Warriors, Corona Saviours, Pandemic, Healthcare System, Healthcare Workers, Quarantine, Isolation, Self-Quarantine, Self-Isolation, Social Distancing, Lockdown, Post Lockdown, Personal Protective Equipment (PPE), Infodemic, Work from home (WFH), New Normal, Webinar, Webex and  Zoom  have suddenly re-surfaced in current scenario.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Pandemic is an epidemic of disease that has spread across a large region, for instance multiple continents or worldwide, affecting a substantial number of people. The word originated in mid-17th century.'
+      },
+      {
+        type: 'paragraph',
+        content: 'There is an exponential rise in usage of a single word Covid-19, short form of coronavirus disease 2019. Self-isolation was recorded as a word in 1834 and self-isolating in 1841. These words are now used to describe self-imposed isolation to prevent catching or transmitting an infectious disease. In the 1800s these were used in the context of countries which chose to detach themselves politically and economically from the rest of the world. PPE  i.e., personal protective equipment – dates from 1934. Social distancing, first used in 1957, was originally an attitude rather than a physical term, referring to an aloofness or deliberate attempt to distance oneself from others socially. Today, we all understand it as keeping a physical distance between ourselves and others to avoid infection. New Normal is a term in business and economics that refers to financial conditions following the financial crisis of 2007-2008 and the aftermath of the 2008–2012 global recession. The term has since been used in a variety of other contexts to imply that something which was previously abnormal has become commonplace. Infodemic is the outpouring of unsubstantiated media and online information relating to a crisis. The term was coined in 2003 for the SARS epidemic, but has also been used to describe the current proliferation of news around coronavirus.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Het poldermodel and its associated verb, polderen, is derived from the Dutch habit of working together to reclaim parts of their country from the sea. Since the middle ages, everyone on the same polder, regardless of religion, politics, class and local rivalries, has had to cooperate in maintaining the complex but vital system of windmills and dykes that kept their land dry.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Post Corona crisis we do not know how globalization may change its course and leadership.  We are not seeing leadership out of the White House and American Hegemony is coming to an end. Sinophobia will not China step up to the plate, and Germany or Russia are unlikely to lead the way. We may see a multi-polar world where America earns its place based on its current merit.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Polderen; the term, which has been defined as "pragmatic cooperation despite differences" may offer the solution for such times till a truly global leader emerges. This term has been used since the mid-1970s to describe the kind of consensus political decision-making common in the Netherlands, which has been governed by coalitions for over a century, since no single party has ever held a majority.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Watch-out for new words which may emerge during Covid-19 crisis.'
+      }
+    ]
+  },
+  {
+    id: '34',
+    title: 'Post Covid 19 - with a different lens',
+    slug: 'post-covid19-different-lens',
+    description: 'A forward-looking analysis of the immediate, near-term, and long-term impacts of the COVID-19 pandemic on society, economy, and human behavior',
+    date: '08-05-20',
+    author: 'Prof. Vinay Nangia',
+    role: 'Professor, Mentor, Guide for Education, Business and Start ups',
+    thumbnail: '/images/javascript.jpg',
+    content: [
+      {
+        type: 'paragraph',
+        content: 'Corona or Covid 19 continues to play havoc.'
+      },
+      {
+        type: 'paragraph',
+        content: 'We are unlikely to overcome impending situation and be in control in 2020.'
+      },
+      {
+        type: 'paragraph',
+        content: 'It may be early to predict the impact of pandemic.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Yet it is time to take a pause, having moved too fast in last few years. And think of likely issues which may emerge and challenges we may have to face in the near and far future.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Often we hear the phrase we are in a World War. The size and scale of pandemic is reminiscent of world war except that this time all the countries of the world are on one side and are fighting an unknown enemy.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Therefore, as it happens, after the world wars there will be major changes in the world of today we are living in.'
+      },
+      {
+        type: 'paragraph',
+        content: 'The impact in some areas may be very little or little, whereas in others it may be noticeable. The impact of this pandemic could be major or phenomenal or even far reaching in certain aspects and sectors. Some changes may be immediate or in a very short term, some may be seen in medium term and some may be visible only in the long run.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Immediate issues and challenges include containing the spread of the virus, substantially increasing the testing and hospital facilities, finding medical solution to the problem, making the quarantines and lockdowns possible and effective and maintaining the supply line of essentials to all.'
+      },
+      {
+        type: 'paragraph',
+        content: 'In the immediate future issues will include maintaining the production and supply lines of raw materials and stored and finished goods. Ensuring that unemployment does not reach unmanageable levels. This will be the foremost challenge for all nations. Increasing requisite healthcare facilities shall continue to remain a priority in the immediate future.'
+      },
+      {
+        type: 'paragraph',
+        content: 'In the near future attention will be paid to rebuild the economies and efforts to bring back life to normal. Relocation of production and manufacturing bases shall be explored by companies and countries. Cash rich corporations will go for takeovers, mergers and acquisitions. Result of Presidential elections in USA in November 2020 will decide and impact the new world order through shaping of inter-governmental and multilateral institutions. Trump winning or not winning the election will also shape the future of politics and politicians in many, if not most, countries of the world. In the next 12 to 18 months actions of trans-national and multi-national corporations, result of US presidential election, and response of China to the backlash, it is likely to face, will impact next few decades. Actions and policies framed by G 20 countries and OPEC countries in the next couple of years will bring about global changes. In the near future new geo-political realities will emerge.'
+      },
+      {
+        type: 'paragraph',
+        content: 'In the short to medium term research relating to bio-technology will receive huge attention and funding. Regulatory authorities will exercise their influence on data privacy, data control and economic protectionism. In the medium term new world order with regard to legal, financial and scientific research will emerge.'
+      },
+      {
+        type: 'paragraph',
+        content: 'In the long term, one may hope, life styles and habits may change. Long term changes will be with regard to psychological and social changes in individual and society and systemic changes in healthcare, education, entertainment and governance.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Let us hope mankind will be more kind and human shall be more humane.'
+      }
+    ]
+  },
+  {
+    id: '35',
+    title: 'Rethink',
+    slug: 'rethink',
+    description: 'A critical examination of societal systems and values in light of the COVID-19 pandemic, calling for fundamental reassessment of healthcare, education, and global institutions',
+    date: '19-04-20',
+    author: 'Prof. Vinay Nangia',
+    role: 'Professor, Mentor, Guide for Education, Business and Start ups',
+    thumbnail: '/images/javascript.jpg',
+    content: [
+  
+      {
+        type: 'paragraph',
+        content: 'Coronavirus or Covide 19 continues to damage globally.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Capacity and capability to fight the menace has depended on efficacy of healthcare system, quality of political governance and social capital of the concerned nation.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Good, bad and ugly as well as heroes and villains shall be known in a space of few months in the aftermath of this pandemic.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Inequalities, demographics, and right to information, no doubt, will change the face of this world and our lives in the next few decades but this pandemic has provided us a great opportunity to question our ways of living, working and thinking.'
+      },
+      {
+        type: 'paragraph',
+        content: 'In the din and noise of machine and money and in the world of consumerism and materialism somewhere we lost the essence of living. For peace and tranquility we look for tailor-made programs offered by Gurus – of marketing. In the search of love and tranquility we look for sponsored events. These isolations, quarantines and lockdowns are making us think and appreciate basic values of life peace and happiness.'
+      },
+      {
+        type: 'paragraph',
+        content: 'There is need to rethink handling of kids and older people. What values are we giving to our youngsters? Are we taking good care of our senior citizens in terms of their social, psychological, health and financial needs? Are we doing enough for marginalised people?'
+      },
+      {
+        type: 'paragraph',
+        content: 'There is need to rethink and question some of our basic systems. Healthcare and Education being public goods cannot be left in the hands of private sector. To provide free and good healthcare system should be the focus of attention of all governments in the immediate future.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Global Financial System. How long can we remain slaves of dollarization? How long we suffer the forces of stock exchanges being playgrounds for greedy stakeholders. Why shareholders have become the only important stakeholder in business world? How long the Quantitative Easing be the solution to all the financial problems.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Intergovernmental and multilateral institutions like World Bank, IMF and WHO were set up after the World Wars. What is their role and relevance in the present context?'
+      },
+      {
+        type: 'paragraph',
+        content: 'Will there be a shift in the global political leadership? Old school models of Capitalism, Communism and Socialism as well as Left, Right and Centre kind of philosophies and thoughts need to be reexamined in the wake of post Covid 19 world.'
+      },
+      {
+        type: 'paragraph',
+        content: 'We are still in the midst of the crisis. Lockdown is an opportunity for us to think afresh.'
+      }
+    ]
+  },
+  {
+    id: '36',
+    title: 'What is so great about IITs',
+    slug: 'what-is-great-about-iits',
+    description: 'A comprehensive analysis of the Indian Institutes of Technology (IITs), exploring their history, structure, success factors, and global impact',
+    date: '12-08-19',
+    author: 'Prof. Vinay Nangia',
+    role: 'Professor, Mentor, Guide for Education, Business and Start ups',
+    thumbnail: '/images/javascript.jpg',
+    content: [
+   
+      {
+        type: 'paragraph',
+        content: 'IIT has become a global brand irrespective of global rankings.'
+      },
+      {
+        type: 'paragraph',
+        content: 'This write up attempts to reason out what makes IITs a great institution.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Historical Backdrop:'
+      },
+      {
+        type: 'paragraph',
+        content: 'After the end of the Second World War and before India got independence, Sir Ardeshir Dalal from the Viceroy\'s Executive Council foresaw that the future prosperity of India would depend on technology. Therefore he conceptualized institutes that would train such work forces in the country itself. This is considered to be the first conceptualization of the Indian Institutes of Technology.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Dr. Humayun Kabir set up a 22 member committee to prepare a proposal, and made Sir Nalini Ranjan Sarkar the chairman. The Sarkar Committee recommended in 1945 that at least four Higher Technical Institutes on the lines of famous Massachusetts Institute of Technology, U.S.A. be established in the Eastern, Western, Northern and Southern regions of the country.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Post-Independence, Pandit Jawaharlal envisioned that the IIT system would over time provide scientists and technologists of the highest caliber who would engage in research, design and development to help building the nation towards self-reliance in her technological needs.'
+      },
+      {
+        type: 'paragraph',
+        content: 'The first Indian Institute of Technology, IIT Kharagpur was established in 1951, the second IIT Bombay in 1958, the third and fourth IIT Kanpur and IIT Madras were set up in 1959 and IIT Delhi in 1961 was the fifth. After a long gap IIT Guwahati was established in 1994.  India\'s first technical institute, set up in 1847 and known as the Thomson College of Engineering and subsequently the University of Roorkee, was ordained as the seventh IIT in September 2001. In the year 2008, six new IITs were started: IIT Bhubaneswar, IIT Gandhinagar, IIT Hyderabad, IIT Patna, IIT Rajasthan, and IIT Ropar. This was followed by two more IITs in 2009: IIT Indore and IIT Mandi. At present there are 23 IITs in India.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Ingredients of Success:'
+      },
+      {
+        type: 'paragraph',
+        content: 'Any organization to be successful has to have its foundation right. That is why the brief historical background is given above. An institution becomes sustainable and successful if its structure and system is sound and it has visionary leadership at the helm.  An educational institution becomes sound if it enjoys autonomy with commensurate responsibility. Further, it should not starve of resources particularly financial resources. It should not have any kind of interference; political, beuarocratic or otherwise.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Structure: An act was passed in Indian parliament called Indian Institutes of Technology Act 1961 and in the same year Parliament decreed the IITs as \'Institutes of National Importance\'.'
+      },
+      {
+        type: 'paragraph',
+        content: 'The act set the structure in place. IIT Council is the apex body headed by the cabinet Minister of Human Resource Development of the central government and is composed of Chairmen of Boards of Governors of all IITs, Directors of all IITS, renowned scientists, engineers, educationists, policy makers and industrialists. This IIT Council takes all policy decisions which are common for all IITs for example admission policy and process. At the next level is Board of Governors (BoG) of individual IIT. This BoG is for taking policy decisions of the particular IIT. Chairman of BoG can be in a way compared with Chairman of Board of Directors of a company. The Director of an IIT is akin to Chief Executive Officer (CEO) who has to execute the decisions taken by the BoG where he is also one of the members.  This is not like university system where the Vice Chancellor is like Chairman cum Managing Director of a company i.e. he is heading the policy function as well as executive function. What goes on in all IITs collectively or similarly is also quite often called IIT System. IIT act empowers the Director of an IIT to appoint any number of Deputy Directors and Deans and delegate his powers to these functionaries. In university system Deans generally have advisory role and Vice Chancellors quite often do not have a provision to delegate their executive powers to the Deans. It is an interesting feature of IITs that whether it is Library or Hospital or Security the buck stops at Chairman, Advisory Committee of Library or Hospital or Security. This Chairman is a Professor. So the last points of controls are not left in the hands of non-teaching staff or functionaries. It improves the respectability of teachers and makes the system clean. This helps in reducing red tape in the institution. This has prevented IITs to go the way universities in the country have gone particularly state universities and private universities. There are no such power centres as the Chairmen of such Advisory Committees are appointed on rotational basis. This also prepares such Professors for subsequent academic leadership roles.'
+      },
+      {
+        type: 'paragraph',
+        content: 'System: The system is fair and transparent. Admission in various programs is an example. Admission process is fool-proof and temper-proof. No amount of influence can get an unworthy candidate to be admitted. System also ensures great degree of autonomy. Autonomy with regard to teaching, setting syllabus and curriculum, setting up of question papers and assessment and evaluation of performance of students. As a practice in entire IIT system answer-sheets are shown to the students without fail before the result is finalized.  And the student is free to discuss the assessment made by the teacher with him. Interestingly there is no Controller of Examination in IITs as there is no need for that. Results are compiled, computed and declared at the level of Assistant Registrar or Deputy Registrar under the guidance of Dean Academics.  No teacher leaves his class for attending meetings which is so common in most educational institutions. In most of the IITs even the Director loves to take classes to remain in touch with the subject, the students and to set an example for others. Most of the authorities like Deans and Associate Deans etc. fix up their classes in the forenoon session so that they can attend to administrative responsibilities in the afternoon and evening. Meetings, unless purely academic in nature, are generally conducted in the afternoon session.'
+      },
+      {
+        type: 'paragraph',
+        content: 'History, Legacy, Culture, Customs, Traditions & Practices: During the early years, the IITs benefited in varying degrees from material assistance and academic cooperation from developed countries — IIT Bombay from the Soviet Union, IIT Madras from Germany, IIT Kanpur from the United States, and IIT Delhi from the United Kingdom. These first five IITs set in place open culture, efficient processes and open interactive environment through exchange of faculty with the best institutions of the world and imbibing healthy practices and culture of world renowned institutions. These old IITs are helping and guiding the IITs which are established subsequently.'
+      },
+      {
+        type: 'paragraph',
+        content: 'It is interesting to note that three of the oldest engineering institutions of India got converted into IITs later on. The first being India\'s first technical institute, set up in 1847 and known as the Thomson College of Engineering and subsequently the University of Roorkee It became the seventh IIT in September 2001. The second was from Banaras Hindu University established in 1916. The three of the erstwhile engineering colleges of BHU, namely BENCO, MINMET and TECHNO, were merged to form the Institute of Technology (IT-BHU) in 1968. IT-BHU became IIT (BHU) on June 29, 2012 by an Act of Parliament.'
+      },
+      {
+        type: 'paragraph',
+        content: 'The Indian Institute of Technology, Dhanbad was formerly known as Indian School of Mines and was a Central University before it was converted into an Indian Institute of Technology (IIT). It is the third oldest institute (after IIT Roorkee and IIT (BHU) Varanasi) which got converted into an IIT. It was established by British Indian Government on the lines of the Royal School of Mines - London, and was formally inaugurated on 9 December 1926 by Lord Irwin, the then Viceroy of India. On August 2, 2016 it became The Indian Institute of Technology, Dhanbad commonly known as IIT (ISM).'
+      },
+      {
+        type: 'paragraph',
+        content: 'The above referred three IITs face a different set of challenges due to their legacy, culture and traditions to be canalized into IIT system. It will be interesting to watch their journey in times to come.'
+      },
+      {
+        type: 'paragraph',
+        content: 'The new IITs are mentored by old reputed IITs. These new IITs do not have legacy issues unlike the above three.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Funding: 23 IITs along with 31 NITs get 25% to 33% of entire budget of higher education of government of India.'
+      },
+      {
+        type: 'paragraph',
+        content: 'As per the Report of the Sub Committee constituted by the Council of IITs, the estimated average expenditure per student in the Indian Institutes of Technology (IITs) is Rs.5.2 lakh per year. Against this, the fee charged from under graduate students is Rs.2.00 lakh per year, with provision of full fee waiver in respect of SC/ST/PH students, most economically backward students whose family income is less than Rs.1 lakh per annum; and two-third fee remission to other economically backward students whose family income is between Rs.1 lakh to 5 lakh per annum.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Alumni Support: By now the alumni base of IITs is very large in India and globally. They have been not only supporting the students who are studying and graduating from IITs in a myriad ways but even funding decent sums of money. Vinod Gupta School of Management at IIT Kharagpur and Shailesh J Mehta School of Management at IIT Bombay are glowing examples. This has also helped in setting up schools within IITs.'
+      },
+      {
+        type: 'paragraph',
+        content: 'To sum up the origin, legal structure and system, History, Legacy, Culture, Customs, Traditions & Practices, Liberal funding, Autonomy and Alumni support make IITs great institutions.'
+      }
+    ]
+  },
+  {
+    id: '37',
+    title: 'EDUCATION',
+    slug: 'education',
+    description: 'A comprehensive overview of professional and technical education in India, with special focus on engineering education and institutions of national importance',
+    date: '03-08-19',
+    author: 'Prof. Vinay Nangia',
+    role: 'Professor, Mentor, Guide for Education, Business and Start ups',
+    thumbnail: '/images/javascript.jpg',
+    content: [
+    
+      {
+        type: 'paragraph',
+        content: 'Professional Education: A professional is equipped with requisite educational qualifications, like, a physician or a surgeon with a degree in medicine and surgery, or a lawyer with bachelor\'s  or master\'s degree in law, and architect with appropriate bachelor\'s or master\'s degree in planning and architecture as opposed to a carpenter or a cobbler who possesses necessary skill sets but not a university degree. Conduct of various professionals like chartered accountants, cost and management accountants, doctors, lawyers and architects is regulated and governed by professional bodies like The Institute of Chartered Accountants of India or Medical Council of India or Bar Council of India or Council of Architects. For engineers and managers there is no such professional body or council to regulate and govern their conduct. For the purpose of regulating professional education including engineering and management education All India Council of Technical Education was established as a government institution to promote, develop and regulate technical education in India.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Engineering education started as an apprentice based training and education. The oldest Engineering College in entire commonwealth was College of Civil Engineering at Roorkee in 1847 now IIT Roorkee. Engineering education had started in Europe at many places in the eighteenth century. The postgraduate degree courses started in the erstwhile Roorkee University for the first time in India in 1956.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Science is the study of why things work and how they work. It provides the base or foundation through theories, concepts and principles. Application of mathematics and science for manufacturing or construction for larger good like damns, bridges and roads and rails is engineering. When the collection of these techniques, skills, and processes/methods in order to create goods or services is transferable and marketable it may be called technology.'
+      },
+      {
+        type: 'paragraph',
+        content: 'The first Indian Institute of Technology IIT Kharagpur was established in 1951, the second IIT Bombay in 1958, the third and fourth IIT Kanpur and IIT Madras were set up in 1959 and IIT Delhi in 1961 was the fifth. After a long gap IIT Guwahati was established in 1994. In 1961 Parliament decreed the IITs as \'Institutes of National Importance\'. India\'s first technical institute, set up in 1847 and known as the Thomson College of Engineering and subsequently the University of Roorkee, was ordained as the seventh IIT in September 2001. In the year 2008, six new IITs were started: IIT Bhubaneswar, IIT Gandhinagar, IIT Hyderabad, IIT Patna, IIT Rajasthan, and IIT Ropar. This was followed by two more IITs in 2009: IIT Indore and IIT Mandi. During the early years, the IITs benefited in varying degrees from material assistance and academic cooperation from developed countries — IIT Bombay from the Soviet Union, IIT Madras from Germany, IIT Kanpur from the United States, and IIT Delhi from the United Kingdom. The new IITs are mentored by old reputed IITs.'
+      },
+      {
+        type: 'paragraph',
+        content: 'At present there are 23 Indian Institutes of Technology (IITs), Indian Institute of Science (IISc.) Bangalore and 7 other Indian Institutes of Science Education & Research (IISERs). There are 31 National Institutes of Technology (NITs). There are 5 Indian Institutes of Information Technology (IIITs) and 19 IIITs in Public Private Partnership mode. Additionally there are 3 Schools of Planning & Architecture (SPAs) and National Institute of Industrial Engineering (NIITE)'
+      },
+      {
+        type: 'paragraph',
+        content: '94 Institutions, mostly technical, in the country have been designated as Institutions of National Importance.'
+      }
+    ]
+  },
+  {
+    id: '38',
+    title: 'Education- Introductory Notes',
+    slug: 'education-introductory-notes',
+    description: 'A comprehensive overview of education fundamentals, its four pillars, and the historical development of universities in India and worldwide',
+    date: '31-07-19',
+    author: 'Prof. Vinay Nangia',
+    role: 'Professor, Mentor, Guide for Education, Business and Start ups',
+    thumbnail: '/images/javascript.jpg',
+    content: [
+      {
+        type: 'paragraph',
+        content: 'During our younger days we were told the purpose of education is character building. But, for now education is expected to help provide employment. Education should aim at holistic development of human beings and society.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Education is a lifelong journey and can be based on following four pillars:'
+      },
+      {
+        type: 'paragraph',
+        content: 'i) Learning to Know – Acquiring a body of knowledge and learning how to learn, so as to benefit from the opportunities education provides throughout life;'
+      },
+      {
+        type: 'paragraph',
+        content: 'ii) Learning to Do – Acquiring not only an occupational skill but also the competence to deal with many situations, work in teams, and a package of skills that enables one to deal with the various challenges of professional life;'
+      },
+      {
+        type: 'paragraph',
+        content: 'iii) Learning to Live Together – Developing an understanding of other people and an appreciation of interdependence in the spirit of respect for the values of pluralism, mutual understanding and peace; and'
+      },
+      {
+        type: 'paragraph',
+        content: 'iv) Learning to Be – Developing one\'s personality and the ability to act with autonomy, judgement and personal responsibility, while ensuring that education does not disregard any aspect of the potential of a person: memory, reasoning, aesthetic sense, physical capacities and communication skills.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Primary education largely covers literacy and foundational knowledge including numerical ability. Middle and secondary education moves on with subject specific wider general knowledge with some options to choose from at secondary level. Undergraduate level offers options of various streams to choose from whereas post graduate level offers advance knowledge and speacialisations. Doctorate level education deals in research.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Higher education enables furtherance and creation of knowledge whereas at middle and senior secondary level and even at undergraduate levels it is imparting of knowledge. Education as a concept is holistic. It is a system that begins with admissions and comprises of classes, examinations, registration, enrolments, time table, hostel, convocation to migration certificate and transfer certificate. Academics on the other hand deals with curriculum, conference papers, research papers and scholarship. Education may be viewed as a system having multiple stakeholders whereas academics require intellectual stimulus and rigour.'
+      },
+      {
+        type: 'paragraph',
+        content: 'World\'s oldest living and operational university was founded in 859 AD is in Morocco. The University of Bologna in Italy is oldest in Europe and was founded in 1088. University of Oxford was established during 1096-1167 and University of Paris was established during 1160-1250. Harvard University is the oldest university of USA established in 1636 and chartered in 1650. University of Calcutta, University of Bombay and University of Madras are oldest operational universities of India established in 1857. University of Allahabad was set up in 1887 as the fourth university in India. Thereafter, the three universities established were Banaras Hindu University in 1916 Aligarh Muslim University in 1920 and University of Delhi in 1922, now known as Central Universities. University of Roorkee in 1949 became the first Technical University of India.'
+      },
+      {
+        type: 'paragraph',
+        content: 'There are 53620 Institutions of Higher Learning in India with 14.04 lakh teachers and 3.5 crore students as of now. This includes 993 Universities with 1.58 lakh teachers and 69.46 lakh students.'
+      },
+      {
+        type: 'paragraph',
+        content: 'At present there are 41 Central Universities, 400 State Universities and 39 Deemed to be Universities. Additionally 340 Private Universities are competent to award degrees as specified by UGC under Section 22 of the UGC Act.'
+      }
+    ]
+  },
+  {
+    id: '39',
+    title: 'New Book on Banking Just Arrived',
+    slug: 'new-book-banking-arrived',
+    description: 'Announcement of Prof. Vinay Nangia\'s second book on Smart Banking',
+    date: '10-12-15',
+    author: 'Prof. Vinay Nangia',
+    role: 'Professor, Mentor, Guide for Education, Business and Start ups',
+    thumbnail: '/images/javascript.jpg',
+    content: [
+      {
+        type: 'paragraph',
+        content: 'You will be glad to know that my second  book\'driven by information technology Smart BANKING- an Introduction\'has just been released.'
+      },
+      {
+        type: 'paragraph',
+        content: 'The details can be accessed on www.smartbanking.in as well as the Face Book page of \'Smart Banking - An Introduction\''
+      },
+      {
+        type: 'paragraph',
+        content: 'Book can also be ordered online from www.smartbanking.in'
+      }
+    ],
+    externalLinks: [
+      {
+        text: 'Visit Smart Banking Website',
+        url: 'http://www.smartbanking.in'
+      },
+      {
+        text: 'Facebook Page',
+        url: 'https://www.facebook.com/SmartBankingAnIntroduction'
+      }
+    ]
+  },
+  {
+    id: '40',
+    title: 'The Art of CONVERSATION',
+    slug: 'art-of-conversation',
+    description: 'A comprehensive guide to mastering the art of conversation in various social and professional settings',
+    date: '25-07-14',
+    author: 'Prof. Vinay Nangia',
+    role: 'Professor, Mentor, Guide for Education, Business and Start ups',
+    thumbnail: '/images/javascript.jpg',
+    content: [
+      {
+        type: 'paragraph',
+        content: 'The Art of CONVERSATION'
+      },
+      {
+        type: 'paragraph',
+        content: 'Conversation implies verbal interaction between two individuals; quite often not known to each other earlier. There may be no purpose of conversation or it may be for pleasure or may be for whiling away time or even for taking it as an opportunity for furthering personal or business interests.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Conversation takes place mostly while travelling or waiting. During travel by air or by road it may take place between co-passengers and while waiting, may be at airport or hotel or conference venue, or for an appointment with a doctor, consultant or senior government official etc.'
+      },
+      {
+        type: 'paragraph',
+        content: 'The art of conversation can be cultivated, first, by observing the behaviour i.e. approach, style and content, of good conversationalists and later through practice.'
+      },
+      {
+        type: 'paragraph',
+        content: 'It is a prerequisite to be enthusiastic if one wants to learn the art of conversation. It requires study of human behaviour, patient listening and knowing when to start and when to stop during the conversation.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Before initiating or opening a dialogue one should observe the gestures, postures, behaviour and what exactly the other person is doing. The other person may be reading a newspaper or a magazine or watching television or may be busy on telephone all the time or may be this individual is also looking around for some one to talk with. The period of observation could be keeping in mind the time which both the individuals are likely to spend at the same place. For example during air travel the likely time to be spent as co-passenger may vary from one to four hours and some times more in international flights, in train travel it may be more than four hours and in waiting room of a clinic it may be fifteen minutes to an hour.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Having observed one or more such persons around, decide with whom and how to open the conversation. This will depend obviously on the personality of the person observed, one\'s observations, physical distance between two individuals at that point of time (for example in airplane one can not converse with a person seated five rows behind) and the expected, based on one\'s assessment, response from the other person.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Most difficult and testing part of a conversation is its opening. Easiest topics for opening the dialogue could be current affairs. But that may not be always necessary. Current affairs could be relating to politics or sports or any other flash news. One should look at the age and gender of the other person before deciding on the topic. For example it is easiest to talk about the latest mobile apps for smart phones to a teenager or a youngster, latest games on mobile phone to kids, helping out a lady or an old man in handling their electronic gadget like I pad or smart phone. In air travel, say by business class, one could initiate the talk on economy or some thing from National Geographic or Time magazine etc. The opening of a dialogue could be with a query, which is most common. Quite often one tests the water by asking questions relating to destination, if travelling or enquiring about the locality in which the other person stays etc. The response to such questions helps to decide the speed and style of further communication. With a lady, easier course could be to open the dialogue by guarded admiration of may be her dress, the make up or personal accessories like watch or purse or jewelry. One has to be careful in terms of the age difference between the two parties getting into conversation. Conversation can begin with introducing one self and offering a business card if the situation so demands. This is more likely with seasoned conversationalists.'
+      },
+      {
+        type: 'paragraph',
+        content: 'It is rare but one should be ready for a rebuff from the other side.'
+      },
+      {
+        type: 'paragraph',
+        content: 'The beauty of the conversation lies in taking the conversation to higher levels, consistently, possibly resulting into friendship or new relationships. This requires probing and grasping the interest of the other person and keeping the conversation on track to sustain the interest of the other person in the interaction. Interruptions of any kind provide opportunity for changing the topic. One should also learn to change the topic quickly where one does not have interest or knowledge. Boasting of self will bring the conversation to a quick close.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Proof of good conversation is that it ends only when the parting time comes. Conversation should normally end with niceties like exchange of visiting cards or shaking hands or saying bye. It is at this point of time that both the parties decide to continue or not to continue the relationship in future. These days it may simply end up by on - the - spot exchange of friend request on Face Book etc. Professionals may catch up with and get connected on linkedin, blogger and twitter etc.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Conversation can be developed as an art for personal pleasure and advancement by being enthusiastic, by being a careful observer and through practice.'
+      },
+      {
+        type: 'paragraph',
+        content: 'It can bring about unexpected windfalls at times.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Happy Conversing!!!!'
+      }
+    ]
+  },
+  {
+    id: '41',
+    title: 'Doing MBA: Choice of a Business School',
+    slug: 'doing-mba-choice-business-school',
+    description: 'A comprehensive guide to selecting the right business school for MBA studies, considering factors like global opportunities, ROI, and personal preferences',
+    date: '21-07-14',
+    author: 'Prof. Vinay Nangia',
+    role: 'Professor, Mentor, Guide for Education, Business and Start ups',
+    thumbnail: '/images/javascript.jpg',
+    content: [
+      {
+        type: 'paragraph',
+        content: 'Doing MBA: Choice of a Business School'
+      },
+      {
+        type: 'paragraph',
+        content: 'Having decided to do an MBA programme one needs to decide; from where. The choice of a B-School depends on the educational background, inclination and preferences and resources of the person and prevalent market conditions.'
+      },
+      {
+        type: 'paragraph',
+        content: 'In case one is clear that one wants to be truly a global executive (meaning acceptability and employability anywhere in the world) or desires to settle abroad then one should obtain MBA degree from USA. Reason for suggesting USA is that in the foreseeable future their economy is unlikely to go down. Hence, there is better scope of employability. Further, MBA degree of USA is acceptable worldwide whereas degrees of other countries are less likely to be accepted in USA. Europe does have very good business schools but Indians loose out in terms of getting visa or work permit for working in Europe. MBA from Singapore, Hong Kong, Manila and other good B-Schools from Asia and even Europe makes the person land up in good companies, quite often MNCs, in Singapore, Taiwan, Korea, Hong Kong, Indonesia, Philippines and Thailand etc. If one intends to do MBA as an academic pursuit, to be followed by a doctoral degree, then one can go to study in any institution known for its area of excellence anywhere in the world.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Indians wanting to settle down in India for social, personal or economy reasons should obtain MBA degree from a B-School in India. Indian employers always prefer an MBA from India because of relevance of course content to Indian conditions. They may accept very few from across the best B-Schools in the world for a number of reasons including cost to the company.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Should one settle for nothing but the Best? It is interesting to note that the kind of job offers made to, say, top 5% of the students in B-School with a ranking of say,20 to 30 in USA are similar to the bottom 50% of the students in, say, top 7-8 ranking B-Schools in USA. In India too, the story is not very different. It may not be a bad idea to get into a slightly lower ranking B-School, especially if costs benefit analysis works, rather than waiting longer to get into the best. Quite often best is the enemy of good.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Ideally the choice of B-School should depend on expected \'value add\' and return on investment.'
+      },
+      {
+        type: 'paragraph',
+        content: '\'Value add\' means the transformation of a person, i.e. improvement in knowledge, skills and attitude, during the period of doing MBA. This is a function of reputation, rigour and ambience of the institute, the quality of faculty, infrastructure and peer group. It also depends in a large measure on the attitude, aptitude, likings and preferences of the student himself.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Return on investment may be seen differently in USA and India. In USA MBA programmes will generally cost USD 150 K to USD 300 K and on completion compensation packages are also in the region of USD 100 K to 200 K. Thus, taking a loan is almost a necessity. In India, the fee structure varies drastically even within different kinds of Universities and autonomous institutions like IIMs and IITs. While deciding a B-School this needs to be seen and evaluated closely. It may make much more sense to go to a slightly lower ranked B-School if the fee difference is large.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Another factor to be considered is to go to a B-School known for a particular discipline for example Wharton is known for Finance and XLRI is known for HR.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Timing of doing MBA also matters. Those who join at boom times do not very often get the packages they expected as in two years the economy may have taken a down turn. The vice-versa is also true. If one can anticipate market conditions one can get in for higher education at a time when economy is going through a lean phase.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Unless programme is fully residential and run by old and established institution one should prefer to choose a location in metro and bigger towns for better interaction with industry and business people and even with government, functionaries and other social groups.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Students not having engineering and science background may find it difficult to study in institutions emphasising qants orientation. Engineering students generally have better choice in this matter.'
+      },
+      {
+        type: 'paragraph',
+        content: 'To sum up, choice of a B-School should be made keeping in mind ones own likings, preferences, qualifications, and location and reputation of the institute and careful evaluation of value add and return on investment.'
+      }
+    ]
+  },
+  {
+    id: '42',
+    title: 'Doing MBA: Is it necessary',
+    slug: 'doing-mba-is-it-necessary',
+    description: 'An analysis of the value and necessity of pursuing an MBA degree, exploring its benefits for professionals from various backgrounds',
+    date: '08-07-14',
+    author: 'Prof. Vinay Nangia',
+    role: 'Professor, Mentor, Guide for Education, Business and Start ups',
+    thumbnail: '/images/javascript.jpg',
+    content: [
+      
+      {
+        type: 'paragraph',
+        content: 'Intelligent and serious minded students, researchers and working professionals, especially from science, engineering, medicine and other professional background, often wonder what value does an MBA degree add and why should one do it. Is it necessary?'
+      },
+      {
+        type: 'paragraph',
+        content: 'Very often MBA programme is considered to be a superfluous course involving soft skills in general and presentation skills in particular. Teachers and researchers from other disciplines also do not take management students and teachers seriously. But, more often, they are in the awe of such students and even teachers.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Management is one of the newest disciplines. Outside of USA it has started only after 1950. After 1980, the world over, growth has been almost sporadic. Management involves decision making. It has planning, organising, coordinating, training, motivating and control as important functions. Marketing, finance, human resources and operations are important departments in an organisation to support management functions in meeting mission and vision of the organisation. Whether it is an office of a political party, research organisation, religious body or the office of the Prime Minister, management is required. Management skills or leadership can be inborn, no doubt, but these can be learnt too. Of all the functionaries, the higher the person is placed more of managerial and leadership qualities are needed.'
+      },
+      {
+        type: 'paragraph',
+        content: 'A question quite often asked is - were things not managed when MBA course or management discipline had not evolved. How were family and other businesses managed? So what an MBA is ? nothing. It is "Common sense jargonised and smartness personified".'
+      },
+      {
+        type: 'paragraph',
+        content: 'The fact remains management can be viewed in one of the two ways. One, it is a science or discipline which needs to be developed and formalised through serious research just like any other discipline. This is the job of teachers who need to contribute through their research work and publications formulation of theories, concepts and principles. Two, management is a profession. As an art it is to be practised. It requires very close interaction and collaboration with business and industry, even government and society. This again needs to be developed by teachers through management development programmes, executive development programmes, faculty industry executive exchanges and through development of case studies. For an MBA programme both these perspectives are important. Teachers tend to take the first perspective whereas students wish to be practice oriented'
+      },
+      {
+        type: 'paragraph',
+        content: 'Management is interdisciplinary. It is integrative. It evolves.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Why should one do MBA?'
+      },
+      {
+        type: 'list',
+        content: [
+          'One gets exposed to a variety of disciplines of engineering, science, humanities and social sciences. It helps students to understand people, process and profit as concepts. Being interdisciplinary and integrative it helps decision making, particularly at higher levels. Strategic Management and Management Information System, two courses, may be quoted as example.',
+          'There is a lot of learning from peer group. Students come from varied backgrounds in terms of educational qualification, industry experience, geographical locations and demographic factors- age, gender, culture etc. MBA student learns more from peer group than from teachers. Management teacher is only a facilitator.',
+          'There are economic reasons; good placement; return on investment in terms of money and time.',
+          'If one of the two engineers or for that matter officers belonging to junior or middle management level needs to be promoted, the one with management qualification will have an edge.',
+          'In today\'s Knowledge Economy era postgraduation is going to be a minimum must for all and a course like MBA will help improve the perspective, broaden the horizon and enable learning practical knowledge and skills required for real life.'
+        ]
+      }
+    ]
+  },
+  {
+    id: '43',
+    title: 'Doing MBA: Choice of Programme',
+    slug: 'doing-mba-choice-programme',
+    description: 'A detailed guide to selecting the right MBA program type and specialization based on individual circumstances and career goals',
+    date: '05-07-14',
+    author: 'Prof. Vinay Nangia',
+    role: 'Professor, Mentor, Guide for Education, Business and Start ups',
+    thumbnail: '/images/javascript.jpg',
+    content: [
+      {
+        type: 'paragraph',
+        content: 'Doing MBA: Choice of Programme'
+      },
+      {
+        type: 'paragraph',
+        content: 'After having taken the decision of doing MBA the next step is to decide as to what kind of an MBA one should do.'
+      },
+      {
+        type: 'paragraph',
+        content: 'The choice of the programme will depend on the age, experience, purpose, perspective and resources of the person who has to take this call.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Talking of various kinds of choices available, one may consider two year full time regular residential or non- residential MBA, i.e. a proper post graduate degree programme, or post graduate diploma known by various names like PGDM or PGDBM etc. or executive MBA programme or part time MBA or week end MBA programme or MBA through distance learning.'
+      },
+      {
+        type: 'paragraph',
+        content: 'The right thing and the best thing to do is to do Two Year Full Time Residential MBA ( in case of IIMS and MDI, their PGDM programmes have been declared under UGC Act as equivalent to MBA) programme as any good MBA entails a lot of learning through rigour and from the peer group. Ambience of the campus, library and other facilities and availability of faculty members in the campus compound facilitates 24*7 learning. Next natural choice is full time PGDM programme. These programmes have the advantage of autonomy in syllabus as these are not governed by universities and generally better acceptability in job market particularly non government corporate sector in view of updated syllabus and good quality faculty. The disadvantage is that they are not considered to be equivalent to post graduate degree,therefore, quite often ineligible for registration in Ph.D. Programme and also do not enjoy the marks of PG qualification while applying for migration to other countries and not considered eligible for government jobs. A person who has to live and work in India in corporate sector may prefer to go for a better quality PGDM than to poorly branded MBA.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Executive programmes have started flooding Indian market more recently. Executive MBAs are generally designed for senior managers who had either missed the bus earlier or want to update and upgrade their knowledge or want to make their profile more impressive by adding the name of better know b schools. Time required is normally one year, whether full time or weekend and fees is high. Generally people with less than ten to fifteen years of work experience should not be doing Executive MBA.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Part time MBA in metro cities is a very good idea for middle level managers and officers who can not afford to do two years full time MBA programme. Very often classes, particularly for electives, are common with regular students in the evening hours.'
+      },
+      {
+        type: 'paragraph',
+        content: 'MBA through distance learning is some thing which is better than doing nothing. It is generally cheap and being modular convenient to do. Otherwise management discipline, as a profession, requires lot of interaction with peer group and rigour as mentioned earlier. This is more suitable for lower level supervisor or junior managers working in remote areas who can not afford full time MBA.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Next, should one do a general MBA with one or two specialisations or should one do specific MBA like MBA in Banking or MBA in Insurance or MBA in Retail. Should one do sector specific MBA like Healthcare or Infrastructure.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Functional specialisations like marketing, operations, finance and HR have been available historically. Added to these more recently are strategy, consulting, IT, infrastructure, banking and finance, general management and many others. Some institutions offer dual specialisation without calling them major and minor and some have given them different names including major and minor. Many other institutions give completely open choice to the students from an array of electives to choose from.'
+      },
+      {
+        type: 'paragraph',
+        content: 'As per the normal MBA programme structure, choice of electives or specialisation is to be made after completion of first year MBA programme, where basic common subjects are covered. If that be the case student should find out the basic inclination and interest in the first year and then take the call. Historically the CEOs in business world come from marketing and finance functions as they are perceived to be contributing to and affecting the top line and bottom line of the business. Hence if it is a single specialisation one may, unless there are reasons otherwise, opt for either marketing or finance. In case of two specialisations are permitted one may opt atleast for one of these two. This is more so in the case of younger,aspirants, fresh or with less experience. These are core functions of business and campus placement employability is enhanced. Operations, particularly supply chain area has emerged very strong in recent years. For engineers, particularly those not enthused by marketing or finance, operations in general and supply chain in particular makes good sense. HR is not taken very seriously as there are few examples of people having made their mark in the corporate world. Female students with non engineering, non quant background prefer HR.'
+      },
+      {
+        type: 'paragraph',
+        content: 'In case this choice is to be exercised,at the time of joining the MBA programme, for a person with experience, the decision is not difficult. If the person has clear perspective of ones career, it is easy. If a person has only few months or one or two years of experience one may even change the line in terms of choice of function capitalising on this opportunity. If, however, person has no previous experience or understanding, the choice may depend on the person between marketing and finance based on ones aptitude, educational qualification and career perspective.'
+      },
+      {
+        type: 'paragraph',
+        content: 'As far as possible one should, especially for persons with less or no experience, do general MBA. Persons with specific qualifications like in fashion or hotel industry or experience and inclination to work in a specific sector or industry may choose sector or area specific MBA like MBA in Healthcare or MBA- Services or MBA- Infrastructure.'
+      },
+      {
+        type: 'paragraph',
+        content: 'To sum up choice of programme shall depend on age, qualification, experience, inclination, market conditions and availability of choices available to the person who has to take this decision. As a general rule full time regular MBA with marketing or finance makes better sense.'
+      }
+    ]
   }
 ]; 

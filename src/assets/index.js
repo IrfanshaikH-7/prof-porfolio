@@ -104,10 +104,12 @@ import Sushant_Gupta from './recommendation/start-ups/Sushant-gupta.webp'
 import Vikas_Gupta from './recommendation/start-ups/vikas-gupta.webp'
 
 
-
-
+import cv from './self/cv_prof_vinay-k-nangia.docx'
+import square_self from './self/square-self.png'
 
 export {
+  cv,
+  square_self,
   // academic leaders
   dr_satish_kumar,
   dp_goyal,

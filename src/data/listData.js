@@ -37,12 +37,11 @@ export const awards = [
     },
     {
       title: 'Project 2',
-      description: 'Assignment for the International Telecommunication Union (ITU) of Switzerland as a senior expert in Sri Lanka for assisting in modernizing the post offices in Sri Lanka (particularly in the North & North East) for the provision of a number of services, as part and parcel of rehabilitation and reconstruction programme; prefeasibility study.'
-      ,
+      description: 'Assignment for the International Telecommunication Union (ITU) of Switzerland as a senior expert in Sri Lanka for assisting in modernizing the post offices in Sri Lanka (particularly in the North & North East) for the provision of a number of services, as part and parcel of rehabilitation and reconstruction programme; prefeasibility study.',
     },
     {
       title: 'Project 3',
-      description: 'UNDP sponsored project for Government of Uttaranchal ‘Pro Poor IT initiatives in Uttaranchal’ (USD 3 Million). Worked on business, commercial and legal aspects of the project.',
+      description: 'UNDP sponsored project for Government of Uttaranchal "Pro Poor IT initiatives in Uttaranchal" (USD 3 Million). Worked on business, commercial and legal aspects of the project.',
     },
     {
       title: 'Project 4',
@@ -50,8 +49,7 @@ export const awards = [
     },
     {
       title: 'Project 5',
-      description: 'VoIP- Current Scenario in India and Road Ahead” study report for INTEL Corporation.'
-      ,
+      description: 'VoIP- Current Scenario in India and Road Ahead" study report for INTEL Corporation.',
     },
     {
       title: 'Project 6',
@@ -63,8 +61,7 @@ export const awards = [
     },
     {
       title: 'Project 8',
-      description: 'Government of Uttaranchal project funded by Ministry of Home Affairs, Government of India for setting up Citizen Information and Services Centres in five border districts of Uttaranchal. I was involved in all aspects of this project (USD 1 Million)'
-      ,
+      description: 'Government of Uttaranchal project funded by Ministry of Home Affairs, Government of India for setting up Citizen Information and Services Centres in five border districts of Uttaranchal. I was involved in all aspects of this project (USD 1 Million)',
     },
     {
       title: 'Project 9',
@@ -89,34 +86,26 @@ export const awards = [
     {
       title: 'Project 14',
       description: 'Mussourie Dehra Dun Development Authority (MDDA); prepared Pre-feasibility Report for setting up an Inter-State Bus Terminal for Uttaranchal State at Dehra Dun.',
-    },
+    }
   ]
   export const researchProjects = [
     {
       title: 'Project 1',
-      description: 'Principal Investigator in a project titled “Students Initiative for Integrated Rural Development” funded by e – Gestalt, Bangalore (2011–2016).',
+      description: 'Principal Investigator in a project titled "Students Initiative for Integrated Rural Development" funded by e – Gestalt, Bangalore (2011–2016).',
     },
     {
       title: 'Project 2',
-      description: 'Principal Investigator in a project titled ‘YUKTI’- A Business Plan Competition for National Small Industries Corporation (NSIC) funded by NSIC, New Delhi (2010-2011).',
+      description: 'Principal Investigator in a project titled \'YUKTI\'- A Business Plan Competition for National Small Industries Corporation (NSIC) funded by NSIC, New Delhi (2010-2011).',
     },
     {
       title: 'Project 3',
-      description: 'Investigator in a project titled “Prototype Development and Deployment of VSAT-based Mobile e-Learning Terminals (MeLT)” to the tune of Rs 300 lac (over USD 600000) awarded by Government of India, Ministry of Human Resource Development (MHRD) (2009- 2015).',
+      description: 'Investigator in a project titled "Prototype Development and Deployment of VSAT-based Mobile e-Learning Terminals (MeLT)" to the tune of Rs 300 lac (over USD 600000) awarded by Government of India, Ministry of Human Resource Development (MHRD) (2009- 2015).',
     },
     {
       title: 'Project 4',
-      description: 'Principal Investigator in a multi institutional and multi-disciplinary project entitled “National Competitiveness in the Knowledge Economy” with IIT Roorkee in the lead and with an outlay of Rs 495 lakh (over USD 1 million) by Government of India, Department of Information Technology in Ministry of Communication and Information Technology (2006-2011).',
-    },
-    {
-      title: 'Project 5',
-      description: 'VoIP- Current Scenario in India and Road Ahead” study report for INTEL Corporation.',
-    },
-    {
-      title: 'Project 6',
-      description: 'Government of India and Government of Uttaranchal; Conservation and Management of Nainital Lake and other Lakes in the District of Nainital-Institutional arrangement, financial sustainability and legal aspects.',
-    },
-  ]
+      description: 'Principal Investigator in a multi institutional and multi-disciplinary project entitled "National Competitiveness in the Knowledge Economy" with IIT Roorkee in the lead and with an outlay of Rs 495 lakh (over USD 1 million) by Government of India, Department of Information Technology in Ministry of Communication and Information Technology (2006-2011).',
+    }
+  ];
   export const achievements = [
     {
       title: 'Achievement 1',

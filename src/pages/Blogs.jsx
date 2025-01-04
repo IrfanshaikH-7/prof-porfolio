@@ -31,7 +31,11 @@ export default function Blogs() {
         blogs.map((blog) => (
           <div className="tcard w-full aspect-video">
           <Link to={`/blogs/${blog.slug}`} className="tcard__title line-clamp-2"> {blog.title} </Link>
-          <p className="tcard__content line-clamp-4"> {blog.content[0].content} </p>
+          <div className="tcard__content line-clamp-4 space-y-1"> 
+            <p>{blog.content[0]?.content}</p>
+            <p>{blog.content[1]?.content}</p>
+            
+            </div>
           <div className="tcard__date">
           {formatDate(blog.date)}
           </div>

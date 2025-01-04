@@ -35,7 +35,35 @@ export default function BlogPost() {
   const renderContent = (block) => {
     switch (block.type) {
       case 'paragraph':
-        return <p className="my-4 text-gray-700">{block.content}</p>;
+        // New function to convert URLs in text to clickable links
+        const convertUrlsToLinks = (text) => {
+          const urlRegex = /(https?:\/\/[^\s]+)|(www\.[^\s]+)/g;
+          const parts = text.split(urlRegex);
+          
+          return parts.map((part, i) => {
+            if (part && (part.startsWith('http') || part.startsWith('www.'))) {
+              const url = part.startsWith('www.') ? `http://${part}` : part;
+              return (
+                <a
+                  key={i}
+                  href={url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-600 hover:text-blue-800"
+                >
+                  {part}
+                </a>
+              );
+            }
+            return part;
+          });
+        };
+
+        return (
+          <p className="my-4 text-gray-700">
+            {convertUrlsToLinks(block.content)}
+          </p>
+        );
       
       case 'list':
         return (

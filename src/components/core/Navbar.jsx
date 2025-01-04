@@ -31,6 +31,8 @@ export default function Navbar() {
           </div>
           <div className='hidden gap-5 pr-8 md:flex items-center'>
               <Link to='/' className='text-[15px] font-medium text-neutral-700 hover:text-neutral-900'>Home</Link>
+              <Link to='/awards' className='text-[15px] font-medium text-neutral-700 hover:text-neutral-900'>Awards</Link>
+              
               <div 
                 className='relative'
                 onMouseEnter={() => setShowRecommendations(true)}
@@ -55,7 +57,6 @@ export default function Navbar() {
                   </div>
                 )}
               </div>
-              <Link to='/awards' className='text-[15px] font-medium text-neutral-700 hover:text-neutral-900'>Awards</Link>
               <Link to='/blogs' className='text-[15px] font-medium text-neutral-700 hover:text-neutral-900'>Blogs</Link>
               <Link to='/youtube' className='text-[15px] font-medium text-neutral-700 hover:text-neutral-900'>Youtube</Link>
               <Link to='/gallery' className='text-[15px] font-medium text-neutral-700 hover:text-neutral-900'>Gallery</Link>
@@ -80,6 +81,7 @@ export default function Navbar() {
         </div>
         <div className='flex flex-col p-8 gap-6 mt-4'>
             <Link to='/' className='text-lg hover:text-gray-600' onClick={() => setIsOpen(false)}>Home</Link>
+            <Link to='/awards' className='text-lg hover:text-gray-600' onClick={() => setIsOpen(false)}>Awards</Link>
             
             {/* Recommendations Accordion */}
             <div>
@@ -117,7 +119,6 @@ export default function Navbar() {
             </div>
 
             <Link to='/blogs' className='text-lg hover:text-gray-600' onClick={() => setIsOpen(false)}>Blogs</Link>
-            <Link to='/awards' className='text-lg hover:text-gray-600' onClick={() => setIsOpen(false)}>Awards</Link>
             <Link to='/gallery' className='text-lg hover:text-gray-600' onClick={() => setIsOpen(false)}>Gallery</Link>
             <Link to='/youtube' className='text-lg hover:text-gray-600' onClick={() => setIsOpen(false)}>Youtube</Link>
             <Link to='/contact' className='text-lg hover:text-gray-600' onClick={() => setIsOpen(false)}>Contact</Link>

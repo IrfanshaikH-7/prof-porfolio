@@ -1,5 +1,5 @@
 import React from 'react'
-import { master_speaks, smart_banking, vinay_nangia, vinay_nangia_2, img_1, img_2, img_3, img_4, user, img_01, img_02, img_03, img_04, img_05 } from '../../assets'
+import { master_speaks, smart_banking, vinay_nangia, vinay_nangia_2, img_1, img_2, img_3, img_4, user, img_01, img_02, img_03, img_04, img_05, square_self, img_06, img_07, img_08, img_09, img_10 } from '../../assets'
 import { Briefcase, CalendarDays, History, Icon, LucideMedal, Medal } from 'lucide-react'
 import { motion } from 'framer-motion';
 import NeedAssistant from '../shared/GetInTouch';
@@ -41,22 +41,13 @@ export default function LandingSections() {
             <div className='flex flex-col max-w-2xl gap-3 '>
               <p className='text-sm font-medium pl-2 text-neutral-500  lg:leading-6 leading-normal'>
               He has multi-functional expertise in Banking, Finance, General Management, Education and Institution Building. This includes experience of raising and deploying financial resources in India and overseas, setting up new ventures in India, and a new industrial project overseas. A wide range of banking experience covers commercial banking, merchant banking, investment banking, trade finance, project finance, rural banking, agricultural banking, and training. Experience in education includes active participation in the formulation and setting up of MBA and MCA programs during 1998-1999 in IIT Roorkee and BBA and MBA programs in 2019 at NSUT New Delhi.
-
-
               </p>
               <p className='text-sm font-medium pl-2 text-neutral-500  lg:leading-6 leading-normal'>
               He has travelled across all five continents for business, training, pleasure, and cultural familiarisation. He has worked in rural, semi-urban, and metropolitan areas in government, public, and private sectors during his career including having worked in three countries.
-
-
               </p>
               <p className='text-sm font-medium pl-2 text-neutral-500  lg:leading-6 leading-normal'>
               Amongst others, he has held the position of Head of the Department in IIT Roorkee thrice, Emeritus Professor at NSUT, Dwarka, New Delhi, Managing Director and CEO of an investment and finance company in Mumbai, Senior Vice President at Essar group in Mumbai, Group Director of a large business and industrial house at Lagos, Nigeria and an international banker at Singapore.
-
-
-
               </p>
-
-
             </div>
             <div className='flex flex-col h-[80%] min-h-[300px] lg:min-h-[400px] pt-8 lg:pt-0 lg:max-h-[400px] aspect-[4/3] lg:min-w-[400px]  lg:px-8 pb-8 flex-1 overflow-hidden relative'>
               <img src={vinay_nangia_2} alt='vinay_nangia2' className='w-full h-full object-cover rounded-3xl ' />
@@ -67,20 +58,12 @@ export default function LandingSections() {
           </section>
           <p className='text-sm font-medium pl-2 text-neutral-500  lg:leading-6 leading-normal '>
           He was the Principal Investigator of a Rs. 5 crore project "National Competitiveness in Knowledge Economy", awarded by the Ministry of Communications and Information Technology, Government of India. During 2006-2011, he was the Government of India Chair Professor in Knowledge Economy.
-
-
           </p>
-
           <p className='text-sm font-medium pl-2 text-neutral-500  lg:leading-6 leading-normal '>
           Professor Nangia is a member of various bodies and boards of several academic and other institutions. He has been a senior expert with the International Telecommunication Union, Switzerland. He is an invited member of the Expert Group on Knowledge Management of Asian Productivity Organisation, Tokyo and he has been a Representative on the Knowledge Management Panel and Corporate Governance Panel of the Bureau of Indian Standards. He was Government of India nominee on the Council of Management of All India Management Association.
-
-
           </p>
           <p className='text-sm font-medium pl-2 text-neutral-500  lg:leading-6 leading-normal mt-3'>
           He has to his credit large number of articles published in national and international refereed journals. Seven scholars under his guidance have completed their doctoral research and have been awarded Ph.D. He has authored the books “Masters Speak: Management Education in India” published by Bloomsbury India in 2014 and “driven by information technology Smart Banking – An Introduction” in 2016.
-
-
-
           </p>
           <p className='text-sm font-medium pl-2 text-neutral-500  lg:leading-6 leading-normal mt-3'>
           He has been honoured with the Man of Excellence Award (2022), Glory of India Award (2017), Life Time Achievement in Business Education Award (2015), Shiksha Ratan Puruskar (2014), and Dewang Mehta Business School Award for being “Best Professor in General Management”(2013).
@@ -163,7 +146,7 @@ export default function LandingSections() {
       {/* start of research projects */}
       <section className='w-full h-full flex flex-col '>
         <div className='w-fit mx-auto pt-8 '>
-          <Heading title='Research Projects' />
+          <Heading title='Sponsored Projects' />
         </div>
         <motion.div
           variants={containerVariants}
@@ -236,7 +219,9 @@ export default function LandingSections() {
                   </span>
                 </p>
               </div>
-              <img src={user} alt='blog_image' className='w-16 h-16 rounded-full object-cover' />
+              <div className='w-16 h-16 border-8 rounded-full border-neutral-100  flex items-center justify-center'>
+                <img src={square_self} alt='blog_image' className='rounded-full object-cover' />
+              </div>
             </div>
 
             <div>
@@ -267,7 +252,9 @@ export default function LandingSections() {
                   </span>
                 </p>
               </div>
-              <img src={user} alt='blog_image' className='w-16 h-16 rounded-full object-cover' />
+              <div className='w-16 h-16 border-8 rounded-full border-neutral-100  flex items-center justify-center'>
+                <img src={square_self} alt='blog_image' className='rounded-full object-cover' />
+              </div>
             </div>
             <div>
               <h2 className='text-2xl sm:text-2xl font-bold pb-4 text-neutral-800'>
@@ -292,7 +279,9 @@ export default function LandingSections() {
                   </span>
                 </p>
               </div>
-              <img src={user} alt='blog_image' className='w-16 h-16 rounded-full object-cover' />
+              <div className='w-16 h-16 border-8 rounded-full border-neutral-100  flex items-center justify-center'>
+                <img src={square_self} alt='blog_image' className='rounded-full object-cover' />
+              </div>
             </div>
             <div>
               <h2 className='text-2xl sm:text-2xl font-bold pb-4 text-neutral-800'>
@@ -321,7 +310,9 @@ export default function LandingSections() {
                   </span>
                 </p>
               </div>
-              <img src={user} alt='blog_image' className='w-16 h-16 rounded-full object-cover' />
+              <div className='w-16 h-16 border-8 rounded-full border-neutral-100  flex items-center justify-center'>
+                <img src={square_self} alt='blog_image' className='rounded-full object-cover' />
+              </div>
             </div>
             <div>
               <h2 className='text-2xl sm:text-2xl font-bold pb-4 text-neutral-800'>
@@ -348,7 +339,9 @@ export default function LandingSections() {
                   </span>
                 </p>
               </div>
-              <img src={user} alt='blog_image' className='w-16 h-16 rounded-full object-cover' />
+              <div className='w-16 h-16 border-8 rounded-full border-neutral-100  flex items-center justify-center'>
+                <img src={square_self} alt='blog_image' className='rounded-full object-cover' />
+              </div>
             </div>
             <div>
               <h2 className='text-2xl sm:text-2xl font-bold pb-4 max-w-xl text-neutral-800'>
@@ -385,13 +378,13 @@ export default function LandingSections() {
             className='flex gap-8 overflow-hidden'
             style={{
               width: 'max-content',
-              animation: 'scroll 20s linear infinite',
+              animation: 'scroll 40s linear infinite',
             }}
             whileHover={{ animationPlayState: 'paused' }}
           >
             {/* First set of images */}
             <div className='flex gap-8 overflow-hidden'>
-              {[img_01, img_02, img_03, img_04, img_05].map((img, index) => (
+              {[img_01, img_02, img_03, img_04, img_05, img_06, img_07, img_08, img_09, img_10].map((img, index) => (
                 <motion.div
                   key={index}
                   className='md:w-[400px] w-[300px] aspect-[4/3] overflow-hidden rounded-md shrink-0 group'
@@ -406,7 +399,7 @@ export default function LandingSections() {
             </div>
             {/* Duplicate set for seamless loop */}
             <div className='flex gap-8 overflow-hidden'>
-              {[img_01, img_02, img_03, img_04, img_05].map((img, index) => (
+              {[img_01, img_02, img_03, img_04, img_05, img_06, img_07, img_08, img_09, img_10].map((img, index) => (
                 <motion.div
                   key={index}
                   className='md:w-[400px] w-[300px] aspect-[4/3] overflow-hidden rounded-md shrink-0 group'
