@@ -20,7 +20,9 @@ const homeVideos = [
     { id: '12', url: 'https://www.youtube.com/embed/s7oo1i12U6Q' },
     { id: '13', url: 'https://www.youtube.com/embed/Va7mMqen8C8' },
     { id: '14', url: 'https://www.youtube.com/embed/M_5qOB1RrQA' },
-    { id: '15', url: 'https://www.youtube.com/embed/Ht3-G7GB3L0' }
+    { id: '15', url: 'https://www.youtube.com/embed/Ht3-G7GB3L0' },
+    { id: '16', url: 'https://www.youtube.com/embed/t3TpfZ3CxlE?si=Q_vpVCo1M0NCi0mq' },
+    { id: '17', url: 'https://www.youtube.com/embed/xPv3UodO-f4?si=siCkYnt89Ief1okh' },
   ];
 
   export { homeVideos, youtubeLinks };
