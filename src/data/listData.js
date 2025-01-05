@@ -1,7 +1,7 @@
 export const awards = [
   {
     title: 'Award 0',
-    description: 'He has been honoured with the Man of Excellence Award (2022)',
+    description: 'Man of Excellence Award (2022)',
   },
     {
       title: 'Award 1',
@@ -21,11 +21,11 @@ export const awards = [
     },
     {
       title: 'Award 5',
-      description: 'Received Skoch Award of Excellence for five initiatives of SIIRD in 2014.',
+      description: 'Skoch Award of Excellence for five initiatives of SIIRD in 2014.',
     },
     {
       title: 'Award 6',
-      description: 'Received 21st Dewang Mehta Business School Award for being "The Best Professor in General Management" in 2013.',
+      description: '21st Dewang Mehta Business School Award for being "The Best Professor in General Management" in 2013.',
     }
   ];
 

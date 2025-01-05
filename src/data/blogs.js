@@ -3041,40 +3041,40 @@ export const blogs = [
       }
     ]
   },
-  {
-    id: '39',
-    title: 'New Book on Banking Just Arrived',
-    slug: 'new-book-banking-arrived',
-    description: 'Announcement of Prof. Vinay Nangia\'s second book on Smart Banking',
-    date: '10-12-15',
-    author: 'Prof. Vinay Nangia',
-    role: 'Professor, Mentor, Guide for Education, Business and Start ups',
-    thumbnail: '/images/javascript.jpg',
-    content: [
-      {
-        type: 'paragraph',
-        content: 'You will be glad to know that my second  book\'driven by information technology Smart BANKING- an Introduction\'has just been released.'
-      },
-      {
-        type: 'paragraph',
-        content: 'The details can be accessed on www.smartbanking.in as well as the Face Book page of \'Smart Banking - An Introduction\''
-      },
-      {
-        type: 'paragraph',
-        content: 'Book can also be ordered online from www.smartbanking.in'
-      }
-    ],
-    externalLinks: [
-      {
-        text: 'Visit Smart Banking Website',
-        url: 'http://www.smartbanking.in'
-      },
-      {
-        text: 'Facebook Page',
-        url: 'https://www.facebook.com/SmartBankingAnIntroduction'
-      }
-    ]
-  },
+  // {
+  //   id: '39',
+  //   title: 'New Book on Banking Just Arrived',
+  //   slug: 'new-book-banking-arrived',
+  //   description: 'Announcement of Prof. Vinay Nangia\'s second book on Smart Banking',
+  //   date: '10-12-15',
+  //   author: 'Prof. Vinay Nangia',
+  //   role: 'Professor, Mentor, Guide for Education, Business and Start ups',
+  //   thumbnail: '/images/javascript.jpg',
+  //   content: [
+  //     {
+  //       type: 'paragraph',
+  //       content: 'You will be glad to know that my second  book\'driven by information technology Smart BANKING- an Introduction\'has just been released.'
+  //     },
+  //     {
+  //       type: 'paragraph',
+  //       content: 'The details can be accessed on www.smartbanking.in as well as the Face Book page of \'Smart Banking - An Introduction\''
+  //     },
+  //     {
+  //       type: 'paragraph',
+  //       content: 'Book can also be ordered online from www.smartbanking.in'
+  //     }
+  //   ],
+  //   externalLinks: [
+  //     {
+  //       text: 'Visit Smart Banking Website',
+  //       url: 'http://www.smartbanking.in'
+  //     },
+  //     {
+  //       text: 'Facebook Page',
+  //       url: 'https://www.facebook.com/SmartBankingAnIntroduction'
+  //     }
+  //   ]
+  // },
   {
     id: '40',
     title: 'The Art of CONVERSATION',

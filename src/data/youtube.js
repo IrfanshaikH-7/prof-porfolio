@@ -1,7 +1,7 @@
 const homeVideos = [
   { id: "1", url:"https://www.youtube.com/embed/MRZ6dphziiw?si=Mzi44P3B3CVXTlbx"},
-    { id: '2', url: 'https://www.youtube.com/embed/c0nkLDaBeI8?si=C1aSwO9FQkaw0uHK' },
-    { id: '3', url: 'https://www.youtube.com/embed/QxlLBF4crFw?si=v0U96aGQhSxZnGKY' },
+  { id: "2", url:"https://www.youtube.com/embed/zA0kE5cbke8"},
+  { id: '2', url: 'https://www.youtube.com/embed/c0nkLDaBeI8?si=C1aSwO9FQkaw0uHK' },
     { id: '4', url: 'https://www.youtube.com/embed/JMPCpf6hmoE?si=lrBpdcg4dat_zz1N' },
 
   ];
@@ -9,7 +9,6 @@ const homeVideos = [
   const youtubeLinks = [
     { id: "1", url:"https://www.youtube.com/embed/MRZ6dphziiw?si=Mzi44P3B3CVXTlbx"},
     { id: '2', url: 'https://www.youtube.com/embed/c0nkLDaBeI8?si=C1aSwO9FQkaw0uHK' },
-    { id: '3', url: 'https://www.youtube.com/embed/QxlLBF4crFw?si=v0U96aGQhSxZnGKY' },
     { id: '4', url: 'https://www.youtube.com/embed/JMPCpf6hmoE?si=lrBpdcg4dat_zz1N' },
     { id: '5', url: 'https://www.youtube.com/embed/zA0kE5cbke8' },
     { id: '6', url: 'https://www.youtube.com/embed/bePAdeFdXDM' },

@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 export default function HeroSection() {
 
   return (
-    <main className='h-full lg:h-screen w-full py-24 lg:py-0 flex gap-12 lg:flex-row overflow-x-hidden  flex-col max-w-[1400px] mx-auto lg:px-8 px-4  '>
+    <main className='h-full lg:h-[90vh] w-full py-24 lg:py-0 flex gap-12 lg:flex-row overflow-x-hidden  flex-col max-w-[1400px] mx-auto lg:px-8 px-4 -mb-10 lg:mb-20'>
       <section className=' flex-1 h-full  w-full  flex flex-col items-start justify-center  lg:pr-0 '>
         <article className='flex flex-col gap-1 mt-8 md:mt-20'>
           {/* <span className='text-sm w-fit font-bold bg-neutral-900 text-neutral-100 rounded-md px-8 py-0.5'>About</span> */}
@@ -16,7 +16,14 @@ export default function HeroSection() {
                 <path d="M105.183 3.34766C111.516 43.8477 100.083 124.848 3.68311 124.848M3.68311 124.848L28.6831 88.3477M3.68311 124.848L34.6831 149.348" stroke="#424242" stroke-width="5" stroke-linecap="round" />
               </svg>
             </div> */}
-            <h1 className='text-3xl md:text-5xl font-extrabold mb-2'>Dr. Vinay Kumar Nangia</h1>
+            <h1 className='text-3xl md:text-5xl font-extrabold mb-2'>
+            <span className='text-neutral-500'>
+            Dr.
+              </span>
+              <br className='block min-[430px]:hidden'/> 
+              
+              Vinay Kumar Nangia
+              </h1>
           </div>
 
           <p className='text-sm font-medium pl-2 text-neutral-500 max-w-2xl leading-6'>

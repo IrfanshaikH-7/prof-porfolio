@@ -25,6 +25,58 @@ import img_12 from "./gallery/img-12.jpg"
 import img_13 from "./gallery/img-13.jpg"
 import img_14 from "./gallery/img-14.jpg"
 import img_15 from "./gallery/img-15.jpg"
+import img_16 from "./gallery/img-16.webp"
+import img_18 from "./gallery/img-18.webp"
+import img_19 from "./gallery/img-19.webp"
+import img_20 from "./gallery/img-20.webp"
+import img_21 from "./gallery/img-21.webp"
+import img_22 from "./gallery/img-22.webp"
+import img_23 from "./gallery/img-23.webp"
+import img_24 from "./gallery/img-24.webp"
+import img_25 from "./gallery/img-25.webp"
+import img_26 from "./gallery/img-26.webp"
+import img_27 from "./gallery/img-27.webp"
+import img_28 from "./gallery/img-28.webp"
+import img_29 from "./gallery/img-29.webp"
+import img_30 from "./gallery/img-30.webp"
+import img_31 from "./gallery/img-31.webp"
+import img_32 from "./gallery/img-32.webp"
+import img_33 from "./gallery/img-33.webp"
+import img_34 from "./gallery/img-34.webp"
+import img_35 from "./gallery/img-35.webp"
+import img_36 from "./gallery/img-36.webp"
+import img_37 from "./gallery/img-37.webp"
+import img_38 from "./gallery/img-38.webp"
+import img_39 from "./gallery/img-39.webp"
+import img_40 from "./gallery/img-40.webp"
+import img_41 from "./gallery/img-41.webp"
+import img_42 from "./gallery/img-42.webp"
+import img_43 from "./gallery/img-43.webp"
+import img_44 from "./gallery/img-44.webp"
+import img_45 from "./gallery/img-45.webp"
+import img_46 from "./gallery/img-46.webp"
+import img_47 from "./gallery/img-47.webp"
+import img_48 from "./gallery/img-48.webp"
+import img_49 from "./gallery/img-49.webp"
+import img_50 from "./gallery/img-50.webp"
+import img_51 from "./gallery/img-51.webp"
+import img_52 from "./gallery/img-52.webp"
+import img_53 from "./gallery/img-53.webp"
+import img_54 from "./gallery/img-54.webp"
+import img_55 from "./gallery/img-55.webp"
+import img_56 from "./gallery/img-56.webp"
+import img_57 from "./gallery/img-57.webp"
+import img_58 from "./gallery/img-58.webp"
+import img_59 from "./gallery/img-59.webp"
+import img_60 from "./gallery/img-60.webp"
+
+
+
+
+
+
+
+
 
 
 import award_01 from "./awards/award-01.jpg"
@@ -200,6 +252,55 @@ export {
   img_13,
   img_14,
   img_15,
+  img_16,
+  img_18,
+  img_19,
+  img_20,
+  img_21,
+  img_22,
+  img_23,
+  img_24,
+  img_25,
+  img_26,
+  img_27,
+  img_28,
+  img_29,
+  img_30,
+  img_31,
+  img_32,
+  img_33,
+  img_34,
+  img_35,
+  img_36,
+  img_37,
+  img_38,
+  img_39,
+  img_40,
+  img_41,
+  img_42,
+  img_43,
+  img_44,
+  img_45,
+  img_46,
+  img_47,
+  img_48,
+  img_49,
+  img_50,
+  img_51,
+  img_52,
+  img_53,
+  img_54,
+  img_55,
+  img_56,
+  img_57,
+  img_58,
+  img_59,
+  img_60,
+
+
+
+
+
   user,
   award_01,
   award_02,

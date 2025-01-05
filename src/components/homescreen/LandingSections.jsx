@@ -1,5 +1,5 @@
 import React from 'react'
-import { master_speaks, smart_banking, vinay_nangia, vinay_nangia_2, img_1, img_2, img_3, img_4, user, img_01, img_02, img_03, img_04, img_05, square_self, img_06, img_07, img_08, img_09, img_10 } from '../../assets'
+import { master_speaks, smart_banking, vinay_nangia, vinay_nangia_2, img_1, img_2, img_3, img_4, user, img_01, img_02, img_03, img_04, img_05, square_self,  img_07, img_08, img_09, img_10, img_29 } from '../../assets'
 import { Briefcase, CalendarDays, History, Icon, LucideMedal, Medal } from 'lucide-react'
 import { motion } from 'framer-motion';
 import NeedAssistant from '../shared/GetInTouch';
@@ -146,7 +146,7 @@ export default function LandingSections() {
       {/* start of research projects */}
       <section className='w-full h-full flex flex-col '>
         <div className='w-fit mx-auto pt-8 '>
-          <Heading title='Sponsored Projects' />
+          <Heading title='Sponsored Research' />
         </div>
         <motion.div
           variants={containerVariants}
@@ -384,7 +384,7 @@ export default function LandingSections() {
           >
             {/* First set of images */}
             <div className='flex gap-8 overflow-hidden'>
-              {[img_01, img_02, img_03, img_04, img_05, img_06, img_07, img_08, img_09, img_10].map((img, index) => (
+              {[img_01, img_02, img_03,img_29, img_04, img_05, img_07, img_08, img_09, img_10].map((img, index) => (
                 <motion.div
                   key={index}
                   className='md:w-[400px] w-[300px] aspect-[4/3] overflow-hidden rounded-md shrink-0 group'
@@ -399,7 +399,7 @@ export default function LandingSections() {
             </div>
             {/* Duplicate set for seamless loop */}
             <div className='flex gap-8 overflow-hidden'>
-              {[img_01, img_02, img_03, img_04, img_05, img_06, img_07, img_08, img_09, img_10].map((img, index) => (
+              {[img_01, img_02, img_03,img_29, img_04, img_05, img_07, img_08, img_09, img_10].map((img, index) => (
                 <motion.div
                   key={index}
                   className='md:w-[400px] w-[300px] aspect-[4/3] overflow-hidden rounded-md shrink-0 group'

@@ -44,8 +44,8 @@ export default function Footer() {
               <div className='text-white'>Recent Blogs</div>
             </h1>
             <div className='flex flex-col gap-0.5 items-start justify-center md:max-w-[260px]'>
-              {blogs.slice(0, 4).map((blog) => (
-                <Link key={blog.slug} to={`/blogs/${blog.slug}`} className='text-neutral-300 text-sm font-bold hover:underline'>{blog.title}</Link>
+              {blogs.slice(0, 5).map((blog) => (
+                <Link key={blog.slug} to={`/blogs/${blog.slug}`} className='text-neutral-300 text-sm font-bold hover:underline line-clamp-1'>{blog.title}</Link>
               ))}
             </div>
           </div>
