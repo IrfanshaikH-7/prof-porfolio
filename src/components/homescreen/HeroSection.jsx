@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 export default function HeroSection() {
 
   return (
-    <main className='h-full lg:h-[90vh] w-full py-24 lg:py-0 flex gap-12 lg:flex-row overflow-x-hidden  flex-col max-w-[1400px] mx-auto lg:px-8 px-4 -mb-10 lg:mb-20'>
+    <main className='h-full lg:h-[90vh] w-full py-12 lg:py-0 flex gap-12 lg:flex-row overflow-x-hidden  flex-col max-w-[1400px] mx-auto lg:px-8 px-4 -mb-10 lg:mb-20'>
       <section className=' flex-1 h-full  w-full  flex flex-col items-start justify-center  lg:pr-0 '>
         <article className='flex flex-col gap-1 mt-8 md:mt-20'>
           {/* <span className='text-sm w-fit font-bold bg-neutral-900 text-neutral-100 rounded-md px-8 py-0.5'>About</span> */}
