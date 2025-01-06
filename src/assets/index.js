@@ -83,6 +83,7 @@ import award_01 from "./awards/award-01.jpg"
 import award_02 from "./awards/award-02.jpg"
 import award_03 from "./awards/award-03.webp"
 
+import award_icon from "./awards-icon.png"
 
 import x_twitter from './x-twitter.png'
 //user
@@ -160,6 +161,7 @@ import cv from './self/cv_prof_vinay-k-nangia.docx'
 import square_self from './self/square-self.png'
 
 export {
+  award_icon,
   cv,
   square_self,
   // academic leaders

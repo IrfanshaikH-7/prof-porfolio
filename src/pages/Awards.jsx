@@ -3,7 +3,7 @@ import {motion} from 'framer-motion'
 import Heading from '../components/shared/Heading'
 import { Medal } from 'lucide-react';
 import { containerVariants, itemVariants } from '../lib/variants';
-import {award_01, award_02, award_03, img_4} from '../assets'
+import {award_01, award_02, award_03, award_icon, img_4} from '../assets'
 import { achievements, awards } from '../data/listData';
 import { Link } from 'react-router-dom';
 export default function Awards() {
@@ -68,7 +68,7 @@ export default function Awards() {
               className='w-full h-full flex flex-col'
             >
               <div className='flex items-center gap-4'>
-                <Medal className='w-6 h-6 p-1 rounded-md bg-neutral-700 text-white' />
+                <img src={award_icon} alt='medal' className='w-6 h-6 p-1 rounded-md bg-neutral-700 text-white' />
                 <div className='w-32 h-1 bg-neutral-700 rounded-md flex flex-col gap-4' />
               </div>
               <p className='text-sm text-neutral-700 font-medium pl-10 lg:leading-6 leading-normal'>

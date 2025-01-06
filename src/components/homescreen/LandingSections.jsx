@@ -1,5 +1,5 @@
 import React from 'react'
-import { master_speaks, smart_banking, vinay_nangia, vinay_nangia_2, img_1, img_2, img_3, img_4, user, img_01, img_02, img_03, img_04, img_05, square_self,  img_07, img_08, img_09, img_10, img_29 } from '../../assets'
+import { master_speaks, smart_banking, vinay_nangia, vinay_nangia_2, img_1, img_2, img_3, img_4, user, img_01, img_02, img_03, img_04, img_05, square_self,  img_07, img_08, img_09, img_10, img_29, award_icon } from '../../assets'
 import { Briefcase, CalendarDays, History, Icon, LucideMedal, Medal } from 'lucide-react'
 import { motion } from 'framer-motion';
 import NeedAssistant from '../shared/GetInTouch';
@@ -91,7 +91,7 @@ export default function LandingSections() {
               className='w-full h-full flex flex-col'
             >
               <div className='flex items-center gap-4'>
-                <Medal className='w-6 h-6 p-1 rounded-md bg-neutral-700 text-white' />
+                <img src={award_icon} alt='medal' className='w-6 h-6 p-1 rounded-md bg-neutral-700 text-white' />
                 <div className='w-32 h-1 bg-neutral-700 rounded-md flex flex-col gap-4' />
               </div>
               <p className='text-sm text-neutral-700 font-medium pl-10 lg:leading-6 leading-normal'>
