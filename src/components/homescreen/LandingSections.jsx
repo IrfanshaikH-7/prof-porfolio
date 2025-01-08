@@ -75,7 +75,7 @@ export default function LandingSections() {
           <section className="flex flex-col lg:flex-row h-full w-full relative">
             <div className="flex flex-col max-w-2xl gap-3 ">
               <p className="text-sm font-medium pl-2 text-neutral-500 lg:leading-6 leading-normal text-justify">
-                He has multi-functional expertise in Banking, Finance, General
+                Vinay Kumar Nangia has multi-functional expertise in Banking, Finance, General
                 Management, Education and Institution Building. This includes
                 experience of raising and deploying financial resources in India
                 and overseas, setting up new ventures in India, and a new
@@ -88,7 +88,7 @@ export default function LandingSections() {
                 programs in 2019 at NSUT New Delhi.
               </p>
               <p className="text-sm font-medium pl-2 text-neutral-500 lg:leading-6 leading-normal text-justify">
-                He has travelled across all five continents for business,
+                Vinay Kumar Nangia  has travelled across all five continents for business,
                 training, pleasure, and cultural familiarisation. He has worked
                 in rural, semi-urban, and metropolitan areas in government,
                 public, and private sectors during his career including having
@@ -114,14 +114,14 @@ export default function LandingSections() {
             </div>
           </section>
           <p className="text-sm font-medium pl-2 text-neutral-500 lg:leading-6 leading-normal text-justify">
-            He was the Principal Investigator of a Rs. 5 crore project "National
+            Vinay Kumar Nangia was the Principal Investigator of a Rs. 5 crore project "National
             Competitiveness in Knowledge Economy", awarded by the Ministry of
             Communications and Information Technology, Government of India.
             During 2006-2011, he was the Government of India Chair Professor in
             Knowledge Economy.
           </p>
           <p className="text-sm font-medium pl-2 text-neutral-500 lg:leading-6 leading-normal text-justify">
-            Professor Nangia is a member of various bodies and boards of several
+            Vinay Kumar Nangia  is a member of various bodies and boards of several
             academic and other institutions. He has been a senior expert with
             the International Telecommunication Union, Switzerland. He is an
             invited member of the Expert Group on Knowledge Management of Asian
