@@ -16,7 +16,7 @@ export default function HeroSection() {
                 <path d="M105.183 3.34766C111.516 43.8477 100.083 124.848 3.68311 124.848M3.68311 124.848L28.6831 88.3477M3.68311 124.848L34.6831 149.348" stroke="#424242" stroke-width="5" stroke-linecap="round" />
               </svg>
             </div> */}
-            <h1 className='text-3xl md:text-5xl font-extrabold mb-2'>
+            <h1 className='text-3xl pl-1.5 md:text-5xl font-extrabold mb-2'>
             <span className='text-neutral-500'>
             Dr.
               </span>

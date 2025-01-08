@@ -1,4 +1,4 @@
-import { img_01, img_02, img_03, img_04, img_05, img_07, img_08, img_09, img_10, img_11, img_12, img_13, img_14, img_15,
+import { img_001, img_01, img_02, img_03, img_04, img_05, img_07, img_08, img_09, img_10, img_11, img_12, img_13, img_14, img_15,
     img_16,  img_18, img_19, img_20, img_21, img_22, img_23, img_24, img_25, img_26, img_27, img_28, img_29, img_30, img_31, img_32, img_33, img_34, img_35, img_36, img_37, img_38, img_39, img_40, img_41, img_42, img_43, img_44, img_45, img_46, img_47, img_48, img_49, img_50, img_51, img_52, img_53, img_54, img_55, img_56, img_57, img_58, img_59, img_60
  } from '../assets';
 
@@ -236,6 +236,10 @@ export const galleryImages = [
     {
         img: img_60,
         title: "Image 60"
+    },
+    {
+        img: img_001,
+        title: "image 70"
     }
 
 ]; 

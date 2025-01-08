@@ -1,11 +1,11 @@
 export const awards = [
   {
     title: 'Award 0',
-    description: 'Man of Excellence Award (2022)',
+    description: 'Man of Excellence Award 2022.',
   },
     {
       title: 'Award 1',
-      description: 'Glory of India Award 2017',
+      description: 'Glory of India Award 2017.',
     },
     {
       title: 'Award 2',
@@ -17,7 +17,7 @@ export const awards = [
     },
     {
       title: 'Award 4',
-      description: 'Shiksha Ratan Puruskar received in India International Centre, New Delhi in 2014',
+      description: 'Shiksha Ratan Puruskar received in India International Centre, New Delhi in 2014.',
     },
     {
       title: 'Award 5',
