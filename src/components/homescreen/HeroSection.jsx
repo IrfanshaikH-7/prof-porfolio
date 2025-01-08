@@ -26,11 +26,11 @@ export default function HeroSection() {
               </h1>
           </div>
 
-          <p className='text-sm font-medium pl-2 text-neutral-500 max-w-2xl leading-6'>
+          <p className='text-sm font-medium pl-2 text-justify text-neutral-500 max-w-2xl leading-6'>
           Dr. Vinay Kumar Nangia is a distinguished alumnus of Banaras Hindu University with over 51 years of managerial experience, equally divided between industry and academia.
 
           </p>
-          <p className='text-sm font-medium pl-2 text-neutral-500 max-w-2xl leading-6 mt-2'>
+          <p className='text-sm font-medium pl-2 text-justify text-neutral-500 max-w-2xl leading-6 mt-2'>
           He started his academic career as the first employee and first Professor in the Department of Management Studies at IIT Roorkee where he served as a Professor from June 1998 to June 2018, for twenty years, including as Emeritus Fellow in the Department of Management Studies at IIT Roorkee in the last two years. He was an Emeritus Professor at Netaji Subhash University of Technology (NSUT) Dwarka, New Delhi. He contributed effectively in setting up BBA, MBA, and MBA in Innovation, Entrepreneurship, and Venture Development programs at Netaji Subhash University of Technology, the erstwhile NSIT in 2019. Professor Nangia was a Distinguished Professor at BML Munjal University, Gurugram, and a Distinguished Visiting Professor at SRM University AP. Currently, he is a Professor of Eminence at Guru Nanak Dev University, Amritsar.
 
           </p>
