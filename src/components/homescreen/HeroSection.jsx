@@ -17,7 +17,7 @@ export default function HeroSection() {
               </svg>
             </div> */}
             <h1 className='text-3xl pl-1.5 md:text-5xl font-extrabold mb-2'>
-            <span className='text-neutral-500'>
+            <span className='text-neutral-900'>
             Dr.
               </span>
               <br className='block min-[430px]:hidden'/> 
