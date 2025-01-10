@@ -58,7 +58,7 @@ export default function Navbar() {
                 )}
               </div>
               <Link to='/blogs' className='text-[15px] font-medium text-neutral-700 hover:text-neutral-900'>Blogs</Link>
-              <Link to='/youtube' className='text-[15px] font-medium text-neutral-700 hover:text-neutral-900'>Youtube</Link>
+              <Link to='/videos' className='text-[15px] font-medium text-neutral-700 hover:text-neutral-900'>Videos</Link>
               <Link to='/gallery' className='text-[15px] font-medium text-neutral-700 hover:text-neutral-900'>Gallery</Link>
               <Link to='/contact' className='text-[15px] font-medium text-neutral-700 hover:text-neutral-900'>Contact</Link>
           </div>
@@ -120,7 +120,7 @@ export default function Navbar() {
 
             <Link to='/blogs' className='text-lg hover:text-gray-600' onClick={() => setIsOpen(false)}>Blogs</Link>
             <Link to='/gallery' className='text-lg hover:text-gray-600' onClick={() => setIsOpen(false)}>Gallery</Link>
-            <Link to='/youtube' className='text-lg hover:text-gray-600' onClick={() => setIsOpen(false)}>Youtube</Link>
+            <Link to='/videos' className='text-lg hover:text-gray-600' onClick={() => setIsOpen(false)}>Videos</Link>
             <Link to='/contact' className='text-lg hover:text-gray-600' onClick={() => setIsOpen(false)}>Contact</Link>
         </div>
       </div>

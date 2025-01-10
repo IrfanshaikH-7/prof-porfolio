@@ -57,7 +57,7 @@ const router = createBrowserRouter([
         element: <Gallery />
       },
       {
-        path: "/youtube",
+        path: "/videos",
         element: <Youtube />
       },
       {
