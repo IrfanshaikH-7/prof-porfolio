@@ -45,11 +45,11 @@ export const awards = [
     },
     {
       title: 'Project 4',
-      description: 'TCIL Bell South Limited (Joint venture of mini-navaratna TCIL and Bell South, a fortune 500 company); (i) International bidding for development of software for Export Credit Guarantee Corporation of Zimbabwe;(ii) Review of Human Resource Practices and review of plans and policies relating to Finance and Capital Structure.',
+      description: 'TCIL Bell South Limited (Joint venture of mini-navaratna TCIL and Bell South, a fortune 500 company): (i) International bidding for development of software for Export Credit Guarantee Corporation of Zimbabwe; (ii) Review of Human Resource Practices and review of plans and policies relating to Finance and Capital Structure.',
     },
     {
       title: 'Project 5',
-      description: 'VoIP- Current Scenario in India and Road Ahead" study report for INTEL Corporation.',
+      description: '"VoIP- Current Scenario in India and Road Ahead" study report for INTEL Corporation.',
     },
     {
       title: 'Project 6',
@@ -149,11 +149,11 @@ export const awards = [
     },
     {
       title: 'Achievement 11',
-      description: 'Actively associated with the launch of PSU bonds; taxable and non-taxable, Power Finance Corporation, Indian Railways Finance Corporation etc.',
+      description: 'Actively associated with the launch of PSU bonds (taxable and non-taxable): Power Finance Corporation, Indian Railways Finance Corporation etc.',
     },
     {
       title: 'Achievement 12',
-      description: 'As a Merchant banker, managed funds to the tune of Rs. 70 Billion during 1986-1989 in Investments and Money Market. Clients included NTPC, NHPC, Power Finance Corporation, REC, ONGC, IOC, Oil India Ltd., OCC, National Airports Authority, International Airports Authority, Indian Airlines etc.',
+      description: 'As a Merchant banker, managed funds to the tune of Rs. 70 Billion during 1986-1989 in Investments and Money Market. Clients included NTPC, NHPC, Power Finance Corporation, REC, ONGC, IOC, Oil India Ltd., OCC, National Airports Authority, International Airports Authority, Indian Airlines, etc.',
     },
     {
       title: 'Achievement 13',
