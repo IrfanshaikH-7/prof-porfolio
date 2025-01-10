@@ -1,13 +1,16 @@
 const homeVideos = [
   { id: "1", url:"https://www.youtube.com/embed/MRZ6dphziiw?si=Mzi44P3B3CVXTlbx"},
-  { id: "2", url:"https://www.youtube.com/embed/zA0kE5cbke8"},
   { id: '2', url: 'https://www.youtube.com/embed/c0nkLDaBeI8?si=C1aSwO9FQkaw0uHK' },
     { id: '4', url: 'https://www.youtube.com/embed/JMPCpf6hmoE?si=lrBpdcg4dat_zz1N' },
     { id: '5', url: 'https://www.youtube.com/embed/3lu0LV5gEAU' },
     { id: '6', url: 'https://www.youtube.com/embed/skR6-y5GXdA' },
+    { id: '12', url: 'https://www.youtube.com/embed/s7oo1i12U6Q' },
+
   ];
 
   const youtubeLinks = [
+    { id: '7', url: 'https://www.youtube.com/embed/2mgaqbxMCBs' },
+    { id: '8', url: 'https://www.youtube.com/embed/-QsWjKHY9FE' },
     { id: "1", url:"https://www.youtube.com/embed/MRZ6dphziiw?si=Mzi44P3B3CVXTlbx"},
     { id: '2', url: 'https://www.youtube.com/embed/c0nkLDaBeI8?si=C1aSwO9FQkaw0uHK' },
     { id: '4', url: 'https://www.youtube.com/embed/JMPCpf6hmoE?si=lrBpdcg4dat_zz1N' },

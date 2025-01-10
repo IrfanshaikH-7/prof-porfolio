@@ -78,10 +78,10 @@ export default function Awards() {
           ))}
          
         </motion.div>
-        <div className='h-full mt-10 w-full rounded-xl overflow-hidden grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
-        <img src={award_03} alt="award" className='w-full lg:block hidden h-full object-cover object-center rounded-xl'/>
-          <img src={award_01} alt="award" className='w-full h-full object-cover object-center rounded-xl'/>
-          <img src={award_02} alt="award" className='w-full h-full md:block hidden object-cover object-center rounded-xl'/>
+        <div className='h-full mt-10 w-full rounded-xl overflow-hidden flex gap-4'>
+        <img src={award_03} alt="award" className='h-80 lg:block hidden w-auto object-contain object-center rounded-xl'/>
+          <img src={award_01} alt="award" className='h-80 w-auto object-cover object-center rounded-xl'/>
+          <img src={award_02} alt="award" className='w-auto h-80 md:block hidden object-cover object-center rounded-xl'/>
         
         </div>
        

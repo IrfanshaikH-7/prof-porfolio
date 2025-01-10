@@ -21,7 +21,7 @@ export const awards = [
     },
     {
       title: 'Award 5',
-      description: 'Skoch Award of Excellence for five initiatives of SIIRD (2014) ',
+      description: 'Skoch Award of Excellence for five initiatives of SIIRD (2014)',
     },
     {
       title: 'Award 6',
@@ -33,11 +33,11 @@ export const awards = [
   export const consultancyProjects = [
     {
       title: 'Project 1',
-      description: 'World Bank funded project on e-Governance initiatives of Government of Uttaranchal (USD 1 million). As part of team of IIT Roorkee professors which worked as Implementing Agency, was engaged in planning and project management apart from final report writing.',
+      description: 'World Bank-funded project on e-Governance initiatives of Government of Uttaranchal (USD 1 million). As part of a team of IIT Roorkee professors which worked as the Implementing Agency, was engaged in planning and project management apart from final report writing.',
     },
     {
       title: 'Project 2',
-      description: 'Assignment for the International Telecommunication Union (ITU) of Switzerland as a senior expert in Sri Lanka for assisting in modernizing the post offices in Sri Lanka (particularly in the North & North East) for the provision of a number of services, as part and parcel of rehabilitation and reconstruction programme; prefeasibility study.',
+      description: 'Assignment for the International Telecommunication Union (ITU) of Switzerland as a senior expert in Sri Lanka for assisting in modernizing the post offices in Sri Lanka (particularly in the North & North East) for the provision of several services, as part of the rehabilitation and reconstruction programme; prefeasibility study.',
     },
     {
       title: 'Project 3',
@@ -77,7 +77,7 @@ export const awards = [
     },
     {
       title: 'Project 12',
-      description: 'Integrated Sewage and Solid Waste Management for abatement of pollution for river KuaKhai, awarded by Govt. of Orissa. I worked on Institutional Development aspects.',
+      description: 'Integrated Sewage and Solid Waste Management for abatement of pollution for river KuaKhai, awarded by the Govt. of Orissa. I worked on Institutional Development aspects.',
     },
     {
       title: 'Project 13',
@@ -99,11 +99,11 @@ export const awards = [
     },
     {
       title: 'Project 3',
-      description: 'Investigator in a project titled "Prototype Development and Deployment of VSAT-based Mobile e-Learning Terminals (MeLT)" to the tune of Rs 300 lac (over USD 600000) awarded by Government of India, Ministry of Human Resource Development (MHRD) 2009-2015.',
+      description: 'Investigator in a project titled "Prototype Development and Deployment of VSAT-based Mobile e-Learning Terminals (MeLT)" to the tune of Rs. 300 lakh (over USD 600,000) awarded by Government of India, Ministry of Human Resource Development (MHRD) 2009-2015.',
     },
     {
       title: 'Project 4',
-      description: 'Principal Investigator in a multi institutional and multi-disciplinary project entitled "National Competitiveness in the Knowledge Economy" with IIT Roorkee in the lead and with an outlay of Rs 495 lakh (over USD 1 million) by Government of India, Department of Information Technology in Ministry of Communication and Information Technology 2006-2011.',
+      description: 'Principal Investigator in a multi-institutional and multi-disciplinary project entitled "National Competitiveness in the Knowledge Economy" with IIT Roorkee in the lead and with an outlay of Rs. 495 lakh (over USD 1 million) by Government of India, Department of Information Technology in Ministry of Communication and Information Technology 2006-2011.',
     }
   ];
   export const achievements = [
@@ -153,7 +153,7 @@ export const awards = [
     },
     {
       title: 'Achievement 12',
-      description: 'As Merchant banker Managed funds to the tune of Rs.70 Billion during 1986- 1989 in Investments and Money Market. Clients included NTPC, NHPC, Power Finance Corporation, REC, ONGC, IOC, Oil India Ltd., OCC, National Airports Authority, International Airports Authority, Indian Airlines etc.',
+      description: 'As a Merchant banker, managed funds to the tune of Rs. 70 Billion during 1986-1989 in Investments and Money Market. Clients included NTPC, NHPC, Power Finance Corporation, REC, ONGC, IOC, Oil India Ltd., OCC, National Airports Authority, International Airports Authority, Indian Airlines etc.',
     },
     {
       title: 'Achievement 13',
