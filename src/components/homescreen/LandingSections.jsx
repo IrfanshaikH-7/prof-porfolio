@@ -273,7 +273,7 @@ export default function LandingSections() {
             <span className="text-neutral-500">Blogs By </span> <br />
             Dr. Vinay Kumar Nangia
           </h3>
-          <article className="h-72 aspect-[4/3] overflow-hidden rounded-md shrink-0 bg-slate-200 relative flex flex-col justify-between py-4 px-6">
+          <article className="h-60 xl:h-72 aspect-[4/3] overflow-hidden rounded-md shrink-0 bg-slate-200 relative flex flex-col justify-between py-4 px-6">
             <div className="flex gap-1 items-center self-end">
               <div className="flex flex-col items-start gap-1">
                 <p className="text-sm font-medium text-neutral-500">
@@ -296,15 +296,15 @@ export default function LandingSections() {
             </div>
 
             <div>
-              <h2 className="text-2xl sm:text-2xl font-bold pb-4 text-neutral-800">
+              <h2 className="text-2xl sm:text-2xl md:text-xl xl:text-2xl font-bold pb-4 text-neutral-800">
                 <Link
                   to={`/blogs/${blogs[0].slug}`}
-                  className="hover:underline line-clamp-2"
+                  className="hover:underline line-clamp-1"
                 >
                   {blogs[0].title}
                 </Link>
               </h2>
-              <p className="text-sm  font-medium text-neutral-500 line-clamp-5">
+              <p className="text-sm  font-medium text-neutral-500  min-[930px]: line-clamp-4  xl:line-clamp-5">
                 {blogs[0].content[0].content}
               </p>
             </div>
@@ -318,7 +318,7 @@ export default function LandingSections() {
           </Link>
         </div>
         <div className="flex flex-1 flex-col gap-8">
-          <article className="h-72 aspect-[4/3] overflow-hidden rounded-md shrink-0 bg-slate-200 relative flex flex-col justify-between py-4 px-6">
+          <article className="h-60 xl:h-72 aspect-[4/3] overflow-hidden rounded-md shrink-0 bg-slate-200 relative flex flex-col justify-between py-4 px-6">
             <div className="flex gap-1 items-center self-end">
               <div className="flex flex-col items-start gap-1">
                 <p className="text-sm font-medium text-neutral-500">
@@ -340,7 +340,7 @@ export default function LandingSections() {
               </div>
             </div>
             <div>
-              <h2 className="text-2xl sm:text-2xl font-bold pb-4 text-neutral-800">
+              <h2 className="text-2xl sm:text-2xl md:text-xl xl:text-2xl font-bold pb-4 text-neutral-800 line-clamp-1">
                 <Link
                   to={`/blogs/${blogs[1].slug}`}
                   className="hover:underline line-clamp-2"
@@ -353,7 +353,7 @@ export default function LandingSections() {
               </p>
             </div>
           </article>
-          <article className="h-72 aspect-[4/3] overflow-hidden rounded-md shrink-0 bg-slate-200 relative flex flex-col justify-between py-4 px-6">
+          <article className="h-60 xl:h-72 aspect-[4/3] overflow-hidden rounded-md shrink-0 bg-slate-200 relative flex flex-col justify-between py-4 px-6">
             <div className="flex gap-1 items-center self-end">
               <div className="flex flex-col items-start gap-1">
                 <p className="text-sm font-medium text-neutral-500">
@@ -375,7 +375,7 @@ export default function LandingSections() {
               </div>
             </div>
             <div>
-              <h2 className="text-2xl sm:text-2xl font-bold pb-4 text-neutral-800">
+              <h2 className="text-2xl sm:text-2xl md:text-xl xl:text-2xl font-bold pb-4 text-neutral-800 line-clamp-1">
                 <Link
                   to={`/blogs/${blogs[2].slug}`}
                   className="hover:underline line-clamp-2"
@@ -383,14 +383,14 @@ export default function LandingSections() {
                   {blogs[2].title}
                 </Link>
               </h2>
-              <p className="text-sm  font-medium text-neutral-500 line-clamp-5">
+              <p className="text-sm  font-medium text-neutral-500  min-[930px]: line-clamp-4  xl:line-clamp-5">
                 {blogs[2].content[0].content}
               </p>
             </div>
           </article>
         </div>
-        <div className="flex flex-0.5 flex-col gap-8">
-          <article className="h-72 aspect-[4/3] overflow-hidden rounded-md shrink-0 bg-slate-200 relative flex flex-col justify-between py-4 px-6">
+        <div className=" flex-1 hidden min-[1075px]:flex flex-col gap-8">
+          <article className="h-60 xl:h-72 aspect-[4/3] overflow-hidden rounded-md shrink-0 bg-slate-200 relative flex flex-col justify-between py-4 px-6">
             <div className="flex gap-1 items-center self-end">
               <div className="flex flex-col items-start gap-1">
                 <p className="text-sm font-medium text-neutral-500">
@@ -412,10 +412,10 @@ export default function LandingSections() {
               </div>
             </div>
             <div>
-              <h2 className="text-2xl sm:text-2xl font-bold pb-4 text-neutral-800">
+              <h2 className="text-2xl sm:text-2xl md:text-xl xl:text-2xl font-bold pb-4 text-neutral-800">
                 <Link
                   to={`/blogs/${blogs[3].slug}`}
-                  className="hover:underline line-clamp-2"
+                  className="hover:underline line-clamp-1"
                 >
                   {blogs[3].title}
                 </Link>
@@ -425,7 +425,7 @@ export default function LandingSections() {
               </p>
             </div>
           </article>
-          <article className="h-72 aspect-[4/3] overflow-hidden rounded-md shrink-0 bg-slate-200 relative flex flex-col justify-between py-4 px-6">
+          <article className="h-60 xl:h-72 aspect-[4/3] overflow-hidden rounded-md shrink-0 bg-slate-200 relative flex flex-col justify-between py-4 px-6">
             <div className="flex gap-1 items-center self-end">
               <div className="flex flex-col items-start gap-1">
                 <p className="text-sm font-medium text-neutral-500">
@@ -447,15 +447,15 @@ export default function LandingSections() {
               </div>
             </div>
             <div>
-              <h2 className="text-2xl sm:text-2xl font-bold pb-4 max-w-xl text-neutral-800">
+              <h2 className="text-2xl sm:text-2xl md:text-xl xl:text-2xl font-bold pb-4 max-w-xl text-neutral-800">
                 <Link
                   to={`/blogs/${blogs[4].slug}`}
-                  className="hover:underline line-clamp-2"
+                  className="hover:underline line-clamp-1"
                 >
                   {blogs[4].title}
                 </Link>
               </h2>
-              <p className="text-sm  font-medium text-neutral-500 line-clamp-5">
+              <p className="text-sm  font-medium text-neutral-500  min-[930px]: line-clamp-4  xl:line-clamp-5">
                 {blogs[4].content[0].content}
               </p>
             </div>
