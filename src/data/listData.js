@@ -61,19 +61,19 @@ export const awards = [
     },
     {
       title: 'Project 8',
-      description: 'Government of Uttaranchal project funded by Ministry of Home Affairs, Government of India for setting up Citizen Information and Services Centres in five border districts of Uttaranchal. I was involved in all aspects of this project (USD 1 Million)',
+      description: 'Government of Uttaranchal project funded by Ministry of Home Affairs, Government of India for setting up Citizen Information and Services Centres in five border districts of Uttaranchal. I was involved in all aspects of this project (USD 1 Million).',
     },
     {
       title: 'Project 9',
-      description: 'Government of Madhya Pradesh; Conservation Plan for River Shipra in Ujjain project (over USD 150000)',
+      description: 'Government of Madhya Pradesh; Conservation Plan for River Shipra in Ujjain project (over USD 150000).',
     },
     {
       title: 'Project 10',
-      description: 'Government of Uttaranchal; Syllabus for Leveraging the Rich Potential available in Water Resources and Hydropower of State of Uttaranchal project (over USD 200000)',
+      description: 'Government of Uttaranchal; Syllabus for Leveraging the Rich Potential available in Water Resources and Hydropower of State of Uttaranchal project (over USD 200000).',
     },
     {
       title: 'Project 11',
-      description: 'Government of Uttaranchal; Pro-Poor e-Governance Initiatives in Uttaranchal project (over USD 800000)',
+      description: 'Government of Uttaranchal; Pro-Poor e-Governance Initiatives in Uttaranchal project (over USD 800000).',
     },
     {
       title: 'Project 12',
@@ -91,19 +91,19 @@ export const awards = [
   export const researchProjects = [
     {
       title: 'Project 1',
-      description: 'Principal Investigator in a project titled "Students Initiative for Integrated Rural Development" funded by e – Gestalt, Bangalore (2011–2016)',
+      description: 'Principal Investigator in a project titled "Students Initiative for Integrated Rural Development" funded by e – Gestalt, Bangalore 2011–2016.',
     },
     {
       title: 'Project 2',
-      description: 'Principal Investigator in a project titled \'YUKTI\'- A Business Plan Competition for National Small Industries Corporation (NSIC) funded by NSIC, New Delhi (2010-2011)',
+      description: 'Principal Investigator in a project titled \'YUKTI\'- A Business Plan Competition for National Small Industries Corporation (NSIC) funded by NSIC, New Delhi 2010-2011.',
     },
     {
       title: 'Project 3',
-      description: 'Investigator in a project titled "Prototype Development and Deployment of VSAT-based Mobile e-Learning Terminals (MeLT)" to the tune of Rs 300 lac (over USD 600000) awarded by Government of India, Ministry of Human Resource Development (MHRD) (2009- 2015)',
+      description: 'Investigator in a project titled "Prototype Development and Deployment of VSAT-based Mobile e-Learning Terminals (MeLT)" to the tune of Rs 300 lac (over USD 600000) awarded by Government of India, Ministry of Human Resource Development (MHRD) 2009-2015.',
     },
     {
       title: 'Project 4',
-      description: 'Principal Investigator in a multi institutional and multi-disciplinary project entitled "National Competitiveness in the Knowledge Economy" with IIT Roorkee in the lead and with an outlay of Rs 495 lakh (over USD 1 million) by Government of India, Department of Information Technology in Ministry of Communication and Information Technology (2006-2011)',
+      description: 'Principal Investigator in a multi institutional and multi-disciplinary project entitled "National Competitiveness in the Knowledge Economy" with IIT Roorkee in the lead and with an outlay of Rs 495 lakh (over USD 1 million) by Government of India, Department of Information Technology in Ministry of Communication and Information Technology 2006-2011.',
     }
   ];
   export const achievements = [
@@ -125,27 +125,27 @@ export const awards = [
     },
     {
       title: 'Achievement 5',
-      description: 'Independent consultancy in the area of Promoter Funding and Corporate Restructuring during (1995-1997)',
+      description: 'Independent consultancy in the area of Promoter Funding and Corporate Restructuring during 1995-1997.',
     },
     {
       title: 'Achievement 6',
-      description: 'Handled investments in real estate to the tune of Rs.3 Billion in Bombay, Bangalore and Madras during (1993-1995)',
+      description: 'Handled investments in real estate to the tune of Rs.3 Billion in Bombay, Bangalore and Madras during 1993-1995.',
     },
     {
       title: 'Achievement 7',
-      description: 'Set up a finance company with 74% repatriability (Highest allowed at that time by FIPB in India) with initial startup capital of US $ 10 Million at Bombay in (1994)',
+      description: 'Set up a finance company with 74% repatriability (Highest allowed at that time by FIPB in India) with initial startup capital of US $ 10 Million at Bombay in 1994.',
     },
     {
       title: 'Achievement 8',
-      description: 'Worked out feasibility of setting up a Private Sector bank for ESSAR group in (1993)',
+      description: 'Worked out feasibility of setting up a Private Sector bank for ESSAR group in 1993.',
     },
     {
       title: 'Achievement 9',
-      description: 'Set up a textile mill from concept to commercial production in Lagos, Nigeria (1991-1992)',
+      description: 'Set up a textile mill from concept to commercial production in Lagos, Nigeria 1991-1992.',
     },
     {
       title: 'Achievement 10',
-      description: 'Head of International Trade Finance division of a bank in Singapore (1989-1990)',
+      description: 'Head of International Trade Finance division of a bank in Singapore 1989-1990.',
     },
     {
       title: 'Achievement 11',
@@ -161,19 +161,19 @@ export const awards = [
     },
     {
       title: 'Achievement 14',
-      description: "Managed first Private Placement cum Public Issue of Rs.3.50 Billion of M.T.N.L. in (1988)",
+      description: "Managed first Private Placement cum Public Issue of Rs.3.50 Billion of M.T.N.L. in 1988.",
     },
     {
       title: 'Achievement 15',
-      description: 'Managed IPO of Rs. 2 Billion of Power Finance Corporation in (1987)',
+      description: 'Managed IPO of Rs. 2 Billion of Power Finance Corporation in 1987.',
     },
     {
       title: 'Achievement 16',
-      description: "Managed India's first Capital Gains Bonds Issue of Rs.500 Million of HUDCO in (1986)",
+      description: "Managed India's first Capital Gains Bonds Issue of Rs.500 Million of HUDCO in 1986.",
     },
     {
       title: 'Achievement 17',
-      description: 'For the first time developed Jaipur as Market for Initial Public Offerings (IPOs) in (1985)',
+      description: 'For the first time developed Jaipur as Market for Initial Public Offerings (IPOs) in 1985.',
     },
     {
       title: 'Achievement 18',

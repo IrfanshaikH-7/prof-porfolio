@@ -160,8 +160,14 @@ import Vikas_Gupta from './recommendation/start-ups/vikas-gupta.webp'
 import cv from './self/cv_prof_vinay-k-nangia.docx'
 import square_self from './self/square-self.jpg'
 import img_001 from './gallery/img_001.jpg'
+import img__0016 from './gallery/img__0016.jpg'
+import img__0017 from './gallery/img__0017.jpg'
+import img__0018 from './gallery/img__0018.jpg'
 export {
   img_001,
+  img__0016,
+  img__0017,
+  img__0018,
 
 
   award_icon,
