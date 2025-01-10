@@ -6,9 +6,9 @@ import { Link } from 'react-router-dom'
 export default function HeroSection() {
 
   return (
-    <main className='h-full lg:h-[90vh] w-full py-12 lg:py-0 flex gap-12 lg:flex-row overflow-x-hidden  flex-col max-w-[1400px] mx-auto lg:px-8 px-4 -mb-10 lg:mb-20'>
+    <main className='h-full lg:h-fit w-full pb-12 lg:pb-0 lg:pt-8 flex gap-12 lg:flex-row overflow-x-hidden  flex-col max-w-[1400px] mx-auto lg:px-8 px-4 -mb-10 lg:mb-4'>
       <section className=' flex-1 h-full  w-full  flex flex-col items-start justify-center  lg:pr-0 '>
-        <article className='flex flex-col gap-1 mt-8 md:mt-20'>
+        <article className='flex flex-col gap-1 mt-8 md:mt-0'>
           {/* <span className='text-sm w-fit font-bold bg-neutral-900 text-neutral-100 rounded-md px-8 py-0.5'>About</span> */}
           <div className='relative'>
             {/* <div className=' absolute -top-[90px] left-28 hidden md:flex md:left-[84%] -rotate-12 md:-top-11 w-16 h-16 z-50 '>
@@ -18,11 +18,11 @@ export default function HeroSection() {
             </div> */}
             <h1 className='text-3xl pl-1.5 md:text-5xl font-extrabold mb-2'>
             <span className='text-neutral-900'>
-            Dr.
+            Dr. 
               </span>
               <br className='block min-[430px]:hidden'/> 
               
-              Vinay Kumar Nangia
+              {" "}Vinay Kumar Nangia
               </h1>
           </div>
 
@@ -57,7 +57,7 @@ export default function HeroSection() {
             <h1 className='text-sm font-bold rotate-[270deg] py-7'>Vinay Nangia</h1>
           </div>
         </div>
-        <div className=' gap-2 items-center hidden lg:flex  absolute bottom-24 -left-24'>
+        {/* <div className=' gap-2 items-center hidden lg:flex  absolute bottom-24 -left-24'>
           <p className='text-sm font-medium text-neutral-500'>
             Banking Professional
           </p>
@@ -69,7 +69,7 @@ export default function HeroSection() {
           <p className='text-sm font-medium text-neutral-500'>
             and More.
           </p>
-        </div>
+        </div> */}
       </section>
     </main>
   )

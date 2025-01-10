@@ -64,8 +64,6 @@ export default function LandingSections() {
         return parsedDate.format("DD MMM YYYY");
       }
     }
-
-    // If no format matches, return original string
     return dateString;
   };
 
@@ -74,7 +72,15 @@ export default function LandingSections() {
       <section className="w-full h-full flex flex-col">
         <article className="w-full h-full flex flex-col ">
           <section className="flex flex-col lg:flex-row h-full w-full relative">
-            <div className="flex flex-col max-w-2xl gap-3 ">
+          <div className="hidden lg:flex flex-col h-[80%] min-h-[300px] lg:min-h-[400px] pt-8 lg:pt-0 lg:max-h-[400px] aspect-[4/3] lg:min-w-[400px]  lg:pr-8 lg:pl-2 pb-8 flex-1 overflow-hidden relative">
+              <img
+                src={vinay_nangia_2}
+                alt="vinay_nangia2"
+                className="w-full h-full object-cover rounded-3xl "
+              />
+              <div className="hidden lg:flex flex-col h-8 w-52 bg-white absolute top-12 -left-4 -rotate-45"></div>
+            </div>
+            <div className="flex flex-col lg:max-w-2xl gap-3 ">
               <p className="text-sm font-medium pl-2 text-neutral-500 lg:leading-6 leading-normal text-justify">
                 Professor Vinay Kumar Nangia has multi-functional expertise in Banking, Finance, General Management, Education and Institution Building. This includes experience of raising and deploying financial resources in India and overseas, setting up new ventures in India, and a new industrial project overseas. A wide range of banking experience covers commercial banking, merchant banking, investment banking, trade finance, project finance, rural banking, agricultural banking, and training. Experience in education includes active participation in the formulation and setting up of MBA and MCA programs during 1998-1999 in IIT Roorkee and BBA and MBA programs in 2019 at NSUT New Delhi.
 
@@ -87,7 +93,7 @@ export default function LandingSections() {
 
               </p>
             </div>
-            <div className="flex flex-col h-[80%] min-h-[300px] lg:min-h-[400px] pt-8 lg:pt-0 lg:max-h-[400px] aspect-[4/3] lg:min-w-[400px]  lg:px-8 pb-8 flex-1 overflow-hidden relative">
+            <div className="flex lg:hidden flex-col h-[80%] min-h-[300px] lg:min-h-[400px] pt-8 lg:pt-0 lg:max-h-[400px] aspect-[4/3] lg:min-w-[400px]  lg:px-8 pb-8 flex-1 overflow-hidden relative">
               <img
                 src={vinay_nangia_2}
                 alt="vinay_nangia2"
@@ -95,6 +101,7 @@ export default function LandingSections() {
               />
               <div className="hidden lg:flex flex-col h-8 w-52 bg-white absolute top-12 -left-4 -rotate-45"></div>
             </div>
+           
           </section>
           <p className="text-sm font-medium pl-2 text-neutral-500 lg:leading-6 leading-normal text-justify">
           Professor Nangia was the Principal Investigator of a Rs. 5 crore project "National Competitiveness in Knowledge Economy", awarded by the Ministry of Communications and Information Technology, Government of India. During 2006-2011, he was the Government of India Chair Professor in Knowledge Economy.

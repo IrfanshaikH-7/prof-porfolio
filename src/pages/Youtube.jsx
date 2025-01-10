@@ -6,7 +6,7 @@ import Heading from '../components/shared/Heading'
 export default function Youtube() {
   return (
     <div className='w-full mx-auto px-4 py-8 max-w-[1400px]'>
-      <FeaturedVideo videos={youtubeLinks} title="Youtube Videos" isPage={true} />
+      <FeaturedVideo videos={youtubeLinks} title="Videos" isPage={true} />
     </div>
   )
 }
