@@ -45,7 +45,7 @@ export const awards = [
     },
     {
       title: 'Project 4',
-      description: 'TCIL Bell South Limited (Joint venture of mini-navaratna TCIL and Bell South, a fortune 500 company): (i) International bidding for development of software for Export Credit Guarantee Corporation of Zimbabwe; (ii) Review of Human Resource Practices and review of plans and policies relating to Finance and Capital Structure.',
+      description: 'TCIL Bell South Limited (Joint venture of mini-navaratna TCIL and Bell South, a fortune 500 company); (i) International bidding for development of software for Export Credit Guarantee Corporation of Zimbabwe; (ii) Review of Human Resource Practices and review of plans and policies relating to Finance and Capital Structure.',
     },
     {
       title: 'Project 5',

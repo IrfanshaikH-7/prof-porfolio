@@ -2,6 +2,7 @@ import React from 'react'
 import { blogs } from '../data/blogs'
 import { Link } from 'react-router-dom'
 import dayjs from 'dayjs';
+import Heading from '../components/shared/Heading';
 export default function Blogs() {
   const formatDate = (dateString) => {
     // Try parsing with different formats
@@ -20,12 +21,10 @@ export default function Blogs() {
   };
 
   return (
-    <main className="min-h-screen p-4 max-w-7xl mx-auto">
-      <div className='flex w-full gap-4 items-center justify-center pt-12 pb-16'>
-        <div className='h-1 w-full bg-black rounded-md'/>
-    <p className=' text-2xl md:text-5xl font-bold break-keep min-w-fit'>BLOGS</p>
-    <div className='h-1 w-full bg-black rounded-md'/>
-    </div>
+    <main className="min-h-screen px-4 py-12 max-w-7xl mx-auto">
+      <div className="w-fit mx-auto pb-8">
+        <Heading title="Blogs" />
+      </div>
       <div className="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] md:grid-cols-[repeat(auto-fit,minmax(340px,1fr))]  gap-6">
        {
         blogs.map((blog) => (

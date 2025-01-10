@@ -7,16 +7,16 @@ import { blogs } from '../../data/blogs'
 export default function Footer() {
   return (
     <main className='flex flex-col m-4 gap-4'>
-      <footer className='bg-neutral-800 h-full md:h-fit py-8 flex-col md:flex-row flex items-start md:items-center justify-between md:px-4 lg:px-12 px-4 rounded-xl'>
+      <footer className='bg-neutral-800 h-full md:h-fit py-8 flex-col min-[1100px]:flex-row flex items-start min-[1100px]:items-center justify-between md:px-4 lg:px-12 px-4 rounded-xl'>
         {/* logo */}
-        <div className='flex flex-col items-start gap-2 justify-center'>
-          <h1 className='text-white text-4xl  flex items-center flex-row'>
-            <div className='text-white flex items-center justify-center gap-4 mt-2 mr-1 bg-white rounded-md px-2 py-2'>
+        <div className='flex flex-col items-start gap-2 justify-center w-full min-[1100px]:max-w-sm'>
+          <h1 className='text-white text-4xl w-full flex items-center flex-row'>
+            <div className='text-white w-full flex items-center justify-center sm:justify-start gap-4 mt-2 mr-1 bg-white rounded-md px-2 py-2'>
               <img src={vinay_nangia} alt='vinay nangia' className='w-16 h-16 rounded-md object-fill' />
               <span className='text-black'>Vinay K Nangia</span>
             </div>
           </h1>
-          <p className='text-neutral-300 text-sm font-semibold max-w-sm mt-2'>
+          <p className='text-neutral-300 w-full text-sm font-semibold max-w-sm sm:max-w-full mt-2'>
             Professor Nangia is a leader, mentor, motivator, educator, trainer, coach and guide to students, scholars, teachers and business executives in academia, industry and government with his rich experience of industry, education, consulting and start-up world.
           </p>
           <a href={cv} 
@@ -26,7 +26,7 @@ export default function Footer() {
           </a>
         </div>
         {/* quick links */}
-        <div className='flex gap-8 md:gap-4 xl:gap-28 md:px-4 xl:px-24 flex-row flex-wrap md:flex-nowrap items-start py-8 md:py-0'>
+        <div className='flex gap-8 mt-8 min-[1100px]:mt-0  md:gap-4 xl:gap-28 md:px-4 xl:px-24 flex-row flex-wrap min-[1100px]:flex-nowrap items-start py-8 md:py-0'>
           <div className='flex flex-col items-start justify-center gap-2 w-fit min-w-fit'>
             <h1 className='text-white text-2xl font-bold flex items-center flex-row'>
               <div className='text-white break-keep'>Discover</div>

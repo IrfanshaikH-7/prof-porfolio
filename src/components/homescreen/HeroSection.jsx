@@ -10,13 +10,13 @@ export default function HeroSection() {
       <section className=' flex-1 h-full  w-full  flex flex-col items-start justify-center  lg:pr-0 '>
         <article className='flex flex-col gap-1 mt-8 md:mt-0'>
           {/* <span className='text-sm w-fit font-bold bg-neutral-900 text-neutral-100 rounded-md px-8 py-0.5'>About</span> */}
-          <div className='relative'>
+          <div className='relative mt-4'>
             {/* <div className=' absolute -top-[90px] left-28 hidden md:flex md:left-[84%] -rotate-12 md:-top-11 w-16 h-16 z-50 '>
               <svg xmlns="http://www.w3.org/2000/svg" width="80" height="85" viewBox="0 0 110 152" fill="none">
                 <path d="M105.183 3.34766C111.516 43.8477 100.083 124.848 3.68311 124.848M3.68311 124.848L28.6831 88.3477M3.68311 124.848L34.6831 149.348" stroke="#424242" stroke-width="5" stroke-linecap="round" />
               </svg>
             </div> */}
-            <h1 className='text-3xl pl-1.5 md:text-5xl font-extrabold mb-2'>
+            <h1 className='text-3xl -ml-1 md:text-5xl font-extrabold mb-2'>
             <span className='text-neutral-900'>
             Dr. 
               </span>
@@ -26,11 +26,11 @@ export default function HeroSection() {
               </h1>
           </div>
 
-          <p className='text-sm font-medium pl-2 text-justify text-neutral-500 max-w-2xl leading-6'>
+          <p className='text-sm font-medium  text-justify text-neutral-500 lg:max-w-2xl leading-6'>
           Dr. Vinay Kumar Nangia is a distinguished alumnus of Banaras Hindu University with over 51 years of managerial experience, equally divided between industry and academia.
 
           </p>
-          <p className='text-sm font-medium pl-2 text-justify text-neutral-500 max-w-2xl leading-6 mt-2'>
+          <p className='text-sm font-medium  text-justify text-neutral-500 lg:max-w-2xl leading-6 mt-2'>
           He started his academic career as the first employee and first Professor in the Department of Management Studies at IIT Roorkee where he served as a Professor from June 1998 to June 2018, for twenty years, including as Emeritus Fellow in the Department of Management Studies at IIT Roorkee in the last two years. He was an Emeritus Professor at Netaji Subhash University of Technology (NSUT) Dwarka, New Delhi. He contributed effectively in setting up BBA, MBA, and MBA in Innovation, Entrepreneurship, and Venture Development programs at Netaji Subhash University of Technology, the erstwhile NSIT in 2019. Professor Nangia was a Distinguished Professor at BML Munjal University, Gurugram, and a Distinguished Visiting Professor at SRM University AP. Currently, he is a Professor of Eminence at Guru Nanak Dev University, Amritsar.
 
           </p>
