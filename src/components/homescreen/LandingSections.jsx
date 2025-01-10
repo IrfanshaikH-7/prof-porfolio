@@ -273,7 +273,7 @@ export default function LandingSections() {
             <span className="text-neutral-500">Blogs By </span> <br />
             Dr. Vinay Kumar Nangia
           </h3>
-          <article className="h-60 xl:h-72 aspect-[4/3] overflow-hidden rounded-md shrink-0 bg-slate-200 relative flex flex-col justify-between py-4 px-6">
+          <Link to={`/blogs/${blogs[0].slug}`} className="h-60 xl:h-72 aspect-[4/3] overflow-hidden rounded-md shrink-0 bg-slate-200 relative flex flex-col justify-between py-4 px-6">
             <div className="flex gap-1 items-center self-end">
               <div className="flex flex-col items-start gap-1">
                 <p className="text-sm font-medium text-neutral-500">
@@ -308,7 +308,7 @@ export default function LandingSections() {
                 {blogs[0].content[0].content}
               </p>
             </div>
-          </article>
+          </Link>
           <Link
             to="/blogs"
             className="text-sm hidden min-[930px]:flex font-medium h-24 w-full bg-neutral-800 rounded-md  items-center justify-center text-neutral-200 
@@ -318,7 +318,7 @@ export default function LandingSections() {
           </Link>
         </div>
         <div className="flex flex-1 flex-col gap-8">
-          <article className="h-60 xl:h-72 aspect-[4/3] overflow-hidden rounded-md shrink-0 bg-slate-200 relative flex flex-col justify-between py-4 px-6">
+          <Link to={`/blogs/${blogs[1].slug}`} className="h-60 xl:h-72 aspect-[4/3] overflow-hidden rounded-md shrink-0 bg-slate-200 relative flex flex-col justify-between py-4 px-6">
             <div className="flex gap-1 items-center self-end">
               <div className="flex flex-col items-start gap-1">
                 <p className="text-sm font-medium text-neutral-500">
@@ -352,8 +352,8 @@ export default function LandingSections() {
                 {blogs[1].content[0].content}
               </p>
             </div>
-          </article>
-          <article className="h-60 xl:h-72 aspect-[4/3] overflow-hidden rounded-md shrink-0 bg-slate-200 relative flex flex-col justify-between py-4 px-6">
+          </Link>
+          <Link to={`/blogs/${blogs[2].slug}`} className="h-60 xl:h-72 aspect-[4/3] overflow-hidden rounded-md shrink-0 bg-slate-200 relative flex flex-col justify-between py-4 px-6">
             <div className="flex gap-1 items-center self-end">
               <div className="flex flex-col items-start gap-1">
                 <p className="text-sm font-medium text-neutral-500">
@@ -387,10 +387,10 @@ export default function LandingSections() {
                 {blogs[2].content[0].content}
               </p>
             </div>
-          </article>
+          </Link>
         </div>
         <div className=" flex-1 hidden min-[1075px]:flex flex-col gap-8">
-          <article className="h-60 xl:h-72 aspect-[4/3] overflow-hidden rounded-md shrink-0 bg-slate-200 relative flex flex-col justify-between py-4 px-6">
+          <Link to={`/blogs/${blogs[3].slug}`} className="h-60 xl:h-72 aspect-[4/3] overflow-hidden rounded-md shrink-0 bg-slate-200 relative flex flex-col justify-between py-4 px-6">
             <div className="flex gap-1 items-center self-end">
               <div className="flex flex-col items-start gap-1">
                 <p className="text-sm font-medium text-neutral-500">
@@ -424,8 +424,8 @@ export default function LandingSections() {
                 {blogs[3].content[0].content}
               </p>
             </div>
-          </article>
-          <article className="h-60 xl:h-72 aspect-[4/3] overflow-hidden rounded-md shrink-0 bg-slate-200 relative flex flex-col justify-between py-4 px-6">
+          </Link>
+          <Link to={`/blogs/${blogs[4].slug}`} className="h-60 xl:h-72 aspect-[4/3] overflow-hidden rounded-md shrink-0 bg-slate-200 relative flex flex-col justify-between py-4 px-6">
             <div className="flex gap-1 items-center self-end">
               <div className="flex flex-col items-start gap-1">
                 <p className="text-sm font-medium text-neutral-500">
@@ -459,7 +459,7 @@ export default function LandingSections() {
                 {blogs[4].content[0].content}
               </p>
             </div>
-          </article>
+          </Link>
           <Link
             to="/blogs"
             className="text-sm flex min-[930px]:hidden font-medium h-24 w-full bg-neutral-800 rounded-md  items-center justify-center text-neutral-200 
