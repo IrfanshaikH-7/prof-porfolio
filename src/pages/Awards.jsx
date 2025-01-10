@@ -50,7 +50,7 @@ export default function Awards() {
      
 
          {/* start of Achievements Section */}
-         <section className='w-full h-full flex flex-col mt-24'>
+         <section className='w-full h-full flex flex-col mt-12'>
           <div className='w-fit mx-auto pt-8 '>
             <Heading title='Achievements' />
           </div>
