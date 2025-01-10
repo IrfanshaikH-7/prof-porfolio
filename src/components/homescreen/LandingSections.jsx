@@ -78,7 +78,7 @@ export default function LandingSections() {
                 alt="vinay_nangia2"
                 className="w-full h-full object-cover rounded-3xl "
               />
-              <div className="hidden lg:flex flex-col h-8 w-52 bg-white absolute top-12 -left-4 -rotate-45"></div>
+              {/* <div className="hidden lg:flex flex-col h-8 w-52 bg-white absolute top-12 -left-4 -rotate-45"></div> */}
             </div>
             <div className="flex flex-col lg:max-w-2xl gap-3 ">
               <p className="text-sm font-medium pl-2 text-neutral-500 lg:leading-6 leading-normal text-justify">
@@ -99,7 +99,7 @@ export default function LandingSections() {
                 alt="vinay_nangia2"
                 className="w-full h-full object-cover rounded-3xl "
               />
-              <div className="hidden lg:flex flex-col h-8 w-52 bg-white absolute top-12 -left-4 -rotate-45"></div>
+              {/* <div className="hidden lg:flex flex-col h-8 w-52 bg-white absolute top-12 -left-4 -rotate-45"></div> */}
             </div>
            
           </section>
