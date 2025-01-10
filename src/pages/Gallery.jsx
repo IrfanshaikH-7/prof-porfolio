@@ -10,7 +10,7 @@ export default function Gallery() {
     <section className='lg:w-[86.5%] py-12 w-full px-4 lg:px-0 h-full min-h-screen flex flex-col items-center justify-center mx-auto'>
       <section className='w-full h-full flex flex-col items-center justify-center'>
         <Heading title="Gallery" />
-        <div className='w-full h-full grid grid-cols-1 md:grid-cols-[repeat(auto-fill,minmax(400px,1fr))] items-center justify-center justify-items-center gap-8'>
+        <div className='w-full mt-6 h-full grid grid-cols-1 md:grid-cols-[repeat(auto-fill,minmax(400px,1fr))] items-center justify-center justify-items-center gap-8'>
           {galleryImages.map((item, index) => (
             <div 
               key={index} 

@@ -9,7 +9,7 @@ import { Link } from 'react-router-dom';
 export default function Awards() {
  
   return (
-    <div className='w-[86.5%] mx-auto min-h-full py-12 items-start flex-col flex gap-12'>
+    <div className='w-[86.5%] mx-auto min-h-full py-12 items-start flex-col flex '>
       <div className='w-fit mx-auto  '>
           <Heading title='Awards' />
       </div>
@@ -50,7 +50,7 @@ export default function Awards() {
      
 
          {/* start of Achievements Section */}
-         <section className='w-full h-full flex flex-col '>
+         <section className='w-full h-full flex flex-col mt-24'>
           <div className='w-fit mx-auto pt-8 '>
             <Heading title='Achievements' />
           </div>
