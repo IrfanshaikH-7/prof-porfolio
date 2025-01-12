@@ -142,8 +142,6 @@ export default function BlogPost() {
             <p className='flex flex-col font-extrabold text-black '>
             <span className='text-neutral-500'>By</span>
             <span>Prof. Vinay Nangia</span>
-         
-
         </p>
         </div>
        

@@ -141,11 +141,11 @@ export const awards = [
     },
     {
       title: 'Achievement 9',
-      description: 'Set up a textile mill from concept to commercial production in Lagos, Nigeria 1991-1992.',
+      description: 'Set up a textile mill from concept to commercial production in Lagos, Nigeria in 1991-1992.',
     },
     {
       title: 'Achievement 10',
-      description: 'Head of International Trade Finance division of a bank in Singapore 1989-1990.',
+      description: 'Head of International Trade Finance division of a bank in Singapore in 1989-1990.',
     },
     {
       title: 'Achievement 11',
