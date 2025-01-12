@@ -134,7 +134,7 @@ export default function BlogPost() {
       </div>
       <h1 className="text-3xl font-bold mb-4">{blog.title}</h1>
       {blog.content.map((block, index) => (
-        <div key={index}>{renderContent(block)}</div>
+        <div key={index} className='text-justify'>{renderContent(block)}</div>
       ))}
       <div className='bg-neutral-100 text-white flex justify-between items-center p-4 rounded-lg mt-8'>
         <div className='flex font-extrabold text-black gap-2 '>

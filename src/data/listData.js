@@ -125,11 +125,11 @@ export const awards = [
     },
     {
       title: 'Achievement 5',
-      description: 'Independent consultancy in the area of Promoter Funding and Corporate Restructuring during 1995-1997.',
+      description: 'Independent consultancy in the area of Promoter Funding and Corporate Restructuring from 1995-1997.',
     },
     {
       title: 'Achievement 6',
-      description: 'Handled investments in real estate to the tune of Rs.3 Billion in Bombay, Bangalore and Madras during 1993-1995.',
+      description: 'Handled investments in real estate to the tune of Rs.3 Billion in Bombay, Bangalore and Madras from 1993-1995.',
     },
     {
       title: 'Achievement 7',
@@ -153,7 +153,7 @@ export const awards = [
     },
     {
       title: 'Achievement 12',
-      description: 'As a Merchant banker, managed funds to the tune of Rs. 70 Billion during 1986-1989 in Investments and Money Market. Clients included NTPC, NHPC, Power Finance Corporation, REC, ONGC, IOC, Oil India Ltd., OCC, National Airports Authority, International Airports Authority, Indian Airlines, etc.',
+      description: 'As a Merchant banker, managed funds to the tune of Rs. 70 Billion from 1986-1989 in Investments and Money Market. Clients included NTPC, NHPC, Power Finance Corporation, REC, ONGC, IOC, Oil India Ltd., OCC, National Airports Authority, International Airports Authority, Indian Airlines, etc.',
     },
     {
       title: 'Achievement 13',

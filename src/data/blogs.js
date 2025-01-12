@@ -3325,5 +3325,628 @@ export const blogs = [
         content: 'To sum up choice of programme shall depend on age, qualification, experience, inclination, market conditions and availability of choices available to the person who has to take this decision. As a general rule full time regular MBA with marketing or finance makes better sense.'
       }
     ]
+  },
+  {
+    id: '44',
+    title: 'CV-Some basics',
+    slug: 'cv-some-basic',
+    description: ' Curriculum Vitae or CV is a summary of qualifications and experience of a person. Recruiters in the United Kingdom and commonwealth countries prefer to use the term CV whereas in United States it is referred to as Resume. In academia, however, in USA, they prefer to use the term CV rather than resume. Profile is a broader term and is used mostly in the context of introduction of a person. Brief profile of a person is spoken or written before introducing a speaker or author of an article. Bio data includes more personal details like height, weight, complexion, state of health and family details etc. Biodata is used mostly in social context like matrimonial prospecting. In India earlier the term biodata was used in place of CV or resume. Even now many use all the three terms CV, resume and biodata interchangeably.A well-written CV enhances the chances of getting a call for the job sought and facilitates bagging it. Well made CV is half the battle won. Poorly made CV is one which has spelling mistakes, language mistakes, bad grammar, typographical errors , unorganized information and poor style and formatting. If the CV is badly prepared,  no senior person will bother even to read it. A person who can not give required attention to his own CV will hardly be considered fit for employment due to his careless and callous approach.',
+    date: '02-10-13',
+    author: 'Prof. Vinay Nangia',
+    role: 'Professor, Mentor, Guide for Education, Business and Start ups',
+    thumbnail: '/images/javascript.jpg',
+    content: [
+      {
+        type: 'paragraph',
+        content: 'Curriculum Vitae or CV is a summary of qualifications and experience of a person. Recruiters in the United Kingdom and commonwealth countries prefer to use the term CV whereas in United States it is referred to as Resume. In academia, however, in USA, they prefer to use the term CV rather than resume. Profile is a broader term and is used mostly in the context of introduction of a person. Brief profile of a person is spoken or written before introducing a speaker or author of an article. Bio data includes more personal details like height, weight, complexion, state of health and family details etc. Biodata is used mostly in social context like matrimonial prospecting. In India earlier the term biodata was used in place of CV or resume. Even now many use all the three terms CV, resume and biodata interchangeably. A well-written CV enhances the chances of getting a call for the job sought and facilitates bagging it. Well made CV is half the battle won. Poorly made CV is one which has spelling mistakes, language mistakes, bad grammar, typographical errors , unorganized information and poor style and formatting. If the CV is badly prepared,  no senior person will bother even to read it. A person who can not give required attention to his own CV will hardly be considered fit for employment due to his careless and callous approach.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Curriculum Vitae or CV is a summary of qualifications and experience of a person. Recruiters in the United Kingdom and commonwealth countries prefer to use the term CV whereas in United States it is referred to as Resume. In academia, however, in USA, they prefer to use the term CV rather than resume. Profile is a broader term and is used mostly in the context of introduction of a person. Brief profile of a person is spoken or written before introducing a speaker or author of an article. Bio data includes more personal details like height, weight, complexion, state of health and family details etc. Biodata is used mostly in social context like matrimonial prospecting. In India earlier the term biodata was used in place of CV or resume. Even now many use all the three terms CV, resume and biodata interchangeably. A well-written CV enhances the chances of getting a call for the job sought and facilitates bagging it. Well made CV is half the battle won. Poorly made CV is one which has spelling mistakes, language mistakes, bad grammar, typographical errors , unorganized information and poor style and formatting. If the CV is badly prepared,  no senior person will bother even to read it. A person who can not give required attention to his own CV will hardly be considered fit for employment due to his careless and callous approach.'
+      },
+      {
+        type: 'paragraph',
+        content: "The best way to prepare a CV is to first gather all the relevant information. That is starting from the childhood; one should with the help of parents, start preparing the fact file. School, college and university information in terms of names of courses, programmes, results, activities and their dates or periods should be kept at one place. Details of internships, training, projects, professional activities, extra curricular activities, personal achievements and even memorable events should be jotted down. Most of this information collected from parents, friends, official and personal records, if properly used, shall help in handling the interviews later."
+      },
+      {
+        type: 'paragraph',
+        content:"CV should start with name and contact details i.e., address, telephone numbers and e-mail IDs. Preferably two e-mail IDs or phone numbers may be given. E mail IDs should not look like unprofessional or informal like smarty@….This information may be given at the top and preferably centre-aligned. Line spacing here has to be single."
+      },
+      {
+        type: 'paragraph',
+        content: "Giving a photo in the CV may be considered if it is presentable and taking coloured print-outs is not an issue. It is becoming fashionable to mention career objective. Few write it appropriately and adjust it for the job applied for otherwise it may limit the employment opportunities rather than of any help. It may be avoided unless one is very clear and can be explicit about the career objective. Instead, where possible,  one liner describing the applicant as suitable for the job may be more effective. For example,  if some one is making a CV for a project management position,  writes    “ First class Mechanical Engineer and MBA with six year post qualification experience in Project Management”"
+      },
+      {
+        type: 'paragraph',
+        content: "Information flow should be from latest to the earliest. Following headings may be considered 1. Qualifications, Academic Qualifications, Professional Qualification 2. Certifications 3. Internships 4. Training 5. Projects 6. Experience 7. Honours, awards, scholarships, distinctions 8. Languages known 9. Extra curricular activities 10. References  (where necessary)."
+      },
+      {
+        type: 'paragraph',
+        content: "Qualification/s is good enough for an ordinary graduate, academic qualifications may be appropriate for a person holding more than one degree and dividing this into academic and professional qualification could be a case where  a person has done, say, M.Sc. and thereafter LLB. or M.B.A. If the academic performance is consistently good in terms of marks, good institutions attended and no break in studies then it is better to present the information in a tabular form because it makes information more easily comprehensible and it also increases the presentability of the CV. If, however, results have not been consistently good or there are gaps in education or one has not always gone to good institutions descriptive paras will look better. One may use language like consistently First Class student etc. to highlight what is to be highlighted prominently. "
+      },
+      {
+        type: 'paragraph',
+        content: "Certifications have increasingly become more common in the globalised world of today. These are common in information technology, finance, operations and project management etc. One should consider the relevance and suitability of the certificates being obtained whether global or national. One should also be careful in putting it in CV. It will be counter-productive to put Project Management certification while applying for a HR job. That is where it becomes important to have a master database and picking up the right and relevant information while making CV for specific job or situation. "
+      },
+      {
+        type: 'paragraph',
+        content: "Internships and training should cover place, period and person/organization under whom done. More important is to mention the work done under training or internship. Very often students mention some or many of their class room assignments as projects. This may prove to be counter productive in interviews if one is not thorough. Too much of or unnecessary information in the CV may be like inviting trouble. It is better to give less but relevant information which one can defend in interviews."  
+      },
+      {
+        type: 'paragraph',
+        content: "Job experience starting from latest job should cover name of employer with brief description, like revenue or ranking of the company, position held, responsibility in brief but more importantly your own contribution and achievements. Length of description under this heading should be in proportion to the period served in that particular job as well as the relevance to the job applied for. Unless specifically asked for salary or compensation packages should not be mentioned in the CV."
+      },
+      {
+        type: 'paragraph',
+        content:"Honours, awards, distinctions, scholarships etc. should be appropriately titled and covered. Frivolous and unimportant information should be avoided. Generalisations like “won numerous awards in games and sports in school and college” make a poor impression. One should try to be specific in one’s CV as far as possible. Information under this head should not look disproportionate to the rest of the resume."
+      },
+      {
+        type: 'paragraph',
+        content: "Languages known may be mentioned only if one knows more than Hindi and English and it should be shown in terms of proficiency to speak, read and write. This head becomes important in multi-location companies like MNCs or companies with multicultural work staff.Extra curricular activities may include hobbies, dramatics, debates, music and other interests. If sports and games require more space a separate heading may be created. Care should be taken in the mention of these activities and one’s hobbies and interests should not appear to be mismatch with the job applied for. According to the needs of prospective employer appropriate emphasis on different extra curricular activities may be given. For example, while applying for a marketing job one should expect that the prospective employer would like to select a person with extrovert nature. Games like hockey, football and cricket will be preferred over chess or carom. No doubt mention of chess and carom shall still be better than not mentioning any. Thus, what one mentions should have better fit with the perceived requirement of the prospective employer."
+      },
+      {
+        type: 'paragraph',
+        content: "References, unless asked for, should not be given. Care should be taken in mentioning the names of referees. Let us take example of a young person applying for the post of an Assistant Professor and he gives reference of three Assistant Professors. Another person for the same job and position gives reference of a Vice Chancellor, a Dean and a Professor. Any intelligent recruiter could easily make out the difference in two personalities. CV should be in an acceptable style and format. Conservative and traditional style and format, in general, could be a better bet. Two page CV should be good enough unless it is for academic or top position. Appropriate margins should be provided and font types could be Arial, Verdana or Calibri and font size could be 11 or 12 and line spacing could be single or 1.5 as per contents. CV should be sent in word file or PDF or both unless otherwise requested."
+      },
+      {
+        type: 'paragraph',
+        content: "A covering letter must necessarily be written when some one is targeting a specific job or applying through some one’s reference. Covering letter should not be in more than three or four paras and never more than one page. The purpose of writing a covering letter is to mention why and how this application is being made and how does the profile of the applicant is the best fit for the job."
+      }
+
+    ]
+  },
+  {
+    id: '45',
+    title: 'Dressing up for an Interview',
+    slug: 'dressing-up-for-interview',
+    description: 'A guide on how to choose the right attire and accessories for a successful interview.',
+    date: '24-10-13',
+    author: 'Prof. Vinay Nangia',
+    role: 'Professor, Mentor, Guide for Education, Business and Start ups',
+    thumbnail: '/images/javascript.jpg',
+    content: [
+        {
+            type: 'paragraph',
+            content: 'One should spend good time in deciding about the dress and personal accessories before going for an interview.'
+        },
+        {
+            type: 'paragraph',
+            content: 'The dress should be in tune with the job requirement for which person is going to get interviewed.'
+        },
+        {
+            type: 'paragraph',
+            content: 'Ordinarily a person is expected to be dressed in formals at such occasions. If the person does not dress in formal, it may be construed that his attitude or approach is callous or careless. This may also happen due to the artistic nature or bold attitude of the person.'
+        },
+        {
+            type: 'paragraph',
+            content: 'The shoes, the tie and the cuff links every thing shows the personality as well as the seriousness attached to the process of the interview. The cell phone; the brand, the model and the cost can also indicate economic back ground of the person or how tech savy he or she is.'
+        },
+        {
+            type: 'paragraph',
+            content: 'Some safe bets include a formal dress I.e white or pastel colour shirt, preferably plain or may be with self design, with contrasting or similar colour trouser as per prevailing trend and leather shoes preferably with laces.'
+        },
+        {
+            type: 'paragraph',
+            content: 'Brand new shoes must not be put on for the first time in the interview. It is better if any new dress, suit, trouser or shoes etc. is being used for the first time it should have been already used at least a couple of times before the day of the interview.'
+        },
+        {
+            type: 'paragraph',
+            content: 'It is better to be dressed in a formal suit but this shall also depend on climate, weather, kind of office where interview is taking place and the culture of the company for which one is being interviewed.'
+        },
+        {
+            type: 'paragraph',
+            content: 'It is always safe to carry a jacket (read coat) which if required may be put on at the last moment. Wearing a decent wrist watch may give good impression especially when the interviewers are of the older generation.'
+        },
+        {
+            type: 'paragraph',
+            content: 'Hair style must be normal, formal and conservative unless one is going for a creative job or an artistic job like say an advertising agency.'
+        },
+        {
+            type: 'paragraph',
+            content: 'A lady dressed in a business suit or in a saree or in a designers suit discloses volumes about her personality, especially by the way she carries herself in the clothes she is wearing.'
+        },
+        {
+            type: 'paragraph',
+            content: 'In a campus placement for a multi national company wearing a business suit may look more appropriate but for a regulators like SEBI or RBI a saree or a decent suit may be a better choice.'
+        },
+        {
+            type: 'paragraph',
+            content: 'Personal accessories in case of women tell interesting story; the watch, the jewelry, the make up, the perfume, the lipstick and it’s colour etc. Unless the job so demands the female candidates should put on no or very light make up.'
+        },
+        {
+            type: 'paragraph',
+            content: 'It goes without saying that one should use lots of common sense while preparing to dress for the interview.'
+        }
+    ]
+},
+{
+  id: '46',
+  title: 'Some stray thoughts',
+  slug: 'some-stray-thoughts',
+  description: 'Reflections on the influence of upbringing and institutions on success.',
+  date: '28-09-13',
+  author: 'Prof. Vinay Nangia',
+  role: 'Professor, Mentor, Guide for Education, Business and Start ups',
+  thumbnail: '/images/javascript.jpg',
+  content: [
+      {
+          type: 'paragraph',
+          content: 'A large number of successful persons I have come across in my life, including those living abroad, have come from families where parents were either teachers or were from defence forces.'
+      },
+      {
+          type: 'paragraph',
+          content: 'Amongst those whose parents or either of the parents was teacher, a large number of such parents were from primary education. Parents or fathers from defence forces understandably came mostly from army.'
+      },
+      {
+          type: 'paragraph',
+          content: 'The common thread in both cases, as I understand, could be a certain level of discipline and regularity in life.'
+      },
+      {
+          type: 'paragraph',
+          content: 'Teachers’ children could have had possibly more grounding in terms of character building and value systems. These children would have also understood the value of resources, particularly money, better than many others.'
+      },
+      {
+          type: 'paragraph',
+          content: 'They generally had the advantage of stability, parents transfers not being very frequent.'
+      },
+      {
+          type: 'paragraph',
+          content: 'Children coming from defence forces’ background on the other hand would have had advantage of exposure and better opportunities to socialise.'
+      },
+      {
+          type: 'paragraph',
+          content: 'With regular change of postings, schools, friends and social context would be changing, bringing about opportunities to learn in diverse conditions and situations.'
+      },
+      {
+          type: 'paragraph',
+          content: 'Those who had to live with their mothers alone, due to frequent postings of father like in infantry, would have got training to mature early in age.'
+      },
+      {
+          type: 'paragraph',
+          content: 'In both the cases what was common was scarcity of resources, character building through discipline and a nice structured way of upbringing.'
+      },
+      {
+          type: 'paragraph',
+          content: 'If one is asked, from the job or career perspective, which are the best institutions to work for in our country, one can think of Indian Defence Forces and some of the best institutions of higher learning.'
+      },
+      {
+          type: 'paragraph',
+          content: 'Indian Defence Forces would generally present the picture of Indian Army and institutions of higher learning immediately draw one’s attention to institutions of national importance like Indian Institutes of Technology, Indian Institutes of Management and Indian Institute of Science.'
+      },
+      {
+          type: 'paragraph',
+          content: 'Structurally these are two completely different sets of institutions. Historically, culturally and functionally too these are two different kinds of institutions.'
+      },
+      {
+          type: 'paragraph',
+          content: 'In terms of culture and functionality these are opposite. Defence forces are very structured and hierarchy is sacrosanct. Command or order is the buzz word.'
+      },
+      {
+          type: 'paragraph',
+          content: 'In academic institution freedom is the key word. In the best academic institutions decision making is based on consensus preceded by discussions and debate.'
+      },
+      {
+          type: 'paragraph',
+          content: 'In the army or defence forces it is control, command and order. Yet both produce excellent leaders and professionals.'
+      },
+      {
+          type: 'paragraph',
+          content: 'What is common in both is commitment and sense of belongingness of the people who form these institutions.'
+      },
+      {
+          type: 'paragraph',
+          content: 'In case of defence it is the system which strives or drives the individuals to deliver their best.'
+      },
+      {
+          type: 'paragraph',
+          content: 'In the case of academia it is the individual’s contribution which takes the value of the institute to another high, making the system worth more emulating.'
+      }
+  ]
+},
+{
+  id: '47',
+  title: 'Do Not Just COMPETE',
+  slug: 'do-not-just-compete',
+  description: 'A guide on how to approach competition and collaboration in a healthy and productive way.',
+  date: '24-10-13',
+  author: 'Prof. Vinay Nangia',
+  role: 'Professor, Mentor, Guide for Education, Business and Start ups',
+  thumbnail: '/images/javascript.jpg',
+  content: [
+    {
+      type: 'paragraph',
+      content: 'Competition is considered as an essential ingredient, if not a prerequisite, for success. One competes to win. While competing to win anyhow, one often forgets whether the means used are fair or not, desire for success being so overwhelming. Competition creates a sense of urgency and of restlessness despite increasing energy through flow of adrenal. The downside of unprincipled competition is losing friends, associates and well wishers. The winner takes it all and the loser is left with a feeling of loss. “Healthy Competition” term is used when positive flavor is to be given to the term “Competition”. It is for the losers to first understand and appreciate the reasons for not winning and then work on strategies and practice to win. Thus, like beauty lies in the eyes of the beholder “Healthy” in “Healthy Competition” is to be felt by the loser. This is truer in sports and games. In today’s world competition is largely not healthy.'
+    },
+    {
+      type: 'paragraph',
+      content: 'Competition may not always be necessary. '
+    },
+    {
+      type: 'paragraph',
+      content: 'Collaborate, cooperate and contribute should be the mantra for growth, happiness and success. Today, with the advancement of Information Communication Technologies, collaboration has become easier, faster and more effective. Tools and technologies offer a wide array of choices to collaborate. The opportunities to collaborate at work place, in professional, social and personal space, with associates, relatives and friends are numerous. Collaboration needs to be well thought through before being initiated. One needs to know the purpose, people and the time frame before one gets into collaborative frameworks. Cooperation is a natural corollary and a requirement for collaboration. There may be a number of situations where one cooperates without collaborating, for example, cooperation with the boss, the colleagues and the subordinates at workplace, with the siblings at home and with class fellows in school or college. Cooperation creates goodwill and synergy. It increases the speed of learning. When one cooperates one feels good. When one feels good, the learning process expedites. When one learns, one feels happy. Again when happy one cooperates further and learns faster and feels happier. This is a cycle. Collaboration and cooperation create better environment for the happiness and growth of the people involved in the process. The happier the person more he or she contributes to the common good. While doing so, the person grows glows and shines. This may be a much better and easier process of personal growth than competition. Success through competition may evoke a temporary feeling of success but success through collaboration and cooperation evokes a longer lasting feeling. This is akin to increasing the size of the cake itself rather than fighting for the slices of the same cake.'
+    },
+    {
+      type: 'paragraph',
+      content:"One should not talk in terms of achievements or even in terms of performance. It should be in terms of contribution. It is more important to think and say as to what is one’s contribution to one’s school, college or university or to one’s company or organization where one works or lives or in society rather than the position one holds in these spheres of life. One who contributes selflessly is a much bigger achiever in life and society in the long run than the one who reaches certain level of positions in life. After a person or position is gone he is known for his contribution in making this world a better place rather than his personal attainments."
+    }
+  ]
+},
+{
+    id: '48',
+    title: 'Pleasing a woman; some basics',
+    slug: 'pleasing-a-woman-some-basics',
+    description: 'Insights on understanding and pleasing women.',
+    date: '02-09-13',
+    author: 'Prof. Vinay Nangia',
+    role: 'Professor, Mentor, Guide for Education, Business and Start ups',
+    thumbnail: '/images/javascript.jpg',
+    content: [
+        {
+            type: 'paragraph',
+            content: 'Pleasing a woman requires understanding women.'
+        },
+        {
+            type: 'paragraph',
+            content: 'Woman, being gentle, soft, and strong yet fragile, needs careful handling. Improper handling of a woman may result in unintended consequences and undesirable results. She’s a bundle of contradictions. If not handled carefully may even prove injurious to health.'
+        },
+        {
+            type: 'paragraph',
+            content: 'In case of adversities woman proves stronger than man. The woman has grit and mettle. She is usually more firm and courageous than generally understood. Apart from just love, woman needs attention, affection and expression. More than just praise woman wants genuine appreciation. She loves to be pampered.'
+        },
+        {
+            type: 'paragraph',
+            content: 'Woman likes men with courtesy, etiquette and good manners. Woman likes gentle, suave and caring type men.'
+        },
+        {
+            type: 'paragraph',
+            content: 'Some Do’s and Don’ts;'
+        },
+        {
+            type: 'paragraph',
+            content: 'Listen not only patiently but also carefully. Listening, as an art, can be developed in the company of a woman. This could be the best ‘Take Away’ for a man from a woman. Listen more and talk less.'
+        },
+        {
+            type: 'paragraph',
+            content: 'Get up from the chair when a woman enters a room or place where you are already seated. This may sound outdated and to some even outlandish but this way of respecting and acknowledging the presence of the female is very much liked and appreciated. The man should not sit down till she sits down. Likewise is to be done when she leaves the place.'
+        },
+        {
+            type: 'paragraph',
+            content: 'Serve her first and do not start unless she starts, in formal or official meetings. During informal settings one should be the first to offer her first even if one is not the host.'
+        },
+        {
+            type: 'paragraph',
+            content: 'Open the car door for woman while receiving her or seeing her off.'
+        },
+        {
+            type: 'paragraph',
+            content: 'Do not miss the opportunity of saying a few good words about the attire or the dress depending on the occasion. Knowledge of fabric material, garments and dresses as well as available brands and the market can be of great help.'
+        },
+        {
+            type: 'paragraph',
+            content: 'If one is close to the woman one may even comment on the colour of the lipstick or nail polish or eye lashes. If one really understands one may even comment on the pedicure, manicure and make up etc. in a positive tone.'
+        },
+        {
+            type: 'paragraph',
+            content: 'Do not praise her but admire or even adore her if necessary.'
+        },
+        {
+            type: 'paragraph',
+            content: 'Comments like “It seems you are going to gym these days” are always pleasing to the ears of a woman. It is better than saying you have slimmed down.'
+        },
+        {
+            type: 'paragraph',
+            content: 'Do not tell a woman that lately she has gained weight.'
+        },
+        {
+            type: 'paragraph',
+            content: 'Avoiding and ignoring a woman, more than annoys her.'
+        },
+        {
+            type: 'paragraph',
+            content: 'Do not be on a cell phone or do not look the other way, having taken a woman out for shopping.'
+        },
+        {
+            type: 'paragraph',
+            content: 'Do not praise woman in the neighbourhood, a female colleague or wife or girlfriend of another friend in front of the woman you are trying to please.'
+        }
+    ]
+},
+{
+  id: '49',
+  title: 'Success and Happiness',
+  slug: 'success-and-happiness',
+  description: 'Exploring the relationship between success and happiness.',
+  date: '23-08-13',
+  author: 'Prof. Vinay Nangia',
+  role: 'Professor, Mentor, Guide for Education, Business and Start ups',
+  thumbnail: '/images/javascript.jpg',
+  content: [
+      {
+          type: 'paragraph',
+          content: 'Success is a perception. Others decide whether a person is successful or not. Success is measured by one’s status and position in the professional circles and society.'
+      },
+      {
+          type: 'paragraph',
+          content: 'In today’s materialistic world it is also measured by the material wealth in the shape of real estate, landholdings, residence, office, cars and personal accessories one owns. In other words, it is the ownership of assets and the life style that determine whether one is successful or not.'
+      },
+      {
+          type: 'paragraph',
+          content: 'Success is relative in terms of who is looking at whom and the time taken by the successful person to move from one level to another level; the level considered to be the level of successful people.'
+      },
+      {
+          type: 'paragraph',
+          content: 'Ingredients of success can be the personal attributes of the individual himself or the outside factors. Hard work, commitment, persistence, perseverance, clarity of thought and purpose; which some may call as being focused, are some of the important qualities for being successful.'
+      },
+      {
+          type: 'paragraph',
+          content: 'Ability to identify opportunities, soft skills including networking and street smartness in today’s context are some of the other qualities which help in one’s being successful. External factors include exposure, opportunities and luck.'
+      },
+      {
+          type: 'paragraph',
+          content: 'Success comes from identifying one’s own strengths and leveraging on these strengths, identifying one’s own weaknesses and correcting such weaknesses, recognising the opportunities and exploiting these opportunities, and anticipating the threats and addressing the threats.'
+      },
+      {
+          type: 'paragraph',
+          content: 'There are unintended consequences too, in the shape of problems. The activities which were the cause of success start demanding increasingly more time of the individual and start eating into the private and personal time of the successful individuals.'
+      },
+      {
+          type: 'paragraph',
+          content: 'Very often family and the friends who could be the true source of happiness start getting lesser time and attention from such successful persons. Repeated doses of success can make a person arrogant and over ambitious and sometimes even a rogue.'
+      },
+      {
+          type: 'paragraph',
+          content: 'Success leads to happiness but that is generally momentary and short lived. It does not last long. The reason is that the moment one reaches one’s goal or attains one’s objective one feels happy for a while.'
+      },
+      {
+          type: 'paragraph',
+          content: 'The person once again gets busy in setting another goal or target for himself or herself and gets busy in the pursuit of the new goal or target. Despite this happiness being short-lived it gives one a fresh bout of energy and a desire to set new and higher target or objective. In other words success helps in nurturing ambition.'
+      },
+      {
+          type: 'paragraph',
+          content: 'Success is not contagious whereas happiness is. The reason others get attracted to the successful person is that the material gains are visible to them, the personal qualities or attributes matter much less to others and the person himself or herself as an individual hardly matters.'
+      },
+      {
+          type: 'paragraph',
+          content: 'In the case of happiness it is the reverse. It is the person who is happy attracts others first, next comes recognition of his qualities and traits which make him happy and material things hardly matter.'
+      },
+      {
+          type: 'paragraph',
+          content: 'Successful people know their refresh button; that is they know what recharges their batteries quickly. Happy people get the same by avoiding, ignoring and not listening to people or those of their own feelings that cause bitterness or negativity.'
+      },
+      {
+          type: 'paragraph',
+          content: 'Happiness is a very personal matter and issue. It comes from within. External world including success as perceived by others and people including friends and relatives can give short term happiness but not a lasting one.'
+      },
+      {
+          type: 'paragraph',
+          content: 'Happiness is a state of mind. Mind can be trained: trained to look at the good side of every thing, every person, and every situation. Mind can be trained to be optimistic all the time.'
+      },
+      {
+          type: 'paragraph',
+          content: 'It is easier to be happy for a fearless person. Happy person shall always be fearless as he does not live in imaginary fear.'
+      },
+      {
+          type: 'paragraph',
+          content: 'One of the easiest ways to be happy is to be in the company of happy, positive and optimistic people.'
+      },
+      {
+          type: 'paragraph',
+          content: 'Drivers of happiness include being youthful, playful and being helpful to others. For these reasons youngsters generally are happier as compared to older persons who may be unhappy because of infirmities and ill health and sometimes because of the bitter and sad experiences and events of the past life.'
+      },
+      {
+          type: 'paragraph',
+          content: 'In today’s world, however, due to excessive competition, the youth are left with little time to be playful or get time to pursue their real interests.'
+      },
+      {
+          type: 'paragraph',
+          content: 'Young minds equate success with happiness. Older people, whether successful or not, start understanding that happiness could be independent of success.'
+      },
+      {
+          type: 'paragraph',
+          content: 'They also learn from the examples of some other old persons, as to how to be happy despite difficulties and problems.'
+      },
+      {
+          type: 'paragraph',
+          content: 'Success attracts followers and imitators. Happiness begets admirers.'
+      }
+  ]
+},
+{
+  id: '50',
+  title: 'Some Helpful Hints for High-end Networking',
+  slug: 'some-helpful-hints-for-high-end-networking',
+  description: 'Tips and strategies for effective networking in high-end social settings.',
+  date: '13-08-13',
+  author: 'Prof. Vinay Nangia',
+  role: 'Professor, Mentor, Guide for Education, Business and Start ups',
+  thumbnail: '/images/javascript.jpg',
+  content: [
+      {
+          type: 'paragraph',
+          content: '1. Learn about golf, wine and specialty food. A large number of successful persons across the world play golf. If one travels in first or business class (job profile, status and occasion determines that), the person sitting next may like to break the ice by talking about golf or wine. This is very common. It is important to know the basic rules of golf, knowledge of golf courses, producers of and types of golf kits, knowledge of golf accessories, best known golf course designers and knowledge of best golf courses around the world. Likewise basic knowledge of red, white and sparkling wine is a must and which vineyards are associated with the famous wines. One should know which wine is served when and goes with what kind of food. It’s always good to know fine points about what type of glasses are used for different wines.'
+      },
+      {
+          type: 'paragraph',
+          content: '2. Books and Magazines. A person from corporate world wanting to do networking must know about, recommended fiction and non-fiction books and best known magazines, Harvard Business Review, Economist, Fortune and Forbes, just to name a few. Others who may not be in the business or corporate world should keep abreast with the latest appearing in Time, National Geographic etc. In order to select the books for this purpose, one can see the current best sellers as well as all time classics being sold at book shops at international airports and the books being reviewed in the best of the magazines and newspapers.'
+      },
+      {
+          type: 'paragraph',
+          content: '3. Opening dialogue and topic of discussion. One needs to have a knack of initiating conversation. Sometimes it may be beneficial or advantageous to initiate discussion on topics like future, futurology or mega trends or emerging trends in technology or lifestyles or any such subject of general interest. This does give a leeway and a good beginning to open a dialogue specifically if you want to get started with a stranger. Political topics should generally be avoided as one does not know the leanings of the other person. And it may be likely that the other person is much more knowledgeable than the person initiating the dialogue. In such case the targeted person does not see any value add and may consider it to be waste of his time and may completely shut off. This may result in complete loss of opportunity to begin with. Hence, the opening of a dialogue should be on a topic of very general interest including some time topic like weather. The art of conversation lies in finding out what interests the other person and initiate and keep the discussion centered on that topic.'
+      },
+      {
+          type: 'paragraph',
+          content: '4. Attending and throwing parties. When attending parties one should not be the first to reach the party venue but surely should not be late either. Reaching very early may become a pain for the host and reaching late smacks of arrogance or indiscipline. One should give the gift immediately on arrival; this marks the presence and attendance both, of the invitee. Gift must be chosen very carefully in line with the taste and status of the host as also the occasion. In case of doubt a bouquet of flowers may be the best choice. Timely entry also helps if one plans to leave early or in case of an exigency very early. It is a good practice to wish and say goodbye to the host before leaving. One should also admire the arrangements at the party and the food served unless it was really terrible. No serious business should be discussed during the party except with your boss or colleagues if necessary or if you do not have anything else to do. Small introductions with people being met for the first time are the main advantage of attending such events. One should get to know who is who in such parties either directly or indirectly. The dress for the parties should be conservative decent unless a theme dress is prescribed for the party. It is only celebrities who may take their own call as far as party dress is concerned. The host also can decide to dress the way he or she likes. If one is organising a party be one should be careful about the date, venue, timings and the dress code to be prescribed. The list of invitees should be carefully prepared. It’s advisable not to mix two different types of group/s in the same party. Quite often people in different groups are not comfortable with each other and tend to remain in their own circle. As a host one has to ensure that no guest, irrespective of social status and standing of the guest, feels ignored, avoided or left out. It is better not to invite than to make the guest feel insulted. The host should continuously keep moving at the party venue and make sure that he or she is easily accessible to all the guests. He or she should spend good time at entry and exit points of the venue at least for thirty to forty minutes in the beginning and at the end of the party to welcome and send off the guests.'
+      }
+  ]
+},
+{
+  id: '51',
+  title: 'An Introduction to High-end Networking',
+  slug: 'an-introduction-to-high-end-networking',
+  description: 'Understanding the dynamics of high-end networking and its importance.',
+  date: '12-08-13',
+  author: 'Prof. Vinay Nangia',
+  role: 'Professor, Mentor, Guide for Education, Business and Start ups',
+  thumbnail: '/images/javascript.jpg',
+  content: [
+      {
+          type: 'paragraph',
+          content: 'High-end Networking may be described as getting connected with people who have ARRIVED in their respective fields of profession, endeavor or practice; who are considered successful in their field.'
+      },
+      {
+          type: 'paragraph',
+          content: 'High-end Networking may take place among high-end and high-end people or between middle and high-end people, or even between low-end and high-end persons. Low or lower end people may be described as entry level or early career persons mostly in the age group of 20 to 30 years of age. People in the middle would typically be in 30 to 45 year age bracket yearning to reach high point of their career or profession or in society in general.'
+      },
+      {
+          type: 'paragraph',
+          content: 'High-end to High-end networking without any special efforts is likely to happen more in the case of extroverts who are already accomplished in their respective fields. Mid-level persons get more opportunities to network with High-end people by virtue of their status and position as also their age profile as compared to youngsters who may need to put more efforts to work for High-end networking. But this would take conscious efforts and planning on the part of Mid-level persons.'
+      },
+      {
+          type: 'paragraph',
+          content: 'High-end Networking may take place in one’s own profession or career or across different professional fields and careers or in pure social context or in a combination of some or all of these.'
+      },
+      {
+          type: 'paragraph',
+          content: 'High-end Networking is a better, faster and quite often a stepping stone to success if handled properly. Each person also has to assess carefully as to what are they bringing on the table and ensure that they don’t impose themselves on senior persons. A word of caution; high-end Networking is not to be done or practiced at the cost of vertical and horizontal networking or specific group/s or purpose-focused networking.'
+      },
+      {
+          type: 'paragraph',
+          content: 'Seminars, workshops, conferences, meetings, symposia and summit offer wonderful opportunities for professional networking. Wedding, anniversary and birthday parties thrown by or for successful persons as also high society parties are also occasions for prospecting targets for high-end networking. Air travel particularly in first and business class as also stay in high-end and exclusive resorts are other good places to prospect and practice networking.'
+      },
+      {
+          type: 'paragraph',
+          content: 'High-end Networking may be generic or purpose specific. In the first case the objective is to network first and then work on strategies for deriving the benefits. In other case, one can target the people as per the objective of networking.'
+      },
+      {
+          type: 'paragraph',
+          content: '(Some helpful hints for high-end networking to follow in the next blog)'
+      }
+  ]
+},
+{
+  id: '52',
+  title: 'Some Tips for Networking',
+  slug: 'some-tips-for-networking',
+  description: 'Strategies and insights for effective networking.',
+  date: '03-08-13',
+  author: 'Prof. Vinay Nangia',
+  role: 'Professor, Mentor, Guide for Education, Business and Start ups',
+  thumbnail: '/images/javascript.jpg',
+  content: [
+      {
+          type: 'paragraph',
+          content: 'Networking can be looked broadly from two different angles. Networking for professional purpose and networking for social purpose. These are often overlapping. Social networking can be further divided into three, namely, where you live, your relatives and your personal space like friends.'
+      },
+      {
+          type: 'paragraph',
+          content: 'One should have different strategies for each set of people (group) but following shall apply in all situations;'
+      },
+      {
+          type: 'paragraph',
+          content: '1. Desire to do genuine networking in the true sense of the word is a prerequisite. If a person’s heart is not into it and wants to do it only on a transaction-to-transaction basis, then that is not networking.'
+      },
+      {
+          type: 'paragraph',
+          content: '2. Ready to invest time and put in effort. It requires a lot of time and energy. One needs to travel, sometimes long distances. Sometimes it’s late nights. Sometimes one needs to organise small or big events and it requires spending money too. No doubt there are methods of doing networking where you need not spend large amounts of money.'
+      },
+      {
+          type: 'paragraph',
+          content: '3. Effective time management. Everyone has limited time available. Therefore, it becomes important to know with whom should one spend time and how much time. When one is abroad or when one has less time available mode and method of communication for networking may need to be changed.'
+      },
+      {
+          type: 'paragraph',
+          content: '4. Consistency. This can’t be a “one time” hobby. It is a passion and the resilience to practice. If one consistently works on networking that can help improve the skills.'
+      },
+      {
+          type: 'paragraph',
+          content: '5. Smartness in use of present day electronic communication devices. A friend of mine picks up the best of the articles from Time, Economist, Fortune, Forbes, Economic Times, Harvard Business Review, McKinsey Quarterly and such magazines and sources, does some editing and e-mails to his contacts, of course those who can understand and appreciate this kind of stuff, along with web link or full text article. This reinforces the contacts. Everyone appreciates getting useful information.'
+      },
+      {
+          type: 'paragraph',
+          content: 'Another friend does the same thing, of course excellent stuff, through his tweets. From a youngster I learnt an interesting thing: he sends Good Evening or Good Day SMS rather than Good Morning or Good Night messages which everyone else sends. The smarter lot also doesn’t make the mistake of sending e-mails addressed to Dear All with 70-80 visible e-mail IDs - messages on New Year or Diwali which are becoming a pain as most of these emails get circulated by many unthoughtful persons by just pressing the button “Reply All".'
+      },
+      {
+          type: 'paragraph',
+          content: 'The real smart ones instead send personal messages on birthdays and marriage anniversaries through e-mails or greeting cards rather than through Facebook posts. This is not to say that Facebook account should not be used. But one should know who is being addressed and which mode shall be more relevant. For a more important or close contact greeting card could be relevant. For the next level personalised e-mail may serve the purpose whereas for general category youngster Facebook account message may be good enough.'
+      },
+      {
+          type: 'paragraph',
+          content: 'A close friend diagnosed with cancer and having a short span of life sent me a friend request on Facebook yesterday. In his last days he is reaching out to a large number of his friends whose phone calls he cannot take due to health reasons. He is also using this medium very effectively to be of help to the victims of Uttarakhand disaster in June 2013.'
+      },
+      {
+          type: 'paragraph',
+          content: 'Suggested Steps for effective networking:'
+      },
+      {
+          type: 'paragraph',
+          content: '1. Decide the purpose and objective in clear terms. This can, of course, be updated, based on experience and new insights gained.'
+      },
+      {
+          type: 'paragraph',
+          content: '2. Make a master database of persons you want to network with, for example in case of relatives, who shall be included or excluded shall depend on the social context. If you happen to live in a joint family, your different circles of relatives shall be comparatively large. No wonder one should play on the strength of it. It shall also depend on your needs and likings. It is always good to specifically exclude people who are time wasters, painful company and depressing people or those who always crib, cry and complain. One may also decide how far to go; previous or next, one or two generations, vertically or first level or second level cousins of self or spouse, horizontally. This database shall help to have all your contact information at one place. It shall also help in making short, medium and long term strategies based on experience gained over a period of time.'
+      },
+      {
+          type: 'paragraph',
+          content: '3. Strategise depending on one’s goals and objectives. A final year student graduating from University may be more interested in job prospecting than in relatives. So he or she becomes purpose focused rather than group focused. A person well settled in a job and in family may be more interested in friends and relatives. Strategies may be different for short, medium and long term. Strategies do change over a period of time.'
+      },
+      {
+          type: 'paragraph',
+          content: 'Networking has come a long way as a topic of interest and is developing as an artful practice.'
+      }
+  ]
+},
+{id: '53',
+    title: 'The New Avtar of Networking',
+    slug: 'the-new-avtar-of-networking',
+    description: 'Exploring the evolution and significance of networking in modern times.',
+    date: '02-08-13',
+    author: 'Prof. Vinay Nangia',
+    role: 'Professor, Mentor, Guide for Education, Business and Start ups',
+    thumbnail: '/images/javascript.jpg',
+    content: [
+      {
+        type: 'paragraph',
+        content: 'Dictionary meaning of networking is: “a supportive system of sharing information and services among individuals and groups having a common interest”. In the world of computers, networking is the practice of linking two or more computing devices together for the purpose of sharing data. Networks are built with a mix of computer hardware and software.'
+      },
+      {
+        type: 'paragraph',
+        content: 'In 1990s the term networking was synonymous with the names of well-known networking MNCs like Nortel, Cisco and 3Com. In fact 3Com came up with one of the first palmtop devices which could send and receive mails.Today, Facebook and LinkedIn are the names which flash in mind the moment word Networking is spoken.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Networking as a term has gained acceptance and momentum in the last decade. Its connotation has shifted from technical to social context. Newer terms like Alumni Network, Conference for Networking and Networking Dinner are gaining wider acceptance. Networking is both science as well as art. When used in telecommunication, information technology and computers it is science and when used in social context, as a practice, it is an art.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Young generation takes networking generally as an online activity, unaware of the importance of the social context of networking. The fact remains online helps as a tool for getting connected on a communication channel. What is more important is that it should not turn out to be a wasteful activity. Once connected to right people, one needs to sort, sift, nurture and then develop relationships according to need and taste.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Networking can be used not only for enhancing career prospects for employed  and employable but for the young and old alike in the context of connecting and reconnecting with new and old contacts, in social context; friendship, courtship, spouse hunting, spouse tracking and in myriad other ways. Scope of networking extends beyond the use of social media websites like Facebook and LinkedIn. Social media websites are increasingly being used by the corporates in a variety of ways.'
+      },
+      {
+        type: 'paragraph',
+        content: 'What is Networking and how to work on it or better still make it work for you. Networking is not making 600 + contacts on Facebook and spending a lot of time updating status three times a day or uploading all personal or family photographs (a lot more discretion is required in this, more people have suffered than benefitted).  Networking is also not getting connected to 300+ contacts on LinkedIn and often writing individually or publicly that one is looking for a change of job, sometimes damaging good contacts in the process.'
+      },
+      {
+        type: 'paragraph',
+        content: 'People who are successful are busy. They do not have much time to spend on such sites. They open such sites with a purpose and quickly do their business and exit.'
+      },
+      {
+        type: 'paragraph',
+        content: 'LinkedIn and similar sites; if one intends to use, for job prospecting and career enhancement, should use by taking membership of their premium paid sites.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Networking actually means connecting with and remaining connected to various levels of and groups of people. For example, a friend goes for a morning walk in the company of people living in his residential area, most of them happen to be businessmen, including well to do shopkeepers. He has another group of school time friends. Yet another group of friends is of classmates and batch mates of his engineering college days. Then another group of his MBA class fellows, alumni and teachers. Friends, who   were in the first batch with him as young bank officers and many others, whom he met in later part of his banking career, he remains in touch with selected few from this group also as his “network”. These are some of the groups, I am aware of. He may have other groups like relatives or that of his wife who is a teacher. I have never seen him missing marriages and other parties. He uses these occasions   to establish and reunite with multiple contacts He also meets people in smaller groups. At the age of sixty three, he maintains active personal, social and professional life and continues to nurture it with his network of “networks”.'
+      },
+      {
+        type: 'paragraph',
+        content: 'Networking has come a long way as a topic of interest and is developing as a practice. It should not be surprising to see it as a new emerging academic discipline. The title of David Arvin’s book syas it all about the efficacy of social and business networking: “It’s not whom you know, but who knows you” that matters! '
+      }
+    ]
   }
+
+
+
 ]; 
